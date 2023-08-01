@@ -48,7 +48,7 @@ for sub = 1:length(subjects)
 
     % Go to the folder in the subject's folder where .trc files are
     trc_data_folder = [subjectdir '\MarkerData\'] ;
-    names = dir(fullfile(trc_data_folder, 'NordRep_*.trc')) ;
+    names = dir(fullfile(trc_data_folder, 'rotated_NordRep_*.trc')) ;
     trialsForIK = {names(:).name} ;
     nTrials = length(trialsForIK);
     
