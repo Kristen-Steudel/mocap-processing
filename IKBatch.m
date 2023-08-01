@@ -34,8 +34,8 @@ import org.opensim.modeling.*
 
 %subjects = [1:10] ;
 subjects = 1;
-basedir = 'C:\Users\15086\Documents\NMBL Research\NordBoard Files' ;
-modelName = 'generic_sprinter.osim' ;
+basedir = 'C:\Users\15086\Documents\NMBL_Research\NordBoard_Files' ;
+modelName = 'final.osim' ;
 batchIKSettingsFileName = 'Generic_NHE_IK_Setup.xml' ;
 
 for sub = 1:length(subjects)
@@ -47,20 +47,20 @@ for sub = 1:length(subjects)
     subjectdir = [basedir '\S00' num2str(subject) ] ;
 
     % Go to the folder in the subject's folder where .trc files are
-    trc_data_folder = [subjectdir '\MarkerData'] ;
+    trc_data_folder = [subjectdir '\MarkerData\'] ;
     names = dir(fullfile(trc_data_folder, 'NordRep_*.trc')) ;
     trialsForIK = {names(:).name} ;
     nTrials = length(trialsForIK);
     
     % specify where results will be printed.
-    results_folder = ([subjectdir 'OpenSim\IK']);
+    results_folder = ([subjectdir '\OpenSim\IK']);
 
     % Get and operate on the files
     % Choose a generic setup file to work from
     ikTool = InverseKinematicsTool(batchIKSettingsFileName);
     % Get the model
     % Load the model and initialize
-    model = Model([subjectdir 'OpenSim\Models\' modelName]);
+    model = Model([subjectdir '\OpenSim\Models\' modelName]);
     model.initSystem();
 
     % Tell Tool to use the loaded model
