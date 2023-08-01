@@ -32,10 +32,11 @@ clc; clear
 % Pull in the modeling classes straight from the OpenSim distribution
 import org.opensim.modeling.*
 
-subjects = [1:10] ;
-basedir = 'W:\OA_GaitRetraining\GastrocAvoidance\DATA\' ;
-modelName = 'ArmlessRajagopal_40_abdChg_passiveCalib_KneesMoved_scaled.osim' ;
-batchIKSettingsFileName = 'W:\OA_GaitRetraining\GastrocAvoidance\OpenSim\Setup_IK_generic.xml' ;
+%subjects = [1:10] ;
+subjects = 1;
+basedir = 'C:\Users\15086\Documents\NMBL Research\NordBoard Files' ;
+modelName = 'generic_sprinter.osim' ;
+batchIKSettingsFileName = 'Generic_NHE_IK_Setup.xml' ;
 
 for sub = 1:length(subjects)
     subject = subjects(sub) ;
@@ -43,16 +44,16 @@ for sub = 1:length(subjects)
 
     % move to directory where this subject's files are kept
     % subjectdir = uigetdir('W:\OA_GaitRetraining\GastrocAvoidance\DATA\', 'Select the folder that contains the current subject data');
-    subjectdir = [basedir 'Subject' num2str(subject) '\'] ;
+    subjectdir = [basedir '\S00' num2str(subject) ] ;
 
     % Go to the folder in the subject's folder where .trc files are
-    trc_data_folder = [subjectdir '\Edited\Files_W_HJCs\'] ;
-    names = dir(fullfile(trc_data_folder, 'walking_*.trc')) ;
+    trc_data_folder = [subjectdir '\MarkerData'] ;
+    names = dir(fullfile(trc_data_folder, 'NordRep_*.trc')) ;
     trialsForIK = {names(:).name} ;
     nTrials = length(trialsForIK);
     
     % specify where results will be printed.
-    results_folder = ([subjectdir 'OpenSim\IK\KneesMoved\']);
+    results_folder = ([subjectdir 'OpenSim\IK']);
 
     % Get and operate on the files
     % Choose a generic setup file to work from
