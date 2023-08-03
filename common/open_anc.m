@@ -27,8 +27,9 @@ channel_name='';
 channel_name=fgetl(fid);
 j=1;
 jl=length(channel_name);
+%channel_names = cell(num_channels,1);
 
-for i=1:(num_channels)
+for i=1:(num_channels-14)       %Left out EMG sensors from num_channels
     name=sscanf(channel_name(j:jl),'%s',1);
     ii=findstr(channel_name(j:jl),name);
     j=j+ii(1)+length(name);

@@ -3,12 +3,12 @@ repoDir = [pwd,'\'] ;
 addpath([repoDir, 'common']);
 
 % User inputs if you'd like
-dataDir = [repoDir 'Data\overgroundForces\'] ;
+dataDir = [repoDir 'NordTesting\'] ;
 cd(dataDir)
 
 freq_filtering = 12 ; % lpCutoffFreq for generic force data
 freq_filtering_walk = 12; %lpCutoffFreq for walking and treadmill force data
-freq_filtering_run = 15; % lpCutoffFreq for force and marker data
+freq_filtering_run = 20; % lpCutoffFreq for force and marker data
 zero_threshold = 20 ; % forces below this go to 0
 
 % thresholds for treadmill running
@@ -103,7 +103,7 @@ for i=1:b;
             % This structure includes forces and COP in the
             % following order: Fx Fy Fz COPx COPy COPz Tz
                
-            forces_Nm = Analog2Force_TMrunning(forceraw,TreadmillCalibMatrix,filt_freq,samprate_a,thresh_high,thresh_low) ;
+            forces_Nm = Analog2Force_TM(forceraw,TreadmillCalibMatrix,filt_freq,samprate_a,thresh_high,thresh_low) ;
             
             % % detect if forces are acting on right or left foot here
             infile=strrep(infile,'.anc','.trc');
