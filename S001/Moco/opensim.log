@@ -1,0 +1,2184 @@
+[2023-08-03 14:50:24.963] [info] Loaded model optimized_scale_and_markers from file ../Models/final.osim
+[2023-08-03 14:50:24.964] [warning] Couldn't find file 'r_pelvis_raja.vtp'.
+[2023-08-03 14:50:24.964] [warning] Couldn't find file 'l_pelvis_raja.vtp'.
+[2023-08-03 14:50:24.967] [warning] Couldn't find file 'l_pat.vtp'.
+[2023-08-03 14:50:25.563] [info] ExternalLoads 'rotated_Sprint_07200001' was renamed and is being reset to 'externalloads'.
+[2023-08-03 14:50:25.581] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-03 14:50:25.581] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-03 14:50:25.593] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-03 14:50:25.593] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-03 14:51:37.273] [info] Loaded model optimized_scale_and_markers from file ../Models/final.osim
+[2023-08-03 14:51:37.274] [warning] Couldn't find file 'r_pelvis_raja.vtp'.
+[2023-08-03 14:51:37.274] [warning] Couldn't find file 'l_pelvis_raja.vtp'.
+[2023-08-03 14:51:37.276] [warning] Couldn't find file 'l_pat.vtp'.
+[2023-08-03 14:51:37.601] [info] ExternalLoads 'rotated_Sprint_07200001' was renamed and is being reset to 'externalloads'.
+[2023-08-03 14:51:37.621] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-03 14:51:37.621] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-03 14:51:37.643] [info] Adding reserve actuators with an optimal force of 50.0...
+[2023-08-03 14:51:37.678] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-03 14:51:37.678] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-03 14:51:37.748] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-03 14:51:37.748] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-03 14:51:37.756] [info] Added 20 reserve actuator(s), for each of the following coordinates:
+[2023-08-03 14:51:37.756] [info]   /jointset/ground_pelvis/pelvis_tilt
+[2023-08-03 14:51:37.756] [info]   /jointset/ground_pelvis/pelvis_list
+[2023-08-03 14:51:37.756] [info]   /jointset/ground_pelvis/pelvis_rotation
+[2023-08-03 14:51:37.756] [info]   /jointset/ground_pelvis/pelvis_tx
+[2023-08-03 14:51:37.756] [info]   /jointset/ground_pelvis/pelvis_ty
+[2023-08-03 14:51:37.756] [info]   /jointset/ground_pelvis/pelvis_tz
+[2023-08-03 14:51:37.756] [info]   /jointset/hip_r/hip_flexion_r
+[2023-08-03 14:51:37.756] [info]   /jointset/hip_r/hip_adduction_r
+[2023-08-03 14:51:37.756] [info]   /jointset/hip_r/hip_rotation_r
+[2023-08-03 14:51:37.756] [info]   /jointset/walker_knee_r/knee_angle_r
+[2023-08-03 14:51:37.756] [info]   /jointset/ankle_r/ankle_angle_r
+[2023-08-03 14:51:37.756] [info]   /jointset/subtalar_r/subtalar_angle_r
+[2023-08-03 14:51:37.756] [info]   /jointset/mtp_r/mtp_angle_r
+[2023-08-03 14:51:37.756] [info]   /jointset/hip_l/hip_flexion_l
+[2023-08-03 14:51:37.756] [info]   /jointset/hip_l/hip_adduction_l
+[2023-08-03 14:51:37.757] [info]   /jointset/hip_l/hip_rotation_l
+[2023-08-03 14:51:37.757] [info]   /jointset/walker_knee_l/knee_angle_l
+[2023-08-03 14:51:37.757] [info]   /jointset/ankle_l/ankle_angle_l
+[2023-08-03 14:51:37.757] [info]   /jointset/subtalar_l/subtalar_angle_l
+[2023-08-03 14:51:37.757] [info]   /jointset/mtp_l/mtp_angle_l
+[2023-08-03 14:51:37.779] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-03 14:51:37.779] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-03 14:51:37.848] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-03 14:51:37.848] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-03 14:51:44.249] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-03 14:51:44.250] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-03 14:51:44.414] [error] Model unable to assemble: SimTK Exception thrown at Optimizer.h:133:
+  Value out of range in  OptimizerSystem  Constructor: expected 1 <= number of parameters <= 2.14748e+09 but number of parameters=0..Model relaxing constraints and trying again.
+[2023-08-03 14:51:44.417] [error] Model unable to assemble with relaxed constraints: SimTK Exception thrown at Optimizer.h:133:
+  Value out of range in  OptimizerSystem  Constructor: expected 1 <= number of parameters <= 2.14748e+09 but number of parameters=0.
+[2023-08-03 14:51:44.486] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-03 14:51:44.486] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-03 14:51:44.635] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-03 14:51:44.635] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-03 14:51:44.700] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-03 14:51:44.700] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-03 14:51:44.800] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-03 14:51:44.800] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-03 14:51:44.867] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-03 14:51:44.867] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-03 14:51:45.235] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-03 14:51:45.235] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-03 14:51:45.298] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-03 14:51:45.298] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-03 14:51:45.392] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-03 14:51:45.392] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-03 14:51:45.463] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-03 14:51:45.463] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-03 14:51:45.512] [info] ========================================================================
+[2023-08-03 14:51:45.512] [info] MocoCasADiSolver starting.
+[2023-08-03 14:51:45.512] [info] 8/3/2023 2:51:45 PM
+[2023-08-03 14:51:45.513] [info] ------------------------------------------------------------------------
+[2023-08-03 14:51:45.513] [cout] [info] Costs: (total: 1)
+[2023-08-03 14:51:45.513] [cout] [info]   excitation_effort. MocoControlGoal, enabled: true, mode: cost, weight: 1.0
+[2023-08-03 14:51:45.513] [cout] [info]         control: /forceset/lumbar_extension, weight: 1.0
+[2023-08-03 14:51:45.513] [cout] [info]         control: /forceset/lumbar_bending, weight: 1.0
+[2023-08-03 14:51:45.513] [cout] [info]         control: /forceset/lumbar_rotation, weight: 1.0
+[2023-08-03 14:51:45.513] [cout] [info]         control: /forceset/shoulder_flex_r, weight: 1.0
+[2023-08-03 14:51:45.513] [cout] [info]         control: /forceset/shoulder_add_r, weight: 1.0
+[2023-08-03 14:51:45.513] [cout] [info]         control: /forceset/shoulder_rot_r, weight: 1.0
+[2023-08-03 14:51:45.513] [cout] [info]         control: /forceset/elbow_flex_r, weight: 1.0
+[2023-08-03 14:51:45.513] [cout] [info]         control: /forceset/shoulder_flex_l, weight: 1.0
+[2023-08-03 14:51:45.513] [cout] [info]         control: /forceset/shoulder_add_l, weight: 1.0
+[2023-08-03 14:51:45.513] [cout] [info]         control: /forceset/shoulder_rot_l, weight: 1.0
+[2023-08-03 14:51:45.513] [cout] [info]         control: /forceset/elbow_flex_l, weight: 1.0
+[2023-08-03 14:51:45.513] [cout] [info]         control: /forceset/addbrev_r, weight: 1.0
+[2023-08-03 14:51:45.513] [cout] [info]         control: /forceset/addlong_r, weight: 1.0
+[2023-08-03 14:51:45.513] [cout] [info]         control: /forceset/addmagDist_r, weight: 1.0
+[2023-08-03 14:51:45.513] [cout] [info]         control: /forceset/addmagIsch_r, weight: 1.0
+[2023-08-03 14:51:45.513] [cout] [info]         control: /forceset/addmagMid_r, weight: 1.0
+[2023-08-03 14:51:45.513] [cout] [info]         control: /forceset/addmagProx_r, weight: 1.0
+[2023-08-03 14:51:45.513] [cout] [info]         control: /forceset/bflh_r, weight: 1.0
+[2023-08-03 14:51:45.513] [cout] [info]         control: /forceset/bfsh_r, weight: 1.0
+[2023-08-03 14:51:45.513] [cout] [info]         control: /forceset/edl_r, weight: 1.0
+[2023-08-03 14:51:45.513] [cout] [info]         control: /forceset/ehl_r, weight: 1.0
+[2023-08-03 14:51:45.514] [cout] [info]         control: /forceset/fdl_r, weight: 1.0
+[2023-08-03 14:51:45.514] [cout] [info]         control: /forceset/fhl_r, weight: 1.0
+[2023-08-03 14:51:45.514] [cout] [info]         control: /forceset/gaslat_r, weight: 1.0
+[2023-08-03 14:51:45.514] [cout] [info]         control: /forceset/gasmed_r, weight: 1.0
+[2023-08-03 14:51:45.514] [cout] [info]         control: /forceset/glmax1_r, weight: 1.0
+[2023-08-03 14:51:45.514] [cout] [info]         control: /forceset/glmax2_r, weight: 1.0
+[2023-08-03 14:51:45.514] [cout] [info]         control: /forceset/glmax3_r, weight: 1.0
+[2023-08-03 14:51:45.514] [cout] [info]         control: /forceset/glmed1_r, weight: 1.0
+[2023-08-03 14:51:45.514] [cout] [info]         control: /forceset/glmed2_r, weight: 1.0
+[2023-08-03 14:51:45.514] [cout] [info]         control: /forceset/glmed3_r, weight: 1.0
+[2023-08-03 14:51:45.514] [cout] [info]         control: /forceset/glmin1_r, weight: 1.0
+[2023-08-03 14:51:45.514] [cout] [info]         control: /forceset/glmin2_r, weight: 1.0
+[2023-08-03 14:51:45.514] [cout] [info]         control: /forceset/glmin3_r, weight: 1.0
+[2023-08-03 14:51:45.514] [cout] [info]         control: /forceset/grac_r, weight: 1.0
+[2023-08-03 14:51:45.514] [cout] [info]         control: /forceset/iliacus_r, weight: 1.0
+[2023-08-03 14:51:45.514] [cout] [info]         control: /forceset/perbrev_r, weight: 1.0
+[2023-08-03 14:51:45.514] [cout] [info]         control: /forceset/perlong_r, weight: 1.0
+[2023-08-03 14:51:45.514] [cout] [info]         control: /forceset/piri_r, weight: 1.0
+[2023-08-03 14:51:45.514] [cout] [info]         control: /forceset/psoas_r, weight: 1.0
+[2023-08-03 14:51:45.514] [cout] [info]         control: /forceset/recfem_r, weight: 1.0
+[2023-08-03 14:51:45.514] [cout] [info]         control: /forceset/sart_r, weight: 1.0
+[2023-08-03 14:51:45.514] [cout] [info]         control: /forceset/semimem_r, weight: 1.0
+[2023-08-03 14:51:45.514] [cout] [info]         control: /forceset/semiten_r, weight: 1.0
+[2023-08-03 14:51:45.514] [cout] [info]         control: /forceset/soleus_r, weight: 1.0
+[2023-08-03 14:51:45.514] [cout] [info]         control: /forceset/tfl_r, weight: 1.0
+[2023-08-03 14:51:45.514] [cout] [info]         control: /forceset/tibant_r, weight: 1.0
+[2023-08-03 14:51:45.514] [cout] [info]         control: /forceset/tibpost_r, weight: 1.0
+[2023-08-03 14:51:45.514] [cout] [info]         control: /forceset/vasint_r, weight: 1.0
+[2023-08-03 14:51:45.514] [cout] [info]         control: /forceset/vaslat_r, weight: 1.0
+[2023-08-03 14:51:45.514] [cout] [info]         control: /forceset/vasmed_r, weight: 1.0
+[2023-08-03 14:51:45.514] [cout] [info]         control: /forceset/addbrev_l, weight: 1.0
+[2023-08-03 14:51:45.514] [cout] [info]         control: /forceset/addlong_l, weight: 1.0
+[2023-08-03 14:51:45.514] [cout] [info]         control: /forceset/addmagDist_l, weight: 1.0
+[2023-08-03 14:51:45.514] [cout] [info]         control: /forceset/addmagIsch_l, weight: 1.0
+[2023-08-03 14:51:45.514] [cout] [info]         control: /forceset/addmagMid_l, weight: 1.0
+[2023-08-03 14:51:45.514] [cout] [info]         control: /forceset/addmagProx_l, weight: 1.0
+[2023-08-03 14:51:45.514] [cout] [info]         control: /forceset/bflh_l, weight: 1.0
+[2023-08-03 14:51:45.514] [cout] [info]         control: /forceset/bfsh_l, weight: 1.0
+[2023-08-03 14:51:45.514] [cout] [info]         control: /forceset/edl_l, weight: 1.0
+[2023-08-03 14:51:45.514] [cout] [info]         control: /forceset/ehl_l, weight: 1.0
+[2023-08-03 14:51:45.514] [cout] [info]         control: /forceset/fdl_l, weight: 1.0
+[2023-08-03 14:51:45.514] [cout] [info]         control: /forceset/fhl_l, weight: 1.0
+[2023-08-03 14:51:45.514] [cout] [info]         control: /forceset/gaslat_l, weight: 1.0
+[2023-08-03 14:51:45.514] [cout] [info]         control: /forceset/gasmed_l, weight: 1.0
+[2023-08-03 14:51:45.514] [cout] [info]         control: /forceset/glmax1_l, weight: 1.0
+[2023-08-03 14:51:45.514] [cout] [info]         control: /forceset/glmax2_l, weight: 1.0
+[2023-08-03 14:51:45.514] [cout] [info]         control: /forceset/glmax3_l, weight: 1.0
+[2023-08-03 14:51:45.514] [cout] [info]         control: /forceset/glmed1_l, weight: 1.0
+[2023-08-03 14:51:45.514] [cout] [info]         control: /forceset/glmed2_l, weight: 1.0
+[2023-08-03 14:51:45.514] [cout] [info]         control: /forceset/glmed3_l, weight: 1.0
+[2023-08-03 14:51:45.514] [cout] [info]         control: /forceset/glmin1_l, weight: 1.0
+[2023-08-03 14:51:45.514] [cout] [info]         control: /forceset/glmin2_l, weight: 1.0
+[2023-08-03 14:51:45.514] [cout] [info]         control: /forceset/glmin3_l, weight: 1.0
+[2023-08-03 14:51:45.514] [cout] [info]         control: /forceset/grac_l, weight: 1.0
+[2023-08-03 14:51:45.514] [cout] [info]         control: /forceset/iliacus_l, weight: 1.0
+[2023-08-03 14:51:45.514] [cout] [info]         control: /forceset/perbrev_l, weight: 1.0
+[2023-08-03 14:51:45.514] [cout] [info]         control: /forceset/perlong_l, weight: 1.0
+[2023-08-03 14:51:45.514] [cout] [info]         control: /forceset/piri_l, weight: 1.0
+[2023-08-03 14:51:45.514] [cout] [info]         control: /forceset/psoas_l, weight: 1.0
+[2023-08-03 14:51:45.514] [cout] [info]         control: /forceset/recfem_l, weight: 1.0
+[2023-08-03 14:51:45.514] [cout] [info]         control: /forceset/sart_l, weight: 1.0
+[2023-08-03 14:51:45.514] [cout] [info]         control: /forceset/semimem_l, weight: 1.0
+[2023-08-03 14:51:45.514] [cout] [info]         control: /forceset/semiten_l, weight: 1.0
+[2023-08-03 14:51:45.515] [cout] [info]         control: /forceset/soleus_l, weight: 1.0
+[2023-08-03 14:51:45.515] [cout] [info]         control: /forceset/tfl_l, weight: 1.0
+[2023-08-03 14:51:45.515] [cout] [info]         control: /forceset/tibant_l, weight: 1.0
+[2023-08-03 14:51:45.515] [cout] [info]         control: /forceset/tibpost_l, weight: 1.0
+[2023-08-03 14:51:45.515] [cout] [info]         control: /forceset/vasint_l, weight: 1.0
+[2023-08-03 14:51:45.515] [cout] [info]         control: /forceset/vaslat_l, weight: 1.0
+[2023-08-03 14:51:45.515] [cout] [info]         control: /forceset/vasmed_l, weight: 1.0
+[2023-08-03 14:51:45.515] [cout] [info]         control: /forceset/reserve_jointset_ground_pelvis_pelvis_tilt, weight: 1.0
+[2023-08-03 14:51:45.515] [cout] [info]         control: /forceset/reserve_jointset_ground_pelvis_pelvis_list, weight: 1.0
+[2023-08-03 14:51:45.515] [cout] [info]         control: /forceset/reserve_jointset_ground_pelvis_pelvis_rotation, weight: 1.0
+[2023-08-03 14:51:45.515] [cout] [info]         control: /forceset/reserve_jointset_ground_pelvis_pelvis_tx, weight: 1.0
+[2023-08-03 14:51:45.515] [cout] [info]         control: /forceset/reserve_jointset_ground_pelvis_pelvis_ty, weight: 1.0
+[2023-08-03 14:51:45.515] [cout] [info]         control: /forceset/reserve_jointset_ground_pelvis_pelvis_tz, weight: 1.0
+[2023-08-03 14:51:45.515] [cout] [info]         control: /forceset/reserve_jointset_hip_r_hip_flexion_r, weight: 1.0
+[2023-08-03 14:51:45.515] [cout] [info]         control: /forceset/reserve_jointset_hip_r_hip_adduction_r, weight: 1.0
+[2023-08-03 14:51:45.515] [cout] [info]         control: /forceset/reserve_jointset_hip_r_hip_rotation_r, weight: 1.0
+[2023-08-03 14:51:45.515] [cout] [info]         control: /forceset/reserve_jointset_walker_knee_r_knee_angle_r, weight: 1.0
+[2023-08-03 14:51:45.515] [cout] [info]         control: /forceset/reserve_jointset_ankle_r_ankle_angle_r, weight: 1.0
+[2023-08-03 14:51:45.515] [cout] [info]         control: /forceset/reserve_jointset_subtalar_r_subtalar_angle_r, weight: 1.0
+[2023-08-03 14:51:45.515] [cout] [info]         control: /forceset/reserve_jointset_mtp_r_mtp_angle_r, weight: 1.0
+[2023-08-03 14:51:45.515] [cout] [info]         control: /forceset/reserve_jointset_hip_l_hip_flexion_l, weight: 1.0
+[2023-08-03 14:51:45.515] [cout] [info]         control: /forceset/reserve_jointset_hip_l_hip_adduction_l, weight: 1.0
+[2023-08-03 14:51:45.515] [cout] [info]         control: /forceset/reserve_jointset_hip_l_hip_rotation_l, weight: 1.0
+[2023-08-03 14:51:45.515] [cout] [info]         control: /forceset/reserve_jointset_walker_knee_l_knee_angle_l, weight: 1.0
+[2023-08-03 14:51:45.515] [cout] [info]         control: /forceset/reserve_jointset_ankle_l_ankle_angle_l, weight: 1.0
+[2023-08-03 14:51:45.515] [cout] [info]         control: /forceset/reserve_jointset_subtalar_l_subtalar_angle_l, weight: 1.0
+[2023-08-03 14:51:45.515] [cout] [info]         control: /forceset/reserve_jointset_mtp_l_mtp_angle_l, weight: 1.0
+[2023-08-03 14:51:45.515] [cout] [info] Endpoint constraints: (total: 1)
+[2023-08-03 14:51:45.515] [cout] [info]   initial_activation. MocoInitialActivationGoal, enabled: true, mode: endpoint_constraint
+[2023-08-03 14:51:45.515] [cout] [info] Kinematic constraints: (total: 2)
+[2023-08-03 14:51:45.515] [cout] [info]   kinematic_constraint_cid33. MocoConstraintInfo. number of scalar equations: 3. bounds: 0, 0, 0
+[2023-08-03 14:51:45.515] [cout] [info]   kinematic_constraint_cid34. MocoConstraintInfo. number of scalar equations: 3. bounds: 0, 0, 0
+[2023-08-03 14:51:45.515] [cout] [info] Path constraints: none
+[2023-08-03 14:51:45.515] [cout] [info] States: (total: 80)
+[2023-08-03 14:51:45.515] [cout] [info]   /forceset/glmin1_r/activation. bounds: [0.01, 1]
+[2023-08-03 14:51:45.516] [cout] [info]   /forceset/bflh_r/activation. bounds: [0.01, 1]
+[2023-08-03 14:51:45.516] [cout] [info]   /forceset/addbrev_r/activation. bounds: [0.01, 1]
+[2023-08-03 14:51:45.516] [cout] [info]   /forceset/addlong_r/activation. bounds: [0.01, 1]
+[2023-08-03 14:51:45.516] [cout] [info]   /forceset/addmagIsch_r/activation. bounds: [0.01, 1]
+[2023-08-03 14:51:45.516] [cout] [info]   /forceset/addmagMid_l/activation. bounds: [0.01, 1]
+[2023-08-03 14:51:45.516] [cout] [info]   /forceset/piri_r/activation. bounds: [0.01, 1]
+[2023-08-03 14:51:45.516] [cout] [info]   /forceset/addmagDist_r/activation. bounds: [0.01, 1]
+[2023-08-03 14:51:45.516] [cout] [info]   /forceset/addmagDist_l/activation. bounds: [0.01, 1]
+[2023-08-03 14:51:45.516] [cout] [info]   /forceset/vasmed_r/activation. bounds: [0.01, 1]
+[2023-08-03 14:51:45.516] [cout] [info]   /forceset/addmagMid_r/activation. bounds: [0.01, 1]
+[2023-08-03 14:51:45.516] [cout] [info]   /forceset/glmax2_r/activation. bounds: [0.01, 1]
+[2023-08-03 14:51:45.516] [cout] [info]   /forceset/vaslat_r/activation. bounds: [0.01, 1]
+[2023-08-03 14:51:45.516] [cout] [info]   /forceset/bfsh_r/activation. bounds: [0.01, 1]
+[2023-08-03 14:51:45.516] [cout] [info]   /forceset/addmagProx_r/activation. bounds: [0.01, 1]
+[2023-08-03 14:51:45.516] [cout] [info]   /forceset/edl_r/activation. bounds: [0.01, 1]
+[2023-08-03 14:51:45.516] [cout] [info]   /forceset/ehl_r/activation. bounds: [0.01, 1]
+[2023-08-03 14:51:45.516] [cout] [info]   /forceset/semimem_r/activation. bounds: [0.01, 1]
+[2023-08-03 14:51:45.516] [cout] [info]   /forceset/fdl_r/activation. bounds: [0.01, 1]
+[2023-08-03 14:51:45.516] [cout] [info]   /forceset/fhl_r/activation. bounds: [0.01, 1]
+[2023-08-03 14:51:45.516] [cout] [info]   /forceset/tibant_l/activation. bounds: [0.01, 1]
+[2023-08-03 14:51:45.516] [cout] [info]   /forceset/glmed3_l/activation. bounds: [0.01, 1]
+[2023-08-03 14:51:45.516] [cout] [info]   /forceset/gaslat_r/activation. bounds: [0.01, 1]
+[2023-08-03 14:51:45.516] [cout] [info]   /forceset/glmed1_r/activation. bounds: [0.01, 1]
+[2023-08-03 14:51:45.516] [cout] [info]   /forceset/soleus_r/activation. bounds: [0.01, 1]
+[2023-08-03 14:51:45.516] [cout] [info]   /forceset/gasmed_r/activation. bounds: [0.01, 1]
+[2023-08-03 14:51:45.516] [cout] [info]   /forceset/glmax3_l/activation. bounds: [0.01, 1]
+[2023-08-03 14:51:45.516] [cout] [info]   /forceset/recfem_r/activation. bounds: [0.01, 1]
+[2023-08-03 14:51:45.516] [cout] [info]   /forceset/glmax1_r/activation. bounds: [0.01, 1]
+[2023-08-03 14:51:45.516] [cout] [info]   /forceset/glmax1_l/activation. bounds: [0.01, 1]
+[2023-08-03 14:51:45.516] [cout] [info]   /forceset/iliacus_r/activation. bounds: [0.01, 1]
+[2023-08-03 14:51:45.516] [cout] [info]   /forceset/glmax3_r/activation. bounds: [0.01, 1]
+[2023-08-03 14:51:45.516] [cout] [info]   /forceset/glmed2_r/activation. bounds: [0.01, 1]
+[2023-08-03 14:51:45.516] [cout] [info]   /forceset/gaslat_l/activation. bounds: [0.01, 1]
+[2023-08-03 14:51:45.516] [cout] [info]   /forceset/glmed1_l/activation. bounds: [0.01, 1]
+[2023-08-03 14:51:45.516] [cout] [info]   /forceset/glmed3_r/activation. bounds: [0.01, 1]
+[2023-08-03 14:51:45.516] [cout] [info]   /forceset/tibant_r/activation. bounds: [0.01, 1]
+[2023-08-03 14:51:45.516] [cout] [info]   /forceset/glmin2_r/activation. bounds: [0.01, 1]
+[2023-08-03 14:51:45.516] [cout] [info]   /forceset/glmin3_r/activation. bounds: [0.01, 1]
+[2023-08-03 14:51:45.516] [cout] [info]   /forceset/grac_r/activation. bounds: [0.01, 1]
+[2023-08-03 14:51:45.516] [cout] [info]   /forceset/perbrev_r/activation. bounds: [0.01, 1]
+[2023-08-03 14:51:45.516] [cout] [info]   /forceset/addmagProx_l/activation. bounds: [0.01, 1]
+[2023-08-03 14:51:45.516] [cout] [info]   /forceset/perlong_r/activation. bounds: [0.01, 1]
+[2023-08-03 14:51:45.516] [cout] [info]   /forceset/psoas_r/activation. bounds: [0.01, 1]
+[2023-08-03 14:51:45.517] [cout] [info]   /forceset/sart_r/activation. bounds: [0.01, 1]
+[2023-08-03 14:51:45.517] [cout] [info]   /forceset/edl_l/activation. bounds: [0.01, 1]
+[2023-08-03 14:51:45.517] [cout] [info]   /forceset/semiten_r/activation. bounds: [0.01, 1]
+[2023-08-03 14:51:45.517] [cout] [info]   /forceset/tfl_r/activation. bounds: [0.01, 1]
+[2023-08-03 14:51:45.517] [cout] [info]   /forceset/tibpost_r/activation. bounds: [0.01, 1]
+[2023-08-03 14:51:45.517] [cout] [info]   /forceset/addmagIsch_l/activation. bounds: [0.01, 1]
+[2023-08-03 14:51:45.517] [cout] [info]   /forceset/addlong_l/activation. bounds: [0.01, 1]
+[2023-08-03 14:51:45.517] [cout] [info]   /forceset/vasint_r/activation. bounds: [0.01, 1]
+[2023-08-03 14:51:45.517] [cout] [info]   /forceset/addbrev_l/activation. bounds: [0.01, 1]
+[2023-08-03 14:51:45.517] [cout] [info]   /forceset/glmin1_l/activation. bounds: [0.01, 1]
+[2023-08-03 14:51:45.517] [cout] [info]   /forceset/bflh_l/activation. bounds: [0.01, 1]
+[2023-08-03 14:51:45.517] [cout] [info]   /forceset/vaslat_l/activation. bounds: [0.01, 1]
+[2023-08-03 14:51:45.517] [cout] [info]   /forceset/glmax2_l/activation. bounds: [0.01, 1]
+[2023-08-03 14:51:45.517] [cout] [info]   /forceset/bfsh_l/activation. bounds: [0.01, 1]
+[2023-08-03 14:51:45.517] [cout] [info]   /forceset/semimem_l/activation. bounds: [0.01, 1]
+[2023-08-03 14:51:45.517] [cout] [info]   /forceset/ehl_l/activation. bounds: [0.01, 1]
+[2023-08-03 14:51:45.517] [cout] [info]   /forceset/fdl_l/activation. bounds: [0.01, 1]
+[2023-08-03 14:51:45.517] [cout] [info]   /forceset/fhl_l/activation. bounds: [0.01, 1]
+[2023-08-03 14:51:45.517] [cout] [info]   /forceset/gasmed_l/activation. bounds: [0.01, 1]
+[2023-08-03 14:51:45.517] [cout] [info]   /forceset/glmed2_l/activation. bounds: [0.01, 1]
+[2023-08-03 14:51:45.517] [cout] [info]   /forceset/glmin2_l/activation. bounds: [0.01, 1]
+[2023-08-03 14:51:45.517] [cout] [info]   /forceset/glmin3_l/activation. bounds: [0.01, 1]
+[2023-08-03 14:51:45.517] [cout] [info]   /forceset/grac_l/activation. bounds: [0.01, 1]
+[2023-08-03 14:51:45.517] [cout] [info]   /forceset/iliacus_l/activation. bounds: [0.01, 1]
+[2023-08-03 14:51:45.517] [cout] [info]   /forceset/perbrev_l/activation. bounds: [0.01, 1]
+[2023-08-03 14:51:45.517] [cout] [info]   /forceset/perlong_l/activation. bounds: [0.01, 1]
+[2023-08-03 14:51:45.517] [cout] [info]   /forceset/piri_l/activation. bounds: [0.01, 1]
+[2023-08-03 14:51:45.517] [cout] [info]   /forceset/psoas_l/activation. bounds: [0.01, 1]
+[2023-08-03 14:51:45.517] [cout] [info]   /forceset/recfem_l/activation. bounds: [0.01, 1]
+[2023-08-03 14:51:45.517] [cout] [info]   /forceset/sart_l/activation. bounds: [0.01, 1]
+[2023-08-03 14:51:45.517] [cout] [info]   /forceset/semiten_l/activation. bounds: [0.01, 1]
+[2023-08-03 14:51:45.517] [cout] [info]   /forceset/soleus_l/activation. bounds: [0.01, 1]
+[2023-08-03 14:51:45.517] [cout] [info]   /forceset/tfl_l/activation. bounds: [0.01, 1]
+[2023-08-03 14:51:45.517] [cout] [info]   /forceset/tibpost_l/activation. bounds: [0.01, 1]
+[2023-08-03 14:51:45.517] [cout] [info]   /forceset/vasint_l/activation. bounds: [0.01, 1]
+[2023-08-03 14:51:45.517] [cout] [info]   /forceset/vasmed_l/activation. bounds: [0.01, 1]
+[2023-08-03 14:51:45.517] [cout] [info] Controls: (total: 111)
+[2023-08-03 14:51:45.517] [cout] [info]   /forceset/shoulder_flex_l. bounds: [-inf, inf]
+[2023-08-03 14:51:45.517] [cout] [info]   /forceset/glmin1_r. bounds: [0.01, 1]
+[2023-08-03 14:51:45.517] [cout] [info]   /forceset/bflh_r. bounds: [0.01, 1]
+[2023-08-03 14:51:45.517] [cout] [info]   /forceset/lumbar_extension. bounds: [-inf, inf]
+[2023-08-03 14:51:45.517] [cout] [info]   /forceset/shoulder_add_r. bounds: [-inf, inf]
+[2023-08-03 14:51:45.517] [cout] [info]   /forceset/reserve_jointset_mtp_l_mtp_angle_l. bounds: [-inf, inf]
+[2023-08-03 14:51:45.517] [cout] [info]   /forceset/fdl_l. bounds: [0.01, 1]
+[2023-08-03 14:51:45.517] [cout] [info]   /forceset/lumbar_bending. bounds: [-inf, inf]
+[2023-08-03 14:51:45.518] [cout] [info]   /forceset/ehl_r. bounds: [0.01, 1]
+[2023-08-03 14:51:45.518] [cout] [info]   /forceset/semimem_r. bounds: [0.01, 1]
+[2023-08-03 14:51:45.518] [cout] [info]   /forceset/lumbar_rotation. bounds: [-inf, inf]
+[2023-08-03 14:51:45.518] [cout] [info]   /forceset/shoulder_flex_r. bounds: [-inf, inf]
+[2023-08-03 14:51:45.518] [cout] [info]   /forceset/shoulder_rot_r. bounds: [-inf, inf]
+[2023-08-03 14:51:45.518] [cout] [info]   /forceset/gaslat_r. bounds: [0.01, 1]
+[2023-08-03 14:51:45.518] [cout] [info]   /forceset/glmed1_r. bounds: [0.01, 1]
+[2023-08-03 14:51:45.518] [cout] [info]   /forceset/elbow_flex_r. bounds: [-inf, inf]
+[2023-08-03 14:51:45.518] [cout] [info]   /forceset/bflh_l. bounds: [0.01, 1]
+[2023-08-03 14:51:45.518] [cout] [info]   /forceset/shoulder_add_l. bounds: [-inf, inf]
+[2023-08-03 14:51:45.518] [cout] [info]   /forceset/glmed1_l. bounds: [0.01, 1]
+[2023-08-03 14:51:45.518] [cout] [info]   /forceset/shoulder_rot_l. bounds: [-inf, inf]
+[2023-08-03 14:51:45.518] [cout] [info]   /forceset/gaslat_l. bounds: [0.01, 1]
+[2023-08-03 14:51:45.518] [cout] [info]   /forceset/glmed3_r. bounds: [0.01, 1]
+[2023-08-03 14:51:45.518] [cout] [info]   /forceset/tibant_r. bounds: [0.01, 1]
+[2023-08-03 14:51:45.518] [cout] [info]   /forceset/elbow_flex_l. bounds: [-inf, inf]
+[2023-08-03 14:51:45.518] [cout] [info]   /forceset/addbrev_r. bounds: [0.01, 1]
+[2023-08-03 14:51:45.518] [cout] [info]   /forceset/addmagIsch_r. bounds: [0.01, 1]
+[2023-08-03 14:51:45.518] [cout] [info]   /forceset/addlong_r. bounds: [0.01, 1]
+[2023-08-03 14:51:45.518] [cout] [info]   /forceset/addmagMid_l. bounds: [0.01, 1]
+[2023-08-03 14:51:45.518] [cout] [info]   /forceset/piri_r. bounds: [0.01, 1]
+[2023-08-03 14:51:45.518] [cout] [info]   /forceset/addmagDist_r. bounds: [0.01, 1]
+[2023-08-03 14:51:45.518] [cout] [info]   /forceset/addmagDist_l. bounds: [0.01, 1]
+[2023-08-03 14:51:45.518] [cout] [info]   /forceset/vasmed_r. bounds: [0.01, 1]
+[2023-08-03 14:51:45.518] [cout] [info]   /forceset/addmagMid_r. bounds: [0.01, 1]
+[2023-08-03 14:51:45.518] [cout] [info]   /forceset/addmagProx_r. bounds: [0.01, 1]
+[2023-08-03 14:51:45.518] [cout] [info]   /forceset/glmax2_r. bounds: [0.01, 1]
+[2023-08-03 14:51:45.518] [cout] [info]   /forceset/vaslat_r. bounds: [0.01, 1]
+[2023-08-03 14:51:45.518] [cout] [info]   /forceset/bfsh_r. bounds: [0.01, 1]
+[2023-08-03 14:51:45.518] [cout] [info]   /forceset/edl_r. bounds: [0.01, 1]
+[2023-08-03 14:51:45.518] [cout] [info]   /forceset/fdl_r. bounds: [0.01, 1]
+[2023-08-03 14:51:45.518] [cout] [info]   /forceset/fhl_r. bounds: [0.01, 1]
+[2023-08-03 14:51:45.518] [cout] [info]   /forceset/soleus_r. bounds: [0.01, 1]
+[2023-08-03 14:51:45.518] [cout] [info]   /forceset/gasmed_r. bounds: [0.01, 1]
+[2023-08-03 14:51:45.518] [cout] [info]   /forceset/recfem_r. bounds: [0.01, 1]
+[2023-08-03 14:51:45.518] [cout] [info]   /forceset/glmax1_r. bounds: [0.01, 1]
+[2023-08-03 14:51:45.518] [cout] [info]   /forceset/iliacus_r. bounds: [0.01, 1]
+[2023-08-03 14:51:45.518] [cout] [info]   /forceset/glmax3_r. bounds: [0.01, 1]
+[2023-08-03 14:51:45.518] [cout] [info]   /forceset/glmed2_r. bounds: [0.01, 1]
+[2023-08-03 14:51:45.518] [cout] [info]   /forceset/glmin2_r. bounds: [0.01, 1]
+[2023-08-03 14:51:45.518] [cout] [info]   /forceset/glmin3_r. bounds: [0.01, 1]
+[2023-08-03 14:51:45.518] [cout] [info]   /forceset/grac_r. bounds: [0.01, 1]
+[2023-08-03 14:51:45.518] [cout] [info]   /forceset/perbrev_r. bounds: [0.01, 1]
+[2023-08-03 14:51:45.518] [cout] [info]   /forceset/addmagProx_l. bounds: [0.01, 1]
+[2023-08-03 14:51:45.518] [cout] [info]   /forceset/perlong_r. bounds: [0.01, 1]
+[2023-08-03 14:51:45.518] [cout] [info]   /forceset/psoas_r. bounds: [0.01, 1]
+[2023-08-03 14:51:45.519] [cout] [info]   /forceset/sart_r. bounds: [0.01, 1]
+[2023-08-03 14:51:45.519] [cout] [info]   /forceset/edl_l. bounds: [0.01, 1]
+[2023-08-03 14:51:45.519] [cout] [info]   /forceset/semiten_r. bounds: [0.01, 1]
+[2023-08-03 14:51:45.519] [cout] [info]   /forceset/tfl_r. bounds: [0.01, 1]
+[2023-08-03 14:51:45.519] [cout] [info]   /forceset/tibpost_r. bounds: [0.01, 1]
+[2023-08-03 14:51:45.519] [cout] [info]   /forceset/addmagIsch_l. bounds: [0.01, 1]
+[2023-08-03 14:51:45.519] [cout] [info]   /forceset/addlong_l. bounds: [0.01, 1]
+[2023-08-03 14:51:45.519] [cout] [info]   /forceset/vasint_r. bounds: [0.01, 1]
+[2023-08-03 14:51:45.519] [cout] [info]   /forceset/addbrev_l. bounds: [0.01, 1]
+[2023-08-03 14:51:45.519] [cout] [info]   /forceset/bfsh_l. bounds: [0.01, 1]
+[2023-08-03 14:51:45.519] [cout] [info]   /forceset/semimem_l. bounds: [0.01, 1]
+[2023-08-03 14:51:45.519] [cout] [info]   /forceset/ehl_l. bounds: [0.01, 1]
+[2023-08-03 14:51:45.519] [cout] [info]   /forceset/fhl_l. bounds: [0.01, 1]
+[2023-08-03 14:51:45.519] [cout] [info]   /forceset/gasmed_l. bounds: [0.01, 1]
+[2023-08-03 14:51:45.519] [cout] [info]   /forceset/glmax1_l. bounds: [0.01, 1]
+[2023-08-03 14:51:45.519] [cout] [info]   /forceset/vaslat_l. bounds: [0.01, 1]
+[2023-08-03 14:51:45.519] [cout] [info]   /forceset/glmax2_l. bounds: [0.01, 1]
+[2023-08-03 14:51:45.519] [cout] [info]   /forceset/glmax3_l. bounds: [0.01, 1]
+[2023-08-03 14:51:45.519] [cout] [info]   /forceset/glmed2_l. bounds: [0.01, 1]
+[2023-08-03 14:51:45.519] [cout] [info]   /forceset/tibant_l. bounds: [0.01, 1]
+[2023-08-03 14:51:45.519] [cout] [info]   /forceset/glmed3_l. bounds: [0.01, 1]
+[2023-08-03 14:51:45.519] [cout] [info]   /forceset/glmin1_l. bounds: [0.01, 1]
+[2023-08-03 14:51:45.519] [cout] [info]   /forceset/glmin2_l. bounds: [0.01, 1]
+[2023-08-03 14:51:45.519] [cout] [info]   /forceset/glmin3_l. bounds: [0.01, 1]
+[2023-08-03 14:51:45.519] [cout] [info]   /forceset/grac_l. bounds: [0.01, 1]
+[2023-08-03 14:51:45.519] [cout] [info]   /forceset/iliacus_l. bounds: [0.01, 1]
+[2023-08-03 14:51:45.519] [cout] [info]   /forceset/perbrev_l. bounds: [0.01, 1]
+[2023-08-03 14:51:45.519] [cout] [info]   /forceset/perlong_l. bounds: [0.01, 1]
+[2023-08-03 14:51:45.519] [cout] [info]   /forceset/piri_l. bounds: [0.01, 1]
+[2023-08-03 14:51:45.519] [cout] [info]   /forceset/psoas_l. bounds: [0.01, 1]
+[2023-08-03 14:51:45.519] [cout] [info]   /forceset/recfem_l. bounds: [0.01, 1]
+[2023-08-03 14:51:45.519] [cout] [info]   /forceset/sart_l. bounds: [0.01, 1]
+[2023-08-03 14:51:45.519] [cout] [info]   /forceset/semiten_l. bounds: [0.01, 1]
+[2023-08-03 14:51:45.519] [cout] [info]   /forceset/soleus_l. bounds: [0.01, 1]
+[2023-08-03 14:51:45.519] [cout] [info]   /forceset/tfl_l. bounds: [0.01, 1]
+[2023-08-03 14:51:45.519] [cout] [info]   /forceset/tibpost_l. bounds: [0.01, 1]
+[2023-08-03 14:51:45.519] [cout] [info]   /forceset/vasint_l. bounds: [0.01, 1]
+[2023-08-03 14:51:45.519] [cout] [info]   /forceset/vasmed_l. bounds: [0.01, 1]
+[2023-08-03 14:51:45.519] [cout] [info]   /forceset/reserve_jointset_ground_pelvis_pelvis_tilt. bounds: [-inf, inf]
+[2023-08-03 14:51:45.519] [cout] [info]   /forceset/reserve_jointset_ground_pelvis_pelvis_list. bounds: [-inf, inf]
+[2023-08-03 14:51:45.519] [cout] [info]   /forceset/reserve_jointset_ground_pelvis_pelvis_rotation. bounds: [-inf, inf]
+[2023-08-03 14:51:45.519] [cout] [info]   /forceset/reserve_jointset_ground_pelvis_pelvis_tx. bounds: [-inf, inf]
+[2023-08-03 14:51:45.519] [cout] [info]   /forceset/reserve_jointset_hip_r_hip_flexion_r. bounds: [-inf, inf]
+[2023-08-03 14:51:45.519] [cout] [info]   /forceset/reserve_jointset_ground_pelvis_pelvis_ty. bounds: [-inf, inf]
+[2023-08-03 14:51:45.519] [cout] [info]   /forceset/reserve_jointset_ground_pelvis_pelvis_tz. bounds: [-inf, inf]
+[2023-08-03 14:51:45.520] [cout] [info]   /forceset/reserve_jointset_hip_r_hip_adduction_r. bounds: [-inf, inf]
+[2023-08-03 14:51:45.520] [cout] [info]   /forceset/reserve_jointset_hip_r_hip_rotation_r. bounds: [-inf, inf]
+[2023-08-03 14:51:45.520] [cout] [info]   /forceset/reserve_jointset_walker_knee_r_knee_angle_r. bounds: [-inf, inf]
+[2023-08-03 14:51:45.520] [cout] [info]   /forceset/reserve_jointset_ankle_r_ankle_angle_r. bounds: [-inf, inf]
+[2023-08-03 14:51:45.520] [cout] [info]   /forceset/reserve_jointset_subtalar_r_subtalar_angle_r. bounds: [-inf, inf]
+[2023-08-03 14:51:45.520] [cout] [info]   /forceset/reserve_jointset_mtp_r_mtp_angle_r. bounds: [-inf, inf]
+[2023-08-03 14:51:45.520] [cout] [info]   /forceset/reserve_jointset_hip_l_hip_flexion_l. bounds: [-inf, inf]
+[2023-08-03 14:51:45.520] [cout] [info]   /forceset/reserve_jointset_hip_l_hip_adduction_l. bounds: [-inf, inf]
+[2023-08-03 14:51:45.520] [cout] [info]   /forceset/reserve_jointset_walker_knee_l_knee_angle_l. bounds: [-inf, inf]
+[2023-08-03 14:51:45.520] [cout] [info]   /forceset/reserve_jointset_hip_l_hip_rotation_l. bounds: [-inf, inf]
+[2023-08-03 14:51:45.520] [cout] [info]   /forceset/reserve_jointset_ankle_l_ankle_angle_l. bounds: [-inf, inf]
+[2023-08-03 14:51:45.520] [cout] [info]   /forceset/reserve_jointset_subtalar_l_subtalar_angle_l. bounds: [-inf, inf]
+[2023-08-03 14:51:45.520] [cout] [info] Parameters: none
+[2023-08-03 14:51:45.576] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-03 14:51:45.576] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-03 14:51:45.645] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-03 14:51:45.645] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-03 14:51:45.733] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-03 14:51:45.733] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-03 14:51:45.795] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-03 14:51:45.796] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-03 14:51:45.899] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-03 14:51:45.899] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-03 14:51:45.967] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-03 14:51:45.967] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-03 14:51:46.055] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-03 14:51:46.055] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-03 14:51:46.118] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-03 14:51:46.118] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-03 14:51:46.218] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-03 14:51:46.218] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-03 14:51:46.282] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-03 14:51:46.282] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-03 14:51:46.370] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-03 14:51:46.370] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-03 14:51:46.432] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-03 14:51:46.432] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-03 14:51:46.519] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-03 14:51:46.519] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-03 14:51:46.583] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-03 14:51:46.583] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-03 14:51:46.670] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-03 14:51:46.671] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-03 14:51:46.734] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-03 14:51:46.734] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-03 14:51:46.825] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-03 14:51:46.825] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-03 14:51:46.890] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-03 14:51:46.891] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-03 14:51:46.981] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-03 14:51:46.981] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-03 14:51:47.045] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-03 14:51:47.045] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-03 14:51:47.136] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-03 14:51:47.136] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-03 14:51:47.202] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-03 14:51:47.202] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-03 14:51:47.291] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-03 14:51:47.292] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-03 14:51:47.357] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-03 14:51:47.357] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-03 14:51:47.411] [info] Number of threads: 12
+[2023-08-04 11:03:04.995] [info] Set log level to Info.
+[2023-08-04 11:03:05.048] [info] ------------------------------------------------------------------------
+[2023-08-04 11:03:05.049] [info] Elapsed real time: 72700 second(s) (20 hour(s), 11 minute(s), 40 second(s)).
+[2023-08-04 11:03:05.049] [info] 8/4/2023 11:03:05 AM
+[2023-08-04 11:03:05.049] [warning] MocoCasADiSolver did NOT succeed:
+[2023-08-04 11:03:05.049] [warning]   User_Requested_Stop
+[2023-08-04 11:03:05.049] [info] ========================================================================
+[2023-08-04 11:06:31.039] [info] Loaded model optimized_scale_and_markers from file ../Models/final.osim
+[2023-08-04 11:06:31.040] [warning] Couldn't find file 'r_pelvis_raja.vtp'.
+[2023-08-04 11:06:31.040] [warning] Couldn't find file 'l_pelvis_raja.vtp'.
+[2023-08-04 11:06:31.148] [warning] Couldn't find file 'l_pat.vtp'.
+[2023-08-04 11:06:32.051] [info] ExternalLoads 'rotated_Sprint_07200001' was renamed and is being reset to 'externalloads'.
+[2023-08-04 11:06:32.081] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-04 11:06:32.081] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-04 11:06:32.095] [info] Adding reserve actuators with an optimal force of 50.0...
+[2023-08-04 11:06:32.129] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-04 11:06:32.129] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-04 11:06:32.198] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-04 11:06:32.198] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-04 11:06:32.207] [info] Added 20 reserve actuator(s), for each of the following coordinates:
+[2023-08-04 11:06:32.207] [info]   /jointset/ground_pelvis/pelvis_tilt
+[2023-08-04 11:06:32.207] [info]   /jointset/ground_pelvis/pelvis_list
+[2023-08-04 11:06:32.207] [info]   /jointset/ground_pelvis/pelvis_rotation
+[2023-08-04 11:06:32.207] [info]   /jointset/ground_pelvis/pelvis_tx
+[2023-08-04 11:06:32.207] [info]   /jointset/ground_pelvis/pelvis_ty
+[2023-08-04 11:06:32.207] [info]   /jointset/ground_pelvis/pelvis_tz
+[2023-08-04 11:06:32.208] [info]   /jointset/hip_r/hip_flexion_r
+[2023-08-04 11:06:32.208] [info]   /jointset/hip_r/hip_adduction_r
+[2023-08-04 11:06:32.208] [info]   /jointset/hip_r/hip_rotation_r
+[2023-08-04 11:06:32.208] [info]   /jointset/walker_knee_r/knee_angle_r
+[2023-08-04 11:06:32.208] [info]   /jointset/ankle_r/ankle_angle_r
+[2023-08-04 11:06:32.208] [info]   /jointset/subtalar_r/subtalar_angle_r
+[2023-08-04 11:06:32.208] [info]   /jointset/mtp_r/mtp_angle_r
+[2023-08-04 11:06:32.208] [info]   /jointset/hip_l/hip_flexion_l
+[2023-08-04 11:06:32.208] [info]   /jointset/hip_l/hip_adduction_l
+[2023-08-04 11:06:32.208] [info]   /jointset/hip_l/hip_rotation_l
+[2023-08-04 11:06:32.208] [info]   /jointset/walker_knee_l/knee_angle_l
+[2023-08-04 11:06:32.208] [info]   /jointset/ankle_l/ankle_angle_l
+[2023-08-04 11:06:32.208] [info]   /jointset/subtalar_l/subtalar_angle_l
+[2023-08-04 11:06:32.208] [info]   /jointset/mtp_l/mtp_angle_l
+[2023-08-04 11:06:32.227] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-04 11:06:32.227] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-04 11:06:32.267] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-04 11:06:32.267] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-04 11:06:39.354] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-04 11:06:39.354] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-04 11:06:39.493] [error] Model unable to assemble: SimTK Exception thrown at Optimizer.h:133:
+  Value out of range in  OptimizerSystem  Constructor: expected 1 <= number of parameters <= 2.14748e+09 but number of parameters=0..Model relaxing constraints and trying again.
+[2023-08-04 11:06:39.500] [error] Model unable to assemble with relaxed constraints: SimTK Exception thrown at Optimizer.h:133:
+  Value out of range in  OptimizerSystem  Constructor: expected 1 <= number of parameters <= 2.14748e+09 but number of parameters=0.
+[2023-08-04 11:06:39.592] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-04 11:06:39.592] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-04 11:06:39.720] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-04 11:06:39.720] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-04 11:06:39.785] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-04 11:06:39.785] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-04 11:06:39.888] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-04 11:06:39.888] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-04 11:06:39.952] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-04 11:06:39.952] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-04 11:06:40.295] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-04 11:06:40.295] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-04 11:06:40.361] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-04 11:06:40.361] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-04 11:06:40.460] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-04 11:06:40.460] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-04 11:06:40.525] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-04 11:06:40.525] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-04 11:06:40.578] [info] ========================================================================
+[2023-08-04 11:06:40.578] [info] MocoCasADiSolver starting.
+[2023-08-04 11:06:40.578] [info] 8/4/2023 11:06:40 AM
+[2023-08-04 11:06:40.578] [info] ------------------------------------------------------------------------
+[2023-08-04 11:06:40.578] [cout] [info] Costs: (total: 1)
+[2023-08-04 11:06:40.578] [cout] [info]   excitation_effort. MocoControlGoal, enabled: true, mode: cost, weight: 1.0
+[2023-08-04 11:06:40.578] [cout] [info]         control: /forceset/lumbar_extension, weight: 1.0
+[2023-08-04 11:06:40.578] [cout] [info]         control: /forceset/lumbar_bending, weight: 1.0
+[2023-08-04 11:06:40.578] [cout] [info]         control: /forceset/lumbar_rotation, weight: 1.0
+[2023-08-04 11:06:40.578] [cout] [info]         control: /forceset/shoulder_flex_r, weight: 1.0
+[2023-08-04 11:06:40.578] [cout] [info]         control: /forceset/shoulder_add_r, weight: 1.0
+[2023-08-04 11:06:40.578] [cout] [info]         control: /forceset/shoulder_rot_r, weight: 1.0
+[2023-08-04 11:06:40.578] [cout] [info]         control: /forceset/elbow_flex_r, weight: 1.0
+[2023-08-04 11:06:40.578] [cout] [info]         control: /forceset/shoulder_flex_l, weight: 1.0
+[2023-08-04 11:06:40.578] [cout] [info]         control: /forceset/shoulder_add_l, weight: 1.0
+[2023-08-04 11:06:40.578] [cout] [info]         control: /forceset/shoulder_rot_l, weight: 1.0
+[2023-08-04 11:06:40.578] [cout] [info]         control: /forceset/elbow_flex_l, weight: 1.0
+[2023-08-04 11:06:40.578] [cout] [info]         control: /forceset/addbrev_r, weight: 1.0
+[2023-08-04 11:06:40.578] [cout] [info]         control: /forceset/addlong_r, weight: 1.0
+[2023-08-04 11:06:40.578] [cout] [info]         control: /forceset/addmagDist_r, weight: 1.0
+[2023-08-04 11:06:40.578] [cout] [info]         control: /forceset/addmagIsch_r, weight: 1.0
+[2023-08-04 11:06:40.578] [cout] [info]         control: /forceset/addmagMid_r, weight: 1.0
+[2023-08-04 11:06:40.578] [cout] [info]         control: /forceset/addmagProx_r, weight: 1.0
+[2023-08-04 11:06:40.578] [cout] [info]         control: /forceset/bflh_r, weight: 1.0
+[2023-08-04 11:06:40.578] [cout] [info]         control: /forceset/bfsh_r, weight: 1.0
+[2023-08-04 11:06:40.578] [cout] [info]         control: /forceset/edl_r, weight: 1.0
+[2023-08-04 11:06:40.578] [cout] [info]         control: /forceset/ehl_r, weight: 1.0
+[2023-08-04 11:06:40.578] [cout] [info]         control: /forceset/fdl_r, weight: 1.0
+[2023-08-04 11:06:40.578] [cout] [info]         control: /forceset/fhl_r, weight: 1.0
+[2023-08-04 11:06:40.578] [cout] [info]         control: /forceset/gaslat_r, weight: 1.0
+[2023-08-04 11:06:40.578] [cout] [info]         control: /forceset/gasmed_r, weight: 1.0
+[2023-08-04 11:06:40.578] [cout] [info]         control: /forceset/glmax1_r, weight: 1.0
+[2023-08-04 11:06:40.578] [cout] [info]         control: /forceset/glmax2_r, weight: 1.0
+[2023-08-04 11:06:40.578] [cout] [info]         control: /forceset/glmax3_r, weight: 1.0
+[2023-08-04 11:06:40.578] [cout] [info]         control: /forceset/glmed1_r, weight: 1.0
+[2023-08-04 11:06:40.578] [cout] [info]         control: /forceset/glmed2_r, weight: 1.0
+[2023-08-04 11:06:40.578] [cout] [info]         control: /forceset/glmed3_r, weight: 1.0
+[2023-08-04 11:06:40.578] [cout] [info]         control: /forceset/glmin1_r, weight: 1.0
+[2023-08-04 11:06:40.578] [cout] [info]         control: /forceset/glmin2_r, weight: 1.0
+[2023-08-04 11:06:40.578] [cout] [info]         control: /forceset/glmin3_r, weight: 1.0
+[2023-08-04 11:06:40.578] [cout] [info]         control: /forceset/grac_r, weight: 1.0
+[2023-08-04 11:06:40.578] [cout] [info]         control: /forceset/iliacus_r, weight: 1.0
+[2023-08-04 11:06:40.578] [cout] [info]         control: /forceset/perbrev_r, weight: 1.0
+[2023-08-04 11:06:40.578] [cout] [info]         control: /forceset/perlong_r, weight: 1.0
+[2023-08-04 11:06:40.578] [cout] [info]         control: /forceset/piri_r, weight: 1.0
+[2023-08-04 11:06:40.578] [cout] [info]         control: /forceset/psoas_r, weight: 1.0
+[2023-08-04 11:06:40.578] [cout] [info]         control: /forceset/recfem_r, weight: 1.0
+[2023-08-04 11:06:40.578] [cout] [info]         control: /forceset/sart_r, weight: 1.0
+[2023-08-04 11:06:40.578] [cout] [info]         control: /forceset/semimem_r, weight: 1.0
+[2023-08-04 11:06:40.578] [cout] [info]         control: /forceset/semiten_r, weight: 1.0
+[2023-08-04 11:06:40.578] [cout] [info]         control: /forceset/soleus_r, weight: 1.0
+[2023-08-04 11:06:40.578] [cout] [info]         control: /forceset/tfl_r, weight: 1.0
+[2023-08-04 11:06:40.578] [cout] [info]         control: /forceset/tibant_r, weight: 1.0
+[2023-08-04 11:06:40.579] [cout] [info]         control: /forceset/tibpost_r, weight: 1.0
+[2023-08-04 11:06:40.579] [cout] [info]         control: /forceset/vasint_r, weight: 1.0
+[2023-08-04 11:06:40.579] [cout] [info]         control: /forceset/vaslat_r, weight: 1.0
+[2023-08-04 11:06:40.579] [cout] [info]         control: /forceset/vasmed_r, weight: 1.0
+[2023-08-04 11:06:40.579] [cout] [info]         control: /forceset/addbrev_l, weight: 1.0
+[2023-08-04 11:06:40.579] [cout] [info]         control: /forceset/addlong_l, weight: 1.0
+[2023-08-04 11:06:40.579] [cout] [info]         control: /forceset/addmagDist_l, weight: 1.0
+[2023-08-04 11:06:40.579] [cout] [info]         control: /forceset/addmagIsch_l, weight: 1.0
+[2023-08-04 11:06:40.579] [cout] [info]         control: /forceset/addmagMid_l, weight: 1.0
+[2023-08-04 11:06:40.579] [cout] [info]         control: /forceset/addmagProx_l, weight: 1.0
+[2023-08-04 11:06:40.579] [cout] [info]         control: /forceset/bflh_l, weight: 1.0
+[2023-08-04 11:06:40.579] [cout] [info]         control: /forceset/bfsh_l, weight: 1.0
+[2023-08-04 11:06:40.579] [cout] [info]         control: /forceset/edl_l, weight: 1.0
+[2023-08-04 11:06:40.579] [cout] [info]         control: /forceset/ehl_l, weight: 1.0
+[2023-08-04 11:06:40.579] [cout] [info]         control: /forceset/fdl_l, weight: 1.0
+[2023-08-04 11:06:40.579] [cout] [info]         control: /forceset/fhl_l, weight: 1.0
+[2023-08-04 11:06:40.579] [cout] [info]         control: /forceset/gaslat_l, weight: 1.0
+[2023-08-04 11:06:40.579] [cout] [info]         control: /forceset/gasmed_l, weight: 1.0
+[2023-08-04 11:06:40.579] [cout] [info]         control: /forceset/glmax1_l, weight: 1.0
+[2023-08-04 11:06:40.579] [cout] [info]         control: /forceset/glmax2_l, weight: 1.0
+[2023-08-04 11:06:40.579] [cout] [info]         control: /forceset/glmax3_l, weight: 1.0
+[2023-08-04 11:06:40.579] [cout] [info]         control: /forceset/glmed1_l, weight: 1.0
+[2023-08-04 11:06:40.579] [cout] [info]         control: /forceset/glmed2_l, weight: 1.0
+[2023-08-04 11:06:40.579] [cout] [info]         control: /forceset/glmed3_l, weight: 1.0
+[2023-08-04 11:06:40.579] [cout] [info]         control: /forceset/glmin1_l, weight: 1.0
+[2023-08-04 11:06:40.579] [cout] [info]         control: /forceset/glmin2_l, weight: 1.0
+[2023-08-04 11:06:40.579] [cout] [info]         control: /forceset/glmin3_l, weight: 1.0
+[2023-08-04 11:06:40.579] [cout] [info]         control: /forceset/grac_l, weight: 1.0
+[2023-08-04 11:06:40.579] [cout] [info]         control: /forceset/iliacus_l, weight: 1.0
+[2023-08-04 11:06:40.579] [cout] [info]         control: /forceset/perbrev_l, weight: 1.0
+[2023-08-04 11:06:40.579] [cout] [info]         control: /forceset/perlong_l, weight: 1.0
+[2023-08-04 11:06:40.579] [cout] [info]         control: /forceset/piri_l, weight: 1.0
+[2023-08-04 11:06:40.579] [cout] [info]         control: /forceset/psoas_l, weight: 1.0
+[2023-08-04 11:06:40.579] [cout] [info]         control: /forceset/recfem_l, weight: 1.0
+[2023-08-04 11:06:40.579] [cout] [info]         control: /forceset/sart_l, weight: 1.0
+[2023-08-04 11:06:40.579] [cout] [info]         control: /forceset/semimem_l, weight: 1.0
+[2023-08-04 11:06:40.579] [cout] [info]         control: /forceset/semiten_l, weight: 1.0
+[2023-08-04 11:06:40.579] [cout] [info]         control: /forceset/soleus_l, weight: 1.0
+[2023-08-04 11:06:40.579] [cout] [info]         control: /forceset/tfl_l, weight: 1.0
+[2023-08-04 11:06:40.579] [cout] [info]         control: /forceset/tibant_l, weight: 1.0
+[2023-08-04 11:06:40.579] [cout] [info]         control: /forceset/tibpost_l, weight: 1.0
+[2023-08-04 11:06:40.579] [cout] [info]         control: /forceset/vasint_l, weight: 1.0
+[2023-08-04 11:06:40.579] [cout] [info]         control: /forceset/vaslat_l, weight: 1.0
+[2023-08-04 11:06:40.579] [cout] [info]         control: /forceset/vasmed_l, weight: 1.0
+[2023-08-04 11:06:40.579] [cout] [info]         control: /forceset/reserve_jointset_ground_pelvis_pelvis_tilt, weight: 1.0
+[2023-08-04 11:06:40.579] [cout] [info]         control: /forceset/reserve_jointset_ground_pelvis_pelvis_list, weight: 1.0
+[2023-08-04 11:06:40.579] [cout] [info]         control: /forceset/reserve_jointset_ground_pelvis_pelvis_rotation, weight: 1.0
+[2023-08-04 11:06:40.579] [cout] [info]         control: /forceset/reserve_jointset_ground_pelvis_pelvis_tx, weight: 1.0
+[2023-08-04 11:06:40.579] [cout] [info]         control: /forceset/reserve_jointset_ground_pelvis_pelvis_ty, weight: 1.0
+[2023-08-04 11:06:40.579] [cout] [info]         control: /forceset/reserve_jointset_ground_pelvis_pelvis_tz, weight: 1.0
+[2023-08-04 11:06:40.579] [cout] [info]         control: /forceset/reserve_jointset_hip_r_hip_flexion_r, weight: 1.0
+[2023-08-04 11:06:40.579] [cout] [info]         control: /forceset/reserve_jointset_hip_r_hip_adduction_r, weight: 1.0
+[2023-08-04 11:06:40.579] [cout] [info]         control: /forceset/reserve_jointset_hip_r_hip_rotation_r, weight: 1.0
+[2023-08-04 11:06:40.579] [cout] [info]         control: /forceset/reserve_jointset_walker_knee_r_knee_angle_r, weight: 1.0
+[2023-08-04 11:06:40.579] [cout] [info]         control: /forceset/reserve_jointset_ankle_r_ankle_angle_r, weight: 1.0
+[2023-08-04 11:06:40.579] [cout] [info]         control: /forceset/reserve_jointset_subtalar_r_subtalar_angle_r, weight: 1.0
+[2023-08-04 11:06:40.579] [cout] [info]         control: /forceset/reserve_jointset_mtp_r_mtp_angle_r, weight: 1.0
+[2023-08-04 11:06:40.579] [cout] [info]         control: /forceset/reserve_jointset_hip_l_hip_flexion_l, weight: 1.0
+[2023-08-04 11:06:40.579] [cout] [info]         control: /forceset/reserve_jointset_hip_l_hip_adduction_l, weight: 1.0
+[2023-08-04 11:06:40.579] [cout] [info]         control: /forceset/reserve_jointset_hip_l_hip_rotation_l, weight: 1.0
+[2023-08-04 11:06:40.579] [cout] [info]         control: /forceset/reserve_jointset_walker_knee_l_knee_angle_l, weight: 1.0
+[2023-08-04 11:06:40.579] [cout] [info]         control: /forceset/reserve_jointset_ankle_l_ankle_angle_l, weight: 1.0
+[2023-08-04 11:06:40.579] [cout] [info]         control: /forceset/reserve_jointset_subtalar_l_subtalar_angle_l, weight: 1.0
+[2023-08-04 11:06:40.579] [cout] [info]         control: /forceset/reserve_jointset_mtp_l_mtp_angle_l, weight: 1.0
+[2023-08-04 11:06:40.579] [cout] [info] Endpoint constraints: (total: 1)
+[2023-08-04 11:06:40.580] [cout] [info]   initial_activation. MocoInitialActivationGoal, enabled: true, mode: endpoint_constraint
+[2023-08-04 11:06:40.580] [cout] [info] Kinematic constraints: (total: 2)
+[2023-08-04 11:06:40.580] [cout] [info]   kinematic_constraint_cid33. MocoConstraintInfo. number of scalar equations: 3. bounds: 0, 0, 0
+[2023-08-04 11:06:40.580] [cout] [info]   kinematic_constraint_cid34. MocoConstraintInfo. number of scalar equations: 3. bounds: 0, 0, 0
+[2023-08-04 11:06:40.580] [cout] [info] Path constraints: none
+[2023-08-04 11:06:40.580] [cout] [info] States: (total: 80)
+[2023-08-04 11:06:40.580] [cout] [info]   /forceset/glmin1_r/activation. bounds: [0.01, 1]
+[2023-08-04 11:06:40.580] [cout] [info]   /forceset/bflh_r/activation. bounds: [0.01, 1]
+[2023-08-04 11:06:40.580] [cout] [info]   /forceset/addbrev_r/activation. bounds: [0.01, 1]
+[2023-08-04 11:06:40.580] [cout] [info]   /forceset/addlong_r/activation. bounds: [0.01, 1]
+[2023-08-04 11:06:40.580] [cout] [info]   /forceset/addmagIsch_r/activation. bounds: [0.01, 1]
+[2023-08-04 11:06:40.580] [cout] [info]   /forceset/addmagMid_l/activation. bounds: [0.01, 1]
+[2023-08-04 11:06:40.580] [cout] [info]   /forceset/piri_r/activation. bounds: [0.01, 1]
+[2023-08-04 11:06:40.580] [cout] [info]   /forceset/addmagDist_r/activation. bounds: [0.01, 1]
+[2023-08-04 11:06:40.580] [cout] [info]   /forceset/addmagDist_l/activation. bounds: [0.01, 1]
+[2023-08-04 11:06:40.580] [cout] [info]   /forceset/vasmed_r/activation. bounds: [0.01, 1]
+[2023-08-04 11:06:40.580] [cout] [info]   /forceset/addmagMid_r/activation. bounds: [0.01, 1]
+[2023-08-04 11:06:40.580] [cout] [info]   /forceset/glmax2_r/activation. bounds: [0.01, 1]
+[2023-08-04 11:06:40.580] [cout] [info]   /forceset/vaslat_r/activation. bounds: [0.01, 1]
+[2023-08-04 11:06:40.580] [cout] [info]   /forceset/bfsh_r/activation. bounds: [0.01, 1]
+[2023-08-04 11:06:40.580] [cout] [info]   /forceset/addmagProx_r/activation. bounds: [0.01, 1]
+[2023-08-04 11:06:40.580] [cout] [info]   /forceset/edl_r/activation. bounds: [0.01, 1]
+[2023-08-04 11:06:40.580] [cout] [info]   /forceset/ehl_r/activation. bounds: [0.01, 1]
+[2023-08-04 11:06:40.580] [cout] [info]   /forceset/semimem_r/activation. bounds: [0.01, 1]
+[2023-08-04 11:06:40.580] [cout] [info]   /forceset/fdl_r/activation. bounds: [0.01, 1]
+[2023-08-04 11:06:40.580] [cout] [info]   /forceset/fhl_r/activation. bounds: [0.01, 1]
+[2023-08-04 11:06:40.580] [cout] [info]   /forceset/tibant_l/activation. bounds: [0.01, 1]
+[2023-08-04 11:06:40.580] [cout] [info]   /forceset/glmed3_l/activation. bounds: [0.01, 1]
+[2023-08-04 11:06:40.580] [cout] [info]   /forceset/gaslat_r/activation. bounds: [0.01, 1]
+[2023-08-04 11:06:40.580] [cout] [info]   /forceset/glmed1_r/activation. bounds: [0.01, 1]
+[2023-08-04 11:06:40.580] [cout] [info]   /forceset/soleus_r/activation. bounds: [0.01, 1]
+[2023-08-04 11:06:40.580] [cout] [info]   /forceset/gasmed_r/activation. bounds: [0.01, 1]
+[2023-08-04 11:06:40.580] [cout] [info]   /forceset/glmax3_l/activation. bounds: [0.01, 1]
+[2023-08-04 11:06:40.580] [cout] [info]   /forceset/recfem_r/activation. bounds: [0.01, 1]
+[2023-08-04 11:06:40.580] [cout] [info]   /forceset/glmax1_r/activation. bounds: [0.01, 1]
+[2023-08-04 11:06:40.580] [cout] [info]   /forceset/glmax1_l/activation. bounds: [0.01, 1]
+[2023-08-04 11:06:40.580] [cout] [info]   /forceset/iliacus_r/activation. bounds: [0.01, 1]
+[2023-08-04 11:06:40.580] [cout] [info]   /forceset/glmax3_r/activation. bounds: [0.01, 1]
+[2023-08-04 11:06:40.580] [cout] [info]   /forceset/glmed2_r/activation. bounds: [0.01, 1]
+[2023-08-04 11:06:40.580] [cout] [info]   /forceset/gaslat_l/activation. bounds: [0.01, 1]
+[2023-08-04 11:06:40.580] [cout] [info]   /forceset/glmed1_l/activation. bounds: [0.01, 1]
+[2023-08-04 11:06:40.580] [cout] [info]   /forceset/glmed3_r/activation. bounds: [0.01, 1]
+[2023-08-04 11:06:40.580] [cout] [info]   /forceset/tibant_r/activation. bounds: [0.01, 1]
+[2023-08-04 11:06:40.580] [cout] [info]   /forceset/glmin2_r/activation. bounds: [0.01, 1]
+[2023-08-04 11:06:40.580] [cout] [info]   /forceset/glmin3_r/activation. bounds: [0.01, 1]
+[2023-08-04 11:06:40.580] [cout] [info]   /forceset/grac_r/activation. bounds: [0.01, 1]
+[2023-08-04 11:06:40.580] [cout] [info]   /forceset/perbrev_r/activation. bounds: [0.01, 1]
+[2023-08-04 11:06:40.581] [cout] [info]   /forceset/addmagProx_l/activation. bounds: [0.01, 1]
+[2023-08-04 11:06:40.581] [cout] [info]   /forceset/perlong_r/activation. bounds: [0.01, 1]
+[2023-08-04 11:06:40.581] [cout] [info]   /forceset/psoas_r/activation. bounds: [0.01, 1]
+[2023-08-04 11:06:40.581] [cout] [info]   /forceset/sart_r/activation. bounds: [0.01, 1]
+[2023-08-04 11:06:40.581] [cout] [info]   /forceset/edl_l/activation. bounds: [0.01, 1]
+[2023-08-04 11:06:40.581] [cout] [info]   /forceset/semiten_r/activation. bounds: [0.01, 1]
+[2023-08-04 11:06:40.581] [cout] [info]   /forceset/tfl_r/activation. bounds: [0.01, 1]
+[2023-08-04 11:06:40.581] [cout] [info]   /forceset/tibpost_r/activation. bounds: [0.01, 1]
+[2023-08-04 11:06:40.581] [cout] [info]   /forceset/addmagIsch_l/activation. bounds: [0.01, 1]
+[2023-08-04 11:06:40.581] [cout] [info]   /forceset/addlong_l/activation. bounds: [0.01, 1]
+[2023-08-04 11:06:40.581] [cout] [info]   /forceset/vasint_r/activation. bounds: [0.01, 1]
+[2023-08-04 11:06:40.581] [cout] [info]   /forceset/addbrev_l/activation. bounds: [0.01, 1]
+[2023-08-04 11:06:40.581] [cout] [info]   /forceset/glmin1_l/activation. bounds: [0.01, 1]
+[2023-08-04 11:06:40.581] [cout] [info]   /forceset/bflh_l/activation. bounds: [0.01, 1]
+[2023-08-04 11:06:40.581] [cout] [info]   /forceset/vaslat_l/activation. bounds: [0.01, 1]
+[2023-08-04 11:06:40.581] [cout] [info]   /forceset/glmax2_l/activation. bounds: [0.01, 1]
+[2023-08-04 11:06:40.581] [cout] [info]   /forceset/bfsh_l/activation. bounds: [0.01, 1]
+[2023-08-04 11:06:40.581] [cout] [info]   /forceset/semimem_l/activation. bounds: [0.01, 1]
+[2023-08-04 11:06:40.581] [cout] [info]   /forceset/ehl_l/activation. bounds: [0.01, 1]
+[2023-08-04 11:06:40.581] [cout] [info]   /forceset/fdl_l/activation. bounds: [0.01, 1]
+[2023-08-04 11:06:40.581] [cout] [info]   /forceset/fhl_l/activation. bounds: [0.01, 1]
+[2023-08-04 11:06:40.581] [cout] [info]   /forceset/gasmed_l/activation. bounds: [0.01, 1]
+[2023-08-04 11:06:40.581] [cout] [info]   /forceset/glmed2_l/activation. bounds: [0.01, 1]
+[2023-08-04 11:06:40.581] [cout] [info]   /forceset/glmin2_l/activation. bounds: [0.01, 1]
+[2023-08-04 11:06:40.581] [cout] [info]   /forceset/glmin3_l/activation. bounds: [0.01, 1]
+[2023-08-04 11:06:40.581] [cout] [info]   /forceset/grac_l/activation. bounds: [0.01, 1]
+[2023-08-04 11:06:40.581] [cout] [info]   /forceset/iliacus_l/activation. bounds: [0.01, 1]
+[2023-08-04 11:06:40.581] [cout] [info]   /forceset/perbrev_l/activation. bounds: [0.01, 1]
+[2023-08-04 11:06:40.581] [cout] [info]   /forceset/perlong_l/activation. bounds: [0.01, 1]
+[2023-08-04 11:06:40.581] [cout] [info]   /forceset/piri_l/activation. bounds: [0.01, 1]
+[2023-08-04 11:06:40.581] [cout] [info]   /forceset/psoas_l/activation. bounds: [0.01, 1]
+[2023-08-04 11:06:40.581] [cout] [info]   /forceset/recfem_l/activation. bounds: [0.01, 1]
+[2023-08-04 11:06:40.581] [cout] [info]   /forceset/sart_l/activation. bounds: [0.01, 1]
+[2023-08-04 11:06:40.582] [cout] [info]   /forceset/semiten_l/activation. bounds: [0.01, 1]
+[2023-08-04 11:06:40.582] [cout] [info]   /forceset/soleus_l/activation. bounds: [0.01, 1]
+[2023-08-04 11:06:40.582] [cout] [info]   /forceset/tfl_l/activation. bounds: [0.01, 1]
+[2023-08-04 11:06:40.582] [cout] [info]   /forceset/tibpost_l/activation. bounds: [0.01, 1]
+[2023-08-04 11:06:40.582] [cout] [info]   /forceset/vasint_l/activation. bounds: [0.01, 1]
+[2023-08-04 11:06:40.582] [cout] [info]   /forceset/vasmed_l/activation. bounds: [0.01, 1]
+[2023-08-04 11:06:40.582] [cout] [info] Controls: (total: 111)
+[2023-08-04 11:06:40.582] [cout] [info]   /forceset/shoulder_flex_l. bounds: [-inf, inf]
+[2023-08-04 11:06:40.582] [cout] [info]   /forceset/glmin1_r. bounds: [0.01, 1]
+[2023-08-04 11:06:40.582] [cout] [info]   /forceset/bflh_r. bounds: [0.01, 1]
+[2023-08-04 11:06:40.582] [cout] [info]   /forceset/lumbar_extension. bounds: [-inf, inf]
+[2023-08-04 11:06:40.582] [cout] [info]   /forceset/shoulder_add_r. bounds: [-inf, inf]
+[2023-08-04 11:06:40.582] [cout] [info]   /forceset/reserve_jointset_mtp_l_mtp_angle_l. bounds: [-inf, inf]
+[2023-08-04 11:06:40.582] [cout] [info]   /forceset/fdl_l. bounds: [0.01, 1]
+[2023-08-04 11:06:40.582] [cout] [info]   /forceset/lumbar_bending. bounds: [-inf, inf]
+[2023-08-04 11:06:40.582] [cout] [info]   /forceset/ehl_r. bounds: [0.01, 1]
+[2023-08-04 11:06:40.582] [cout] [info]   /forceset/semimem_r. bounds: [0.01, 1]
+[2023-08-04 11:06:40.582] [cout] [info]   /forceset/lumbar_rotation. bounds: [-inf, inf]
+[2023-08-04 11:06:40.582] [cout] [info]   /forceset/shoulder_flex_r. bounds: [-inf, inf]
+[2023-08-04 11:06:40.582] [cout] [info]   /forceset/shoulder_rot_r. bounds: [-inf, inf]
+[2023-08-04 11:06:40.582] [cout] [info]   /forceset/gaslat_r. bounds: [0.01, 1]
+[2023-08-04 11:06:40.582] [cout] [info]   /forceset/glmed1_r. bounds: [0.01, 1]
+[2023-08-04 11:06:40.582] [cout] [info]   /forceset/elbow_flex_r. bounds: [-inf, inf]
+[2023-08-04 11:06:40.582] [cout] [info]   /forceset/bflh_l. bounds: [0.01, 1]
+[2023-08-04 11:06:40.582] [cout] [info]   /forceset/shoulder_add_l. bounds: [-inf, inf]
+[2023-08-04 11:06:40.582] [cout] [info]   /forceset/glmed1_l. bounds: [0.01, 1]
+[2023-08-04 11:06:40.582] [cout] [info]   /forceset/shoulder_rot_l. bounds: [-inf, inf]
+[2023-08-04 11:06:40.582] [cout] [info]   /forceset/gaslat_l. bounds: [0.01, 1]
+[2023-08-04 11:06:40.582] [cout] [info]   /forceset/glmed3_r. bounds: [0.01, 1]
+[2023-08-04 11:06:40.582] [cout] [info]   /forceset/tibant_r. bounds: [0.01, 1]
+[2023-08-04 11:06:40.582] [cout] [info]   /forceset/elbow_flex_l. bounds: [-inf, inf]
+[2023-08-04 11:06:40.582] [cout] [info]   /forceset/addbrev_r. bounds: [0.01, 1]
+[2023-08-04 11:06:40.582] [cout] [info]   /forceset/addmagIsch_r. bounds: [0.01, 1]
+[2023-08-04 11:06:40.582] [cout] [info]   /forceset/addlong_r. bounds: [0.01, 1]
+[2023-08-04 11:06:40.582] [cout] [info]   /forceset/addmagMid_l. bounds: [0.01, 1]
+[2023-08-04 11:06:40.582] [cout] [info]   /forceset/piri_r. bounds: [0.01, 1]
+[2023-08-04 11:06:40.582] [cout] [info]   /forceset/addmagDist_r. bounds: [0.01, 1]
+[2023-08-04 11:06:40.582] [cout] [info]   /forceset/addmagDist_l. bounds: [0.01, 1]
+[2023-08-04 11:06:40.582] [cout] [info]   /forceset/vasmed_r. bounds: [0.01, 1]
+[2023-08-04 11:06:40.582] [cout] [info]   /forceset/addmagMid_r. bounds: [0.01, 1]
+[2023-08-04 11:06:40.582] [cout] [info]   /forceset/addmagProx_r. bounds: [0.01, 1]
+[2023-08-04 11:06:40.582] [cout] [info]   /forceset/glmax2_r. bounds: [0.01, 1]
+[2023-08-04 11:06:40.582] [cout] [info]   /forceset/vaslat_r. bounds: [0.01, 1]
+[2023-08-04 11:06:40.582] [cout] [info]   /forceset/bfsh_r. bounds: [0.01, 1]
+[2023-08-04 11:06:40.582] [cout] [info]   /forceset/edl_r. bounds: [0.01, 1]
+[2023-08-04 11:06:40.582] [cout] [info]   /forceset/fdl_r. bounds: [0.01, 1]
+[2023-08-04 11:06:40.582] [cout] [info]   /forceset/fhl_r. bounds: [0.01, 1]
+[2023-08-04 11:06:40.582] [cout] [info]   /forceset/soleus_r. bounds: [0.01, 1]
+[2023-08-04 11:06:40.582] [cout] [info]   /forceset/gasmed_r. bounds: [0.01, 1]
+[2023-08-04 11:06:40.583] [cout] [info]   /forceset/recfem_r. bounds: [0.01, 1]
+[2023-08-04 11:06:40.583] [cout] [info]   /forceset/glmax1_r. bounds: [0.01, 1]
+[2023-08-04 11:06:40.583] [cout] [info]   /forceset/iliacus_r. bounds: [0.01, 1]
+[2023-08-04 11:06:40.583] [cout] [info]   /forceset/glmax3_r. bounds: [0.01, 1]
+[2023-08-04 11:06:40.583] [cout] [info]   /forceset/glmed2_r. bounds: [0.01, 1]
+[2023-08-04 11:06:40.583] [cout] [info]   /forceset/glmin2_r. bounds: [0.01, 1]
+[2023-08-04 11:06:40.583] [cout] [info]   /forceset/glmin3_r. bounds: [0.01, 1]
+[2023-08-04 11:06:40.583] [cout] [info]   /forceset/grac_r. bounds: [0.01, 1]
+[2023-08-04 11:06:40.583] [cout] [info]   /forceset/perbrev_r. bounds: [0.01, 1]
+[2023-08-04 11:06:40.583] [cout] [info]   /forceset/addmagProx_l. bounds: [0.01, 1]
+[2023-08-04 11:06:40.583] [cout] [info]   /forceset/perlong_r. bounds: [0.01, 1]
+[2023-08-04 11:06:40.583] [cout] [info]   /forceset/psoas_r. bounds: [0.01, 1]
+[2023-08-04 11:06:40.583] [cout] [info]   /forceset/sart_r. bounds: [0.01, 1]
+[2023-08-04 11:06:40.583] [cout] [info]   /forceset/edl_l. bounds: [0.01, 1]
+[2023-08-04 11:06:40.583] [cout] [info]   /forceset/semiten_r. bounds: [0.01, 1]
+[2023-08-04 11:06:40.583] [cout] [info]   /forceset/tfl_r. bounds: [0.01, 1]
+[2023-08-04 11:06:40.583] [cout] [info]   /forceset/tibpost_r. bounds: [0.01, 1]
+[2023-08-04 11:06:40.583] [cout] [info]   /forceset/addmagIsch_l. bounds: [0.01, 1]
+[2023-08-04 11:06:40.583] [cout] [info]   /forceset/addlong_l. bounds: [0.01, 1]
+[2023-08-04 11:06:40.583] [cout] [info]   /forceset/vasint_r. bounds: [0.01, 1]
+[2023-08-04 11:06:40.583] [cout] [info]   /forceset/addbrev_l. bounds: [0.01, 1]
+[2023-08-04 11:06:40.583] [cout] [info]   /forceset/bfsh_l. bounds: [0.01, 1]
+[2023-08-04 11:06:40.583] [cout] [info]   /forceset/semimem_l. bounds: [0.01, 1]
+[2023-08-04 11:06:40.583] [cout] [info]   /forceset/ehl_l. bounds: [0.01, 1]
+[2023-08-04 11:06:40.583] [cout] [info]   /forceset/fhl_l. bounds: [0.01, 1]
+[2023-08-04 11:06:40.583] [cout] [info]   /forceset/gasmed_l. bounds: [0.01, 1]
+[2023-08-04 11:06:40.583] [cout] [info]   /forceset/glmax1_l. bounds: [0.01, 1]
+[2023-08-04 11:06:40.583] [cout] [info]   /forceset/vaslat_l. bounds: [0.01, 1]
+[2023-08-04 11:06:40.583] [cout] [info]   /forceset/glmax2_l. bounds: [0.01, 1]
+[2023-08-04 11:06:40.583] [cout] [info]   /forceset/glmax3_l. bounds: [0.01, 1]
+[2023-08-04 11:06:40.583] [cout] [info]   /forceset/glmed2_l. bounds: [0.01, 1]
+[2023-08-04 11:06:40.583] [cout] [info]   /forceset/tibant_l. bounds: [0.01, 1]
+[2023-08-04 11:06:40.583] [cout] [info]   /forceset/glmed3_l. bounds: [0.01, 1]
+[2023-08-04 11:06:40.583] [cout] [info]   /forceset/glmin1_l. bounds: [0.01, 1]
+[2023-08-04 11:06:40.583] [cout] [info]   /forceset/glmin2_l. bounds: [0.01, 1]
+[2023-08-04 11:06:40.583] [cout] [info]   /forceset/glmin3_l. bounds: [0.01, 1]
+[2023-08-04 11:06:40.583] [cout] [info]   /forceset/grac_l. bounds: [0.01, 1]
+[2023-08-04 11:06:40.583] [cout] [info]   /forceset/iliacus_l. bounds: [0.01, 1]
+[2023-08-04 11:06:40.583] [cout] [info]   /forceset/perbrev_l. bounds: [0.01, 1]
+[2023-08-04 11:06:40.583] [cout] [info]   /forceset/perlong_l. bounds: [0.01, 1]
+[2023-08-04 11:06:40.583] [cout] [info]   /forceset/piri_l. bounds: [0.01, 1]
+[2023-08-04 11:06:40.583] [cout] [info]   /forceset/psoas_l. bounds: [0.01, 1]
+[2023-08-04 11:06:40.583] [cout] [info]   /forceset/recfem_l. bounds: [0.01, 1]
+[2023-08-04 11:06:40.583] [cout] [info]   /forceset/sart_l. bounds: [0.01, 1]
+[2023-08-04 11:06:40.583] [cout] [info]   /forceset/semiten_l. bounds: [0.01, 1]
+[2023-08-04 11:06:40.583] [cout] [info]   /forceset/soleus_l. bounds: [0.01, 1]
+[2023-08-04 11:06:40.583] [cout] [info]   /forceset/tfl_l. bounds: [0.01, 1]
+[2023-08-04 11:06:40.583] [cout] [info]   /forceset/tibpost_l. bounds: [0.01, 1]
+[2023-08-04 11:06:40.583] [cout] [info]   /forceset/vasint_l. bounds: [0.01, 1]
+[2023-08-04 11:06:40.583] [cout] [info]   /forceset/vasmed_l. bounds: [0.01, 1]
+[2023-08-04 11:06:40.583] [cout] [info]   /forceset/reserve_jointset_ground_pelvis_pelvis_tilt. bounds: [-inf, inf]
+[2023-08-04 11:06:40.583] [cout] [info]   /forceset/reserve_jointset_ground_pelvis_pelvis_list. bounds: [-inf, inf]
+[2023-08-04 11:06:40.583] [cout] [info]   /forceset/reserve_jointset_ground_pelvis_pelvis_rotation. bounds: [-inf, inf]
+[2023-08-04 11:06:40.583] [cout] [info]   /forceset/reserve_jointset_ground_pelvis_pelvis_tx. bounds: [-inf, inf]
+[2023-08-04 11:06:40.584] [cout] [info]   /forceset/reserve_jointset_hip_r_hip_flexion_r. bounds: [-inf, inf]
+[2023-08-04 11:06:40.584] [cout] [info]   /forceset/reserve_jointset_ground_pelvis_pelvis_ty. bounds: [-inf, inf]
+[2023-08-04 11:06:40.584] [cout] [info]   /forceset/reserve_jointset_ground_pelvis_pelvis_tz. bounds: [-inf, inf]
+[2023-08-04 11:06:40.584] [cout] [info]   /forceset/reserve_jointset_hip_r_hip_adduction_r. bounds: [-inf, inf]
+[2023-08-04 11:06:40.584] [cout] [info]   /forceset/reserve_jointset_hip_r_hip_rotation_r. bounds: [-inf, inf]
+[2023-08-04 11:06:40.584] [cout] [info]   /forceset/reserve_jointset_walker_knee_r_knee_angle_r. bounds: [-inf, inf]
+[2023-08-04 11:06:40.584] [cout] [info]   /forceset/reserve_jointset_ankle_r_ankle_angle_r. bounds: [-inf, inf]
+[2023-08-04 11:06:40.584] [cout] [info]   /forceset/reserve_jointset_subtalar_r_subtalar_angle_r. bounds: [-inf, inf]
+[2023-08-04 11:06:40.584] [cout] [info]   /forceset/reserve_jointset_mtp_r_mtp_angle_r. bounds: [-inf, inf]
+[2023-08-04 11:06:40.584] [cout] [info]   /forceset/reserve_jointset_hip_l_hip_flexion_l. bounds: [-inf, inf]
+[2023-08-04 11:06:40.584] [cout] [info]   /forceset/reserve_jointset_hip_l_hip_adduction_l. bounds: [-inf, inf]
+[2023-08-04 11:06:40.584] [cout] [info]   /forceset/reserve_jointset_walker_knee_l_knee_angle_l. bounds: [-inf, inf]
+[2023-08-04 11:06:40.584] [cout] [info]   /forceset/reserve_jointset_hip_l_hip_rotation_l. bounds: [-inf, inf]
+[2023-08-04 11:06:40.584] [cout] [info]   /forceset/reserve_jointset_ankle_l_ankle_angle_l. bounds: [-inf, inf]
+[2023-08-04 11:06:40.584] [cout] [info]   /forceset/reserve_jointset_subtalar_l_subtalar_angle_l. bounds: [-inf, inf]
+[2023-08-04 11:06:40.584] [cout] [info] Parameters: none
+[2023-08-04 11:06:40.641] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-04 11:06:40.641] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-04 11:06:40.705] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-04 11:06:40.705] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-04 11:06:40.807] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-04 11:06:40.807] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-04 11:06:40.896] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-04 11:06:40.896] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-04 11:06:41.024] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-04 11:06:41.024] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-04 11:06:41.090] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-04 11:06:41.090] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-04 11:06:41.194] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-04 11:06:41.194] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-04 11:06:41.266] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-04 11:06:41.266] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-04 11:06:41.376] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-04 11:06:41.376] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-04 11:06:41.446] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-04 11:06:41.446] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-04 11:06:41.596] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-04 11:06:41.596] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-04 11:06:41.659] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-04 11:06:41.659] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-04 11:06:41.753] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-04 11:06:41.753] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-04 11:06:41.832] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-04 11:06:41.832] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-04 11:06:41.930] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-04 11:06:41.930] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-04 11:06:41.997] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-04 11:06:41.997] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-04 11:06:42.100] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-04 11:06:42.100] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-04 11:06:42.163] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-04 11:06:42.163] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-04 11:06:42.259] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-04 11:06:42.259] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-04 11:06:42.323] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-04 11:06:42.324] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-04 11:06:42.486] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-04 11:06:42.486] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-04 11:06:42.587] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-04 11:06:42.587] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-04 11:06:42.688] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-04 11:06:42.688] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-04 11:06:42.758] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-04 11:06:42.759] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-04 11:06:42.799] [info] Number of threads: 12
+[2023-08-04 11:17:12.035] [info] Set log level to Info.
+[2023-08-04 11:17:12.042] [info] ------------------------------------------------------------------------
+[2023-08-04 11:17:12.042] [info] Elapsed real time: 631 second(s) (10 minute(s), 31 second(s)).
+[2023-08-04 11:17:12.042] [info] 8/4/2023 11:17:12 AM
+[2023-08-04 11:17:12.042] [info] MocoCasADiSolver succeeded!
+[2023-08-04 11:17:12.042] [info] ========================================================================
+[2023-08-04 12:15:17.707] [info] Loaded model optimized_scale_and_markers from file ../Models/final.osim
+[2023-08-04 12:15:17.708] [warning] Couldn't find file 'r_pelvis_raja.vtp'.
+[2023-08-04 12:15:17.708] [warning] Couldn't find file 'l_pelvis_raja.vtp'.
+[2023-08-04 12:15:17.711] [warning] Couldn't find file 'l_pat.vtp'.
+[2023-08-04 12:15:18.092] [info] ExternalLoads 'rotated_Sprint_07200001' was renamed and is being reset to 'externalloads'.
+[2023-08-04 12:15:18.111] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-04 12:15:18.111] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-04 12:15:18.120] [info] Adding reserve actuators with an optimal force of 50.0...
+[2023-08-04 12:15:18.157] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-04 12:15:18.157] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-04 12:15:18.241] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-04 12:15:18.241] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-04 12:15:18.252] [info] Added 20 reserve actuator(s), for each of the following coordinates:
+[2023-08-04 12:15:18.252] [info]   /jointset/ground_pelvis/pelvis_tilt
+[2023-08-04 12:15:18.252] [info]   /jointset/ground_pelvis/pelvis_list
+[2023-08-04 12:15:18.252] [info]   /jointset/ground_pelvis/pelvis_rotation
+[2023-08-04 12:15:18.252] [info]   /jointset/ground_pelvis/pelvis_tx
+[2023-08-04 12:15:18.252] [info]   /jointset/ground_pelvis/pelvis_ty
+[2023-08-04 12:15:18.252] [info]   /jointset/ground_pelvis/pelvis_tz
+[2023-08-04 12:15:18.252] [info]   /jointset/hip_r/hip_flexion_r
+[2023-08-04 12:15:18.252] [info]   /jointset/hip_r/hip_adduction_r
+[2023-08-04 12:15:18.252] [info]   /jointset/hip_r/hip_rotation_r
+[2023-08-04 12:15:18.252] [info]   /jointset/walker_knee_r/knee_angle_r
+[2023-08-04 12:15:18.252] [info]   /jointset/ankle_r/ankle_angle_r
+[2023-08-04 12:15:18.252] [info]   /jointset/subtalar_r/subtalar_angle_r
+[2023-08-04 12:15:18.252] [info]   /jointset/mtp_r/mtp_angle_r
+[2023-08-04 12:15:18.252] [info]   /jointset/hip_l/hip_flexion_l
+[2023-08-04 12:15:18.252] [info]   /jointset/hip_l/hip_adduction_l
+[2023-08-04 12:15:18.252] [info]   /jointset/hip_l/hip_rotation_l
+[2023-08-04 12:15:18.252] [info]   /jointset/walker_knee_l/knee_angle_l
+[2023-08-04 12:15:18.252] [info]   /jointset/ankle_l/ankle_angle_l
+[2023-08-04 12:15:18.252] [info]   /jointset/subtalar_l/subtalar_angle_l
+[2023-08-04 12:15:18.252] [info]   /jointset/mtp_l/mtp_angle_l
+[2023-08-04 12:15:18.274] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-04 12:15:18.274] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-04 12:15:18.323] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-04 12:15:18.323] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-04 12:15:24.127] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-04 12:15:24.127] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-04 12:15:24.256] [error] Model unable to assemble: SimTK Exception thrown at Optimizer.h:133:
+  Value out of range in  OptimizerSystem  Constructor: expected 1 <= number of parameters <= 2.14748e+09 but number of parameters=0..Model relaxing constraints and trying again.
+[2023-08-04 12:15:24.258] [error] Model unable to assemble with relaxed constraints: SimTK Exception thrown at Optimizer.h:133:
+  Value out of range in  OptimizerSystem  Constructor: expected 1 <= number of parameters <= 2.14748e+09 but number of parameters=0.
+[2023-08-04 12:15:24.357] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-04 12:15:24.357] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-04 12:15:24.493] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-04 12:15:24.493] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-04 12:15:24.573] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-04 12:15:24.573] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-04 12:15:24.717] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-04 12:15:24.718] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-04 12:15:24.806] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-04 12:15:24.806] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-04 12:15:25.217] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-04 12:15:25.217] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-04 12:15:25.290] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-04 12:15:25.290] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-04 12:15:25.376] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-04 12:15:25.376] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-04 12:15:25.440] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-04 12:15:25.440] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-04 12:15:25.488] [info] ========================================================================
+[2023-08-04 12:15:25.488] [info] MocoCasADiSolver starting.
+[2023-08-04 12:15:25.488] [info] 8/4/2023 12:15:25 PM
+[2023-08-04 12:15:25.488] [info] ------------------------------------------------------------------------
+[2023-08-04 12:15:25.488] [cout] [info] Costs: (total: 1)
+[2023-08-04 12:15:25.488] [cout] [info]   excitation_effort. MocoControlGoal, enabled: true, mode: cost, weight: 1.0
+[2023-08-04 12:15:25.488] [cout] [info]         control: /forceset/lumbar_extension, weight: 1.0
+[2023-08-04 12:15:25.488] [cout] [info]         control: /forceset/lumbar_bending, weight: 1.0
+[2023-08-04 12:15:25.489] [cout] [info]         control: /forceset/lumbar_rotation, weight: 1.0
+[2023-08-04 12:15:25.489] [cout] [info]         control: /forceset/shoulder_flex_r, weight: 1.0
+[2023-08-04 12:15:25.489] [cout] [info]         control: /forceset/shoulder_add_r, weight: 1.0
+[2023-08-04 12:15:25.489] [cout] [info]         control: /forceset/shoulder_rot_r, weight: 1.0
+[2023-08-04 12:15:25.489] [cout] [info]         control: /forceset/elbow_flex_r, weight: 1.0
+[2023-08-04 12:15:25.489] [cout] [info]         control: /forceset/shoulder_flex_l, weight: 1.0
+[2023-08-04 12:15:25.489] [cout] [info]         control: /forceset/shoulder_add_l, weight: 1.0
+[2023-08-04 12:15:25.489] [cout] [info]         control: /forceset/shoulder_rot_l, weight: 1.0
+[2023-08-04 12:15:25.489] [cout] [info]         control: /forceset/elbow_flex_l, weight: 1.0
+[2023-08-04 12:15:25.489] [cout] [info]         control: /forceset/addbrev_r, weight: 1.0
+[2023-08-04 12:15:25.489] [cout] [info]         control: /forceset/addlong_r, weight: 1.0
+[2023-08-04 12:15:25.489] [cout] [info]         control: /forceset/addmagDist_r, weight: 1.0
+[2023-08-04 12:15:25.489] [cout] [info]         control: /forceset/addmagIsch_r, weight: 1.0
+[2023-08-04 12:15:25.489] [cout] [info]         control: /forceset/addmagMid_r, weight: 1.0
+[2023-08-04 12:15:25.489] [cout] [info]         control: /forceset/addmagProx_r, weight: 1.0
+[2023-08-04 12:15:25.489] [cout] [info]         control: /forceset/bflh_r, weight: 1.0
+[2023-08-04 12:15:25.489] [cout] [info]         control: /forceset/bfsh_r, weight: 1.0
+[2023-08-04 12:15:25.489] [cout] [info]         control: /forceset/edl_r, weight: 1.0
+[2023-08-04 12:15:25.489] [cout] [info]         control: /forceset/ehl_r, weight: 1.0
+[2023-08-04 12:15:25.489] [cout] [info]         control: /forceset/fdl_r, weight: 1.0
+[2023-08-04 12:15:25.489] [cout] [info]         control: /forceset/fhl_r, weight: 1.0
+[2023-08-04 12:15:25.489] [cout] [info]         control: /forceset/gaslat_r, weight: 1.0
+[2023-08-04 12:15:25.489] [cout] [info]         control: /forceset/gasmed_r, weight: 1.0
+[2023-08-04 12:15:25.489] [cout] [info]         control: /forceset/glmax1_r, weight: 1.0
+[2023-08-04 12:15:25.489] [cout] [info]         control: /forceset/glmax2_r, weight: 1.0
+[2023-08-04 12:15:25.489] [cout] [info]         control: /forceset/glmax3_r, weight: 1.0
+[2023-08-04 12:15:25.489] [cout] [info]         control: /forceset/glmed1_r, weight: 1.0
+[2023-08-04 12:15:25.489] [cout] [info]         control: /forceset/glmed2_r, weight: 1.0
+[2023-08-04 12:15:25.489] [cout] [info]         control: /forceset/glmed3_r, weight: 1.0
+[2023-08-04 12:15:25.489] [cout] [info]         control: /forceset/glmin1_r, weight: 1.0
+[2023-08-04 12:15:25.489] [cout] [info]         control: /forceset/glmin2_r, weight: 1.0
+[2023-08-04 12:15:25.489] [cout] [info]         control: /forceset/glmin3_r, weight: 1.0
+[2023-08-04 12:15:25.489] [cout] [info]         control: /forceset/grac_r, weight: 1.0
+[2023-08-04 12:15:25.489] [cout] [info]         control: /forceset/iliacus_r, weight: 1.0
+[2023-08-04 12:15:25.489] [cout] [info]         control: /forceset/perbrev_r, weight: 1.0
+[2023-08-04 12:15:25.489] [cout] [info]         control: /forceset/perlong_r, weight: 1.0
+[2023-08-04 12:15:25.489] [cout] [info]         control: /forceset/piri_r, weight: 1.0
+[2023-08-04 12:15:25.489] [cout] [info]         control: /forceset/psoas_r, weight: 1.0
+[2023-08-04 12:15:25.489] [cout] [info]         control: /forceset/recfem_r, weight: 1.0
+[2023-08-04 12:15:25.489] [cout] [info]         control: /forceset/sart_r, weight: 1.0
+[2023-08-04 12:15:25.489] [cout] [info]         control: /forceset/semimem_r, weight: 1.0
+[2023-08-04 12:15:25.489] [cout] [info]         control: /forceset/semiten_r, weight: 1.0
+[2023-08-04 12:15:25.489] [cout] [info]         control: /forceset/soleus_r, weight: 1.0
+[2023-08-04 12:15:25.489] [cout] [info]         control: /forceset/tfl_r, weight: 1.0
+[2023-08-04 12:15:25.489] [cout] [info]         control: /forceset/tibant_r, weight: 1.0
+[2023-08-04 12:15:25.489] [cout] [info]         control: /forceset/tibpost_r, weight: 1.0
+[2023-08-04 12:15:25.489] [cout] [info]         control: /forceset/vasint_r, weight: 1.0
+[2023-08-04 12:15:25.489] [cout] [info]         control: /forceset/vaslat_r, weight: 1.0
+[2023-08-04 12:15:25.489] [cout] [info]         control: /forceset/vasmed_r, weight: 1.0
+[2023-08-04 12:15:25.489] [cout] [info]         control: /forceset/addbrev_l, weight: 1.0
+[2023-08-04 12:15:25.489] [cout] [info]         control: /forceset/addlong_l, weight: 1.0
+[2023-08-04 12:15:25.489] [cout] [info]         control: /forceset/addmagDist_l, weight: 1.0
+[2023-08-04 12:15:25.489] [cout] [info]         control: /forceset/addmagIsch_l, weight: 1.0
+[2023-08-04 12:15:25.489] [cout] [info]         control: /forceset/addmagMid_l, weight: 1.0
+[2023-08-04 12:15:25.489] [cout] [info]         control: /forceset/addmagProx_l, weight: 1.0
+[2023-08-04 12:15:25.489] [cout] [info]         control: /forceset/bflh_l, weight: 1.0
+[2023-08-04 12:15:25.489] [cout] [info]         control: /forceset/bfsh_l, weight: 1.0
+[2023-08-04 12:15:25.489] [cout] [info]         control: /forceset/edl_l, weight: 1.0
+[2023-08-04 12:15:25.489] [cout] [info]         control: /forceset/ehl_l, weight: 1.0
+[2023-08-04 12:15:25.489] [cout] [info]         control: /forceset/fdl_l, weight: 1.0
+[2023-08-04 12:15:25.489] [cout] [info]         control: /forceset/fhl_l, weight: 1.0
+[2023-08-04 12:15:25.489] [cout] [info]         control: /forceset/gaslat_l, weight: 1.0
+[2023-08-04 12:15:25.489] [cout] [info]         control: /forceset/gasmed_l, weight: 1.0
+[2023-08-04 12:15:25.489] [cout] [info]         control: /forceset/glmax1_l, weight: 1.0
+[2023-08-04 12:15:25.489] [cout] [info]         control: /forceset/glmax2_l, weight: 1.0
+[2023-08-04 12:15:25.489] [cout] [info]         control: /forceset/glmax3_l, weight: 1.0
+[2023-08-04 12:15:25.489] [cout] [info]         control: /forceset/glmed1_l, weight: 1.0
+[2023-08-04 12:15:25.489] [cout] [info]         control: /forceset/glmed2_l, weight: 1.0
+[2023-08-04 12:15:25.489] [cout] [info]         control: /forceset/glmed3_l, weight: 1.0
+[2023-08-04 12:15:25.489] [cout] [info]         control: /forceset/glmin1_l, weight: 1.0
+[2023-08-04 12:15:25.489] [cout] [info]         control: /forceset/glmin2_l, weight: 1.0
+[2023-08-04 12:15:25.489] [cout] [info]         control: /forceset/glmin3_l, weight: 1.0
+[2023-08-04 12:15:25.489] [cout] [info]         control: /forceset/grac_l, weight: 1.0
+[2023-08-04 12:15:25.489] [cout] [info]         control: /forceset/iliacus_l, weight: 1.0
+[2023-08-04 12:15:25.490] [cout] [info]         control: /forceset/perbrev_l, weight: 1.0
+[2023-08-04 12:15:25.490] [cout] [info]         control: /forceset/perlong_l, weight: 1.0
+[2023-08-04 12:15:25.490] [cout] [info]         control: /forceset/piri_l, weight: 1.0
+[2023-08-04 12:15:25.490] [cout] [info]         control: /forceset/psoas_l, weight: 1.0
+[2023-08-04 12:15:25.490] [cout] [info]         control: /forceset/recfem_l, weight: 1.0
+[2023-08-04 12:15:25.490] [cout] [info]         control: /forceset/sart_l, weight: 1.0
+[2023-08-04 12:15:25.490] [cout] [info]         control: /forceset/semimem_l, weight: 1.0
+[2023-08-04 12:15:25.490] [cout] [info]         control: /forceset/semiten_l, weight: 1.0
+[2023-08-04 12:15:25.490] [cout] [info]         control: /forceset/soleus_l, weight: 1.0
+[2023-08-04 12:15:25.490] [cout] [info]         control: /forceset/tfl_l, weight: 1.0
+[2023-08-04 12:15:25.490] [cout] [info]         control: /forceset/tibant_l, weight: 1.0
+[2023-08-04 12:15:25.490] [cout] [info]         control: /forceset/tibpost_l, weight: 1.0
+[2023-08-04 12:15:25.490] [cout] [info]         control: /forceset/vasint_l, weight: 1.0
+[2023-08-04 12:15:25.490] [cout] [info]         control: /forceset/vaslat_l, weight: 1.0
+[2023-08-04 12:15:25.490] [cout] [info]         control: /forceset/vasmed_l, weight: 1.0
+[2023-08-04 12:15:25.490] [cout] [info]         control: /forceset/reserve_jointset_ground_pelvis_pelvis_tilt, weight: 1.0
+[2023-08-04 12:15:25.490] [cout] [info]         control: /forceset/reserve_jointset_ground_pelvis_pelvis_list, weight: 1.0
+[2023-08-04 12:15:25.490] [cout] [info]         control: /forceset/reserve_jointset_ground_pelvis_pelvis_rotation, weight: 1.0
+[2023-08-04 12:15:25.490] [cout] [info]         control: /forceset/reserve_jointset_ground_pelvis_pelvis_tx, weight: 1.0
+[2023-08-04 12:15:25.490] [cout] [info]         control: /forceset/reserve_jointset_ground_pelvis_pelvis_ty, weight: 1.0
+[2023-08-04 12:15:25.490] [cout] [info]         control: /forceset/reserve_jointset_ground_pelvis_pelvis_tz, weight: 1.0
+[2023-08-04 12:15:25.490] [cout] [info]         control: /forceset/reserve_jointset_hip_r_hip_flexion_r, weight: 1.0
+[2023-08-04 12:15:25.490] [cout] [info]         control: /forceset/reserve_jointset_hip_r_hip_adduction_r, weight: 1.0
+[2023-08-04 12:15:25.490] [cout] [info]         control: /forceset/reserve_jointset_hip_r_hip_rotation_r, weight: 1.0
+[2023-08-04 12:15:25.490] [cout] [info]         control: /forceset/reserve_jointset_walker_knee_r_knee_angle_r, weight: 1.0
+[2023-08-04 12:15:25.490] [cout] [info]         control: /forceset/reserve_jointset_ankle_r_ankle_angle_r, weight: 1.0
+[2023-08-04 12:15:25.490] [cout] [info]         control: /forceset/reserve_jointset_subtalar_r_subtalar_angle_r, weight: 1.0
+[2023-08-04 12:15:25.490] [cout] [info]         control: /forceset/reserve_jointset_mtp_r_mtp_angle_r, weight: 1.0
+[2023-08-04 12:15:25.490] [cout] [info]         control: /forceset/reserve_jointset_hip_l_hip_flexion_l, weight: 1.0
+[2023-08-04 12:15:25.490] [cout] [info]         control: /forceset/reserve_jointset_hip_l_hip_adduction_l, weight: 1.0
+[2023-08-04 12:15:25.490] [cout] [info]         control: /forceset/reserve_jointset_hip_l_hip_rotation_l, weight: 1.0
+[2023-08-04 12:15:25.490] [cout] [info]         control: /forceset/reserve_jointset_walker_knee_l_knee_angle_l, weight: 1.0
+[2023-08-04 12:15:25.490] [cout] [info]         control: /forceset/reserve_jointset_ankle_l_ankle_angle_l, weight: 1.0
+[2023-08-04 12:15:25.490] [cout] [info]         control: /forceset/reserve_jointset_subtalar_l_subtalar_angle_l, weight: 1.0
+[2023-08-04 12:15:25.490] [cout] [info]         control: /forceset/reserve_jointset_mtp_l_mtp_angle_l, weight: 1.0
+[2023-08-04 12:15:25.490] [cout] [info] Endpoint constraints: (total: 1)
+[2023-08-04 12:15:25.490] [cout] [info]   initial_activation. MocoInitialActivationGoal, enabled: true, mode: endpoint_constraint
+[2023-08-04 12:15:25.490] [cout] [info] Kinematic constraints: (total: 2)
+[2023-08-04 12:15:25.490] [cout] [info]   kinematic_constraint_cid33. MocoConstraintInfo. number of scalar equations: 3. bounds: 0, 0, 0
+[2023-08-04 12:15:25.490] [cout] [info]   kinematic_constraint_cid34. MocoConstraintInfo. number of scalar equations: 3. bounds: 0, 0, 0
+[2023-08-04 12:15:25.490] [cout] [info] Path constraints: none
+[2023-08-04 12:15:25.490] [cout] [info] States: (total: 80)
+[2023-08-04 12:15:25.490] [cout] [info]   /forceset/glmin1_r/activation. bounds: [0.01, 1]
+[2023-08-04 12:15:25.490] [cout] [info]   /forceset/bflh_r/activation. bounds: [0.01, 1]
+[2023-08-04 12:15:25.490] [cout] [info]   /forceset/addbrev_r/activation. bounds: [0.01, 1]
+[2023-08-04 12:15:25.490] [cout] [info]   /forceset/addlong_r/activation. bounds: [0.01, 1]
+[2023-08-04 12:15:25.490] [cout] [info]   /forceset/addmagIsch_r/activation. bounds: [0.01, 1]
+[2023-08-04 12:15:25.490] [cout] [info]   /forceset/addmagMid_l/activation. bounds: [0.01, 1]
+[2023-08-04 12:15:25.490] [cout] [info]   /forceset/piri_r/activation. bounds: [0.01, 1]
+[2023-08-04 12:15:25.490] [cout] [info]   /forceset/addmagDist_r/activation. bounds: [0.01, 1]
+[2023-08-04 12:15:25.490] [cout] [info]   /forceset/addmagDist_l/activation. bounds: [0.01, 1]
+[2023-08-04 12:15:25.490] [cout] [info]   /forceset/vasmed_r/activation. bounds: [0.01, 1]
+[2023-08-04 12:15:25.490] [cout] [info]   /forceset/addmagMid_r/activation. bounds: [0.01, 1]
+[2023-08-04 12:15:25.490] [cout] [info]   /forceset/glmax2_r/activation. bounds: [0.01, 1]
+[2023-08-04 12:15:25.490] [cout] [info]   /forceset/vaslat_r/activation. bounds: [0.01, 1]
+[2023-08-04 12:15:25.490] [cout] [info]   /forceset/bfsh_r/activation. bounds: [0.01, 1]
+[2023-08-04 12:15:25.490] [cout] [info]   /forceset/addmagProx_r/activation. bounds: [0.01, 1]
+[2023-08-04 12:15:25.490] [cout] [info]   /forceset/edl_r/activation. bounds: [0.01, 1]
+[2023-08-04 12:15:25.490] [cout] [info]   /forceset/ehl_r/activation. bounds: [0.01, 1]
+[2023-08-04 12:15:25.490] [cout] [info]   /forceset/semimem_r/activation. bounds: [0.01, 1]
+[2023-08-04 12:15:25.490] [cout] [info]   /forceset/fdl_r/activation. bounds: [0.01, 1]
+[2023-08-04 12:15:25.491] [cout] [info]   /forceset/fhl_r/activation. bounds: [0.01, 1]
+[2023-08-04 12:15:25.491] [cout] [info]   /forceset/tibant_l/activation. bounds: [0.01, 1]
+[2023-08-04 12:15:25.491] [cout] [info]   /forceset/glmed3_l/activation. bounds: [0.01, 1]
+[2023-08-04 12:15:25.491] [cout] [info]   /forceset/gaslat_r/activation. bounds: [0.01, 1]
+[2023-08-04 12:15:25.491] [cout] [info]   /forceset/glmed1_r/activation. bounds: [0.01, 1]
+[2023-08-04 12:15:25.491] [cout] [info]   /forceset/soleus_r/activation. bounds: [0.01, 1]
+[2023-08-04 12:15:25.491] [cout] [info]   /forceset/gasmed_r/activation. bounds: [0.01, 1]
+[2023-08-04 12:15:25.491] [cout] [info]   /forceset/glmax3_l/activation. bounds: [0.01, 1]
+[2023-08-04 12:15:25.491] [cout] [info]   /forceset/recfem_r/activation. bounds: [0.01, 1]
+[2023-08-04 12:15:25.491] [cout] [info]   /forceset/glmax1_r/activation. bounds: [0.01, 1]
+[2023-08-04 12:15:25.491] [cout] [info]   /forceset/glmax1_l/activation. bounds: [0.01, 1]
+[2023-08-04 12:15:25.491] [cout] [info]   /forceset/iliacus_r/activation. bounds: [0.01, 1]
+[2023-08-04 12:15:25.491] [cout] [info]   /forceset/glmax3_r/activation. bounds: [0.01, 1]
+[2023-08-04 12:15:25.491] [cout] [info]   /forceset/glmed2_r/activation. bounds: [0.01, 1]
+[2023-08-04 12:15:25.491] [cout] [info]   /forceset/gaslat_l/activation. bounds: [0.01, 1]
+[2023-08-04 12:15:25.491] [cout] [info]   /forceset/glmed1_l/activation. bounds: [0.01, 1]
+[2023-08-04 12:15:25.491] [cout] [info]   /forceset/glmed3_r/activation. bounds: [0.01, 1]
+[2023-08-04 12:15:25.491] [cout] [info]   /forceset/tibant_r/activation. bounds: [0.01, 1]
+[2023-08-04 12:15:25.491] [cout] [info]   /forceset/glmin2_r/activation. bounds: [0.01, 1]
+[2023-08-04 12:15:25.491] [cout] [info]   /forceset/glmin3_r/activation. bounds: [0.01, 1]
+[2023-08-04 12:15:25.491] [cout] [info]   /forceset/grac_r/activation. bounds: [0.01, 1]
+[2023-08-04 12:15:25.491] [cout] [info]   /forceset/perbrev_r/activation. bounds: [0.01, 1]
+[2023-08-04 12:15:25.491] [cout] [info]   /forceset/addmagProx_l/activation. bounds: [0.01, 1]
+[2023-08-04 12:15:25.491] [cout] [info]   /forceset/perlong_r/activation. bounds: [0.01, 1]
+[2023-08-04 12:15:25.491] [cout] [info]   /forceset/psoas_r/activation. bounds: [0.01, 1]
+[2023-08-04 12:15:25.491] [cout] [info]   /forceset/sart_r/activation. bounds: [0.01, 1]
+[2023-08-04 12:15:25.491] [cout] [info]   /forceset/edl_l/activation. bounds: [0.01, 1]
+[2023-08-04 12:15:25.491] [cout] [info]   /forceset/semiten_r/activation. bounds: [0.01, 1]
+[2023-08-04 12:15:25.491] [cout] [info]   /forceset/tfl_r/activation. bounds: [0.01, 1]
+[2023-08-04 12:15:25.491] [cout] [info]   /forceset/tibpost_r/activation. bounds: [0.01, 1]
+[2023-08-04 12:15:25.491] [cout] [info]   /forceset/addmagIsch_l/activation. bounds: [0.01, 1]
+[2023-08-04 12:15:25.491] [cout] [info]   /forceset/addlong_l/activation. bounds: [0.01, 1]
+[2023-08-04 12:15:25.491] [cout] [info]   /forceset/vasint_r/activation. bounds: [0.01, 1]
+[2023-08-04 12:15:25.491] [cout] [info]   /forceset/addbrev_l/activation. bounds: [0.01, 1]
+[2023-08-04 12:15:25.491] [cout] [info]   /forceset/glmin1_l/activation. bounds: [0.01, 1]
+[2023-08-04 12:15:25.491] [cout] [info]   /forceset/bflh_l/activation. bounds: [0.01, 1]
+[2023-08-04 12:15:25.491] [cout] [info]   /forceset/vaslat_l/activation. bounds: [0.01, 1]
+[2023-08-04 12:15:25.491] [cout] [info]   /forceset/glmax2_l/activation. bounds: [0.01, 1]
+[2023-08-04 12:15:25.491] [cout] [info]   /forceset/bfsh_l/activation. bounds: [0.01, 1]
+[2023-08-04 12:15:25.491] [cout] [info]   /forceset/semimem_l/activation. bounds: [0.01, 1]
+[2023-08-04 12:15:25.491] [cout] [info]   /forceset/ehl_l/activation. bounds: [0.01, 1]
+[2023-08-04 12:15:25.491] [cout] [info]   /forceset/fdl_l/activation. bounds: [0.01, 1]
+[2023-08-04 12:15:25.491] [cout] [info]   /forceset/fhl_l/activation. bounds: [0.01, 1]
+[2023-08-04 12:15:25.491] [cout] [info]   /forceset/gasmed_l/activation. bounds: [0.01, 1]
+[2023-08-04 12:15:25.491] [cout] [info]   /forceset/glmed2_l/activation. bounds: [0.01, 1]
+[2023-08-04 12:15:25.491] [cout] [info]   /forceset/glmin2_l/activation. bounds: [0.01, 1]
+[2023-08-04 12:15:25.491] [cout] [info]   /forceset/glmin3_l/activation. bounds: [0.01, 1]
+[2023-08-04 12:15:25.491] [cout] [info]   /forceset/grac_l/activation. bounds: [0.01, 1]
+[2023-08-04 12:15:25.491] [cout] [info]   /forceset/iliacus_l/activation. bounds: [0.01, 1]
+[2023-08-04 12:15:25.491] [cout] [info]   /forceset/perbrev_l/activation. bounds: [0.01, 1]
+[2023-08-04 12:15:25.491] [cout] [info]   /forceset/perlong_l/activation. bounds: [0.01, 1]
+[2023-08-04 12:15:25.491] [cout] [info]   /forceset/piri_l/activation. bounds: [0.01, 1]
+[2023-08-04 12:15:25.491] [cout] [info]   /forceset/psoas_l/activation. bounds: [0.01, 1]
+[2023-08-04 12:15:25.491] [cout] [info]   /forceset/recfem_l/activation. bounds: [0.01, 1]
+[2023-08-04 12:15:25.492] [cout] [info]   /forceset/sart_l/activation. bounds: [0.01, 1]
+[2023-08-04 12:15:25.492] [cout] [info]   /forceset/semiten_l/activation. bounds: [0.01, 1]
+[2023-08-04 12:15:25.492] [cout] [info]   /forceset/soleus_l/activation. bounds: [0.01, 1]
+[2023-08-04 12:15:25.492] [cout] [info]   /forceset/tfl_l/activation. bounds: [0.01, 1]
+[2023-08-04 12:15:25.492] [cout] [info]   /forceset/tibpost_l/activation. bounds: [0.01, 1]
+[2023-08-04 12:15:25.492] [cout] [info]   /forceset/vasint_l/activation. bounds: [0.01, 1]
+[2023-08-04 12:15:25.492] [cout] [info]   /forceset/vasmed_l/activation. bounds: [0.01, 1]
+[2023-08-04 12:15:25.492] [cout] [info] Controls: (total: 111)
+[2023-08-04 12:15:25.492] [cout] [info]   /forceset/shoulder_flex_l. bounds: [-inf, inf]
+[2023-08-04 12:15:25.492] [cout] [info]   /forceset/glmin1_r. bounds: [0.01, 1]
+[2023-08-04 12:15:25.492] [cout] [info]   /forceset/bflh_r. bounds: [0.01, 1]
+[2023-08-04 12:15:25.492] [cout] [info]   /forceset/lumbar_extension. bounds: [-inf, inf]
+[2023-08-04 12:15:25.492] [cout] [info]   /forceset/shoulder_add_r. bounds: [-inf, inf]
+[2023-08-04 12:15:25.492] [cout] [info]   /forceset/reserve_jointset_mtp_l_mtp_angle_l. bounds: [-inf, inf]
+[2023-08-04 12:15:25.492] [cout] [info]   /forceset/fdl_l. bounds: [0.01, 1]
+[2023-08-04 12:15:25.492] [cout] [info]   /forceset/lumbar_bending. bounds: [-inf, inf]
+[2023-08-04 12:15:25.492] [cout] [info]   /forceset/ehl_r. bounds: [0.01, 1]
+[2023-08-04 12:15:25.492] [cout] [info]   /forceset/semimem_r. bounds: [0.01, 1]
+[2023-08-04 12:15:25.492] [cout] [info]   /forceset/lumbar_rotation. bounds: [-inf, inf]
+[2023-08-04 12:15:25.492] [cout] [info]   /forceset/shoulder_flex_r. bounds: [-inf, inf]
+[2023-08-04 12:15:25.492] [cout] [info]   /forceset/shoulder_rot_r. bounds: [-inf, inf]
+[2023-08-04 12:15:25.492] [cout] [info]   /forceset/gaslat_r. bounds: [0.01, 1]
+[2023-08-04 12:15:25.492] [cout] [info]   /forceset/glmed1_r. bounds: [0.01, 1]
+[2023-08-04 12:15:25.492] [cout] [info]   /forceset/elbow_flex_r. bounds: [-inf, inf]
+[2023-08-04 12:15:25.492] [cout] [info]   /forceset/bflh_l. bounds: [0.01, 1]
+[2023-08-04 12:15:25.492] [cout] [info]   /forceset/shoulder_add_l. bounds: [-inf, inf]
+[2023-08-04 12:15:25.492] [cout] [info]   /forceset/glmed1_l. bounds: [0.01, 1]
+[2023-08-04 12:15:25.492] [cout] [info]   /forceset/shoulder_rot_l. bounds: [-inf, inf]
+[2023-08-04 12:15:25.492] [cout] [info]   /forceset/gaslat_l. bounds: [0.01, 1]
+[2023-08-04 12:15:25.492] [cout] [info]   /forceset/glmed3_r. bounds: [0.01, 1]
+[2023-08-04 12:15:25.492] [cout] [info]   /forceset/tibant_r. bounds: [0.01, 1]
+[2023-08-04 12:15:25.492] [cout] [info]   /forceset/elbow_flex_l. bounds: [-inf, inf]
+[2023-08-04 12:15:25.492] [cout] [info]   /forceset/addbrev_r. bounds: [0.01, 1]
+[2023-08-04 12:15:25.492] [cout] [info]   /forceset/addmagIsch_r. bounds: [0.01, 1]
+[2023-08-04 12:15:25.492] [cout] [info]   /forceset/addlong_r. bounds: [0.01, 1]
+[2023-08-04 12:15:25.492] [cout] [info]   /forceset/addmagMid_l. bounds: [0.01, 1]
+[2023-08-04 12:15:25.492] [cout] [info]   /forceset/piri_r. bounds: [0.01, 1]
+[2023-08-04 12:15:25.492] [cout] [info]   /forceset/addmagDist_r. bounds: [0.01, 1]
+[2023-08-04 12:15:25.492] [cout] [info]   /forceset/addmagDist_l. bounds: [0.01, 1]
+[2023-08-04 12:15:25.492] [cout] [info]   /forceset/vasmed_r. bounds: [0.01, 1]
+[2023-08-04 12:15:25.492] [cout] [info]   /forceset/addmagMid_r. bounds: [0.01, 1]
+[2023-08-04 12:15:25.492] [cout] [info]   /forceset/addmagProx_r. bounds: [0.01, 1]
+[2023-08-04 12:15:25.492] [cout] [info]   /forceset/glmax2_r. bounds: [0.01, 1]
+[2023-08-04 12:15:25.492] [cout] [info]   /forceset/vaslat_r. bounds: [0.01, 1]
+[2023-08-04 12:15:25.492] [cout] [info]   /forceset/bfsh_r. bounds: [0.01, 1]
+[2023-08-04 12:15:25.492] [cout] [info]   /forceset/edl_r. bounds: [0.01, 1]
+[2023-08-04 12:15:25.492] [cout] [info]   /forceset/fdl_r. bounds: [0.01, 1]
+[2023-08-04 12:15:25.492] [cout] [info]   /forceset/fhl_r. bounds: [0.01, 1]
+[2023-08-04 12:15:25.492] [cout] [info]   /forceset/soleus_r. bounds: [0.01, 1]
+[2023-08-04 12:15:25.492] [cout] [info]   /forceset/gasmed_r. bounds: [0.01, 1]
+[2023-08-04 12:15:25.492] [cout] [info]   /forceset/recfem_r. bounds: [0.01, 1]
+[2023-08-04 12:15:25.492] [cout] [info]   /forceset/glmax1_r. bounds: [0.01, 1]
+[2023-08-04 12:15:25.492] [cout] [info]   /forceset/iliacus_r. bounds: [0.01, 1]
+[2023-08-04 12:15:25.493] [cout] [info]   /forceset/glmax3_r. bounds: [0.01, 1]
+[2023-08-04 12:15:25.493] [cout] [info]   /forceset/glmed2_r. bounds: [0.01, 1]
+[2023-08-04 12:15:25.493] [cout] [info]   /forceset/glmin2_r. bounds: [0.01, 1]
+[2023-08-04 12:15:25.493] [cout] [info]   /forceset/glmin3_r. bounds: [0.01, 1]
+[2023-08-04 12:15:25.493] [cout] [info]   /forceset/grac_r. bounds: [0.01, 1]
+[2023-08-04 12:15:25.493] [cout] [info]   /forceset/perbrev_r. bounds: [0.01, 1]
+[2023-08-04 12:15:25.493] [cout] [info]   /forceset/addmagProx_l. bounds: [0.01, 1]
+[2023-08-04 12:15:25.493] [cout] [info]   /forceset/perlong_r. bounds: [0.01, 1]
+[2023-08-04 12:15:25.493] [cout] [info]   /forceset/psoas_r. bounds: [0.01, 1]
+[2023-08-04 12:15:25.493] [cout] [info]   /forceset/sart_r. bounds: [0.01, 1]
+[2023-08-04 12:15:25.493] [cout] [info]   /forceset/edl_l. bounds: [0.01, 1]
+[2023-08-04 12:15:25.493] [cout] [info]   /forceset/semiten_r. bounds: [0.01, 1]
+[2023-08-04 12:15:25.493] [cout] [info]   /forceset/tfl_r. bounds: [0.01, 1]
+[2023-08-04 12:15:25.493] [cout] [info]   /forceset/tibpost_r. bounds: [0.01, 1]
+[2023-08-04 12:15:25.493] [cout] [info]   /forceset/addmagIsch_l. bounds: [0.01, 1]
+[2023-08-04 12:15:25.493] [cout] [info]   /forceset/addlong_l. bounds: [0.01, 1]
+[2023-08-04 12:15:25.493] [cout] [info]   /forceset/vasint_r. bounds: [0.01, 1]
+[2023-08-04 12:15:25.493] [cout] [info]   /forceset/addbrev_l. bounds: [0.01, 1]
+[2023-08-04 12:15:25.493] [cout] [info]   /forceset/bfsh_l. bounds: [0.01, 1]
+[2023-08-04 12:15:25.493] [cout] [info]   /forceset/semimem_l. bounds: [0.01, 1]
+[2023-08-04 12:15:25.493] [cout] [info]   /forceset/ehl_l. bounds: [0.01, 1]
+[2023-08-04 12:15:25.493] [cout] [info]   /forceset/fhl_l. bounds: [0.01, 1]
+[2023-08-04 12:15:25.493] [cout] [info]   /forceset/gasmed_l. bounds: [0.01, 1]
+[2023-08-04 12:15:25.493] [cout] [info]   /forceset/glmax1_l. bounds: [0.01, 1]
+[2023-08-04 12:15:25.493] [cout] [info]   /forceset/vaslat_l. bounds: [0.01, 1]
+[2023-08-04 12:15:25.493] [cout] [info]   /forceset/glmax2_l. bounds: [0.01, 1]
+[2023-08-04 12:15:25.493] [cout] [info]   /forceset/glmax3_l. bounds: [0.01, 1]
+[2023-08-04 12:15:25.493] [cout] [info]   /forceset/glmed2_l. bounds: [0.01, 1]
+[2023-08-04 12:15:25.493] [cout] [info]   /forceset/tibant_l. bounds: [0.01, 1]
+[2023-08-04 12:15:25.493] [cout] [info]   /forceset/glmed3_l. bounds: [0.01, 1]
+[2023-08-04 12:15:25.493] [cout] [info]   /forceset/glmin1_l. bounds: [0.01, 1]
+[2023-08-04 12:15:25.493] [cout] [info]   /forceset/glmin2_l. bounds: [0.01, 1]
+[2023-08-04 12:15:25.493] [cout] [info]   /forceset/glmin3_l. bounds: [0.01, 1]
+[2023-08-04 12:15:25.493] [cout] [info]   /forceset/grac_l. bounds: [0.01, 1]
+[2023-08-04 12:15:25.493] [cout] [info]   /forceset/iliacus_l. bounds: [0.01, 1]
+[2023-08-04 12:15:25.493] [cout] [info]   /forceset/perbrev_l. bounds: [0.01, 1]
+[2023-08-04 12:15:25.493] [cout] [info]   /forceset/perlong_l. bounds: [0.01, 1]
+[2023-08-04 12:15:25.493] [cout] [info]   /forceset/piri_l. bounds: [0.01, 1]
+[2023-08-04 12:15:25.493] [cout] [info]   /forceset/psoas_l. bounds: [0.01, 1]
+[2023-08-04 12:15:25.493] [cout] [info]   /forceset/recfem_l. bounds: [0.01, 1]
+[2023-08-04 12:15:25.493] [cout] [info]   /forceset/sart_l. bounds: [0.01, 1]
+[2023-08-04 12:15:25.493] [cout] [info]   /forceset/semiten_l. bounds: [0.01, 1]
+[2023-08-04 12:15:25.493] [cout] [info]   /forceset/soleus_l. bounds: [0.01, 1]
+[2023-08-04 12:15:25.493] [cout] [info]   /forceset/tfl_l. bounds: [0.01, 1]
+[2023-08-04 12:15:25.493] [cout] [info]   /forceset/tibpost_l. bounds: [0.01, 1]
+[2023-08-04 12:15:25.493] [cout] [info]   /forceset/vasint_l. bounds: [0.01, 1]
+[2023-08-04 12:15:25.493] [cout] [info]   /forceset/vasmed_l. bounds: [0.01, 1]
+[2023-08-04 12:15:25.493] [cout] [info]   /forceset/reserve_jointset_ground_pelvis_pelvis_tilt. bounds: [-inf, inf]
+[2023-08-04 12:15:25.493] [cout] [info]   /forceset/reserve_jointset_ground_pelvis_pelvis_list. bounds: [-inf, inf]
+[2023-08-04 12:15:25.493] [cout] [info]   /forceset/reserve_jointset_ground_pelvis_pelvis_rotation. bounds: [-inf, inf]
+[2023-08-04 12:15:25.493] [cout] [info]   /forceset/reserve_jointset_ground_pelvis_pelvis_tx. bounds: [-inf, inf]
+[2023-08-04 12:15:25.493] [cout] [info]   /forceset/reserve_jointset_hip_r_hip_flexion_r. bounds: [-inf, inf]
+[2023-08-04 12:15:25.493] [cout] [info]   /forceset/reserve_jointset_ground_pelvis_pelvis_ty. bounds: [-inf, inf]
+[2023-08-04 12:15:25.493] [cout] [info]   /forceset/reserve_jointset_ground_pelvis_pelvis_tz. bounds: [-inf, inf]
+[2023-08-04 12:15:25.494] [cout] [info]   /forceset/reserve_jointset_hip_r_hip_adduction_r. bounds: [-inf, inf]
+[2023-08-04 12:15:25.494] [cout] [info]   /forceset/reserve_jointset_hip_r_hip_rotation_r. bounds: [-inf, inf]
+[2023-08-04 12:15:25.494] [cout] [info]   /forceset/reserve_jointset_walker_knee_r_knee_angle_r. bounds: [-inf, inf]
+[2023-08-04 12:15:25.494] [cout] [info]   /forceset/reserve_jointset_ankle_r_ankle_angle_r. bounds: [-inf, inf]
+[2023-08-04 12:15:25.494] [cout] [info]   /forceset/reserve_jointset_subtalar_r_subtalar_angle_r. bounds: [-inf, inf]
+[2023-08-04 12:15:25.494] [cout] [info]   /forceset/reserve_jointset_mtp_r_mtp_angle_r. bounds: [-inf, inf]
+[2023-08-04 12:15:25.494] [cout] [info]   /forceset/reserve_jointset_hip_l_hip_flexion_l. bounds: [-inf, inf]
+[2023-08-04 12:15:25.494] [cout] [info]   /forceset/reserve_jointset_hip_l_hip_adduction_l. bounds: [-inf, inf]
+[2023-08-04 12:15:25.494] [cout] [info]   /forceset/reserve_jointset_walker_knee_l_knee_angle_l. bounds: [-inf, inf]
+[2023-08-04 12:15:25.494] [cout] [info]   /forceset/reserve_jointset_hip_l_hip_rotation_l. bounds: [-inf, inf]
+[2023-08-04 12:15:25.494] [cout] [info]   /forceset/reserve_jointset_ankle_l_ankle_angle_l. bounds: [-inf, inf]
+[2023-08-04 12:15:25.494] [cout] [info]   /forceset/reserve_jointset_subtalar_l_subtalar_angle_l. bounds: [-inf, inf]
+[2023-08-04 12:15:25.494] [cout] [info] Parameters: none
+[2023-08-04 12:15:25.551] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-04 12:15:25.551] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-04 12:15:25.618] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-04 12:15:25.618] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-04 12:15:25.733] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-04 12:15:25.733] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-04 12:15:25.793] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-04 12:15:25.793] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-04 12:15:25.870] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-04 12:15:25.870] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-04 12:15:25.928] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-04 12:15:25.928] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-04 12:15:26.010] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-04 12:15:26.010] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-04 12:15:26.072] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-04 12:15:26.072] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-04 12:15:26.158] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-04 12:15:26.158] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-04 12:15:26.220] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-04 12:15:26.220] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-04 12:15:26.305] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-04 12:15:26.305] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-04 12:15:26.365] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-04 12:15:26.365] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-04 12:15:26.444] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-04 12:15:26.444] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-04 12:15:26.501] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-04 12:15:26.501] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-04 12:15:26.582] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-04 12:15:26.582] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-04 12:15:26.645] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-04 12:15:26.645] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-04 12:15:26.736] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-04 12:15:26.736] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-04 12:15:26.803] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-04 12:15:26.803] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-04 12:15:26.886] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-04 12:15:26.886] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-04 12:15:26.944] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-04 12:15:26.944] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-04 12:15:27.036] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-04 12:15:27.036] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-04 12:15:27.102] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-04 12:15:27.102] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-04 12:15:27.184] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-04 12:15:27.184] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-04 12:15:27.244] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-04 12:15:27.244] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-04 12:15:27.284] [info] Number of threads: 12
+[2023-08-04 12:30:51.905] [info] Set log level to Info.
+[2023-08-04 12:30:51.919] [info] ------------------------------------------------------------------------
+[2023-08-04 12:30:51.919] [info] Elapsed real time: 926 second(s) (15 minute(s), 26 second(s)).
+[2023-08-04 12:30:51.919] [info] 8/4/2023 12:30:51 PM
+[2023-08-04 12:30:51.919] [info] MocoCasADiSolver succeeded!
+[2023-08-04 12:30:51.919] [info] ========================================================================
+[2023-08-04 13:15:26.657] [info] Loaded model optimized_scale_and_markers from file ../Models/final.osim
+[2023-08-04 13:15:26.658] [warning] Couldn't find file 'r_pelvis_raja.vtp'.
+[2023-08-04 13:15:26.658] [warning] Couldn't find file 'l_pelvis_raja.vtp'.
+[2023-08-04 13:15:26.659] [warning] Couldn't find file 'l_pat.vtp'.
+[2023-08-04 13:15:26.942] [info] ExternalLoads 'rotated_Sprint_08550001' was renamed and is being reset to 'externalloads'.
+[2023-08-04 13:15:26.970] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-04 13:15:26.970] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-04 13:15:26.980] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-04 13:15:26.980] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-04 13:15:39.101] [info] Loaded model optimized_scale_and_markers from file ../Models/final.osim
+[2023-08-04 13:15:39.101] [warning] Couldn't find file 'r_pelvis_raja.vtp'.
+[2023-08-04 13:15:39.101] [warning] Couldn't find file 'l_pelvis_raja.vtp'.
+[2023-08-04 13:15:39.103] [warning] Couldn't find file 'l_pat.vtp'.
+[2023-08-04 13:15:39.381] [info] ExternalLoads 'rotated_Sprint_08550001' was renamed and is being reset to 'externalloads'.
+[2023-08-04 13:15:39.397] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-04 13:15:39.397] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-04 13:15:39.405] [info] Adding reserve actuators with an optimal force of 50.0...
+[2023-08-04 13:15:39.438] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-04 13:15:39.439] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-04 13:15:39.515] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-04 13:15:39.515] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-04 13:15:39.524] [info] Added 20 reserve actuator(s), for each of the following coordinates:
+[2023-08-04 13:15:39.524] [info]   /jointset/ground_pelvis/pelvis_tilt
+[2023-08-04 13:15:39.524] [info]   /jointset/ground_pelvis/pelvis_list
+[2023-08-04 13:15:39.524] [info]   /jointset/ground_pelvis/pelvis_rotation
+[2023-08-04 13:15:39.524] [info]   /jointset/ground_pelvis/pelvis_tx
+[2023-08-04 13:15:39.524] [info]   /jointset/ground_pelvis/pelvis_ty
+[2023-08-04 13:15:39.524] [info]   /jointset/ground_pelvis/pelvis_tz
+[2023-08-04 13:15:39.524] [info]   /jointset/hip_r/hip_flexion_r
+[2023-08-04 13:15:39.524] [info]   /jointset/hip_r/hip_adduction_r
+[2023-08-04 13:15:39.524] [info]   /jointset/hip_r/hip_rotation_r
+[2023-08-04 13:15:39.524] [info]   /jointset/walker_knee_r/knee_angle_r
+[2023-08-04 13:15:39.524] [info]   /jointset/ankle_r/ankle_angle_r
+[2023-08-04 13:15:39.524] [info]   /jointset/subtalar_r/subtalar_angle_r
+[2023-08-04 13:15:39.524] [info]   /jointset/mtp_r/mtp_angle_r
+[2023-08-04 13:15:39.524] [info]   /jointset/hip_l/hip_flexion_l
+[2023-08-04 13:15:39.524] [info]   /jointset/hip_l/hip_adduction_l
+[2023-08-04 13:15:39.524] [info]   /jointset/hip_l/hip_rotation_l
+[2023-08-04 13:15:39.524] [info]   /jointset/walker_knee_l/knee_angle_l
+[2023-08-04 13:15:39.524] [info]   /jointset/ankle_l/ankle_angle_l
+[2023-08-04 13:15:39.524] [info]   /jointset/subtalar_l/subtalar_angle_l
+[2023-08-04 13:15:39.524] [info]   /jointset/mtp_l/mtp_angle_l
+[2023-08-04 13:15:39.546] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-04 13:15:39.546] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-04 13:15:39.583] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-04 13:15:39.583] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-04 13:15:43.769] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-04 13:15:43.769] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-04 13:15:43.862] [error] Model unable to assemble: SimTK Exception thrown at Optimizer.h:133:
+  Value out of range in  OptimizerSystem  Constructor: expected 1 <= number of parameters <= 2.14748e+09 but number of parameters=0..Model relaxing constraints and trying again.
+[2023-08-04 13:15:43.864] [error] Model unable to assemble with relaxed constraints: SimTK Exception thrown at Optimizer.h:133:
+  Value out of range in  OptimizerSystem  Constructor: expected 1 <= number of parameters <= 2.14748e+09 but number of parameters=0.
+[2023-08-04 13:15:43.923] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-04 13:15:43.923] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-04 13:15:44.035] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-04 13:15:44.035] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-04 13:15:44.091] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-04 13:15:44.091] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-04 13:15:44.167] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-04 13:15:44.167] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-04 13:15:44.222] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-04 13:15:44.222] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-04 13:15:44.491] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-04 13:15:44.491] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-04 13:15:44.549] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-04 13:15:44.549] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-04 13:15:44.628] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-04 13:15:44.628] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-04 13:15:44.686] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-04 13:15:44.686] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-04 13:15:44.729] [info] ========================================================================
+[2023-08-04 13:15:44.729] [info] MocoCasADiSolver starting.
+[2023-08-04 13:15:44.729] [info] 8/4/2023 1:15:44 PM
+[2023-08-04 13:15:44.729] [info] ------------------------------------------------------------------------
+[2023-08-04 13:15:44.729] [cout] [info] Costs: (total: 1)
+[2023-08-04 13:15:44.729] [cout] [info]   excitation_effort. MocoControlGoal, enabled: true, mode: cost, weight: 1.0
+[2023-08-04 13:15:44.729] [cout] [info]         control: /forceset/lumbar_extension, weight: 1.0
+[2023-08-04 13:15:44.729] [cout] [info]         control: /forceset/lumbar_bending, weight: 1.0
+[2023-08-04 13:15:44.729] [cout] [info]         control: /forceset/lumbar_rotation, weight: 1.0
+[2023-08-04 13:15:44.729] [cout] [info]         control: /forceset/shoulder_flex_r, weight: 1.0
+[2023-08-04 13:15:44.729] [cout] [info]         control: /forceset/shoulder_add_r, weight: 1.0
+[2023-08-04 13:15:44.729] [cout] [info]         control: /forceset/shoulder_rot_r, weight: 1.0
+[2023-08-04 13:15:44.729] [cout] [info]         control: /forceset/elbow_flex_r, weight: 1.0
+[2023-08-04 13:15:44.729] [cout] [info]         control: /forceset/shoulder_flex_l, weight: 1.0
+[2023-08-04 13:15:44.729] [cout] [info]         control: /forceset/shoulder_add_l, weight: 1.0
+[2023-08-04 13:15:44.729] [cout] [info]         control: /forceset/shoulder_rot_l, weight: 1.0
+[2023-08-04 13:15:44.729] [cout] [info]         control: /forceset/elbow_flex_l, weight: 1.0
+[2023-08-04 13:15:44.729] [cout] [info]         control: /forceset/addbrev_r, weight: 1.0
+[2023-08-04 13:15:44.729] [cout] [info]         control: /forceset/addlong_r, weight: 1.0
+[2023-08-04 13:15:44.729] [cout] [info]         control: /forceset/addmagDist_r, weight: 1.0
+[2023-08-04 13:15:44.729] [cout] [info]         control: /forceset/addmagIsch_r, weight: 1.0
+[2023-08-04 13:15:44.729] [cout] [info]         control: /forceset/addmagMid_r, weight: 1.0
+[2023-08-04 13:15:44.729] [cout] [info]         control: /forceset/addmagProx_r, weight: 1.0
+[2023-08-04 13:15:44.729] [cout] [info]         control: /forceset/bflh_r, weight: 1.0
+[2023-08-04 13:15:44.729] [cout] [info]         control: /forceset/bfsh_r, weight: 1.0
+[2023-08-04 13:15:44.729] [cout] [info]         control: /forceset/edl_r, weight: 1.0
+[2023-08-04 13:15:44.729] [cout] [info]         control: /forceset/ehl_r, weight: 1.0
+[2023-08-04 13:15:44.729] [cout] [info]         control: /forceset/fdl_r, weight: 1.0
+[2023-08-04 13:15:44.729] [cout] [info]         control: /forceset/fhl_r, weight: 1.0
+[2023-08-04 13:15:44.729] [cout] [info]         control: /forceset/gaslat_r, weight: 1.0
+[2023-08-04 13:15:44.729] [cout] [info]         control: /forceset/gasmed_r, weight: 1.0
+[2023-08-04 13:15:44.729] [cout] [info]         control: /forceset/glmax1_r, weight: 1.0
+[2023-08-04 13:15:44.729] [cout] [info]         control: /forceset/glmax2_r, weight: 1.0
+[2023-08-04 13:15:44.729] [cout] [info]         control: /forceset/glmax3_r, weight: 1.0
+[2023-08-04 13:15:44.729] [cout] [info]         control: /forceset/glmed1_r, weight: 1.0
+[2023-08-04 13:15:44.729] [cout] [info]         control: /forceset/glmed2_r, weight: 1.0
+[2023-08-04 13:15:44.729] [cout] [info]         control: /forceset/glmed3_r, weight: 1.0
+[2023-08-04 13:15:44.729] [cout] [info]         control: /forceset/glmin1_r, weight: 1.0
+[2023-08-04 13:15:44.730] [cout] [info]         control: /forceset/glmin2_r, weight: 1.0
+[2023-08-04 13:15:44.730] [cout] [info]         control: /forceset/glmin3_r, weight: 1.0
+[2023-08-04 13:15:44.730] [cout] [info]         control: /forceset/grac_r, weight: 1.0
+[2023-08-04 13:15:44.730] [cout] [info]         control: /forceset/iliacus_r, weight: 1.0
+[2023-08-04 13:15:44.730] [cout] [info]         control: /forceset/perbrev_r, weight: 1.0
+[2023-08-04 13:15:44.730] [cout] [info]         control: /forceset/perlong_r, weight: 1.0
+[2023-08-04 13:15:44.730] [cout] [info]         control: /forceset/piri_r, weight: 1.0
+[2023-08-04 13:15:44.730] [cout] [info]         control: /forceset/psoas_r, weight: 1.0
+[2023-08-04 13:15:44.730] [cout] [info]         control: /forceset/recfem_r, weight: 1.0
+[2023-08-04 13:15:44.730] [cout] [info]         control: /forceset/sart_r, weight: 1.0
+[2023-08-04 13:15:44.730] [cout] [info]         control: /forceset/semimem_r, weight: 1.0
+[2023-08-04 13:15:44.730] [cout] [info]         control: /forceset/semiten_r, weight: 1.0
+[2023-08-04 13:15:44.730] [cout] [info]         control: /forceset/soleus_r, weight: 1.0
+[2023-08-04 13:15:44.730] [cout] [info]         control: /forceset/tfl_r, weight: 1.0
+[2023-08-04 13:15:44.730] [cout] [info]         control: /forceset/tibant_r, weight: 1.0
+[2023-08-04 13:15:44.730] [cout] [info]         control: /forceset/tibpost_r, weight: 1.0
+[2023-08-04 13:15:44.730] [cout] [info]         control: /forceset/vasint_r, weight: 1.0
+[2023-08-04 13:15:44.730] [cout] [info]         control: /forceset/vaslat_r, weight: 1.0
+[2023-08-04 13:15:44.730] [cout] [info]         control: /forceset/vasmed_r, weight: 1.0
+[2023-08-04 13:15:44.730] [cout] [info]         control: /forceset/addbrev_l, weight: 1.0
+[2023-08-04 13:15:44.730] [cout] [info]         control: /forceset/addlong_l, weight: 1.0
+[2023-08-04 13:15:44.730] [cout] [info]         control: /forceset/addmagDist_l, weight: 1.0
+[2023-08-04 13:15:44.730] [cout] [info]         control: /forceset/addmagIsch_l, weight: 1.0
+[2023-08-04 13:15:44.730] [cout] [info]         control: /forceset/addmagMid_l, weight: 1.0
+[2023-08-04 13:15:44.730] [cout] [info]         control: /forceset/addmagProx_l, weight: 1.0
+[2023-08-04 13:15:44.730] [cout] [info]         control: /forceset/bflh_l, weight: 1.0
+[2023-08-04 13:15:44.730] [cout] [info]         control: /forceset/bfsh_l, weight: 1.0
+[2023-08-04 13:15:44.730] [cout] [info]         control: /forceset/edl_l, weight: 1.0
+[2023-08-04 13:15:44.730] [cout] [info]         control: /forceset/ehl_l, weight: 1.0
+[2023-08-04 13:15:44.730] [cout] [info]         control: /forceset/fdl_l, weight: 1.0
+[2023-08-04 13:15:44.730] [cout] [info]         control: /forceset/fhl_l, weight: 1.0
+[2023-08-04 13:15:44.730] [cout] [info]         control: /forceset/gaslat_l, weight: 1.0
+[2023-08-04 13:15:44.730] [cout] [info]         control: /forceset/gasmed_l, weight: 1.0
+[2023-08-04 13:15:44.730] [cout] [info]         control: /forceset/glmax1_l, weight: 1.0
+[2023-08-04 13:15:44.730] [cout] [info]         control: /forceset/glmax2_l, weight: 1.0
+[2023-08-04 13:15:44.730] [cout] [info]         control: /forceset/glmax3_l, weight: 1.0
+[2023-08-04 13:15:44.730] [cout] [info]         control: /forceset/glmed1_l, weight: 1.0
+[2023-08-04 13:15:44.730] [cout] [info]         control: /forceset/glmed2_l, weight: 1.0
+[2023-08-04 13:15:44.730] [cout] [info]         control: /forceset/glmed3_l, weight: 1.0
+[2023-08-04 13:15:44.730] [cout] [info]         control: /forceset/glmin1_l, weight: 1.0
+[2023-08-04 13:15:44.730] [cout] [info]         control: /forceset/glmin2_l, weight: 1.0
+[2023-08-04 13:15:44.730] [cout] [info]         control: /forceset/glmin3_l, weight: 1.0
+[2023-08-04 13:15:44.730] [cout] [info]         control: /forceset/grac_l, weight: 1.0
+[2023-08-04 13:15:44.730] [cout] [info]         control: /forceset/iliacus_l, weight: 1.0
+[2023-08-04 13:15:44.730] [cout] [info]         control: /forceset/perbrev_l, weight: 1.0
+[2023-08-04 13:15:44.730] [cout] [info]         control: /forceset/perlong_l, weight: 1.0
+[2023-08-04 13:15:44.730] [cout] [info]         control: /forceset/piri_l, weight: 1.0
+[2023-08-04 13:15:44.730] [cout] [info]         control: /forceset/psoas_l, weight: 1.0
+[2023-08-04 13:15:44.730] [cout] [info]         control: /forceset/recfem_l, weight: 1.0
+[2023-08-04 13:15:44.730] [cout] [info]         control: /forceset/sart_l, weight: 1.0
+[2023-08-04 13:15:44.730] [cout] [info]         control: /forceset/semimem_l, weight: 1.0
+[2023-08-04 13:15:44.730] [cout] [info]         control: /forceset/semiten_l, weight: 1.0
+[2023-08-04 13:15:44.730] [cout] [info]         control: /forceset/soleus_l, weight: 1.0
+[2023-08-04 13:15:44.730] [cout] [info]         control: /forceset/tfl_l, weight: 1.0
+[2023-08-04 13:15:44.730] [cout] [info]         control: /forceset/tibant_l, weight: 1.0
+[2023-08-04 13:15:44.730] [cout] [info]         control: /forceset/tibpost_l, weight: 1.0
+[2023-08-04 13:15:44.730] [cout] [info]         control: /forceset/vasint_l, weight: 1.0
+[2023-08-04 13:15:44.730] [cout] [info]         control: /forceset/vaslat_l, weight: 1.0
+[2023-08-04 13:15:44.730] [cout] [info]         control: /forceset/vasmed_l, weight: 1.0
+[2023-08-04 13:15:44.730] [cout] [info]         control: /forceset/reserve_jointset_ground_pelvis_pelvis_tilt, weight: 1.0
+[2023-08-04 13:15:44.730] [cout] [info]         control: /forceset/reserve_jointset_ground_pelvis_pelvis_list, weight: 1.0
+[2023-08-04 13:15:44.730] [cout] [info]         control: /forceset/reserve_jointset_ground_pelvis_pelvis_rotation, weight: 1.0
+[2023-08-04 13:15:44.730] [cout] [info]         control: /forceset/reserve_jointset_ground_pelvis_pelvis_tx, weight: 1.0
+[2023-08-04 13:15:44.730] [cout] [info]         control: /forceset/reserve_jointset_ground_pelvis_pelvis_ty, weight: 1.0
+[2023-08-04 13:15:44.730] [cout] [info]         control: /forceset/reserve_jointset_ground_pelvis_pelvis_tz, weight: 1.0
+[2023-08-04 13:15:44.730] [cout] [info]         control: /forceset/reserve_jointset_hip_r_hip_flexion_r, weight: 1.0
+[2023-08-04 13:15:44.730] [cout] [info]         control: /forceset/reserve_jointset_hip_r_hip_adduction_r, weight: 1.0
+[2023-08-04 13:15:44.730] [cout] [info]         control: /forceset/reserve_jointset_hip_r_hip_rotation_r, weight: 1.0
+[2023-08-04 13:15:44.730] [cout] [info]         control: /forceset/reserve_jointset_walker_knee_r_knee_angle_r, weight: 1.0
+[2023-08-04 13:15:44.730] [cout] [info]         control: /forceset/reserve_jointset_ankle_r_ankle_angle_r, weight: 1.0
+[2023-08-04 13:15:44.730] [cout] [info]         control: /forceset/reserve_jointset_subtalar_r_subtalar_angle_r, weight: 1.0
+[2023-08-04 13:15:44.730] [cout] [info]         control: /forceset/reserve_jointset_mtp_r_mtp_angle_r, weight: 1.0
+[2023-08-04 13:15:44.731] [cout] [info]         control: /forceset/reserve_jointset_hip_l_hip_flexion_l, weight: 1.0
+[2023-08-04 13:15:44.731] [cout] [info]         control: /forceset/reserve_jointset_hip_l_hip_adduction_l, weight: 1.0
+[2023-08-04 13:15:44.731] [cout] [info]         control: /forceset/reserve_jointset_hip_l_hip_rotation_l, weight: 1.0
+[2023-08-04 13:15:44.731] [cout] [info]         control: /forceset/reserve_jointset_walker_knee_l_knee_angle_l, weight: 1.0
+[2023-08-04 13:15:44.731] [cout] [info]         control: /forceset/reserve_jointset_ankle_l_ankle_angle_l, weight: 1.0
+[2023-08-04 13:15:44.731] [cout] [info]         control: /forceset/reserve_jointset_subtalar_l_subtalar_angle_l, weight: 1.0
+[2023-08-04 13:15:44.731] [cout] [info]         control: /forceset/reserve_jointset_mtp_l_mtp_angle_l, weight: 1.0
+[2023-08-04 13:15:44.731] [cout] [info] Endpoint constraints: (total: 1)
+[2023-08-04 13:15:44.731] [cout] [info]   initial_activation. MocoInitialActivationGoal, enabled: true, mode: endpoint_constraint
+[2023-08-04 13:15:44.731] [cout] [info] Kinematic constraints: (total: 2)
+[2023-08-04 13:15:44.731] [cout] [info]   kinematic_constraint_cid33. MocoConstraintInfo. number of scalar equations: 3. bounds: 0, 0, 0
+[2023-08-04 13:15:44.731] [cout] [info]   kinematic_constraint_cid34. MocoConstraintInfo. number of scalar equations: 3. bounds: 0, 0, 0
+[2023-08-04 13:15:44.731] [cout] [info] Path constraints: none
+[2023-08-04 13:15:44.731] [cout] [info] States: (total: 80)
+[2023-08-04 13:15:44.731] [cout] [info]   /forceset/glmin1_r/activation. bounds: [0.01, 1]
+[2023-08-04 13:15:44.731] [cout] [info]   /forceset/bflh_r/activation. bounds: [0.01, 1]
+[2023-08-04 13:15:44.731] [cout] [info]   /forceset/addbrev_r/activation. bounds: [0.01, 1]
+[2023-08-04 13:15:44.731] [cout] [info]   /forceset/addlong_r/activation. bounds: [0.01, 1]
+[2023-08-04 13:15:44.731] [cout] [info]   /forceset/addmagIsch_r/activation. bounds: [0.01, 1]
+[2023-08-04 13:15:44.731] [cout] [info]   /forceset/addmagMid_l/activation. bounds: [0.01, 1]
+[2023-08-04 13:15:44.731] [cout] [info]   /forceset/piri_r/activation. bounds: [0.01, 1]
+[2023-08-04 13:15:44.731] [cout] [info]   /forceset/addmagDist_r/activation. bounds: [0.01, 1]
+[2023-08-04 13:15:44.731] [cout] [info]   /forceset/addmagDist_l/activation. bounds: [0.01, 1]
+[2023-08-04 13:15:44.731] [cout] [info]   /forceset/vasmed_r/activation. bounds: [0.01, 1]
+[2023-08-04 13:15:44.731] [cout] [info]   /forceset/addmagMid_r/activation. bounds: [0.01, 1]
+[2023-08-04 13:15:44.731] [cout] [info]   /forceset/glmax2_r/activation. bounds: [0.01, 1]
+[2023-08-04 13:15:44.731] [cout] [info]   /forceset/vaslat_r/activation. bounds: [0.01, 1]
+[2023-08-04 13:15:44.731] [cout] [info]   /forceset/bfsh_r/activation. bounds: [0.01, 1]
+[2023-08-04 13:15:44.731] [cout] [info]   /forceset/addmagProx_r/activation. bounds: [0.01, 1]
+[2023-08-04 13:15:44.731] [cout] [info]   /forceset/edl_r/activation. bounds: [0.01, 1]
+[2023-08-04 13:15:44.731] [cout] [info]   /forceset/ehl_r/activation. bounds: [0.01, 1]
+[2023-08-04 13:15:44.731] [cout] [info]   /forceset/semimem_r/activation. bounds: [0.01, 1]
+[2023-08-04 13:15:44.731] [cout] [info]   /forceset/fdl_r/activation. bounds: [0.01, 1]
+[2023-08-04 13:15:44.731] [cout] [info]   /forceset/fhl_r/activation. bounds: [0.01, 1]
+[2023-08-04 13:15:44.731] [cout] [info]   /forceset/tibant_l/activation. bounds: [0.01, 1]
+[2023-08-04 13:15:44.731] [cout] [info]   /forceset/glmed3_l/activation. bounds: [0.01, 1]
+[2023-08-04 13:15:44.731] [cout] [info]   /forceset/gaslat_r/activation. bounds: [0.01, 1]
+[2023-08-04 13:15:44.731] [cout] [info]   /forceset/glmed1_r/activation. bounds: [0.01, 1]
+[2023-08-04 13:15:44.731] [cout] [info]   /forceset/soleus_r/activation. bounds: [0.01, 1]
+[2023-08-04 13:15:44.731] [cout] [info]   /forceset/gasmed_r/activation. bounds: [0.01, 1]
+[2023-08-04 13:15:44.731] [cout] [info]   /forceset/glmax3_l/activation. bounds: [0.01, 1]
+[2023-08-04 13:15:44.731] [cout] [info]   /forceset/recfem_r/activation. bounds: [0.01, 1]
+[2023-08-04 13:15:44.731] [cout] [info]   /forceset/glmax1_r/activation. bounds: [0.01, 1]
+[2023-08-04 13:15:44.731] [cout] [info]   /forceset/glmax1_l/activation. bounds: [0.01, 1]
+[2023-08-04 13:15:44.731] [cout] [info]   /forceset/iliacus_r/activation. bounds: [0.01, 1]
+[2023-08-04 13:15:44.731] [cout] [info]   /forceset/glmax3_r/activation. bounds: [0.01, 1]
+[2023-08-04 13:15:44.731] [cout] [info]   /forceset/glmed2_r/activation. bounds: [0.01, 1]
+[2023-08-04 13:15:44.731] [cout] [info]   /forceset/gaslat_l/activation. bounds: [0.01, 1]
+[2023-08-04 13:15:44.731] [cout] [info]   /forceset/glmed1_l/activation. bounds: [0.01, 1]
+[2023-08-04 13:15:44.731] [cout] [info]   /forceset/glmed3_r/activation. bounds: [0.01, 1]
+[2023-08-04 13:15:44.731] [cout] [info]   /forceset/tibant_r/activation. bounds: [0.01, 1]
+[2023-08-04 13:15:44.731] [cout] [info]   /forceset/glmin2_r/activation. bounds: [0.01, 1]
+[2023-08-04 13:15:44.731] [cout] [info]   /forceset/glmin3_r/activation. bounds: [0.01, 1]
+[2023-08-04 13:15:44.731] [cout] [info]   /forceset/grac_r/activation. bounds: [0.01, 1]
+[2023-08-04 13:15:44.731] [cout] [info]   /forceset/perbrev_r/activation. bounds: [0.01, 1]
+[2023-08-04 13:15:44.731] [cout] [info]   /forceset/addmagProx_l/activation. bounds: [0.01, 1]
+[2023-08-04 13:15:44.731] [cout] [info]   /forceset/perlong_r/activation. bounds: [0.01, 1]
+[2023-08-04 13:15:44.732] [cout] [info]   /forceset/psoas_r/activation. bounds: [0.01, 1]
+[2023-08-04 13:15:44.732] [cout] [info]   /forceset/sart_r/activation. bounds: [0.01, 1]
+[2023-08-04 13:15:44.732] [cout] [info]   /forceset/edl_l/activation. bounds: [0.01, 1]
+[2023-08-04 13:15:44.732] [cout] [info]   /forceset/semiten_r/activation. bounds: [0.01, 1]
+[2023-08-04 13:15:44.732] [cout] [info]   /forceset/tfl_r/activation. bounds: [0.01, 1]
+[2023-08-04 13:15:44.732] [cout] [info]   /forceset/tibpost_r/activation. bounds: [0.01, 1]
+[2023-08-04 13:15:44.732] [cout] [info]   /forceset/addmagIsch_l/activation. bounds: [0.01, 1]
+[2023-08-04 13:15:44.732] [cout] [info]   /forceset/addlong_l/activation. bounds: [0.01, 1]
+[2023-08-04 13:15:44.732] [cout] [info]   /forceset/vasint_r/activation. bounds: [0.01, 1]
+[2023-08-04 13:15:44.732] [cout] [info]   /forceset/addbrev_l/activation. bounds: [0.01, 1]
+[2023-08-04 13:15:44.732] [cout] [info]   /forceset/glmin1_l/activation. bounds: [0.01, 1]
+[2023-08-04 13:15:44.732] [cout] [info]   /forceset/bflh_l/activation. bounds: [0.01, 1]
+[2023-08-04 13:15:44.732] [cout] [info]   /forceset/vaslat_l/activation. bounds: [0.01, 1]
+[2023-08-04 13:15:44.732] [cout] [info]   /forceset/glmax2_l/activation. bounds: [0.01, 1]
+[2023-08-04 13:15:44.732] [cout] [info]   /forceset/bfsh_l/activation. bounds: [0.01, 1]
+[2023-08-04 13:15:44.732] [cout] [info]   /forceset/semimem_l/activation. bounds: [0.01, 1]
+[2023-08-04 13:15:44.732] [cout] [info]   /forceset/ehl_l/activation. bounds: [0.01, 1]
+[2023-08-04 13:15:44.732] [cout] [info]   /forceset/fdl_l/activation. bounds: [0.01, 1]
+[2023-08-04 13:15:44.732] [cout] [info]   /forceset/fhl_l/activation. bounds: [0.01, 1]
+[2023-08-04 13:15:44.732] [cout] [info]   /forceset/gasmed_l/activation. bounds: [0.01, 1]
+[2023-08-04 13:15:44.732] [cout] [info]   /forceset/glmed2_l/activation. bounds: [0.01, 1]
+[2023-08-04 13:15:44.732] [cout] [info]   /forceset/glmin2_l/activation. bounds: [0.01, 1]
+[2023-08-04 13:15:44.732] [cout] [info]   /forceset/glmin3_l/activation. bounds: [0.01, 1]
+[2023-08-04 13:15:44.732] [cout] [info]   /forceset/grac_l/activation. bounds: [0.01, 1]
+[2023-08-04 13:15:44.732] [cout] [info]   /forceset/iliacus_l/activation. bounds: [0.01, 1]
+[2023-08-04 13:15:44.732] [cout] [info]   /forceset/perbrev_l/activation. bounds: [0.01, 1]
+[2023-08-04 13:15:44.732] [cout] [info]   /forceset/perlong_l/activation. bounds: [0.01, 1]
+[2023-08-04 13:15:44.732] [cout] [info]   /forceset/piri_l/activation. bounds: [0.01, 1]
+[2023-08-04 13:15:44.732] [cout] [info]   /forceset/psoas_l/activation. bounds: [0.01, 1]
+[2023-08-04 13:15:44.732] [cout] [info]   /forceset/recfem_l/activation. bounds: [0.01, 1]
+[2023-08-04 13:15:44.732] [cout] [info]   /forceset/sart_l/activation. bounds: [0.01, 1]
+[2023-08-04 13:15:44.732] [cout] [info]   /forceset/semiten_l/activation. bounds: [0.01, 1]
+[2023-08-04 13:15:44.732] [cout] [info]   /forceset/soleus_l/activation. bounds: [0.01, 1]
+[2023-08-04 13:15:44.732] [cout] [info]   /forceset/tfl_l/activation. bounds: [0.01, 1]
+[2023-08-04 13:15:44.732] [cout] [info]   /forceset/tibpost_l/activation. bounds: [0.01, 1]
+[2023-08-04 13:15:44.732] [cout] [info]   /forceset/vasint_l/activation. bounds: [0.01, 1]
+[2023-08-04 13:15:44.732] [cout] [info]   /forceset/vasmed_l/activation. bounds: [0.01, 1]
+[2023-08-04 13:15:44.732] [cout] [info] Controls: (total: 111)
+[2023-08-04 13:15:44.732] [cout] [info]   /forceset/shoulder_flex_l. bounds: [-inf, inf]
+[2023-08-04 13:15:44.732] [cout] [info]   /forceset/glmin1_r. bounds: [0.01, 1]
+[2023-08-04 13:15:44.732] [cout] [info]   /forceset/bflh_r. bounds: [0.01, 1]
+[2023-08-04 13:15:44.732] [cout] [info]   /forceset/lumbar_extension. bounds: [-inf, inf]
+[2023-08-04 13:15:44.732] [cout] [info]   /forceset/shoulder_add_r. bounds: [-inf, inf]
+[2023-08-04 13:15:44.732] [cout] [info]   /forceset/reserve_jointset_mtp_l_mtp_angle_l. bounds: [-inf, inf]
+[2023-08-04 13:15:44.732] [cout] [info]   /forceset/fdl_l. bounds: [0.01, 1]
+[2023-08-04 13:15:44.732] [cout] [info]   /forceset/lumbar_bending. bounds: [-inf, inf]
+[2023-08-04 13:15:44.732] [cout] [info]   /forceset/ehl_r. bounds: [0.01, 1]
+[2023-08-04 13:15:44.732] [cout] [info]   /forceset/semimem_r. bounds: [0.01, 1]
+[2023-08-04 13:15:44.732] [cout] [info]   /forceset/lumbar_rotation. bounds: [-inf, inf]
+[2023-08-04 13:15:44.732] [cout] [info]   /forceset/shoulder_flex_r. bounds: [-inf, inf]
+[2023-08-04 13:15:44.732] [cout] [info]   /forceset/shoulder_rot_r. bounds: [-inf, inf]
+[2023-08-04 13:15:44.732] [cout] [info]   /forceset/gaslat_r. bounds: [0.01, 1]
+[2023-08-04 13:15:44.732] [cout] [info]   /forceset/glmed1_r. bounds: [0.01, 1]
+[2023-08-04 13:15:44.732] [cout] [info]   /forceset/elbow_flex_r. bounds: [-inf, inf]
+[2023-08-04 13:15:44.732] [cout] [info]   /forceset/bflh_l. bounds: [0.01, 1]
+[2023-08-04 13:15:44.732] [cout] [info]   /forceset/shoulder_add_l. bounds: [-inf, inf]
+[2023-08-04 13:15:44.733] [cout] [info]   /forceset/glmed1_l. bounds: [0.01, 1]
+[2023-08-04 13:15:44.733] [cout] [info]   /forceset/shoulder_rot_l. bounds: [-inf, inf]
+[2023-08-04 13:15:44.733] [cout] [info]   /forceset/gaslat_l. bounds: [0.01, 1]
+[2023-08-04 13:15:44.733] [cout] [info]   /forceset/glmed3_r. bounds: [0.01, 1]
+[2023-08-04 13:15:44.733] [cout] [info]   /forceset/tibant_r. bounds: [0.01, 1]
+[2023-08-04 13:15:44.733] [cout] [info]   /forceset/elbow_flex_l. bounds: [-inf, inf]
+[2023-08-04 13:15:44.733] [cout] [info]   /forceset/addbrev_r. bounds: [0.01, 1]
+[2023-08-04 13:15:44.733] [cout] [info]   /forceset/addmagIsch_r. bounds: [0.01, 1]
+[2023-08-04 13:15:44.733] [cout] [info]   /forceset/addlong_r. bounds: [0.01, 1]
+[2023-08-04 13:15:44.733] [cout] [info]   /forceset/addmagMid_l. bounds: [0.01, 1]
+[2023-08-04 13:15:44.733] [cout] [info]   /forceset/piri_r. bounds: [0.01, 1]
+[2023-08-04 13:15:44.733] [cout] [info]   /forceset/addmagDist_r. bounds: [0.01, 1]
+[2023-08-04 13:15:44.733] [cout] [info]   /forceset/addmagDist_l. bounds: [0.01, 1]
+[2023-08-04 13:15:44.733] [cout] [info]   /forceset/vasmed_r. bounds: [0.01, 1]
+[2023-08-04 13:15:44.733] [cout] [info]   /forceset/addmagMid_r. bounds: [0.01, 1]
+[2023-08-04 13:15:44.733] [cout] [info]   /forceset/addmagProx_r. bounds: [0.01, 1]
+[2023-08-04 13:15:44.733] [cout] [info]   /forceset/glmax2_r. bounds: [0.01, 1]
+[2023-08-04 13:15:44.733] [cout] [info]   /forceset/vaslat_r. bounds: [0.01, 1]
+[2023-08-04 13:15:44.733] [cout] [info]   /forceset/bfsh_r. bounds: [0.01, 1]
+[2023-08-04 13:15:44.733] [cout] [info]   /forceset/edl_r. bounds: [0.01, 1]
+[2023-08-04 13:15:44.733] [cout] [info]   /forceset/fdl_r. bounds: [0.01, 1]
+[2023-08-04 13:15:44.733] [cout] [info]   /forceset/fhl_r. bounds: [0.01, 1]
+[2023-08-04 13:15:44.733] [cout] [info]   /forceset/soleus_r. bounds: [0.01, 1]
+[2023-08-04 13:15:44.733] [cout] [info]   /forceset/gasmed_r. bounds: [0.01, 1]
+[2023-08-04 13:15:44.733] [cout] [info]   /forceset/recfem_r. bounds: [0.01, 1]
+[2023-08-04 13:15:44.733] [cout] [info]   /forceset/glmax1_r. bounds: [0.01, 1]
+[2023-08-04 13:15:44.733] [cout] [info]   /forceset/iliacus_r. bounds: [0.01, 1]
+[2023-08-04 13:15:44.733] [cout] [info]   /forceset/glmax3_r. bounds: [0.01, 1]
+[2023-08-04 13:15:44.733] [cout] [info]   /forceset/glmed2_r. bounds: [0.01, 1]
+[2023-08-04 13:15:44.733] [cout] [info]   /forceset/glmin2_r. bounds: [0.01, 1]
+[2023-08-04 13:15:44.733] [cout] [info]   /forceset/glmin3_r. bounds: [0.01, 1]
+[2023-08-04 13:15:44.733] [cout] [info]   /forceset/grac_r. bounds: [0.01, 1]
+[2023-08-04 13:15:44.733] [cout] [info]   /forceset/perbrev_r. bounds: [0.01, 1]
+[2023-08-04 13:15:44.733] [cout] [info]   /forceset/addmagProx_l. bounds: [0.01, 1]
+[2023-08-04 13:15:44.733] [cout] [info]   /forceset/perlong_r. bounds: [0.01, 1]
+[2023-08-04 13:15:44.733] [cout] [info]   /forceset/psoas_r. bounds: [0.01, 1]
+[2023-08-04 13:15:44.733] [cout] [info]   /forceset/sart_r. bounds: [0.01, 1]
+[2023-08-04 13:15:44.733] [cout] [info]   /forceset/edl_l. bounds: [0.01, 1]
+[2023-08-04 13:15:44.733] [cout] [info]   /forceset/semiten_r. bounds: [0.01, 1]
+[2023-08-04 13:15:44.733] [cout] [info]   /forceset/tfl_r. bounds: [0.01, 1]
+[2023-08-04 13:15:44.733] [cout] [info]   /forceset/tibpost_r. bounds: [0.01, 1]
+[2023-08-04 13:15:44.733] [cout] [info]   /forceset/addmagIsch_l. bounds: [0.01, 1]
+[2023-08-04 13:15:44.733] [cout] [info]   /forceset/addlong_l. bounds: [0.01, 1]
+[2023-08-04 13:15:44.733] [cout] [info]   /forceset/vasint_r. bounds: [0.01, 1]
+[2023-08-04 13:15:44.733] [cout] [info]   /forceset/addbrev_l. bounds: [0.01, 1]
+[2023-08-04 13:15:44.733] [cout] [info]   /forceset/bfsh_l. bounds: [0.01, 1]
+[2023-08-04 13:15:44.733] [cout] [info]   /forceset/semimem_l. bounds: [0.01, 1]
+[2023-08-04 13:15:44.733] [cout] [info]   /forceset/ehl_l. bounds: [0.01, 1]
+[2023-08-04 13:15:44.733] [cout] [info]   /forceset/fhl_l. bounds: [0.01, 1]
+[2023-08-04 13:15:44.733] [cout] [info]   /forceset/gasmed_l. bounds: [0.01, 1]
+[2023-08-04 13:15:44.733] [cout] [info]   /forceset/glmax1_l. bounds: [0.01, 1]
+[2023-08-04 13:15:44.733] [cout] [info]   /forceset/vaslat_l. bounds: [0.01, 1]
+[2023-08-04 13:15:44.733] [cout] [info]   /forceset/glmax2_l. bounds: [0.01, 1]
+[2023-08-04 13:15:44.733] [cout] [info]   /forceset/glmax3_l. bounds: [0.01, 1]
+[2023-08-04 13:15:44.733] [cout] [info]   /forceset/glmed2_l. bounds: [0.01, 1]
+[2023-08-04 13:15:44.734] [cout] [info]   /forceset/tibant_l. bounds: [0.01, 1]
+[2023-08-04 13:15:44.734] [cout] [info]   /forceset/glmed3_l. bounds: [0.01, 1]
+[2023-08-04 13:15:44.734] [cout] [info]   /forceset/glmin1_l. bounds: [0.01, 1]
+[2023-08-04 13:15:44.734] [cout] [info]   /forceset/glmin2_l. bounds: [0.01, 1]
+[2023-08-04 13:15:44.734] [cout] [info]   /forceset/glmin3_l. bounds: [0.01, 1]
+[2023-08-04 13:15:44.734] [cout] [info]   /forceset/grac_l. bounds: [0.01, 1]
+[2023-08-04 13:15:44.734] [cout] [info]   /forceset/iliacus_l. bounds: [0.01, 1]
+[2023-08-04 13:15:44.734] [cout] [info]   /forceset/perbrev_l. bounds: [0.01, 1]
+[2023-08-04 13:15:44.734] [cout] [info]   /forceset/perlong_l. bounds: [0.01, 1]
+[2023-08-04 13:15:44.734] [cout] [info]   /forceset/piri_l. bounds: [0.01, 1]
+[2023-08-04 13:15:44.734] [cout] [info]   /forceset/psoas_l. bounds: [0.01, 1]
+[2023-08-04 13:15:44.734] [cout] [info]   /forceset/recfem_l. bounds: [0.01, 1]
+[2023-08-04 13:15:44.734] [cout] [info]   /forceset/sart_l. bounds: [0.01, 1]
+[2023-08-04 13:15:44.734] [cout] [info]   /forceset/semiten_l. bounds: [0.01, 1]
+[2023-08-04 13:15:44.734] [cout] [info]   /forceset/soleus_l. bounds: [0.01, 1]
+[2023-08-04 13:15:44.734] [cout] [info]   /forceset/tfl_l. bounds: [0.01, 1]
+[2023-08-04 13:15:44.734] [cout] [info]   /forceset/tibpost_l. bounds: [0.01, 1]
+[2023-08-04 13:15:44.734] [cout] [info]   /forceset/vasint_l. bounds: [0.01, 1]
+[2023-08-04 13:15:44.734] [cout] [info]   /forceset/vasmed_l. bounds: [0.01, 1]
+[2023-08-04 13:15:44.734] [cout] [info]   /forceset/reserve_jointset_ground_pelvis_pelvis_tilt. bounds: [-inf, inf]
+[2023-08-04 13:15:44.734] [cout] [info]   /forceset/reserve_jointset_ground_pelvis_pelvis_list. bounds: [-inf, inf]
+[2023-08-04 13:15:44.734] [cout] [info]   /forceset/reserve_jointset_ground_pelvis_pelvis_rotation. bounds: [-inf, inf]
+[2023-08-04 13:15:44.734] [cout] [info]   /forceset/reserve_jointset_ground_pelvis_pelvis_tx. bounds: [-inf, inf]
+[2023-08-04 13:15:44.734] [cout] [info]   /forceset/reserve_jointset_hip_r_hip_flexion_r. bounds: [-inf, inf]
+[2023-08-04 13:15:44.734] [cout] [info]   /forceset/reserve_jointset_ground_pelvis_pelvis_ty. bounds: [-inf, inf]
+[2023-08-04 13:15:44.734] [cout] [info]   /forceset/reserve_jointset_ground_pelvis_pelvis_tz. bounds: [-inf, inf]
+[2023-08-04 13:15:44.734] [cout] [info]   /forceset/reserve_jointset_hip_r_hip_adduction_r. bounds: [-inf, inf]
+[2023-08-04 13:15:44.734] [cout] [info]   /forceset/reserve_jointset_hip_r_hip_rotation_r. bounds: [-inf, inf]
+[2023-08-04 13:15:44.734] [cout] [info]   /forceset/reserve_jointset_walker_knee_r_knee_angle_r. bounds: [-inf, inf]
+[2023-08-04 13:15:44.734] [cout] [info]   /forceset/reserve_jointset_ankle_r_ankle_angle_r. bounds: [-inf, inf]
+[2023-08-04 13:15:44.734] [cout] [info]   /forceset/reserve_jointset_subtalar_r_subtalar_angle_r. bounds: [-inf, inf]
+[2023-08-04 13:15:44.734] [cout] [info]   /forceset/reserve_jointset_mtp_r_mtp_angle_r. bounds: [-inf, inf]
+[2023-08-04 13:15:44.734] [cout] [info]   /forceset/reserve_jointset_hip_l_hip_flexion_l. bounds: [-inf, inf]
+[2023-08-04 13:15:44.734] [cout] [info]   /forceset/reserve_jointset_hip_l_hip_adduction_l. bounds: [-inf, inf]
+[2023-08-04 13:15:44.734] [cout] [info]   /forceset/reserve_jointset_walker_knee_l_knee_angle_l. bounds: [-inf, inf]
+[2023-08-04 13:15:44.734] [cout] [info]   /forceset/reserve_jointset_hip_l_hip_rotation_l. bounds: [-inf, inf]
+[2023-08-04 13:15:44.734] [cout] [info]   /forceset/reserve_jointset_ankle_l_ankle_angle_l. bounds: [-inf, inf]
+[2023-08-04 13:15:44.734] [cout] [info]   /forceset/reserve_jointset_subtalar_l_subtalar_angle_l. bounds: [-inf, inf]
+[2023-08-04 13:15:44.734] [cout] [info] Parameters: none
+[2023-08-04 13:15:44.785] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-04 13:15:44.785] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-04 13:15:44.841] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-04 13:15:44.841] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-04 13:15:44.918] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-04 13:15:44.918] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-04 13:15:44.975] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-04 13:15:44.975] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-04 13:15:45.051] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-04 13:15:45.051] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-04 13:15:45.107] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-04 13:15:45.107] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-04 13:15:45.184] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-04 13:15:45.184] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-04 13:15:45.240] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-04 13:15:45.240] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-04 13:15:45.316] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-04 13:15:45.317] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-04 13:15:45.382] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-04 13:15:45.383] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-04 13:15:45.458] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-04 13:15:45.459] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-04 13:15:45.513] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-04 13:15:45.513] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-04 13:15:45.590] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-04 13:15:45.590] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-04 13:15:45.647] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-04 13:15:45.647] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-04 13:15:45.722] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-04 13:15:45.722] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-04 13:15:45.782] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-04 13:15:45.782] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-04 13:15:45.864] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-04 13:15:45.864] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-04 13:15:45.921] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-04 13:15:45.921] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-04 13:15:45.999] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-04 13:15:45.999] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-04 13:15:46.058] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-04 13:15:46.058] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-04 13:15:46.147] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-04 13:15:46.147] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-04 13:15:46.204] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-04 13:15:46.204] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-04 13:15:46.281] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-04 13:15:46.281] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-04 13:15:46.337] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-04 13:15:46.337] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-04 13:15:46.374] [info] Number of threads: 12
+[2023-08-04 13:25:14.307] [info] Set log level to Info.
+[2023-08-04 13:25:14.319] [info] ------------------------------------------------------------------------
+[2023-08-04 13:25:14.319] [info] Elapsed real time: 570 second(s) (9 minute(s), 30 second(s)).
+[2023-08-04 13:25:14.319] [info] 8/4/2023 1:25:14 PM
+[2023-08-04 13:25:14.319] [info] MocoCasADiSolver succeeded!
+[2023-08-04 13:25:14.319] [info] ========================================================================
+[2023-08-04 13:49:26.143] [info] Loaded model optimized_scale_and_markers from file ../Models/final.osim
+[2023-08-04 13:49:26.143] [warning] Couldn't find file 'r_pelvis_raja.vtp'.
+[2023-08-04 13:49:26.144] [warning] Couldn't find file 'l_pelvis_raja.vtp'.
+[2023-08-04 13:49:26.145] [warning] Couldn't find file 'l_pat.vtp'.
+[2023-08-04 13:49:26.416] [info] ExternalLoads 'rotated_Sprint_08100001' was renamed and is being reset to 'externalloads'.
+[2023-08-04 13:49:26.446] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-04 13:49:26.446] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-04 13:49:26.454] [info] Adding reserve actuators with an optimal force of 50.0...
+[2023-08-04 13:49:26.487] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-04 13:49:26.487] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-04 13:49:26.552] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-04 13:49:26.552] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-04 13:49:26.559] [info] Added 20 reserve actuator(s), for each of the following coordinates:
+[2023-08-04 13:49:26.559] [info]   /jointset/ground_pelvis/pelvis_tilt
+[2023-08-04 13:49:26.559] [info]   /jointset/ground_pelvis/pelvis_list
+[2023-08-04 13:49:26.559] [info]   /jointset/ground_pelvis/pelvis_rotation
+[2023-08-04 13:49:26.559] [info]   /jointset/ground_pelvis/pelvis_tx
+[2023-08-04 13:49:26.559] [info]   /jointset/ground_pelvis/pelvis_ty
+[2023-08-04 13:49:26.559] [info]   /jointset/ground_pelvis/pelvis_tz
+[2023-08-04 13:49:26.559] [info]   /jointset/hip_r/hip_flexion_r
+[2023-08-04 13:49:26.559] [info]   /jointset/hip_r/hip_adduction_r
+[2023-08-04 13:49:26.559] [info]   /jointset/hip_r/hip_rotation_r
+[2023-08-04 13:49:26.559] [info]   /jointset/walker_knee_r/knee_angle_r
+[2023-08-04 13:49:26.559] [info]   /jointset/ankle_r/ankle_angle_r
+[2023-08-04 13:49:26.559] [info]   /jointset/subtalar_r/subtalar_angle_r
+[2023-08-04 13:49:26.559] [info]   /jointset/mtp_r/mtp_angle_r
+[2023-08-04 13:49:26.560] [info]   /jointset/hip_l/hip_flexion_l
+[2023-08-04 13:49:26.560] [info]   /jointset/hip_l/hip_adduction_l
+[2023-08-04 13:49:26.560] [info]   /jointset/hip_l/hip_rotation_l
+[2023-08-04 13:49:26.560] [info]   /jointset/walker_knee_l/knee_angle_l
+[2023-08-04 13:49:26.560] [info]   /jointset/ankle_l/ankle_angle_l
+[2023-08-04 13:49:26.560] [info]   /jointset/subtalar_l/subtalar_angle_l
+[2023-08-04 13:49:26.560] [info]   /jointset/mtp_l/mtp_angle_l
+[2023-08-04 13:49:26.584] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-04 13:49:26.584] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-04 13:49:26.627] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-04 13:49:26.627] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-04 13:49:37.414] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-04 13:49:37.414] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-04 13:49:37.647] [error] Model unable to assemble: SimTK Exception thrown at Optimizer.h:133:
+  Value out of range in  OptimizerSystem  Constructor: expected 1 <= number of parameters <= 2.14748e+09 but number of parameters=0..Model relaxing constraints and trying again.
+[2023-08-04 13:49:37.649] [error] Model unable to assemble with relaxed constraints: SimTK Exception thrown at Optimizer.h:133:
+  Value out of range in  OptimizerSystem  Constructor: expected 1 <= number of parameters <= 2.14748e+09 but number of parameters=0.
+[2023-08-04 13:49:37.727] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-04 13:49:37.727] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-04 13:49:37.846] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-04 13:49:37.846] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-04 13:49:37.906] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-04 13:49:37.906] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-04 13:49:37.998] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-04 13:49:37.998] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-04 13:49:38.067] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-04 13:49:38.067] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-04 13:49:38.509] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-04 13:49:38.509] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-04 13:49:38.571] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-04 13:49:38.571] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-04 13:49:38.653] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-04 13:49:38.653] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-04 13:49:38.713] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-04 13:49:38.713] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-04 13:49:38.754] [info] ========================================================================
+[2023-08-04 13:49:38.754] [info] MocoCasADiSolver starting.
+[2023-08-04 13:49:38.754] [info] 8/4/2023 1:49:38 PM
+[2023-08-04 13:49:38.754] [info] ------------------------------------------------------------------------
+[2023-08-04 13:49:38.754] [cout] [info] Costs: (total: 1)
+[2023-08-04 13:49:38.754] [cout] [info]   excitation_effort. MocoControlGoal, enabled: true, mode: cost, weight: 1.0
+[2023-08-04 13:49:38.754] [cout] [info]         control: /forceset/lumbar_extension, weight: 1.0
+[2023-08-04 13:49:38.754] [cout] [info]         control: /forceset/lumbar_bending, weight: 1.0
+[2023-08-04 13:49:38.754] [cout] [info]         control: /forceset/lumbar_rotation, weight: 1.0
+[2023-08-04 13:49:38.754] [cout] [info]         control: /forceset/shoulder_flex_r, weight: 1.0
+[2023-08-04 13:49:38.754] [cout] [info]         control: /forceset/shoulder_add_r, weight: 1.0
+[2023-08-04 13:49:38.754] [cout] [info]         control: /forceset/shoulder_rot_r, weight: 1.0
+[2023-08-04 13:49:38.754] [cout] [info]         control: /forceset/elbow_flex_r, weight: 1.0
+[2023-08-04 13:49:38.754] [cout] [info]         control: /forceset/shoulder_flex_l, weight: 1.0
+[2023-08-04 13:49:38.754] [cout] [info]         control: /forceset/shoulder_add_l, weight: 1.0
+[2023-08-04 13:49:38.754] [cout] [info]         control: /forceset/shoulder_rot_l, weight: 1.0
+[2023-08-04 13:49:38.754] [cout] [info]         control: /forceset/elbow_flex_l, weight: 1.0
+[2023-08-04 13:49:38.754] [cout] [info]         control: /forceset/addbrev_r, weight: 1.0
+[2023-08-04 13:49:38.754] [cout] [info]         control: /forceset/addlong_r, weight: 1.0
+[2023-08-04 13:49:38.754] [cout] [info]         control: /forceset/addmagDist_r, weight: 1.0
+[2023-08-04 13:49:38.754] [cout] [info]         control: /forceset/addmagIsch_r, weight: 1.0
+[2023-08-04 13:49:38.754] [cout] [info]         control: /forceset/addmagMid_r, weight: 1.0
+[2023-08-04 13:49:38.754] [cout] [info]         control: /forceset/addmagProx_r, weight: 1.0
+[2023-08-04 13:49:38.754] [cout] [info]         control: /forceset/bflh_r, weight: 1.0
+[2023-08-04 13:49:38.754] [cout] [info]         control: /forceset/bfsh_r, weight: 1.0
+[2023-08-04 13:49:38.754] [cout] [info]         control: /forceset/edl_r, weight: 1.0
+[2023-08-04 13:49:38.754] [cout] [info]         control: /forceset/ehl_r, weight: 1.0
+[2023-08-04 13:49:38.754] [cout] [info]         control: /forceset/fdl_r, weight: 1.0
+[2023-08-04 13:49:38.754] [cout] [info]         control: /forceset/fhl_r, weight: 1.0
+[2023-08-04 13:49:38.754] [cout] [info]         control: /forceset/gaslat_r, weight: 1.0
+[2023-08-04 13:49:38.754] [cout] [info]         control: /forceset/gasmed_r, weight: 1.0
+[2023-08-04 13:49:38.754] [cout] [info]         control: /forceset/glmax1_r, weight: 1.0
+[2023-08-04 13:49:38.754] [cout] [info]         control: /forceset/glmax2_r, weight: 1.0
+[2023-08-04 13:49:38.754] [cout] [info]         control: /forceset/glmax3_r, weight: 1.0
+[2023-08-04 13:49:38.754] [cout] [info]         control: /forceset/glmed1_r, weight: 1.0
+[2023-08-04 13:49:38.754] [cout] [info]         control: /forceset/glmed2_r, weight: 1.0
+[2023-08-04 13:49:38.754] [cout] [info]         control: /forceset/glmed3_r, weight: 1.0
+[2023-08-04 13:49:38.754] [cout] [info]         control: /forceset/glmin1_r, weight: 1.0
+[2023-08-04 13:49:38.754] [cout] [info]         control: /forceset/glmin2_r, weight: 1.0
+[2023-08-04 13:49:38.754] [cout] [info]         control: /forceset/glmin3_r, weight: 1.0
+[2023-08-04 13:49:38.754] [cout] [info]         control: /forceset/grac_r, weight: 1.0
+[2023-08-04 13:49:38.754] [cout] [info]         control: /forceset/iliacus_r, weight: 1.0
+[2023-08-04 13:49:38.754] [cout] [info]         control: /forceset/perbrev_r, weight: 1.0
+[2023-08-04 13:49:38.754] [cout] [info]         control: /forceset/perlong_r, weight: 1.0
+[2023-08-04 13:49:38.754] [cout] [info]         control: /forceset/piri_r, weight: 1.0
+[2023-08-04 13:49:38.754] [cout] [info]         control: /forceset/psoas_r, weight: 1.0
+[2023-08-04 13:49:38.754] [cout] [info]         control: /forceset/recfem_r, weight: 1.0
+[2023-08-04 13:49:38.754] [cout] [info]         control: /forceset/sart_r, weight: 1.0
+[2023-08-04 13:49:38.754] [cout] [info]         control: /forceset/semimem_r, weight: 1.0
+[2023-08-04 13:49:38.754] [cout] [info]         control: /forceset/semiten_r, weight: 1.0
+[2023-08-04 13:49:38.754] [cout] [info]         control: /forceset/soleus_r, weight: 1.0
+[2023-08-04 13:49:38.754] [cout] [info]         control: /forceset/tfl_r, weight: 1.0
+[2023-08-04 13:49:38.754] [cout] [info]         control: /forceset/tibant_r, weight: 1.0
+[2023-08-04 13:49:38.754] [cout] [info]         control: /forceset/tibpost_r, weight: 1.0
+[2023-08-04 13:49:38.754] [cout] [info]         control: /forceset/vasint_r, weight: 1.0
+[2023-08-04 13:49:38.754] [cout] [info]         control: /forceset/vaslat_r, weight: 1.0
+[2023-08-04 13:49:38.754] [cout] [info]         control: /forceset/vasmed_r, weight: 1.0
+[2023-08-04 13:49:38.754] [cout] [info]         control: /forceset/addbrev_l, weight: 1.0
+[2023-08-04 13:49:38.754] [cout] [info]         control: /forceset/addlong_l, weight: 1.0
+[2023-08-04 13:49:38.754] [cout] [info]         control: /forceset/addmagDist_l, weight: 1.0
+[2023-08-04 13:49:38.754] [cout] [info]         control: /forceset/addmagIsch_l, weight: 1.0
+[2023-08-04 13:49:38.754] [cout] [info]         control: /forceset/addmagMid_l, weight: 1.0
+[2023-08-04 13:49:38.754] [cout] [info]         control: /forceset/addmagProx_l, weight: 1.0
+[2023-08-04 13:49:38.754] [cout] [info]         control: /forceset/bflh_l, weight: 1.0
+[2023-08-04 13:49:38.754] [cout] [info]         control: /forceset/bfsh_l, weight: 1.0
+[2023-08-04 13:49:38.754] [cout] [info]         control: /forceset/edl_l, weight: 1.0
+[2023-08-04 13:49:38.754] [cout] [info]         control: /forceset/ehl_l, weight: 1.0
+[2023-08-04 13:49:38.754] [cout] [info]         control: /forceset/fdl_l, weight: 1.0
+[2023-08-04 13:49:38.754] [cout] [info]         control: /forceset/fhl_l, weight: 1.0
+[2023-08-04 13:49:38.755] [cout] [info]         control: /forceset/gaslat_l, weight: 1.0
+[2023-08-04 13:49:38.755] [cout] [info]         control: /forceset/gasmed_l, weight: 1.0
+[2023-08-04 13:49:38.755] [cout] [info]         control: /forceset/glmax1_l, weight: 1.0
+[2023-08-04 13:49:38.755] [cout] [info]         control: /forceset/glmax2_l, weight: 1.0
+[2023-08-04 13:49:38.755] [cout] [info]         control: /forceset/glmax3_l, weight: 1.0
+[2023-08-04 13:49:38.755] [cout] [info]         control: /forceset/glmed1_l, weight: 1.0
+[2023-08-04 13:49:38.755] [cout] [info]         control: /forceset/glmed2_l, weight: 1.0
+[2023-08-04 13:49:38.755] [cout] [info]         control: /forceset/glmed3_l, weight: 1.0
+[2023-08-04 13:49:38.755] [cout] [info]         control: /forceset/glmin1_l, weight: 1.0
+[2023-08-04 13:49:38.755] [cout] [info]         control: /forceset/glmin2_l, weight: 1.0
+[2023-08-04 13:49:38.755] [cout] [info]         control: /forceset/glmin3_l, weight: 1.0
+[2023-08-04 13:49:38.755] [cout] [info]         control: /forceset/grac_l, weight: 1.0
+[2023-08-04 13:49:38.755] [cout] [info]         control: /forceset/iliacus_l, weight: 1.0
+[2023-08-04 13:49:38.755] [cout] [info]         control: /forceset/perbrev_l, weight: 1.0
+[2023-08-04 13:49:38.755] [cout] [info]         control: /forceset/perlong_l, weight: 1.0
+[2023-08-04 13:49:38.755] [cout] [info]         control: /forceset/piri_l, weight: 1.0
+[2023-08-04 13:49:38.755] [cout] [info]         control: /forceset/psoas_l, weight: 1.0
+[2023-08-04 13:49:38.755] [cout] [info]         control: /forceset/recfem_l, weight: 1.0
+[2023-08-04 13:49:38.755] [cout] [info]         control: /forceset/sart_l, weight: 1.0
+[2023-08-04 13:49:38.755] [cout] [info]         control: /forceset/semimem_l, weight: 1.0
+[2023-08-04 13:49:38.755] [cout] [info]         control: /forceset/semiten_l, weight: 1.0
+[2023-08-04 13:49:38.755] [cout] [info]         control: /forceset/soleus_l, weight: 1.0
+[2023-08-04 13:49:38.755] [cout] [info]         control: /forceset/tfl_l, weight: 1.0
+[2023-08-04 13:49:38.755] [cout] [info]         control: /forceset/tibant_l, weight: 1.0
+[2023-08-04 13:49:38.755] [cout] [info]         control: /forceset/tibpost_l, weight: 1.0
+[2023-08-04 13:49:38.755] [cout] [info]         control: /forceset/vasint_l, weight: 1.0
+[2023-08-04 13:49:38.755] [cout] [info]         control: /forceset/vaslat_l, weight: 1.0
+[2023-08-04 13:49:38.755] [cout] [info]         control: /forceset/vasmed_l, weight: 1.0
+[2023-08-04 13:49:38.755] [cout] [info]         control: /forceset/reserve_jointset_ground_pelvis_pelvis_tilt, weight: 1.0
+[2023-08-04 13:49:38.755] [cout] [info]         control: /forceset/reserve_jointset_ground_pelvis_pelvis_list, weight: 1.0
+[2023-08-04 13:49:38.755] [cout] [info]         control: /forceset/reserve_jointset_ground_pelvis_pelvis_rotation, weight: 1.0
+[2023-08-04 13:49:38.755] [cout] [info]         control: /forceset/reserve_jointset_ground_pelvis_pelvis_tx, weight: 1.0
+[2023-08-04 13:49:38.755] [cout] [info]         control: /forceset/reserve_jointset_ground_pelvis_pelvis_ty, weight: 1.0
+[2023-08-04 13:49:38.755] [cout] [info]         control: /forceset/reserve_jointset_ground_pelvis_pelvis_tz, weight: 1.0
+[2023-08-04 13:49:38.755] [cout] [info]         control: /forceset/reserve_jointset_hip_r_hip_flexion_r, weight: 1.0
+[2023-08-04 13:49:38.755] [cout] [info]         control: /forceset/reserve_jointset_hip_r_hip_adduction_r, weight: 1.0
+[2023-08-04 13:49:38.755] [cout] [info]         control: /forceset/reserve_jointset_hip_r_hip_rotation_r, weight: 1.0
+[2023-08-04 13:49:38.755] [cout] [info]         control: /forceset/reserve_jointset_walker_knee_r_knee_angle_r, weight: 1.0
+[2023-08-04 13:49:38.755] [cout] [info]         control: /forceset/reserve_jointset_ankle_r_ankle_angle_r, weight: 1.0
+[2023-08-04 13:49:38.755] [cout] [info]         control: /forceset/reserve_jointset_subtalar_r_subtalar_angle_r, weight: 1.0
+[2023-08-04 13:49:38.755] [cout] [info]         control: /forceset/reserve_jointset_mtp_r_mtp_angle_r, weight: 1.0
+[2023-08-04 13:49:38.755] [cout] [info]         control: /forceset/reserve_jointset_hip_l_hip_flexion_l, weight: 1.0
+[2023-08-04 13:49:38.755] [cout] [info]         control: /forceset/reserve_jointset_hip_l_hip_adduction_l, weight: 1.0
+[2023-08-04 13:49:38.755] [cout] [info]         control: /forceset/reserve_jointset_hip_l_hip_rotation_l, weight: 1.0
+[2023-08-04 13:49:38.755] [cout] [info]         control: /forceset/reserve_jointset_walker_knee_l_knee_angle_l, weight: 1.0
+[2023-08-04 13:49:38.755] [cout] [info]         control: /forceset/reserve_jointset_ankle_l_ankle_angle_l, weight: 1.0
+[2023-08-04 13:49:38.755] [cout] [info]         control: /forceset/reserve_jointset_subtalar_l_subtalar_angle_l, weight: 1.0
+[2023-08-04 13:49:38.755] [cout] [info]         control: /forceset/reserve_jointset_mtp_l_mtp_angle_l, weight: 1.0
+[2023-08-04 13:49:38.755] [cout] [info] Endpoint constraints: (total: 1)
+[2023-08-04 13:49:38.755] [cout] [info]   initial_activation. MocoInitialActivationGoal, enabled: true, mode: endpoint_constraint
+[2023-08-04 13:49:38.755] [cout] [info] Kinematic constraints: (total: 2)
+[2023-08-04 13:49:38.755] [cout] [info]   kinematic_constraint_cid33. MocoConstraintInfo. number of scalar equations: 3. bounds: 0, 0, 0
+[2023-08-04 13:49:38.755] [cout] [info]   kinematic_constraint_cid34. MocoConstraintInfo. number of scalar equations: 3. bounds: 0, 0, 0
+[2023-08-04 13:49:38.755] [cout] [info] Path constraints: none
+[2023-08-04 13:49:38.755] [cout] [info] States: (total: 80)
+[2023-08-04 13:49:38.755] [cout] [info]   /forceset/glmin1_r/activation. bounds: [0.01, 1]
+[2023-08-04 13:49:38.755] [cout] [info]   /forceset/bflh_r/activation. bounds: [0.01, 1]
+[2023-08-04 13:49:38.755] [cout] [info]   /forceset/addbrev_r/activation. bounds: [0.01, 1]
+[2023-08-04 13:49:38.755] [cout] [info]   /forceset/addlong_r/activation. bounds: [0.01, 1]
+[2023-08-04 13:49:38.755] [cout] [info]   /forceset/addmagIsch_r/activation. bounds: [0.01, 1]
+[2023-08-04 13:49:38.755] [cout] [info]   /forceset/addmagMid_l/activation. bounds: [0.01, 1]
+[2023-08-04 13:49:38.755] [cout] [info]   /forceset/piri_r/activation. bounds: [0.01, 1]
+[2023-08-04 13:49:38.756] [cout] [info]   /forceset/addmagDist_r/activation. bounds: [0.01, 1]
+[2023-08-04 13:49:38.756] [cout] [info]   /forceset/addmagDist_l/activation. bounds: [0.01, 1]
+[2023-08-04 13:49:38.756] [cout] [info]   /forceset/vasmed_r/activation. bounds: [0.01, 1]
+[2023-08-04 13:49:38.756] [cout] [info]   /forceset/addmagMid_r/activation. bounds: [0.01, 1]
+[2023-08-04 13:49:38.756] [cout] [info]   /forceset/glmax2_r/activation. bounds: [0.01, 1]
+[2023-08-04 13:49:38.756] [cout] [info]   /forceset/vaslat_r/activation. bounds: [0.01, 1]
+[2023-08-04 13:49:38.756] [cout] [info]   /forceset/bfsh_r/activation. bounds: [0.01, 1]
+[2023-08-04 13:49:38.756] [cout] [info]   /forceset/addmagProx_r/activation. bounds: [0.01, 1]
+[2023-08-04 13:49:38.756] [cout] [info]   /forceset/edl_r/activation. bounds: [0.01, 1]
+[2023-08-04 13:49:38.756] [cout] [info]   /forceset/ehl_r/activation. bounds: [0.01, 1]
+[2023-08-04 13:49:38.756] [cout] [info]   /forceset/semimem_r/activation. bounds: [0.01, 1]
+[2023-08-04 13:49:38.756] [cout] [info]   /forceset/fdl_r/activation. bounds: [0.01, 1]
+[2023-08-04 13:49:38.756] [cout] [info]   /forceset/fhl_r/activation. bounds: [0.01, 1]
+[2023-08-04 13:49:38.756] [cout] [info]   /forceset/tibant_l/activation. bounds: [0.01, 1]
+[2023-08-04 13:49:38.756] [cout] [info]   /forceset/glmed3_l/activation. bounds: [0.01, 1]
+[2023-08-04 13:49:38.756] [cout] [info]   /forceset/gaslat_r/activation. bounds: [0.01, 1]
+[2023-08-04 13:49:38.756] [cout] [info]   /forceset/glmed1_r/activation. bounds: [0.01, 1]
+[2023-08-04 13:49:38.756] [cout] [info]   /forceset/soleus_r/activation. bounds: [0.01, 1]
+[2023-08-04 13:49:38.756] [cout] [info]   /forceset/gasmed_r/activation. bounds: [0.01, 1]
+[2023-08-04 13:49:38.756] [cout] [info]   /forceset/glmax3_l/activation. bounds: [0.01, 1]
+[2023-08-04 13:49:38.756] [cout] [info]   /forceset/recfem_r/activation. bounds: [0.01, 1]
+[2023-08-04 13:49:38.756] [cout] [info]   /forceset/glmax1_r/activation. bounds: [0.01, 1]
+[2023-08-04 13:49:38.756] [cout] [info]   /forceset/glmax1_l/activation. bounds: [0.01, 1]
+[2023-08-04 13:49:38.756] [cout] [info]   /forceset/iliacus_r/activation. bounds: [0.01, 1]
+[2023-08-04 13:49:38.756] [cout] [info]   /forceset/glmax3_r/activation. bounds: [0.01, 1]
+[2023-08-04 13:49:38.756] [cout] [info]   /forceset/glmed2_r/activation. bounds: [0.01, 1]
+[2023-08-04 13:49:38.756] [cout] [info]   /forceset/gaslat_l/activation. bounds: [0.01, 1]
+[2023-08-04 13:49:38.756] [cout] [info]   /forceset/glmed1_l/activation. bounds: [0.01, 1]
+[2023-08-04 13:49:38.756] [cout] [info]   /forceset/glmed3_r/activation. bounds: [0.01, 1]
+[2023-08-04 13:49:38.756] [cout] [info]   /forceset/tibant_r/activation. bounds: [0.01, 1]
+[2023-08-04 13:49:38.756] [cout] [info]   /forceset/glmin2_r/activation. bounds: [0.01, 1]
+[2023-08-04 13:49:38.756] [cout] [info]   /forceset/glmin3_r/activation. bounds: [0.01, 1]
+[2023-08-04 13:49:38.756] [cout] [info]   /forceset/grac_r/activation. bounds: [0.01, 1]
+[2023-08-04 13:49:38.756] [cout] [info]   /forceset/perbrev_r/activation. bounds: [0.01, 1]
+[2023-08-04 13:49:38.756] [cout] [info]   /forceset/addmagProx_l/activation. bounds: [0.01, 1]
+[2023-08-04 13:49:38.756] [cout] [info]   /forceset/perlong_r/activation. bounds: [0.01, 1]
+[2023-08-04 13:49:38.756] [cout] [info]   /forceset/psoas_r/activation. bounds: [0.01, 1]
+[2023-08-04 13:49:38.756] [cout] [info]   /forceset/sart_r/activation. bounds: [0.01, 1]
+[2023-08-04 13:49:38.756] [cout] [info]   /forceset/edl_l/activation. bounds: [0.01, 1]
+[2023-08-04 13:49:38.756] [cout] [info]   /forceset/semiten_r/activation. bounds: [0.01, 1]
+[2023-08-04 13:49:38.756] [cout] [info]   /forceset/tfl_r/activation. bounds: [0.01, 1]
+[2023-08-04 13:49:38.756] [cout] [info]   /forceset/tibpost_r/activation. bounds: [0.01, 1]
+[2023-08-04 13:49:38.756] [cout] [info]   /forceset/addmagIsch_l/activation. bounds: [0.01, 1]
+[2023-08-04 13:49:38.756] [cout] [info]   /forceset/addlong_l/activation. bounds: [0.01, 1]
+[2023-08-04 13:49:38.756] [cout] [info]   /forceset/vasint_r/activation. bounds: [0.01, 1]
+[2023-08-04 13:49:38.756] [cout] [info]   /forceset/addbrev_l/activation. bounds: [0.01, 1]
+[2023-08-04 13:49:38.756] [cout] [info]   /forceset/glmin1_l/activation. bounds: [0.01, 1]
+[2023-08-04 13:49:38.756] [cout] [info]   /forceset/bflh_l/activation. bounds: [0.01, 1]
+[2023-08-04 13:49:38.756] [cout] [info]   /forceset/vaslat_l/activation. bounds: [0.01, 1]
+[2023-08-04 13:49:38.756] [cout] [info]   /forceset/glmax2_l/activation. bounds: [0.01, 1]
+[2023-08-04 13:49:38.756] [cout] [info]   /forceset/bfsh_l/activation. bounds: [0.01, 1]
+[2023-08-04 13:49:38.756] [cout] [info]   /forceset/semimem_l/activation. bounds: [0.01, 1]
+[2023-08-04 13:49:38.756] [cout] [info]   /forceset/ehl_l/activation. bounds: [0.01, 1]
+[2023-08-04 13:49:38.756] [cout] [info]   /forceset/fdl_l/activation. bounds: [0.01, 1]
+[2023-08-04 13:49:38.756] [cout] [info]   /forceset/fhl_l/activation. bounds: [0.01, 1]
+[2023-08-04 13:49:38.757] [cout] [info]   /forceset/gasmed_l/activation. bounds: [0.01, 1]
+[2023-08-04 13:49:38.757] [cout] [info]   /forceset/glmed2_l/activation. bounds: [0.01, 1]
+[2023-08-04 13:49:38.757] [cout] [info]   /forceset/glmin2_l/activation. bounds: [0.01, 1]
+[2023-08-04 13:49:38.757] [cout] [info]   /forceset/glmin3_l/activation. bounds: [0.01, 1]
+[2023-08-04 13:49:38.757] [cout] [info]   /forceset/grac_l/activation. bounds: [0.01, 1]
+[2023-08-04 13:49:38.757] [cout] [info]   /forceset/iliacus_l/activation. bounds: [0.01, 1]
+[2023-08-04 13:49:38.757] [cout] [info]   /forceset/perbrev_l/activation. bounds: [0.01, 1]
+[2023-08-04 13:49:38.757] [cout] [info]   /forceset/perlong_l/activation. bounds: [0.01, 1]
+[2023-08-04 13:49:38.757] [cout] [info]   /forceset/piri_l/activation. bounds: [0.01, 1]
+[2023-08-04 13:49:38.757] [cout] [info]   /forceset/psoas_l/activation. bounds: [0.01, 1]
+[2023-08-04 13:49:38.757] [cout] [info]   /forceset/recfem_l/activation. bounds: [0.01, 1]
+[2023-08-04 13:49:38.757] [cout] [info]   /forceset/sart_l/activation. bounds: [0.01, 1]
+[2023-08-04 13:49:38.757] [cout] [info]   /forceset/semiten_l/activation. bounds: [0.01, 1]
+[2023-08-04 13:49:38.757] [cout] [info]   /forceset/soleus_l/activation. bounds: [0.01, 1]
+[2023-08-04 13:49:38.757] [cout] [info]   /forceset/tfl_l/activation. bounds: [0.01, 1]
+[2023-08-04 13:49:38.757] [cout] [info]   /forceset/tibpost_l/activation. bounds: [0.01, 1]
+[2023-08-04 13:49:38.757] [cout] [info]   /forceset/vasint_l/activation. bounds: [0.01, 1]
+[2023-08-04 13:49:38.757] [cout] [info]   /forceset/vasmed_l/activation. bounds: [0.01, 1]
+[2023-08-04 13:49:38.757] [cout] [info] Controls: (total: 111)
+[2023-08-04 13:49:38.757] [cout] [info]   /forceset/shoulder_flex_l. bounds: [-inf, inf]
+[2023-08-04 13:49:38.757] [cout] [info]   /forceset/glmin1_r. bounds: [0.01, 1]
+[2023-08-04 13:49:38.757] [cout] [info]   /forceset/bflh_r. bounds: [0.01, 1]
+[2023-08-04 13:49:38.757] [cout] [info]   /forceset/lumbar_extension. bounds: [-inf, inf]
+[2023-08-04 13:49:38.757] [cout] [info]   /forceset/shoulder_add_r. bounds: [-inf, inf]
+[2023-08-04 13:49:38.757] [cout] [info]   /forceset/reserve_jointset_mtp_l_mtp_angle_l. bounds: [-inf, inf]
+[2023-08-04 13:49:38.757] [cout] [info]   /forceset/fdl_l. bounds: [0.01, 1]
+[2023-08-04 13:49:38.757] [cout] [info]   /forceset/lumbar_bending. bounds: [-inf, inf]
+[2023-08-04 13:49:38.757] [cout] [info]   /forceset/ehl_r. bounds: [0.01, 1]
+[2023-08-04 13:49:38.757] [cout] [info]   /forceset/semimem_r. bounds: [0.01, 1]
+[2023-08-04 13:49:38.757] [cout] [info]   /forceset/lumbar_rotation. bounds: [-inf, inf]
+[2023-08-04 13:49:38.757] [cout] [info]   /forceset/shoulder_flex_r. bounds: [-inf, inf]
+[2023-08-04 13:49:38.757] [cout] [info]   /forceset/shoulder_rot_r. bounds: [-inf, inf]
+[2023-08-04 13:49:38.757] [cout] [info]   /forceset/gaslat_r. bounds: [0.01, 1]
+[2023-08-04 13:49:38.757] [cout] [info]   /forceset/glmed1_r. bounds: [0.01, 1]
+[2023-08-04 13:49:38.757] [cout] [info]   /forceset/elbow_flex_r. bounds: [-inf, inf]
+[2023-08-04 13:49:38.757] [cout] [info]   /forceset/bflh_l. bounds: [0.01, 1]
+[2023-08-04 13:49:38.757] [cout] [info]   /forceset/shoulder_add_l. bounds: [-inf, inf]
+[2023-08-04 13:49:38.757] [cout] [info]   /forceset/glmed1_l. bounds: [0.01, 1]
+[2023-08-04 13:49:38.757] [cout] [info]   /forceset/shoulder_rot_l. bounds: [-inf, inf]
+[2023-08-04 13:49:38.757] [cout] [info]   /forceset/gaslat_l. bounds: [0.01, 1]
+[2023-08-04 13:49:38.757] [cout] [info]   /forceset/glmed3_r. bounds: [0.01, 1]
+[2023-08-04 13:49:38.757] [cout] [info]   /forceset/tibant_r. bounds: [0.01, 1]
+[2023-08-04 13:49:38.757] [cout] [info]   /forceset/elbow_flex_l. bounds: [-inf, inf]
+[2023-08-04 13:49:38.757] [cout] [info]   /forceset/addbrev_r. bounds: [0.01, 1]
+[2023-08-04 13:49:38.757] [cout] [info]   /forceset/addmagIsch_r. bounds: [0.01, 1]
+[2023-08-04 13:49:38.757] [cout] [info]   /forceset/addlong_r. bounds: [0.01, 1]
+[2023-08-04 13:49:38.757] [cout] [info]   /forceset/addmagMid_l. bounds: [0.01, 1]
+[2023-08-04 13:49:38.757] [cout] [info]   /forceset/piri_r. bounds: [0.01, 1]
+[2023-08-04 13:49:38.757] [cout] [info]   /forceset/addmagDist_r. bounds: [0.01, 1]
+[2023-08-04 13:49:38.757] [cout] [info]   /forceset/addmagDist_l. bounds: [0.01, 1]
+[2023-08-04 13:49:38.757] [cout] [info]   /forceset/vasmed_r. bounds: [0.01, 1]
+[2023-08-04 13:49:38.757] [cout] [info]   /forceset/addmagMid_r. bounds: [0.01, 1]
+[2023-08-04 13:49:38.757] [cout] [info]   /forceset/addmagProx_r. bounds: [0.01, 1]
+[2023-08-04 13:49:38.757] [cout] [info]   /forceset/glmax2_r. bounds: [0.01, 1]
+[2023-08-04 13:49:38.757] [cout] [info]   /forceset/vaslat_r. bounds: [0.01, 1]
+[2023-08-04 13:49:38.757] [cout] [info]   /forceset/bfsh_r. bounds: [0.01, 1]
+[2023-08-04 13:49:38.757] [cout] [info]   /forceset/edl_r. bounds: [0.01, 1]
+[2023-08-04 13:49:38.758] [cout] [info]   /forceset/fdl_r. bounds: [0.01, 1]
+[2023-08-04 13:49:38.758] [cout] [info]   /forceset/fhl_r. bounds: [0.01, 1]
+[2023-08-04 13:49:38.758] [cout] [info]   /forceset/soleus_r. bounds: [0.01, 1]
+[2023-08-04 13:49:38.758] [cout] [info]   /forceset/gasmed_r. bounds: [0.01, 1]
+[2023-08-04 13:49:38.758] [cout] [info]   /forceset/recfem_r. bounds: [0.01, 1]
+[2023-08-04 13:49:38.758] [cout] [info]   /forceset/glmax1_r. bounds: [0.01, 1]
+[2023-08-04 13:49:38.758] [cout] [info]   /forceset/iliacus_r. bounds: [0.01, 1]
+[2023-08-04 13:49:38.758] [cout] [info]   /forceset/glmax3_r. bounds: [0.01, 1]
+[2023-08-04 13:49:38.758] [cout] [info]   /forceset/glmed2_r. bounds: [0.01, 1]
+[2023-08-04 13:49:38.758] [cout] [info]   /forceset/glmin2_r. bounds: [0.01, 1]
+[2023-08-04 13:49:38.758] [cout] [info]   /forceset/glmin3_r. bounds: [0.01, 1]
+[2023-08-04 13:49:38.758] [cout] [info]   /forceset/grac_r. bounds: [0.01, 1]
+[2023-08-04 13:49:38.758] [cout] [info]   /forceset/perbrev_r. bounds: [0.01, 1]
+[2023-08-04 13:49:38.758] [cout] [info]   /forceset/addmagProx_l. bounds: [0.01, 1]
+[2023-08-04 13:49:38.758] [cout] [info]   /forceset/perlong_r. bounds: [0.01, 1]
+[2023-08-04 13:49:38.758] [cout] [info]   /forceset/psoas_r. bounds: [0.01, 1]
+[2023-08-04 13:49:38.758] [cout] [info]   /forceset/sart_r. bounds: [0.01, 1]
+[2023-08-04 13:49:38.758] [cout] [info]   /forceset/edl_l. bounds: [0.01, 1]
+[2023-08-04 13:49:38.758] [cout] [info]   /forceset/semiten_r. bounds: [0.01, 1]
+[2023-08-04 13:49:38.758] [cout] [info]   /forceset/tfl_r. bounds: [0.01, 1]
+[2023-08-04 13:49:38.758] [cout] [info]   /forceset/tibpost_r. bounds: [0.01, 1]
+[2023-08-04 13:49:38.758] [cout] [info]   /forceset/addmagIsch_l. bounds: [0.01, 1]
+[2023-08-04 13:49:38.758] [cout] [info]   /forceset/addlong_l. bounds: [0.01, 1]
+[2023-08-04 13:49:38.758] [cout] [info]   /forceset/vasint_r. bounds: [0.01, 1]
+[2023-08-04 13:49:38.758] [cout] [info]   /forceset/addbrev_l. bounds: [0.01, 1]
+[2023-08-04 13:49:38.758] [cout] [info]   /forceset/bfsh_l. bounds: [0.01, 1]
+[2023-08-04 13:49:38.758] [cout] [info]   /forceset/semimem_l. bounds: [0.01, 1]
+[2023-08-04 13:49:38.758] [cout] [info]   /forceset/ehl_l. bounds: [0.01, 1]
+[2023-08-04 13:49:38.758] [cout] [info]   /forceset/fhl_l. bounds: [0.01, 1]
+[2023-08-04 13:49:38.758] [cout] [info]   /forceset/gasmed_l. bounds: [0.01, 1]
+[2023-08-04 13:49:38.758] [cout] [info]   /forceset/glmax1_l. bounds: [0.01, 1]
+[2023-08-04 13:49:38.758] [cout] [info]   /forceset/vaslat_l. bounds: [0.01, 1]
+[2023-08-04 13:49:38.758] [cout] [info]   /forceset/glmax2_l. bounds: [0.01, 1]
+[2023-08-04 13:49:38.758] [cout] [info]   /forceset/glmax3_l. bounds: [0.01, 1]
+[2023-08-04 13:49:38.758] [cout] [info]   /forceset/glmed2_l. bounds: [0.01, 1]
+[2023-08-04 13:49:38.758] [cout] [info]   /forceset/tibant_l. bounds: [0.01, 1]
+[2023-08-04 13:49:38.758] [cout] [info]   /forceset/glmed3_l. bounds: [0.01, 1]
+[2023-08-04 13:49:38.758] [cout] [info]   /forceset/glmin1_l. bounds: [0.01, 1]
+[2023-08-04 13:49:38.758] [cout] [info]   /forceset/glmin2_l. bounds: [0.01, 1]
+[2023-08-04 13:49:38.758] [cout] [info]   /forceset/glmin3_l. bounds: [0.01, 1]
+[2023-08-04 13:49:38.758] [cout] [info]   /forceset/grac_l. bounds: [0.01, 1]
+[2023-08-04 13:49:38.758] [cout] [info]   /forceset/iliacus_l. bounds: [0.01, 1]
+[2023-08-04 13:49:38.758] [cout] [info]   /forceset/perbrev_l. bounds: [0.01, 1]
+[2023-08-04 13:49:38.758] [cout] [info]   /forceset/perlong_l. bounds: [0.01, 1]
+[2023-08-04 13:49:38.758] [cout] [info]   /forceset/piri_l. bounds: [0.01, 1]
+[2023-08-04 13:49:38.758] [cout] [info]   /forceset/psoas_l. bounds: [0.01, 1]
+[2023-08-04 13:49:38.758] [cout] [info]   /forceset/recfem_l. bounds: [0.01, 1]
+[2023-08-04 13:49:38.758] [cout] [info]   /forceset/sart_l. bounds: [0.01, 1]
+[2023-08-04 13:49:38.758] [cout] [info]   /forceset/semiten_l. bounds: [0.01, 1]
+[2023-08-04 13:49:38.758] [cout] [info]   /forceset/soleus_l. bounds: [0.01, 1]
+[2023-08-04 13:49:38.758] [cout] [info]   /forceset/tfl_l. bounds: [0.01, 1]
+[2023-08-04 13:49:38.758] [cout] [info]   /forceset/tibpost_l. bounds: [0.01, 1]
+[2023-08-04 13:49:38.758] [cout] [info]   /forceset/vasint_l. bounds: [0.01, 1]
+[2023-08-04 13:49:38.758] [cout] [info]   /forceset/vasmed_l. bounds: [0.01, 1]
+[2023-08-04 13:49:38.758] [cout] [info]   /forceset/reserve_jointset_ground_pelvis_pelvis_tilt. bounds: [-inf, inf]
+[2023-08-04 13:49:38.758] [cout] [info]   /forceset/reserve_jointset_ground_pelvis_pelvis_list. bounds: [-inf, inf]
+[2023-08-04 13:49:38.758] [cout] [info]   /forceset/reserve_jointset_ground_pelvis_pelvis_rotation. bounds: [-inf, inf]
+[2023-08-04 13:49:38.758] [cout] [info]   /forceset/reserve_jointset_ground_pelvis_pelvis_tx. bounds: [-inf, inf]
+[2023-08-04 13:49:38.759] [cout] [info]   /forceset/reserve_jointset_hip_r_hip_flexion_r. bounds: [-inf, inf]
+[2023-08-04 13:49:38.759] [cout] [info]   /forceset/reserve_jointset_ground_pelvis_pelvis_ty. bounds: [-inf, inf]
+[2023-08-04 13:49:38.759] [cout] [info]   /forceset/reserve_jointset_ground_pelvis_pelvis_tz. bounds: [-inf, inf]
+[2023-08-04 13:49:38.759] [cout] [info]   /forceset/reserve_jointset_hip_r_hip_adduction_r. bounds: [-inf, inf]
+[2023-08-04 13:49:38.759] [cout] [info]   /forceset/reserve_jointset_hip_r_hip_rotation_r. bounds: [-inf, inf]
+[2023-08-04 13:49:38.759] [cout] [info]   /forceset/reserve_jointset_walker_knee_r_knee_angle_r. bounds: [-inf, inf]
+[2023-08-04 13:49:38.759] [cout] [info]   /forceset/reserve_jointset_ankle_r_ankle_angle_r. bounds: [-inf, inf]
+[2023-08-04 13:49:38.759] [cout] [info]   /forceset/reserve_jointset_subtalar_r_subtalar_angle_r. bounds: [-inf, inf]
+[2023-08-04 13:49:38.759] [cout] [info]   /forceset/reserve_jointset_mtp_r_mtp_angle_r. bounds: [-inf, inf]
+[2023-08-04 13:49:38.759] [cout] [info]   /forceset/reserve_jointset_hip_l_hip_flexion_l. bounds: [-inf, inf]
+[2023-08-04 13:49:38.759] [cout] [info]   /forceset/reserve_jointset_hip_l_hip_adduction_l. bounds: [-inf, inf]
+[2023-08-04 13:49:38.759] [cout] [info]   /forceset/reserve_jointset_walker_knee_l_knee_angle_l. bounds: [-inf, inf]
+[2023-08-04 13:49:38.759] [cout] [info]   /forceset/reserve_jointset_hip_l_hip_rotation_l. bounds: [-inf, inf]
+[2023-08-04 13:49:38.759] [cout] [info]   /forceset/reserve_jointset_ankle_l_ankle_angle_l. bounds: [-inf, inf]
+[2023-08-04 13:49:38.759] [cout] [info]   /forceset/reserve_jointset_subtalar_l_subtalar_angle_l. bounds: [-inf, inf]
+[2023-08-04 13:49:38.759] [cout] [info] Parameters: none
+[2023-08-04 13:49:38.811] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-04 13:49:38.811] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-04 13:49:38.870] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-04 13:49:38.870] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-04 13:49:38.950] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-04 13:49:38.950] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-04 13:49:39.013] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-04 13:49:39.013] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-04 13:49:39.102] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-04 13:49:39.102] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-04 13:49:39.167] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-04 13:49:39.167] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-04 13:49:39.254] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-04 13:49:39.254] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-04 13:49:39.328] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-04 13:49:39.328] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-04 13:49:39.422] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-04 13:49:39.422] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-04 13:49:39.485] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-04 13:49:39.485] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-04 13:49:39.566] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-04 13:49:39.566] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-04 13:49:39.629] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-04 13:49:39.629] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-04 13:49:39.713] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-04 13:49:39.713] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-04 13:49:39.773] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-04 13:49:39.773] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-04 13:49:39.851] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-04 13:49:39.851] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-04 13:49:39.910] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-04 13:49:39.910] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-04 13:49:39.989] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-04 13:49:39.989] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-04 13:49:40.048] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-04 13:49:40.048] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-04 13:49:40.128] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-04 13:49:40.128] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-04 13:49:40.188] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-04 13:49:40.188] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-04 13:49:40.267] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-04 13:49:40.267] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-04 13:49:40.328] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-04 13:49:40.328] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-04 13:49:40.410] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-04 13:49:40.410] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-04 13:49:40.471] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-04 13:49:40.471] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-04 13:49:40.512] [info] Number of threads: 12
+[2023-08-04 14:09:23.343] [info] Set log level to Info.
+[2023-08-04 14:09:23.362] [info] ------------------------------------------------------------------------
+[2023-08-04 14:09:23.362] [info] Elapsed real time: 1185 second(s) (19 minute(s), 45 second(s)).
+[2023-08-04 14:09:23.362] [info] 8/4/2023 2:09:23 PM
+[2023-08-04 14:09:23.362] [info] MocoCasADiSolver succeeded!
+[2023-08-04 14:09:23.363] [info] ========================================================================

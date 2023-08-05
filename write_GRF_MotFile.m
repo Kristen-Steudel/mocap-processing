@@ -3,18 +3,18 @@ repoDir = [pwd,'\'] ;
 addpath([repoDir, 'common']);
 
 % User inputs if you'd like
-dataDir = [repoDir 'NordTesting\'] ;
+dataDir = [repoDir 'S001\'] ;
 cd(dataDir)
 
 freq_filtering = 12 ; % lpCutoffFreq for generic force data
-freq_filtering_walk = 12; %lpCutoffFreq for walking and treadmill force data
-freq_filtering_run = 20; % lpCutoffFreq for force and marker data
-zero_threshold = 20 ; % forces below this go to 0
+freq_filtering_walk = 20; %lpCutoffFreq for walking and treadmill force data
+freq_filtering_run = 50; % lpCutoffFreq for force and marker data
+zero_threshold = 20 ; % forces below this go to 0, 20 originally
 
 % thresholds for treadmill running
 thresh_high_TMrun = 300 ; % N Everything below this goes to 0. ~300 needed for sprinting
 thresh_low_TMrun = 10 ; % N Everything below this goes to 0 of the filtered version
-thresh_COP_TMrun = 200 ; % N When Fz is below this, COP tracks heel and toe markers. ~200 is good for sprointing
+thresh_COP_TMrun = 200 ; % N When Fz is below this, COP tracks heel and toe markers. ~200 is good for sprinting
 
 plateNamesOG = {'R','L','3'} ; % Reset this to 1,2,3 for generality if desired
 plateNamesWalking = {'R','L'} ; % Reset this to '','1_' for old style
@@ -128,7 +128,7 @@ for i=1:b;
             % Detect stance phase 
             onGround = find(forces_Nm(:,3)) ; 
             HS = onGround(find(diff(onGround) > 1)+1) ; % look for large jump in time between non-zero forces
-            TO = onGround(find(diff(onGround) > 1)) ;
+            TO = onGround(find(diff(onGround) > 1)) ; %changed from 1 to 5 to 10 in this line and line above
         
             if forces_Nm(1,3) > 0 ; % if force at beginning of trial
                 HS = [onGround(1)+1;HS] ; %set HS(1) to 1
@@ -242,7 +242,7 @@ for i=1:b;
                 
                 % Plug in Heel COP for heel strike and toe COP for toe-off
                 rightCOP(toInd:halfInd,:) = r_toe_proj(toInd:halfInd,:) ; % First half of swing phase COP is at toe
-                rightCOP(halfInd:hsInd,:) = r_calc_proj(halfInd:hsInd,:) ; % Second half of swing phase COP is at heel
+                rightCOP(halfInd:hsInd,:) = (r_toe_proj(halfInd:hsInd,:)+r_calc_proj(toInd:halfInd,:))/2  ; % Second half of swing phase COP is at heel, changed from calc to toe
             
                 % Linearly connect junctions to avoid step discontinuity
                 for j = 1:3
@@ -296,7 +296,7 @@ for i=1:b;
                 
                 % Plug in Heel COP for heel strike and toe COP for toe-off
                 leftCOP(toInd:halfInd,:) = l_toe_proj(toInd:halfInd,:) ; % First half of swing phase COP is at toe
-                leftCOP(halfInd:hsInd,:) = l_calc_proj(halfInd:hsInd,:) ; % Second half of swing phase COP is at heel
+                leftCOP(halfInd:hsInd,:) = (l_toe_proj(halfInd:hsInd,:)+l_calc_proj(toInd:halfInd,:))/2  ; % Second half of swing phase COP is at heel
            
                 % Linearly connect junctions to avoid step discontinuity
                 for j = 1:3

@@ -1,0 +1,12 @@
+---------------------------------------------------------
+Trial 'rotated_Sprint_08100001': Inverse Dynamics Summary
+---------------------------------------------------------
+
+Automatic processing reduced the residual loads needed for dynamic
+consistency to the following magnitudes, averaged over all frames of
+this trial:
+
+  - Avg. Residual Force   = 575.52 N
+  - Avg. Residual Torque  = 273.20 N-m
+
+

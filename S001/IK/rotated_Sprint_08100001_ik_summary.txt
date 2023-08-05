@@ -1,0 +1,52 @@
+---------------------------------------------------------------
+Trial 'rotated_Sprint_08100001': Inverse Kinematics Summary
+---------------------------------------------------------------
+
+Automatic processing achieved the following marker errors, averaged
+over all frames of this trial:
+
+  - Avg. Marker RMSE      = 7.80 cm
+  - Avg. Marker Max Error = 28.00 cm
+
+Markers with large root-mean-square error:
+
+  - WARNING: Marker L_wrist_radius has RMSE = 27.90 cm!
+  - WARNING: Marker L_wrist_ulna has RMSE = 27.16 cm!
+  - WARNING: Marker L_forearm has RMSE = 16.83 cm!
+  - WARNING: Marker R_wrist_ulna has RMSE = 15.49 cm!
+  - WARNING: Marker R_wrist_radius has RMSE = 14.27 cm!
+  - WARNING: Marker R_forearm has RMSE = 10.08 cm!
+  - WARNING: Marker L_toe has RMSE = 7.03 cm!
+  - WARNING: Marker R_elbow_lat has RMSE = 5.79 cm!
+  - WARNING: Marker L_humerus has RMSE = 5.67 cm!
+  - WARNING: Marker L_elbow_lat has RMSE = 5.43 cm!
+  - WARNING: Marker L_Shoulder has RMSE = 4.88 cm!
+  - WARNING: Marker L_elbow_med has RMSE = 4.74 cm!
+  - WARNING: Marker r_5meta has RMSE = 4.58 cm!
+  - WARNING: Marker Sternum has RMSE = 4.51 cm!
+  - WARNING: Marker L_5meta has RMSE = 4.21 cm!
+  - WARNING: Marker L_knee has RMSE = 4.17 cm!
+  - WARNING: Marker r_toe has RMSE = 4.10 cm!
+
+The input data for the following markers were modified to enable
+automatic processing:
+
+  - WARNING: Marker R_elbow_med dropped for accelerating too fast (1875.037171 m/s^2) on frame 648.
+  - WARNING: Marker R_elbow_med dropped for accelerating too fast (1105.692045 m/s^2) on frame 649.
+  - WARNING: Marker L_sh3 dropped for accelerating too fast (1045.717151 m/s^2) on frame 816.
+  - WARNING: Marker L_thigh4 dropped for accelerating too fast (1129.356142 m/s^2) on frame 843.
+  - WARNING: Marker L_sh2 dropped for accelerating too fast (1522.586310 m/s^2) on frame 980.
+  - WARNING: Marker L_thigh2 dropped for accelerating too fast (1455.670800 m/s^2) on frame 1012.
+  - WARNING: Marker L_sh3 dropped for accelerating too fast (1317.459187 m/s^2) on frame 1112.
+  - WARNING: Trial segmentation was not enabled, but the time range of trial "rotated_Sprint_08100001" where markers are present and force was non-zero is not equal to the full time range of the trial. We recommend enabling trial segmentation, which will trim this trial to the time range [0.0, 5.85]..
+  - WARNING: Trial rotated_Sprint_08100001 was trimmed to the intersection of the marker and force plate data, ([0.0, 5.85]), since the time ranges in the uploaded files did not match..
+
+The following model coordinates that hit joint limits during inverse
+kinematics:
+
+  - WARNING: subtalar_angle_r hit lower bound on frames 22-31.
+  - WARNING: subtalar_angle_r hit lower bound on frames 122-127.
+  - WARNING: subtalar_angle_r hit lower bound on frames 221-224.
+  - WARNING: subtalar_angle_r hit lower bound on frames 317-319.
+  - WARNING: subtalar_angle_r hit lower bound on frames 412-416.
+  - WARNING: subtalar_angle_r hit lower bound on frames 512-515.
