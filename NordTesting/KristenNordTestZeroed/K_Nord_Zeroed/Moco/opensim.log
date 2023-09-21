@@ -1,0 +1,2119 @@
+[2023-08-09 16:49:38.009] [info] Loaded model optimized_scale_and_markers from file ../Models/final.osim
+[2023-08-09 16:49:38.011] [warning] Couldn't find file 'r_pelvis_raja.vtp'.
+[2023-08-09 16:49:38.011] [warning] Couldn't find file 'l_pelvis_raja.vtp'.
+[2023-08-09 16:49:38.121] [warning] Couldn't find file 'l_pat.vtp'.
+[2023-08-09 16:49:39.121] [info] ExternalLoads 'Trimmed_NordZeroed000004' was renamed and is being reset to 'externalloads'.
+[2023-08-09 16:49:39.164] [info] ExternalForce::ForcePlate_tibia_r Data source being set to 
+[2023-08-09 16:49:39.164] [info] ExternalForce::ForcePlate_tibia_l Data source being set to 
+[2023-08-09 16:49:39.171] [info] Adding reserve actuators with an optimal force of 50.0...
+[2023-08-09 16:49:39.213] [info] ExternalForce::ForcePlate_tibia_r Data source being set to 
+[2023-08-09 16:49:39.213] [info] ExternalForce::ForcePlate_tibia_l Data source being set to 
+[2023-08-09 16:49:39.294] [info] ExternalForce::ForcePlate_tibia_r Data source being set to 
+[2023-08-09 16:49:39.294] [info] ExternalForce::ForcePlate_tibia_l Data source being set to 
+[2023-08-09 16:49:39.301] [info] Added 20 reserve actuator(s), for each of the following coordinates:
+[2023-08-09 16:49:39.301] [info]   /jointset/ground_pelvis/pelvis_tilt
+[2023-08-09 16:49:39.301] [info]   /jointset/ground_pelvis/pelvis_list
+[2023-08-09 16:49:39.301] [info]   /jointset/ground_pelvis/pelvis_rotation
+[2023-08-09 16:49:39.301] [info]   /jointset/ground_pelvis/pelvis_tx
+[2023-08-09 16:49:39.301] [info]   /jointset/ground_pelvis/pelvis_ty
+[2023-08-09 16:49:39.301] [info]   /jointset/ground_pelvis/pelvis_tz
+[2023-08-09 16:49:39.301] [info]   /jointset/hip_r/hip_flexion_r
+[2023-08-09 16:49:39.301] [info]   /jointset/hip_r/hip_adduction_r
+[2023-08-09 16:49:39.301] [info]   /jointset/hip_r/hip_rotation_r
+[2023-08-09 16:49:39.301] [info]   /jointset/walker_knee_r/knee_angle_r
+[2023-08-09 16:49:39.301] [info]   /jointset/ankle_r/ankle_angle_r
+[2023-08-09 16:49:39.301] [info]   /jointset/subtalar_r/subtalar_angle_r
+[2023-08-09 16:49:39.301] [info]   /jointset/mtp_r/mtp_angle_r
+[2023-08-09 16:49:39.301] [info]   /jointset/hip_l/hip_flexion_l
+[2023-08-09 16:49:39.301] [info]   /jointset/hip_l/hip_adduction_l
+[2023-08-09 16:49:39.301] [info]   /jointset/hip_l/hip_rotation_l
+[2023-08-09 16:49:39.301] [info]   /jointset/walker_knee_l/knee_angle_l
+[2023-08-09 16:49:39.301] [info]   /jointset/ankle_l/ankle_angle_l
+[2023-08-09 16:49:39.301] [info]   /jointset/subtalar_l/subtalar_angle_l
+[2023-08-09 16:49:39.301] [info]   /jointset/mtp_l/mtp_angle_l
+[2023-08-09 16:49:39.332] [info] ExternalForce::ForcePlate_tibia_r Data source being set to 
+[2023-08-09 16:49:39.332] [info] ExternalForce::ForcePlate_tibia_l Data source being set to 
+[2023-08-09 16:49:39.381] [info] ExternalForce::ForcePlate_tibia_r Data source being set to 
+[2023-08-09 16:49:39.381] [info] ExternalForce::ForcePlate_tibia_l Data source being set to 
+[2023-08-09 16:49:56.378] [info] ExternalForce::ForcePlate_tibia_r Data source being set to 
+[2023-08-09 16:49:56.378] [info] ExternalForce::ForcePlate_tibia_l Data source being set to 
+[2023-08-09 16:49:56.744] [error] Model unable to assemble: SimTK Exception thrown at Optimizer.h:133:
+  Value out of range in  OptimizerSystem  Constructor: expected 1 <= number of parameters <= 2.14748e+09 but number of parameters=0..Model relaxing constraints and trying again.
+[2023-08-09 16:49:56.746] [error] Model unable to assemble with relaxed constraints: SimTK Exception thrown at Optimizer.h:133:
+  Value out of range in  OptimizerSystem  Constructor: expected 1 <= number of parameters <= 2.14748e+09 but number of parameters=0.
+[2023-08-09 16:49:56.826] [info] ExternalForce::ForcePlate_tibia_r Data source being set to 
+[2023-08-09 16:49:56.826] [info] ExternalForce::ForcePlate_tibia_l Data source being set to 
+[2023-08-09 16:49:56.959] [info] ExternalForce::ForcePlate_tibia_r Data source being set to 
+[2023-08-09 16:49:56.959] [info] ExternalForce::ForcePlate_tibia_l Data source being set to 
+[2023-08-09 16:49:57.029] [info] ExternalForce::ForcePlate_tibia_r Data source being set to 
+[2023-08-09 16:49:57.029] [info] ExternalForce::ForcePlate_tibia_l Data source being set to 
+[2023-08-09 16:49:57.128] [info] ExternalForce::ForcePlate_tibia_r Data source being set to 
+[2023-08-09 16:49:57.128] [info] ExternalForce::ForcePlate_tibia_l Data source being set to 
+[2023-08-09 16:49:57.211] [info] ExternalForce::ForcePlate_tibia_r Data source being set to 
+[2023-08-09 16:49:57.211] [info] ExternalForce::ForcePlate_tibia_l Data source being set to 
+[2023-08-09 16:49:58.017] [info] ExternalForce::ForcePlate_tibia_r Data source being set to 
+[2023-08-09 16:49:58.017] [info] ExternalForce::ForcePlate_tibia_l Data source being set to 
+[2023-08-09 16:49:58.087] [info] ExternalForce::ForcePlate_tibia_r Data source being set to 
+[2023-08-09 16:49:58.087] [info] ExternalForce::ForcePlate_tibia_l Data source being set to 
+[2023-08-09 16:49:58.176] [info] ExternalForce::ForcePlate_tibia_r Data source being set to 
+[2023-08-09 16:49:58.176] [info] ExternalForce::ForcePlate_tibia_l Data source being set to 
+[2023-08-09 16:49:58.247] [info] ExternalForce::ForcePlate_tibia_r Data source being set to 
+[2023-08-09 16:49:58.247] [info] ExternalForce::ForcePlate_tibia_l Data source being set to 
+[2023-08-09 16:49:58.288] [info] ========================================================================
+[2023-08-09 16:49:58.288] [info] MocoCasADiSolver starting.
+[2023-08-09 16:49:58.288] [info] 8/9/2023 4:49:58 PM
+[2023-08-09 16:49:58.288] [info] ------------------------------------------------------------------------
+[2023-08-09 16:49:58.289] [cout] [info] Costs: (total: 1)
+[2023-08-09 16:49:58.289] [cout] [info]   excitation_effort. MocoControlGoal, enabled: true, mode: cost, weight: 1.0
+[2023-08-09 16:49:58.289] [cout] [info]         control: /forceset/lumbar_extension, weight: 1.0
+[2023-08-09 16:49:58.289] [cout] [info]         control: /forceset/lumbar_bending, weight: 1.0
+[2023-08-09 16:49:58.289] [cout] [info]         control: /forceset/lumbar_rotation, weight: 1.0
+[2023-08-09 16:49:58.289] [cout] [info]         control: /forceset/shoulder_flex_r, weight: 1.0
+[2023-08-09 16:49:58.289] [cout] [info]         control: /forceset/shoulder_add_r, weight: 1.0
+[2023-08-09 16:49:58.289] [cout] [info]         control: /forceset/shoulder_rot_r, weight: 1.0
+[2023-08-09 16:49:58.289] [cout] [info]         control: /forceset/elbow_flex_r, weight: 1.0
+[2023-08-09 16:49:58.289] [cout] [info]         control: /forceset/shoulder_flex_l, weight: 1.0
+[2023-08-09 16:49:58.289] [cout] [info]         control: /forceset/shoulder_add_l, weight: 1.0
+[2023-08-09 16:49:58.289] [cout] [info]         control: /forceset/shoulder_rot_l, weight: 1.0
+[2023-08-09 16:49:58.289] [cout] [info]         control: /forceset/elbow_flex_l, weight: 1.0
+[2023-08-09 16:49:58.289] [cout] [info]         control: /forceset/addbrev_r, weight: 1.0
+[2023-08-09 16:49:58.289] [cout] [info]         control: /forceset/addlong_r, weight: 1.0
+[2023-08-09 16:49:58.289] [cout] [info]         control: /forceset/addmagDist_r, weight: 1.0
+[2023-08-09 16:49:58.289] [cout] [info]         control: /forceset/addmagIsch_r, weight: 1.0
+[2023-08-09 16:49:58.289] [cout] [info]         control: /forceset/addmagMid_r, weight: 1.0
+[2023-08-09 16:49:58.289] [cout] [info]         control: /forceset/addmagProx_r, weight: 1.0
+[2023-08-09 16:49:58.289] [cout] [info]         control: /forceset/bflh_r, weight: 1.0
+[2023-08-09 16:49:58.289] [cout] [info]         control: /forceset/bfsh_r, weight: 1.0
+[2023-08-09 16:49:58.289] [cout] [info]         control: /forceset/edl_r, weight: 1.0
+[2023-08-09 16:49:58.289] [cout] [info]         control: /forceset/ehl_r, weight: 1.0
+[2023-08-09 16:49:58.289] [cout] [info]         control: /forceset/fdl_r, weight: 1.0
+[2023-08-09 16:49:58.289] [cout] [info]         control: /forceset/fhl_r, weight: 1.0
+[2023-08-09 16:49:58.289] [cout] [info]         control: /forceset/gaslat_r, weight: 1.0
+[2023-08-09 16:49:58.289] [cout] [info]         control: /forceset/gasmed_r, weight: 1.0
+[2023-08-09 16:49:58.289] [cout] [info]         control: /forceset/glmax1_r, weight: 1.0
+[2023-08-09 16:49:58.289] [cout] [info]         control: /forceset/glmax2_r, weight: 1.0
+[2023-08-09 16:49:58.289] [cout] [info]         control: /forceset/glmax3_r, weight: 1.0
+[2023-08-09 16:49:58.289] [cout] [info]         control: /forceset/glmed1_r, weight: 1.0
+[2023-08-09 16:49:58.289] [cout] [info]         control: /forceset/glmed2_r, weight: 1.0
+[2023-08-09 16:49:58.289] [cout] [info]         control: /forceset/glmed3_r, weight: 1.0
+[2023-08-09 16:49:58.289] [cout] [info]         control: /forceset/glmin1_r, weight: 1.0
+[2023-08-09 16:49:58.289] [cout] [info]         control: /forceset/glmin2_r, weight: 1.0
+[2023-08-09 16:49:58.289] [cout] [info]         control: /forceset/glmin3_r, weight: 1.0
+[2023-08-09 16:49:58.289] [cout] [info]         control: /forceset/grac_r, weight: 1.0
+[2023-08-09 16:49:58.289] [cout] [info]         control: /forceset/iliacus_r, weight: 1.0
+[2023-08-09 16:49:58.289] [cout] [info]         control: /forceset/perbrev_r, weight: 1.0
+[2023-08-09 16:49:58.289] [cout] [info]         control: /forceset/perlong_r, weight: 1.0
+[2023-08-09 16:49:58.289] [cout] [info]         control: /forceset/piri_r, weight: 1.0
+[2023-08-09 16:49:58.289] [cout] [info]         control: /forceset/psoas_r, weight: 1.0
+[2023-08-09 16:49:58.289] [cout] [info]         control: /forceset/recfem_r, weight: 1.0
+[2023-08-09 16:49:58.289] [cout] [info]         control: /forceset/sart_r, weight: 1.0
+[2023-08-09 16:49:58.289] [cout] [info]         control: /forceset/semimem_r, weight: 1.0
+[2023-08-09 16:49:58.289] [cout] [info]         control: /forceset/semiten_r, weight: 1.0
+[2023-08-09 16:49:58.289] [cout] [info]         control: /forceset/soleus_r, weight: 1.0
+[2023-08-09 16:49:58.289] [cout] [info]         control: /forceset/tfl_r, weight: 1.0
+[2023-08-09 16:49:58.289] [cout] [info]         control: /forceset/tibant_r, weight: 1.0
+[2023-08-09 16:49:58.289] [cout] [info]         control: /forceset/tibpost_r, weight: 1.0
+[2023-08-09 16:49:58.289] [cout] [info]         control: /forceset/vasint_r, weight: 1.0
+[2023-08-09 16:49:58.289] [cout] [info]         control: /forceset/vaslat_r, weight: 1.0
+[2023-08-09 16:49:58.289] [cout] [info]         control: /forceset/vasmed_r, weight: 1.0
+[2023-08-09 16:49:58.289] [cout] [info]         control: /forceset/addbrev_l, weight: 1.0
+[2023-08-09 16:49:58.289] [cout] [info]         control: /forceset/addlong_l, weight: 1.0
+[2023-08-09 16:49:58.289] [cout] [info]         control: /forceset/addmagDist_l, weight: 1.0
+[2023-08-09 16:49:58.289] [cout] [info]         control: /forceset/addmagIsch_l, weight: 1.0
+[2023-08-09 16:49:58.289] [cout] [info]         control: /forceset/addmagMid_l, weight: 1.0
+[2023-08-09 16:49:58.289] [cout] [info]         control: /forceset/addmagProx_l, weight: 1.0
+[2023-08-09 16:49:58.289] [cout] [info]         control: /forceset/bflh_l, weight: 1.0
+[2023-08-09 16:49:58.289] [cout] [info]         control: /forceset/bfsh_l, weight: 1.0
+[2023-08-09 16:49:58.289] [cout] [info]         control: /forceset/edl_l, weight: 1.0
+[2023-08-09 16:49:58.289] [cout] [info]         control: /forceset/ehl_l, weight: 1.0
+[2023-08-09 16:49:58.289] [cout] [info]         control: /forceset/fdl_l, weight: 1.0
+[2023-08-09 16:49:58.289] [cout] [info]         control: /forceset/fhl_l, weight: 1.0
+[2023-08-09 16:49:58.289] [cout] [info]         control: /forceset/gaslat_l, weight: 1.0
+[2023-08-09 16:49:58.289] [cout] [info]         control: /forceset/gasmed_l, weight: 1.0
+[2023-08-09 16:49:58.289] [cout] [info]         control: /forceset/glmax1_l, weight: 1.0
+[2023-08-09 16:49:58.290] [cout] [info]         control: /forceset/glmax2_l, weight: 1.0
+[2023-08-09 16:49:58.290] [cout] [info]         control: /forceset/glmax3_l, weight: 1.0
+[2023-08-09 16:49:58.290] [cout] [info]         control: /forceset/glmed1_l, weight: 1.0
+[2023-08-09 16:49:58.290] [cout] [info]         control: /forceset/glmed2_l, weight: 1.0
+[2023-08-09 16:49:58.290] [cout] [info]         control: /forceset/glmed3_l, weight: 1.0
+[2023-08-09 16:49:58.290] [cout] [info]         control: /forceset/glmin1_l, weight: 1.0
+[2023-08-09 16:49:58.290] [cout] [info]         control: /forceset/glmin2_l, weight: 1.0
+[2023-08-09 16:49:58.290] [cout] [info]         control: /forceset/glmin3_l, weight: 1.0
+[2023-08-09 16:49:58.290] [cout] [info]         control: /forceset/grac_l, weight: 1.0
+[2023-08-09 16:49:58.290] [cout] [info]         control: /forceset/iliacus_l, weight: 1.0
+[2023-08-09 16:49:58.290] [cout] [info]         control: /forceset/perbrev_l, weight: 1.0
+[2023-08-09 16:49:58.290] [cout] [info]         control: /forceset/perlong_l, weight: 1.0
+[2023-08-09 16:49:58.290] [cout] [info]         control: /forceset/piri_l, weight: 1.0
+[2023-08-09 16:49:58.290] [cout] [info]         control: /forceset/psoas_l, weight: 1.0
+[2023-08-09 16:49:58.290] [cout] [info]         control: /forceset/recfem_l, weight: 1.0
+[2023-08-09 16:49:58.290] [cout] [info]         control: /forceset/sart_l, weight: 1.0
+[2023-08-09 16:49:58.290] [cout] [info]         control: /forceset/semimem_l, weight: 1.0
+[2023-08-09 16:49:58.290] [cout] [info]         control: /forceset/semiten_l, weight: 1.0
+[2023-08-09 16:49:58.290] [cout] [info]         control: /forceset/soleus_l, weight: 1.0
+[2023-08-09 16:49:58.290] [cout] [info]         control: /forceset/tfl_l, weight: 1.0
+[2023-08-09 16:49:58.290] [cout] [info]         control: /forceset/tibant_l, weight: 1.0
+[2023-08-09 16:49:58.290] [cout] [info]         control: /forceset/tibpost_l, weight: 1.0
+[2023-08-09 16:49:58.290] [cout] [info]         control: /forceset/vasint_l, weight: 1.0
+[2023-08-09 16:49:58.290] [cout] [info]         control: /forceset/vaslat_l, weight: 1.0
+[2023-08-09 16:49:58.290] [cout] [info]         control: /forceset/vasmed_l, weight: 1.0
+[2023-08-09 16:49:58.290] [cout] [info]         control: /forceset/reserve_jointset_ground_pelvis_pelvis_tilt, weight: 1.0
+[2023-08-09 16:49:58.290] [cout] [info]         control: /forceset/reserve_jointset_ground_pelvis_pelvis_list, weight: 1.0
+[2023-08-09 16:49:58.290] [cout] [info]         control: /forceset/reserve_jointset_ground_pelvis_pelvis_rotation, weight: 1.0
+[2023-08-09 16:49:58.290] [cout] [info]         control: /forceset/reserve_jointset_ground_pelvis_pelvis_tx, weight: 1.0
+[2023-08-09 16:49:58.290] [cout] [info]         control: /forceset/reserve_jointset_ground_pelvis_pelvis_ty, weight: 1.0
+[2023-08-09 16:49:58.290] [cout] [info]         control: /forceset/reserve_jointset_ground_pelvis_pelvis_tz, weight: 1.0
+[2023-08-09 16:49:58.290] [cout] [info]         control: /forceset/reserve_jointset_hip_r_hip_flexion_r, weight: 1.0
+[2023-08-09 16:49:58.290] [cout] [info]         control: /forceset/reserve_jointset_hip_r_hip_adduction_r, weight: 1.0
+[2023-08-09 16:49:58.290] [cout] [info]         control: /forceset/reserve_jointset_hip_r_hip_rotation_r, weight: 1.0
+[2023-08-09 16:49:58.290] [cout] [info]         control: /forceset/reserve_jointset_walker_knee_r_knee_angle_r, weight: 1.0
+[2023-08-09 16:49:58.290] [cout] [info]         control: /forceset/reserve_jointset_ankle_r_ankle_angle_r, weight: 1.0
+[2023-08-09 16:49:58.290] [cout] [info]         control: /forceset/reserve_jointset_subtalar_r_subtalar_angle_r, weight: 1.0
+[2023-08-09 16:49:58.290] [cout] [info]         control: /forceset/reserve_jointset_mtp_r_mtp_angle_r, weight: 1.0
+[2023-08-09 16:49:58.290] [cout] [info]         control: /forceset/reserve_jointset_hip_l_hip_flexion_l, weight: 1.0
+[2023-08-09 16:49:58.290] [cout] [info]         control: /forceset/reserve_jointset_hip_l_hip_adduction_l, weight: 1.0
+[2023-08-09 16:49:58.290] [cout] [info]         control: /forceset/reserve_jointset_hip_l_hip_rotation_l, weight: 1.0
+[2023-08-09 16:49:58.290] [cout] [info]         control: /forceset/reserve_jointset_walker_knee_l_knee_angle_l, weight: 1.0
+[2023-08-09 16:49:58.290] [cout] [info]         control: /forceset/reserve_jointset_ankle_l_ankle_angle_l, weight: 1.0
+[2023-08-09 16:49:58.290] [cout] [info]         control: /forceset/reserve_jointset_subtalar_l_subtalar_angle_l, weight: 1.0
+[2023-08-09 16:49:58.290] [cout] [info]         control: /forceset/reserve_jointset_mtp_l_mtp_angle_l, weight: 1.0
+[2023-08-09 16:49:58.290] [cout] [info] Endpoint constraints: (total: 1)
+[2023-08-09 16:49:58.290] [cout] [info]   initial_activation. MocoInitialActivationGoal, enabled: true, mode: endpoint_constraint
+[2023-08-09 16:49:58.290] [cout] [info] Kinematic constraints: (total: 2)
+[2023-08-09 16:49:58.291] [cout] [info]   kinematic_constraint_cid33. MocoConstraintInfo. number of scalar equations: 3. bounds: 0, 0, 0
+[2023-08-09 16:49:58.291] [cout] [info]   kinematic_constraint_cid34. MocoConstraintInfo. number of scalar equations: 3. bounds: 0, 0, 0
+[2023-08-09 16:49:58.291] [cout] [info] Path constraints: none
+[2023-08-09 16:49:58.291] [cout] [info] States: (total: 80)
+[2023-08-09 16:49:58.291] [cout] [info]   /forceset/glmin1_r/activation. bounds: [0.01, 1]
+[2023-08-09 16:49:58.291] [cout] [info]   /forceset/bflh_r/activation. bounds: [0.01, 1]
+[2023-08-09 16:49:58.291] [cout] [info]   /forceset/addbrev_r/activation. bounds: [0.01, 1]
+[2023-08-09 16:49:58.291] [cout] [info]   /forceset/addlong_r/activation. bounds: [0.01, 1]
+[2023-08-09 16:49:58.291] [cout] [info]   /forceset/addmagIsch_r/activation. bounds: [0.01, 1]
+[2023-08-09 16:49:58.291] [cout] [info]   /forceset/addmagMid_l/activation. bounds: [0.01, 1]
+[2023-08-09 16:49:58.291] [cout] [info]   /forceset/piri_r/activation. bounds: [0.01, 1]
+[2023-08-09 16:49:58.291] [cout] [info]   /forceset/addmagDist_r/activation. bounds: [0.01, 1]
+[2023-08-09 16:49:58.291] [cout] [info]   /forceset/addmagDist_l/activation. bounds: [0.01, 1]
+[2023-08-09 16:49:58.291] [cout] [info]   /forceset/vasmed_r/activation. bounds: [0.01, 1]
+[2023-08-09 16:49:58.291] [cout] [info]   /forceset/addmagMid_r/activation. bounds: [0.01, 1]
+[2023-08-09 16:49:58.291] [cout] [info]   /forceset/glmax2_r/activation. bounds: [0.01, 1]
+[2023-08-09 16:49:58.291] [cout] [info]   /forceset/vaslat_r/activation. bounds: [0.01, 1]
+[2023-08-09 16:49:58.291] [cout] [info]   /forceset/bfsh_r/activation. bounds: [0.01, 1]
+[2023-08-09 16:49:58.291] [cout] [info]   /forceset/addmagProx_r/activation. bounds: [0.01, 1]
+[2023-08-09 16:49:58.291] [cout] [info]   /forceset/edl_r/activation. bounds: [0.01, 1]
+[2023-08-09 16:49:58.291] [cout] [info]   /forceset/ehl_r/activation. bounds: [0.01, 1]
+[2023-08-09 16:49:58.291] [cout] [info]   /forceset/semimem_r/activation. bounds: [0.01, 1]
+[2023-08-09 16:49:58.291] [cout] [info]   /forceset/fdl_r/activation. bounds: [0.01, 1]
+[2023-08-09 16:49:58.291] [cout] [info]   /forceset/fhl_r/activation. bounds: [0.01, 1]
+[2023-08-09 16:49:58.291] [cout] [info]   /forceset/tibant_l/activation. bounds: [0.01, 1]
+[2023-08-09 16:49:58.291] [cout] [info]   /forceset/glmed3_l/activation. bounds: [0.01, 1]
+[2023-08-09 16:49:58.291] [cout] [info]   /forceset/gaslat_r/activation. bounds: [0.01, 1]
+[2023-08-09 16:49:58.291] [cout] [info]   /forceset/glmed1_r/activation. bounds: [0.01, 1]
+[2023-08-09 16:49:58.291] [cout] [info]   /forceset/soleus_r/activation. bounds: [0.01, 1]
+[2023-08-09 16:49:58.291] [cout] [info]   /forceset/gasmed_r/activation. bounds: [0.01, 1]
+[2023-08-09 16:49:58.291] [cout] [info]   /forceset/glmax3_l/activation. bounds: [0.01, 1]
+[2023-08-09 16:49:58.291] [cout] [info]   /forceset/recfem_r/activation. bounds: [0.01, 1]
+[2023-08-09 16:49:58.291] [cout] [info]   /forceset/glmax1_r/activation. bounds: [0.01, 1]
+[2023-08-09 16:49:58.291] [cout] [info]   /forceset/glmax1_l/activation. bounds: [0.01, 1]
+[2023-08-09 16:49:58.291] [cout] [info]   /forceset/iliacus_r/activation. bounds: [0.01, 1]
+[2023-08-09 16:49:58.291] [cout] [info]   /forceset/glmax3_r/activation. bounds: [0.01, 1]
+[2023-08-09 16:49:58.291] [cout] [info]   /forceset/glmed2_r/activation. bounds: [0.01, 1]
+[2023-08-09 16:49:58.291] [cout] [info]   /forceset/gaslat_l/activation. bounds: [0.01, 1]
+[2023-08-09 16:49:58.291] [cout] [info]   /forceset/glmed1_l/activation. bounds: [0.01, 1]
+[2023-08-09 16:49:58.291] [cout] [info]   /forceset/glmed3_r/activation. bounds: [0.01, 1]
+[2023-08-09 16:49:58.291] [cout] [info]   /forceset/tibant_r/activation. bounds: [0.01, 1]
+[2023-08-09 16:49:58.291] [cout] [info]   /forceset/glmin2_r/activation. bounds: [0.01, 1]
+[2023-08-09 16:49:58.291] [cout] [info]   /forceset/glmin3_r/activation. bounds: [0.01, 1]
+[2023-08-09 16:49:58.291] [cout] [info]   /forceset/grac_r/activation. bounds: [0.01, 1]
+[2023-08-09 16:49:58.291] [cout] [info]   /forceset/perbrev_r/activation. bounds: [0.01, 1]
+[2023-08-09 16:49:58.291] [cout] [info]   /forceset/addmagProx_l/activation. bounds: [0.01, 1]
+[2023-08-09 16:49:58.291] [cout] [info]   /forceset/perlong_r/activation. bounds: [0.01, 1]
+[2023-08-09 16:49:58.291] [cout] [info]   /forceset/psoas_r/activation. bounds: [0.01, 1]
+[2023-08-09 16:49:58.291] [cout] [info]   /forceset/sart_r/activation. bounds: [0.01, 1]
+[2023-08-09 16:49:58.291] [cout] [info]   /forceset/edl_l/activation. bounds: [0.01, 1]
+[2023-08-09 16:49:58.291] [cout] [info]   /forceset/semiten_r/activation. bounds: [0.01, 1]
+[2023-08-09 16:49:58.291] [cout] [info]   /forceset/tfl_r/activation. bounds: [0.01, 1]
+[2023-08-09 16:49:58.291] [cout] [info]   /forceset/tibpost_r/activation. bounds: [0.01, 1]
+[2023-08-09 16:49:58.291] [cout] [info]   /forceset/addmagIsch_l/activation. bounds: [0.01, 1]
+[2023-08-09 16:49:58.292] [cout] [info]   /forceset/addlong_l/activation. bounds: [0.01, 1]
+[2023-08-09 16:49:58.292] [cout] [info]   /forceset/vasint_r/activation. bounds: [0.01, 1]
+[2023-08-09 16:49:58.292] [cout] [info]   /forceset/addbrev_l/activation. bounds: [0.01, 1]
+[2023-08-09 16:49:58.292] [cout] [info]   /forceset/glmin1_l/activation. bounds: [0.01, 1]
+[2023-08-09 16:49:58.292] [cout] [info]   /forceset/bflh_l/activation. bounds: [0.01, 1]
+[2023-08-09 16:49:58.292] [cout] [info]   /forceset/vaslat_l/activation. bounds: [0.01, 1]
+[2023-08-09 16:49:58.292] [cout] [info]   /forceset/glmax2_l/activation. bounds: [0.01, 1]
+[2023-08-09 16:49:58.292] [cout] [info]   /forceset/bfsh_l/activation. bounds: [0.01, 1]
+[2023-08-09 16:49:58.292] [cout] [info]   /forceset/semimem_l/activation. bounds: [0.01, 1]
+[2023-08-09 16:49:58.292] [cout] [info]   /forceset/ehl_l/activation. bounds: [0.01, 1]
+[2023-08-09 16:49:58.292] [cout] [info]   /forceset/fdl_l/activation. bounds: [0.01, 1]
+[2023-08-09 16:49:58.292] [cout] [info]   /forceset/fhl_l/activation. bounds: [0.01, 1]
+[2023-08-09 16:49:58.292] [cout] [info]   /forceset/gasmed_l/activation. bounds: [0.01, 1]
+[2023-08-09 16:49:58.292] [cout] [info]   /forceset/glmed2_l/activation. bounds: [0.01, 1]
+[2023-08-09 16:49:58.292] [cout] [info]   /forceset/glmin2_l/activation. bounds: [0.01, 1]
+[2023-08-09 16:49:58.292] [cout] [info]   /forceset/glmin3_l/activation. bounds: [0.01, 1]
+[2023-08-09 16:49:58.292] [cout] [info]   /forceset/grac_l/activation. bounds: [0.01, 1]
+[2023-08-09 16:49:58.292] [cout] [info]   /forceset/iliacus_l/activation. bounds: [0.01, 1]
+[2023-08-09 16:49:58.292] [cout] [info]   /forceset/perbrev_l/activation. bounds: [0.01, 1]
+[2023-08-09 16:49:58.292] [cout] [info]   /forceset/perlong_l/activation. bounds: [0.01, 1]
+[2023-08-09 16:49:58.292] [cout] [info]   /forceset/piri_l/activation. bounds: [0.01, 1]
+[2023-08-09 16:49:58.292] [cout] [info]   /forceset/psoas_l/activation. bounds: [0.01, 1]
+[2023-08-09 16:49:58.292] [cout] [info]   /forceset/recfem_l/activation. bounds: [0.01, 1]
+[2023-08-09 16:49:58.292] [cout] [info]   /forceset/sart_l/activation. bounds: [0.01, 1]
+[2023-08-09 16:49:58.292] [cout] [info]   /forceset/semiten_l/activation. bounds: [0.01, 1]
+[2023-08-09 16:49:58.292] [cout] [info]   /forceset/soleus_l/activation. bounds: [0.01, 1]
+[2023-08-09 16:49:58.292] [cout] [info]   /forceset/tfl_l/activation. bounds: [0.01, 1]
+[2023-08-09 16:49:58.292] [cout] [info]   /forceset/tibpost_l/activation. bounds: [0.01, 1]
+[2023-08-09 16:49:58.292] [cout] [info]   /forceset/vasint_l/activation. bounds: [0.01, 1]
+[2023-08-09 16:49:58.292] [cout] [info]   /forceset/vasmed_l/activation. bounds: [0.01, 1]
+[2023-08-09 16:49:58.292] [cout] [info] Controls: (total: 111)
+[2023-08-09 16:49:58.292] [cout] [info]   /forceset/shoulder_flex_l. bounds: [-inf, inf]
+[2023-08-09 16:49:58.292] [cout] [info]   /forceset/glmin1_r. bounds: [0.01, 1]
+[2023-08-09 16:49:58.292] [cout] [info]   /forceset/bflh_r. bounds: [0.01, 1]
+[2023-08-09 16:49:58.292] [cout] [info]   /forceset/lumbar_extension. bounds: [-inf, inf]
+[2023-08-09 16:49:58.292] [cout] [info]   /forceset/shoulder_add_r. bounds: [-inf, inf]
+[2023-08-09 16:49:58.292] [cout] [info]   /forceset/reserve_jointset_mtp_l_mtp_angle_l. bounds: [-inf, inf]
+[2023-08-09 16:49:58.292] [cout] [info]   /forceset/fdl_l. bounds: [0.01, 1]
+[2023-08-09 16:49:58.292] [cout] [info]   /forceset/lumbar_bending. bounds: [-inf, inf]
+[2023-08-09 16:49:58.292] [cout] [info]   /forceset/ehl_r. bounds: [0.01, 1]
+[2023-08-09 16:49:58.292] [cout] [info]   /forceset/semimem_r. bounds: [0.01, 1]
+[2023-08-09 16:49:58.292] [cout] [info]   /forceset/lumbar_rotation. bounds: [-inf, inf]
+[2023-08-09 16:49:58.292] [cout] [info]   /forceset/shoulder_flex_r. bounds: [-inf, inf]
+[2023-08-09 16:49:58.292] [cout] [info]   /forceset/shoulder_rot_r. bounds: [-inf, inf]
+[2023-08-09 16:49:58.292] [cout] [info]   /forceset/gaslat_r. bounds: [0.01, 1]
+[2023-08-09 16:49:58.292] [cout] [info]   /forceset/glmed1_r. bounds: [0.01, 1]
+[2023-08-09 16:49:58.292] [cout] [info]   /forceset/elbow_flex_r. bounds: [-inf, inf]
+[2023-08-09 16:49:58.292] [cout] [info]   /forceset/bflh_l. bounds: [0.01, 1]
+[2023-08-09 16:49:58.292] [cout] [info]   /forceset/shoulder_add_l. bounds: [-inf, inf]
+[2023-08-09 16:49:58.292] [cout] [info]   /forceset/glmed1_l. bounds: [0.01, 1]
+[2023-08-09 16:49:58.292] [cout] [info]   /forceset/shoulder_rot_l. bounds: [-inf, inf]
+[2023-08-09 16:49:58.292] [cout] [info]   /forceset/gaslat_l. bounds: [0.01, 1]
+[2023-08-09 16:49:58.292] [cout] [info]   /forceset/glmed3_r. bounds: [0.01, 1]
+[2023-08-09 16:49:58.292] [cout] [info]   /forceset/tibant_r. bounds: [0.01, 1]
+[2023-08-09 16:49:58.292] [cout] [info]   /forceset/elbow_flex_l. bounds: [-inf, inf]
+[2023-08-09 16:49:58.292] [cout] [info]   /forceset/addbrev_r. bounds: [0.01, 1]
+[2023-08-09 16:49:58.292] [cout] [info]   /forceset/addmagIsch_r. bounds: [0.01, 1]
+[2023-08-09 16:49:58.293] [cout] [info]   /forceset/addlong_r. bounds: [0.01, 1]
+[2023-08-09 16:49:58.293] [cout] [info]   /forceset/addmagMid_l. bounds: [0.01, 1]
+[2023-08-09 16:49:58.293] [cout] [info]   /forceset/piri_r. bounds: [0.01, 1]
+[2023-08-09 16:49:58.293] [cout] [info]   /forceset/addmagDist_r. bounds: [0.01, 1]
+[2023-08-09 16:49:58.293] [cout] [info]   /forceset/addmagDist_l. bounds: [0.01, 1]
+[2023-08-09 16:49:58.293] [cout] [info]   /forceset/vasmed_r. bounds: [0.01, 1]
+[2023-08-09 16:49:58.293] [cout] [info]   /forceset/addmagMid_r. bounds: [0.01, 1]
+[2023-08-09 16:49:58.293] [cout] [info]   /forceset/addmagProx_r. bounds: [0.01, 1]
+[2023-08-09 16:49:58.293] [cout] [info]   /forceset/glmax2_r. bounds: [0.01, 1]
+[2023-08-09 16:49:58.293] [cout] [info]   /forceset/vaslat_r. bounds: [0.01, 1]
+[2023-08-09 16:49:58.293] [cout] [info]   /forceset/bfsh_r. bounds: [0.01, 1]
+[2023-08-09 16:49:58.293] [cout] [info]   /forceset/edl_r. bounds: [0.01, 1]
+[2023-08-09 16:49:58.293] [cout] [info]   /forceset/fdl_r. bounds: [0.01, 1]
+[2023-08-09 16:49:58.293] [cout] [info]   /forceset/fhl_r. bounds: [0.01, 1]
+[2023-08-09 16:49:58.293] [cout] [info]   /forceset/soleus_r. bounds: [0.01, 1]
+[2023-08-09 16:49:58.293] [cout] [info]   /forceset/gasmed_r. bounds: [0.01, 1]
+[2023-08-09 16:49:58.293] [cout] [info]   /forceset/recfem_r. bounds: [0.01, 1]
+[2023-08-09 16:49:58.293] [cout] [info]   /forceset/glmax1_r. bounds: [0.01, 1]
+[2023-08-09 16:49:58.293] [cout] [info]   /forceset/iliacus_r. bounds: [0.01, 1]
+[2023-08-09 16:49:58.293] [cout] [info]   /forceset/glmax3_r. bounds: [0.01, 1]
+[2023-08-09 16:49:58.293] [cout] [info]   /forceset/glmed2_r. bounds: [0.01, 1]
+[2023-08-09 16:49:58.293] [cout] [info]   /forceset/glmin2_r. bounds: [0.01, 1]
+[2023-08-09 16:49:58.293] [cout] [info]   /forceset/glmin3_r. bounds: [0.01, 1]
+[2023-08-09 16:49:58.293] [cout] [info]   /forceset/grac_r. bounds: [0.01, 1]
+[2023-08-09 16:49:58.293] [cout] [info]   /forceset/perbrev_r. bounds: [0.01, 1]
+[2023-08-09 16:49:58.293] [cout] [info]   /forceset/addmagProx_l. bounds: [0.01, 1]
+[2023-08-09 16:49:58.293] [cout] [info]   /forceset/perlong_r. bounds: [0.01, 1]
+[2023-08-09 16:49:58.293] [cout] [info]   /forceset/psoas_r. bounds: [0.01, 1]
+[2023-08-09 16:49:58.293] [cout] [info]   /forceset/sart_r. bounds: [0.01, 1]
+[2023-08-09 16:49:58.293] [cout] [info]   /forceset/edl_l. bounds: [0.01, 1]
+[2023-08-09 16:49:58.293] [cout] [info]   /forceset/semiten_r. bounds: [0.01, 1]
+[2023-08-09 16:49:58.293] [cout] [info]   /forceset/tfl_r. bounds: [0.01, 1]
+[2023-08-09 16:49:58.293] [cout] [info]   /forceset/tibpost_r. bounds: [0.01, 1]
+[2023-08-09 16:49:58.293] [cout] [info]   /forceset/addmagIsch_l. bounds: [0.01, 1]
+[2023-08-09 16:49:58.293] [cout] [info]   /forceset/addlong_l. bounds: [0.01, 1]
+[2023-08-09 16:49:58.293] [cout] [info]   /forceset/vasint_r. bounds: [0.01, 1]
+[2023-08-09 16:49:58.293] [cout] [info]   /forceset/addbrev_l. bounds: [0.01, 1]
+[2023-08-09 16:49:58.293] [cout] [info]   /forceset/bfsh_l. bounds: [0.01, 1]
+[2023-08-09 16:49:58.293] [cout] [info]   /forceset/semimem_l. bounds: [0.01, 1]
+[2023-08-09 16:49:58.293] [cout] [info]   /forceset/ehl_l. bounds: [0.01, 1]
+[2023-08-09 16:49:58.293] [cout] [info]   /forceset/fhl_l. bounds: [0.01, 1]
+[2023-08-09 16:49:58.293] [cout] [info]   /forceset/gasmed_l. bounds: [0.01, 1]
+[2023-08-09 16:49:58.293] [cout] [info]   /forceset/glmax1_l. bounds: [0.01, 1]
+[2023-08-09 16:49:58.293] [cout] [info]   /forceset/vaslat_l. bounds: [0.01, 1]
+[2023-08-09 16:49:58.293] [cout] [info]   /forceset/glmax2_l. bounds: [0.01, 1]
+[2023-08-09 16:49:58.293] [cout] [info]   /forceset/glmax3_l. bounds: [0.01, 1]
+[2023-08-09 16:49:58.293] [cout] [info]   /forceset/glmed2_l. bounds: [0.01, 1]
+[2023-08-09 16:49:58.293] [cout] [info]   /forceset/tibant_l. bounds: [0.01, 1]
+[2023-08-09 16:49:58.293] [cout] [info]   /forceset/glmed3_l. bounds: [0.01, 1]
+[2023-08-09 16:49:58.293] [cout] [info]   /forceset/glmin1_l. bounds: [0.01, 1]
+[2023-08-09 16:49:58.293] [cout] [info]   /forceset/glmin2_l. bounds: [0.01, 1]
+[2023-08-09 16:49:58.293] [cout] [info]   /forceset/glmin3_l. bounds: [0.01, 1]
+[2023-08-09 16:49:58.293] [cout] [info]   /forceset/grac_l. bounds: [0.01, 1]
+[2023-08-09 16:49:58.293] [cout] [info]   /forceset/iliacus_l. bounds: [0.01, 1]
+[2023-08-09 16:49:58.293] [cout] [info]   /forceset/perbrev_l. bounds: [0.01, 1]
+[2023-08-09 16:49:58.293] [cout] [info]   /forceset/perlong_l. bounds: [0.01, 1]
+[2023-08-09 16:49:58.294] [cout] [info]   /forceset/piri_l. bounds: [0.01, 1]
+[2023-08-09 16:49:58.294] [cout] [info]   /forceset/psoas_l. bounds: [0.01, 1]
+[2023-08-09 16:49:58.294] [cout] [info]   /forceset/recfem_l. bounds: [0.01, 1]
+[2023-08-09 16:49:58.294] [cout] [info]   /forceset/sart_l. bounds: [0.01, 1]
+[2023-08-09 16:49:58.294] [cout] [info]   /forceset/semiten_l. bounds: [0.01, 1]
+[2023-08-09 16:49:58.294] [cout] [info]   /forceset/soleus_l. bounds: [0.01, 1]
+[2023-08-09 16:49:58.294] [cout] [info]   /forceset/tfl_l. bounds: [0.01, 1]
+[2023-08-09 16:49:58.294] [cout] [info]   /forceset/tibpost_l. bounds: [0.01, 1]
+[2023-08-09 16:49:58.294] [cout] [info]   /forceset/vasint_l. bounds: [0.01, 1]
+[2023-08-09 16:49:58.294] [cout] [info]   /forceset/vasmed_l. bounds: [0.01, 1]
+[2023-08-09 16:49:58.294] [cout] [info]   /forceset/reserve_jointset_ground_pelvis_pelvis_tilt. bounds: [-inf, inf]
+[2023-08-09 16:49:58.294] [cout] [info]   /forceset/reserve_jointset_ground_pelvis_pelvis_list. bounds: [-inf, inf]
+[2023-08-09 16:49:58.294] [cout] [info]   /forceset/reserve_jointset_ground_pelvis_pelvis_rotation. bounds: [-inf, inf]
+[2023-08-09 16:49:58.294] [cout] [info]   /forceset/reserve_jointset_ground_pelvis_pelvis_tx. bounds: [-inf, inf]
+[2023-08-09 16:49:58.294] [cout] [info]   /forceset/reserve_jointset_hip_r_hip_flexion_r. bounds: [-inf, inf]
+[2023-08-09 16:49:58.294] [cout] [info]   /forceset/reserve_jointset_ground_pelvis_pelvis_ty. bounds: [-inf, inf]
+[2023-08-09 16:49:58.294] [cout] [info]   /forceset/reserve_jointset_ground_pelvis_pelvis_tz. bounds: [-inf, inf]
+[2023-08-09 16:49:58.294] [cout] [info]   /forceset/reserve_jointset_hip_r_hip_adduction_r. bounds: [-inf, inf]
+[2023-08-09 16:49:58.294] [cout] [info]   /forceset/reserve_jointset_hip_r_hip_rotation_r. bounds: [-inf, inf]
+[2023-08-09 16:49:58.294] [cout] [info]   /forceset/reserve_jointset_walker_knee_r_knee_angle_r. bounds: [-inf, inf]
+[2023-08-09 16:49:58.294] [cout] [info]   /forceset/reserve_jointset_ankle_r_ankle_angle_r. bounds: [-inf, inf]
+[2023-08-09 16:49:58.294] [cout] [info]   /forceset/reserve_jointset_subtalar_r_subtalar_angle_r. bounds: [-inf, inf]
+[2023-08-09 16:49:58.294] [cout] [info]   /forceset/reserve_jointset_mtp_r_mtp_angle_r. bounds: [-inf, inf]
+[2023-08-09 16:49:58.294] [cout] [info]   /forceset/reserve_jointset_hip_l_hip_flexion_l. bounds: [-inf, inf]
+[2023-08-09 16:49:58.294] [cout] [info]   /forceset/reserve_jointset_hip_l_hip_adduction_l. bounds: [-inf, inf]
+[2023-08-09 16:49:58.294] [cout] [info]   /forceset/reserve_jointset_walker_knee_l_knee_angle_l. bounds: [-inf, inf]
+[2023-08-09 16:49:58.294] [cout] [info]   /forceset/reserve_jointset_hip_l_hip_rotation_l. bounds: [-inf, inf]
+[2023-08-09 16:49:58.294] [cout] [info]   /forceset/reserve_jointset_ankle_l_ankle_angle_l. bounds: [-inf, inf]
+[2023-08-09 16:49:58.294] [cout] [info]   /forceset/reserve_jointset_subtalar_l_subtalar_angle_l. bounds: [-inf, inf]
+[2023-08-09 16:49:58.294] [cout] [info] Parameters: none
+[2023-08-09 16:49:58.355] [info] ExternalForce::ForcePlate_tibia_r Data source being set to 
+[2023-08-09 16:49:58.355] [info] ExternalForce::ForcePlate_tibia_l Data source being set to 
+[2023-08-09 16:49:58.422] [info] ExternalForce::ForcePlate_tibia_r Data source being set to 
+[2023-08-09 16:49:58.422] [info] ExternalForce::ForcePlate_tibia_l Data source being set to 
+[2023-08-09 16:49:58.511] [info] ExternalForce::ForcePlate_tibia_r Data source being set to 
+[2023-08-09 16:49:58.511] [info] ExternalForce::ForcePlate_tibia_l Data source being set to 
+[2023-08-09 16:49:58.578] [info] ExternalForce::ForcePlate_tibia_r Data source being set to 
+[2023-08-09 16:49:58.578] [info] ExternalForce::ForcePlate_tibia_l Data source being set to 
+[2023-08-09 16:49:58.666] [info] ExternalForce::ForcePlate_tibia_r Data source being set to 
+[2023-08-09 16:49:58.666] [info] ExternalForce::ForcePlate_tibia_l Data source being set to 
+[2023-08-09 16:49:58.735] [info] ExternalForce::ForcePlate_tibia_r Data source being set to 
+[2023-08-09 16:49:58.735] [info] ExternalForce::ForcePlate_tibia_l Data source being set to 
+[2023-08-09 16:49:58.829] [info] ExternalForce::ForcePlate_tibia_r Data source being set to 
+[2023-08-09 16:49:58.829] [info] ExternalForce::ForcePlate_tibia_l Data source being set to 
+[2023-08-09 16:49:58.903] [info] ExternalForce::ForcePlate_tibia_r Data source being set to 
+[2023-08-09 16:49:58.903] [info] ExternalForce::ForcePlate_tibia_l Data source being set to 
+[2023-08-09 16:49:58.994] [info] ExternalForce::ForcePlate_tibia_r Data source being set to 
+[2023-08-09 16:49:58.994] [info] ExternalForce::ForcePlate_tibia_l Data source being set to 
+[2023-08-09 16:49:59.067] [info] ExternalForce::ForcePlate_tibia_r Data source being set to 
+[2023-08-09 16:49:59.067] [info] ExternalForce::ForcePlate_tibia_l Data source being set to 
+[2023-08-09 16:49:59.159] [info] ExternalForce::ForcePlate_tibia_r Data source being set to 
+[2023-08-09 16:49:59.159] [info] ExternalForce::ForcePlate_tibia_l Data source being set to 
+[2023-08-09 16:49:59.231] [info] ExternalForce::ForcePlate_tibia_r Data source being set to 
+[2023-08-09 16:49:59.231] [info] ExternalForce::ForcePlate_tibia_l Data source being set to 
+[2023-08-09 16:49:59.328] [info] ExternalForce::ForcePlate_tibia_r Data source being set to 
+[2023-08-09 16:49:59.328] [info] ExternalForce::ForcePlate_tibia_l Data source being set to 
+[2023-08-09 16:49:59.400] [info] ExternalForce::ForcePlate_tibia_r Data source being set to 
+[2023-08-09 16:49:59.400] [info] ExternalForce::ForcePlate_tibia_l Data source being set to 
+[2023-08-09 16:49:59.496] [info] ExternalForce::ForcePlate_tibia_r Data source being set to 
+[2023-08-09 16:49:59.496] [info] ExternalForce::ForcePlate_tibia_l Data source being set to 
+[2023-08-09 16:49:59.569] [info] ExternalForce::ForcePlate_tibia_r Data source being set to 
+[2023-08-09 16:49:59.569] [info] ExternalForce::ForcePlate_tibia_l Data source being set to 
+[2023-08-09 16:49:59.662] [info] ExternalForce::ForcePlate_tibia_r Data source being set to 
+[2023-08-09 16:49:59.662] [info] ExternalForce::ForcePlate_tibia_l Data source being set to 
+[2023-08-09 16:49:59.735] [info] ExternalForce::ForcePlate_tibia_r Data source being set to 
+[2023-08-09 16:49:59.735] [info] ExternalForce::ForcePlate_tibia_l Data source being set to 
+[2023-08-09 16:49:59.835] [info] ExternalForce::ForcePlate_tibia_r Data source being set to 
+[2023-08-09 16:49:59.835] [info] ExternalForce::ForcePlate_tibia_l Data source being set to 
+[2023-08-09 16:49:59.909] [info] ExternalForce::ForcePlate_tibia_r Data source being set to 
+[2023-08-09 16:49:59.909] [info] ExternalForce::ForcePlate_tibia_l Data source being set to 
+[2023-08-09 16:50:00.006] [info] ExternalForce::ForcePlate_tibia_r Data source being set to 
+[2023-08-09 16:50:00.006] [info] ExternalForce::ForcePlate_tibia_l Data source being set to 
+[2023-08-09 16:50:00.088] [info] ExternalForce::ForcePlate_tibia_r Data source being set to 
+[2023-08-09 16:50:00.088] [info] ExternalForce::ForcePlate_tibia_l Data source being set to 
+[2023-08-09 16:50:00.186] [info] ExternalForce::ForcePlate_tibia_r Data source being set to 
+[2023-08-09 16:50:00.186] [info] ExternalForce::ForcePlate_tibia_l Data source being set to 
+[2023-08-09 16:50:00.263] [info] ExternalForce::ForcePlate_tibia_r Data source being set to 
+[2023-08-09 16:50:00.263] [info] ExternalForce::ForcePlate_tibia_l Data source being set to 
+[2023-08-09 16:50:00.308] [info] Number of threads: 12
+[2023-08-10 09:20:03.887] [info] Set log level to Info.
+[2023-08-10 09:20:04.055] [info] ------------------------------------------------------------------------
+[2023-08-10 09:20:04.056] [info] Elapsed real time: 59420 second(s) (16 hour(s), 30 minute(s), 20 second(s)).
+[2023-08-10 09:20:04.056] [info] 8/10/2023 9:20:04 AM
+[2023-08-10 09:20:04.056] [info] MocoCasADiSolver succeeded!
+[2023-08-10 09:20:04.056] [info] ========================================================================
+[2023-08-10 09:31:51.426] [info] Loaded model optimized_scale_and_markers from file ../Models/final.osim
+[2023-08-10 09:31:51.427] [warning] Couldn't find file 'r_pelvis_raja.vtp'.
+[2023-08-10 09:31:51.428] [warning] Couldn't find file 'l_pelvis_raja.vtp'.
+[2023-08-10 09:31:51.541] [warning] Couldn't find file 'l_pat.vtp'.
+[2023-08-10 09:31:52.548] [info] ExternalLoads 'rotated_Sprint_04500001' was renamed and is being reset to 'externalloads'.
+[2023-08-10 09:31:52.580] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-10 09:31:52.580] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-10 09:31:52.589] [info] Adding reserve actuators with an optimal force of 50.0...
+[2023-08-10 09:31:52.622] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-10 09:31:52.622] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-10 09:31:52.696] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-10 09:31:52.696] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-10 09:31:52.705] [info] Added 20 reserve actuator(s), for each of the following coordinates:
+[2023-08-10 09:31:52.705] [info]   /jointset/ground_pelvis/pelvis_tilt
+[2023-08-10 09:31:52.705] [info]   /jointset/ground_pelvis/pelvis_list
+[2023-08-10 09:31:52.705] [info]   /jointset/ground_pelvis/pelvis_rotation
+[2023-08-10 09:31:52.705] [info]   /jointset/ground_pelvis/pelvis_tx
+[2023-08-10 09:31:52.705] [info]   /jointset/ground_pelvis/pelvis_ty
+[2023-08-10 09:31:52.705] [info]   /jointset/ground_pelvis/pelvis_tz
+[2023-08-10 09:31:52.705] [info]   /jointset/hip_r/hip_flexion_r
+[2023-08-10 09:31:52.705] [info]   /jointset/hip_r/hip_adduction_r
+[2023-08-10 09:31:52.705] [info]   /jointset/hip_r/hip_rotation_r
+[2023-08-10 09:31:52.705] [info]   /jointset/walker_knee_r/knee_angle_r
+[2023-08-10 09:31:52.705] [info]   /jointset/ankle_r/ankle_angle_r
+[2023-08-10 09:31:52.705] [info]   /jointset/subtalar_r/subtalar_angle_r
+[2023-08-10 09:31:52.705] [info]   /jointset/mtp_r/mtp_angle_r
+[2023-08-10 09:31:52.706] [info]   /jointset/hip_l/hip_flexion_l
+[2023-08-10 09:31:52.706] [info]   /jointset/hip_l/hip_adduction_l
+[2023-08-10 09:31:52.706] [info]   /jointset/hip_l/hip_rotation_l
+[2023-08-10 09:31:52.706] [info]   /jointset/walker_knee_l/knee_angle_l
+[2023-08-10 09:31:52.706] [info]   /jointset/ankle_l/ankle_angle_l
+[2023-08-10 09:31:52.706] [info]   /jointset/subtalar_l/subtalar_angle_l
+[2023-08-10 09:31:52.706] [info]   /jointset/mtp_l/mtp_angle_l
+[2023-08-10 09:31:52.729] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-10 09:31:52.729] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-10 09:31:52.774] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-10 09:31:52.774] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-10 09:32:00.122] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-10 09:32:00.123] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-10 09:32:00.294] [error] Model unable to assemble: SimTK Exception thrown at Optimizer.h:133:
+  Value out of range in  OptimizerSystem  Constructor: expected 1 <= number of parameters <= 2.14748e+09 but number of parameters=0..Model relaxing constraints and trying again.
+[2023-08-10 09:32:00.297] [error] Model unable to assemble with relaxed constraints: SimTK Exception thrown at Optimizer.h:133:
+  Value out of range in  OptimizerSystem  Constructor: expected 1 <= number of parameters <= 2.14748e+09 but number of parameters=0.
+[2023-08-10 09:32:00.379] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-10 09:32:00.379] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-10 09:32:00.509] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-10 09:32:00.509] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-10 09:32:00.576] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-10 09:32:00.576] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-10 09:32:00.680] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-10 09:32:00.680] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-10 09:32:00.761] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-10 09:32:00.761] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-10 09:32:01.275] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-10 09:32:01.275] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-10 09:32:01.339] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-10 09:32:01.339] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-10 09:32:01.435] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-10 09:32:01.435] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-10 09:32:01.525] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-10 09:32:01.525] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-10 09:32:01.602] [info] ========================================================================
+[2023-08-10 09:32:01.602] [info] MocoCasADiSolver starting.
+[2023-08-10 09:32:01.602] [info] 8/10/2023 9:32:01 AM
+[2023-08-10 09:32:01.602] [info] ------------------------------------------------------------------------
+[2023-08-10 09:32:01.602] [cout] [info] Costs: (total: 1)
+[2023-08-10 09:32:01.602] [cout] [info]   excitation_effort. MocoControlGoal, enabled: true, mode: cost, weight: 1.0
+[2023-08-10 09:32:01.602] [cout] [info]         control: /forceset/lumbar_extension, weight: 1.0
+[2023-08-10 09:32:01.602] [cout] [info]         control: /forceset/lumbar_bending, weight: 1.0
+[2023-08-10 09:32:01.602] [cout] [info]         control: /forceset/lumbar_rotation, weight: 1.0
+[2023-08-10 09:32:01.602] [cout] [info]         control: /forceset/shoulder_flex_r, weight: 1.0
+[2023-08-10 09:32:01.602] [cout] [info]         control: /forceset/shoulder_add_r, weight: 1.0
+[2023-08-10 09:32:01.602] [cout] [info]         control: /forceset/shoulder_rot_r, weight: 1.0
+[2023-08-10 09:32:01.602] [cout] [info]         control: /forceset/elbow_flex_r, weight: 1.0
+[2023-08-10 09:32:01.602] [cout] [info]         control: /forceset/shoulder_flex_l, weight: 1.0
+[2023-08-10 09:32:01.602] [cout] [info]         control: /forceset/shoulder_add_l, weight: 1.0
+[2023-08-10 09:32:01.602] [cout] [info]         control: /forceset/shoulder_rot_l, weight: 1.0
+[2023-08-10 09:32:01.602] [cout] [info]         control: /forceset/elbow_flex_l, weight: 1.0
+[2023-08-10 09:32:01.602] [cout] [info]         control: /forceset/addbrev_r, weight: 1.0
+[2023-08-10 09:32:01.602] [cout] [info]         control: /forceset/addlong_r, weight: 1.0
+[2023-08-10 09:32:01.602] [cout] [info]         control: /forceset/addmagDist_r, weight: 1.0
+[2023-08-10 09:32:01.602] [cout] [info]         control: /forceset/addmagIsch_r, weight: 1.0
+[2023-08-10 09:32:01.602] [cout] [info]         control: /forceset/addmagMid_r, weight: 1.0
+[2023-08-10 09:32:01.602] [cout] [info]         control: /forceset/addmagProx_r, weight: 1.0
+[2023-08-10 09:32:01.602] [cout] [info]         control: /forceset/bflh_r, weight: 1.0
+[2023-08-10 09:32:01.602] [cout] [info]         control: /forceset/bfsh_r, weight: 1.0
+[2023-08-10 09:32:01.602] [cout] [info]         control: /forceset/edl_r, weight: 1.0
+[2023-08-10 09:32:01.602] [cout] [info]         control: /forceset/ehl_r, weight: 1.0
+[2023-08-10 09:32:01.602] [cout] [info]         control: /forceset/fdl_r, weight: 1.0
+[2023-08-10 09:32:01.602] [cout] [info]         control: /forceset/fhl_r, weight: 1.0
+[2023-08-10 09:32:01.602] [cout] [info]         control: /forceset/gaslat_r, weight: 1.0
+[2023-08-10 09:32:01.602] [cout] [info]         control: /forceset/gasmed_r, weight: 1.0
+[2023-08-10 09:32:01.602] [cout] [info]         control: /forceset/glmax1_r, weight: 1.0
+[2023-08-10 09:32:01.602] [cout] [info]         control: /forceset/glmax2_r, weight: 1.0
+[2023-08-10 09:32:01.602] [cout] [info]         control: /forceset/glmax3_r, weight: 1.0
+[2023-08-10 09:32:01.602] [cout] [info]         control: /forceset/glmed1_r, weight: 1.0
+[2023-08-10 09:32:01.602] [cout] [info]         control: /forceset/glmed2_r, weight: 1.0
+[2023-08-10 09:32:01.602] [cout] [info]         control: /forceset/glmed3_r, weight: 1.0
+[2023-08-10 09:32:01.602] [cout] [info]         control: /forceset/glmin1_r, weight: 1.0
+[2023-08-10 09:32:01.602] [cout] [info]         control: /forceset/glmin2_r, weight: 1.0
+[2023-08-10 09:32:01.602] [cout] [info]         control: /forceset/glmin3_r, weight: 1.0
+[2023-08-10 09:32:01.603] [cout] [info]         control: /forceset/grac_r, weight: 1.0
+[2023-08-10 09:32:01.603] [cout] [info]         control: /forceset/iliacus_r, weight: 1.0
+[2023-08-10 09:32:01.603] [cout] [info]         control: /forceset/perbrev_r, weight: 1.0
+[2023-08-10 09:32:01.603] [cout] [info]         control: /forceset/perlong_r, weight: 1.0
+[2023-08-10 09:32:01.603] [cout] [info]         control: /forceset/piri_r, weight: 1.0
+[2023-08-10 09:32:01.603] [cout] [info]         control: /forceset/psoas_r, weight: 1.0
+[2023-08-10 09:32:01.603] [cout] [info]         control: /forceset/recfem_r, weight: 1.0
+[2023-08-10 09:32:01.603] [cout] [info]         control: /forceset/sart_r, weight: 1.0
+[2023-08-10 09:32:01.603] [cout] [info]         control: /forceset/semimem_r, weight: 1.0
+[2023-08-10 09:32:01.603] [cout] [info]         control: /forceset/semiten_r, weight: 1.0
+[2023-08-10 09:32:01.603] [cout] [info]         control: /forceset/soleus_r, weight: 1.0
+[2023-08-10 09:32:01.603] [cout] [info]         control: /forceset/tfl_r, weight: 1.0
+[2023-08-10 09:32:01.603] [cout] [info]         control: /forceset/tibant_r, weight: 1.0
+[2023-08-10 09:32:01.603] [cout] [info]         control: /forceset/tibpost_r, weight: 1.0
+[2023-08-10 09:32:01.603] [cout] [info]         control: /forceset/vasint_r, weight: 1.0
+[2023-08-10 09:32:01.603] [cout] [info]         control: /forceset/vaslat_r, weight: 1.0
+[2023-08-10 09:32:01.603] [cout] [info]         control: /forceset/vasmed_r, weight: 1.0
+[2023-08-10 09:32:01.603] [cout] [info]         control: /forceset/addbrev_l, weight: 1.0
+[2023-08-10 09:32:01.603] [cout] [info]         control: /forceset/addlong_l, weight: 1.0
+[2023-08-10 09:32:01.603] [cout] [info]         control: /forceset/addmagDist_l, weight: 1.0
+[2023-08-10 09:32:01.603] [cout] [info]         control: /forceset/addmagIsch_l, weight: 1.0
+[2023-08-10 09:32:01.603] [cout] [info]         control: /forceset/addmagMid_l, weight: 1.0
+[2023-08-10 09:32:01.603] [cout] [info]         control: /forceset/addmagProx_l, weight: 1.0
+[2023-08-10 09:32:01.603] [cout] [info]         control: /forceset/bflh_l, weight: 1.0
+[2023-08-10 09:32:01.603] [cout] [info]         control: /forceset/bfsh_l, weight: 1.0
+[2023-08-10 09:32:01.603] [cout] [info]         control: /forceset/edl_l, weight: 1.0
+[2023-08-10 09:32:01.603] [cout] [info]         control: /forceset/ehl_l, weight: 1.0
+[2023-08-10 09:32:01.603] [cout] [info]         control: /forceset/fdl_l, weight: 1.0
+[2023-08-10 09:32:01.603] [cout] [info]         control: /forceset/fhl_l, weight: 1.0
+[2023-08-10 09:32:01.603] [cout] [info]         control: /forceset/gaslat_l, weight: 1.0
+[2023-08-10 09:32:01.603] [cout] [info]         control: /forceset/gasmed_l, weight: 1.0
+[2023-08-10 09:32:01.603] [cout] [info]         control: /forceset/glmax1_l, weight: 1.0
+[2023-08-10 09:32:01.603] [cout] [info]         control: /forceset/glmax2_l, weight: 1.0
+[2023-08-10 09:32:01.603] [cout] [info]         control: /forceset/glmax3_l, weight: 1.0
+[2023-08-10 09:32:01.603] [cout] [info]         control: /forceset/glmed1_l, weight: 1.0
+[2023-08-10 09:32:01.603] [cout] [info]         control: /forceset/glmed2_l, weight: 1.0
+[2023-08-10 09:32:01.603] [cout] [info]         control: /forceset/glmed3_l, weight: 1.0
+[2023-08-10 09:32:01.603] [cout] [info]         control: /forceset/glmin1_l, weight: 1.0
+[2023-08-10 09:32:01.603] [cout] [info]         control: /forceset/glmin2_l, weight: 1.0
+[2023-08-10 09:32:01.603] [cout] [info]         control: /forceset/glmin3_l, weight: 1.0
+[2023-08-10 09:32:01.603] [cout] [info]         control: /forceset/grac_l, weight: 1.0
+[2023-08-10 09:32:01.603] [cout] [info]         control: /forceset/iliacus_l, weight: 1.0
+[2023-08-10 09:32:01.603] [cout] [info]         control: /forceset/perbrev_l, weight: 1.0
+[2023-08-10 09:32:01.603] [cout] [info]         control: /forceset/perlong_l, weight: 1.0
+[2023-08-10 09:32:01.603] [cout] [info]         control: /forceset/piri_l, weight: 1.0
+[2023-08-10 09:32:01.603] [cout] [info]         control: /forceset/psoas_l, weight: 1.0
+[2023-08-10 09:32:01.603] [cout] [info]         control: /forceset/recfem_l, weight: 1.0
+[2023-08-10 09:32:01.603] [cout] [info]         control: /forceset/sart_l, weight: 1.0
+[2023-08-10 09:32:01.603] [cout] [info]         control: /forceset/semimem_l, weight: 1.0
+[2023-08-10 09:32:01.603] [cout] [info]         control: /forceset/semiten_l, weight: 1.0
+[2023-08-10 09:32:01.603] [cout] [info]         control: /forceset/soleus_l, weight: 1.0
+[2023-08-10 09:32:01.603] [cout] [info]         control: /forceset/tfl_l, weight: 1.0
+[2023-08-10 09:32:01.603] [cout] [info]         control: /forceset/tibant_l, weight: 1.0
+[2023-08-10 09:32:01.603] [cout] [info]         control: /forceset/tibpost_l, weight: 1.0
+[2023-08-10 09:32:01.603] [cout] [info]         control: /forceset/vasint_l, weight: 1.0
+[2023-08-10 09:32:01.603] [cout] [info]         control: /forceset/vaslat_l, weight: 1.0
+[2023-08-10 09:32:01.603] [cout] [info]         control: /forceset/vasmed_l, weight: 1.0
+[2023-08-10 09:32:01.603] [cout] [info]         control: /forceset/reserve_jointset_ground_pelvis_pelvis_tilt, weight: 1.0
+[2023-08-10 09:32:01.603] [cout] [info]         control: /forceset/reserve_jointset_ground_pelvis_pelvis_list, weight: 1.0
+[2023-08-10 09:32:01.603] [cout] [info]         control: /forceset/reserve_jointset_ground_pelvis_pelvis_rotation, weight: 1.0
+[2023-08-10 09:32:01.603] [cout] [info]         control: /forceset/reserve_jointset_ground_pelvis_pelvis_tx, weight: 1.0
+[2023-08-10 09:32:01.603] [cout] [info]         control: /forceset/reserve_jointset_ground_pelvis_pelvis_ty, weight: 1.0
+[2023-08-10 09:32:01.603] [cout] [info]         control: /forceset/reserve_jointset_ground_pelvis_pelvis_tz, weight: 1.0
+[2023-08-10 09:32:01.603] [cout] [info]         control: /forceset/reserve_jointset_hip_r_hip_flexion_r, weight: 1.0
+[2023-08-10 09:32:01.604] [cout] [info]         control: /forceset/reserve_jointset_hip_r_hip_adduction_r, weight: 1.0
+[2023-08-10 09:32:01.604] [cout] [info]         control: /forceset/reserve_jointset_hip_r_hip_rotation_r, weight: 1.0
+[2023-08-10 09:32:01.604] [cout] [info]         control: /forceset/reserve_jointset_walker_knee_r_knee_angle_r, weight: 1.0
+[2023-08-10 09:32:01.604] [cout] [info]         control: /forceset/reserve_jointset_ankle_r_ankle_angle_r, weight: 1.0
+[2023-08-10 09:32:01.604] [cout] [info]         control: /forceset/reserve_jointset_subtalar_r_subtalar_angle_r, weight: 1.0
+[2023-08-10 09:32:01.604] [cout] [info]         control: /forceset/reserve_jointset_mtp_r_mtp_angle_r, weight: 1.0
+[2023-08-10 09:32:01.604] [cout] [info]         control: /forceset/reserve_jointset_hip_l_hip_flexion_l, weight: 1.0
+[2023-08-10 09:32:01.604] [cout] [info]         control: /forceset/reserve_jointset_hip_l_hip_adduction_l, weight: 1.0
+[2023-08-10 09:32:01.604] [cout] [info]         control: /forceset/reserve_jointset_hip_l_hip_rotation_l, weight: 1.0
+[2023-08-10 09:32:01.604] [cout] [info]         control: /forceset/reserve_jointset_walker_knee_l_knee_angle_l, weight: 1.0
+[2023-08-10 09:32:01.604] [cout] [info]         control: /forceset/reserve_jointset_ankle_l_ankle_angle_l, weight: 1.0
+[2023-08-10 09:32:01.604] [cout] [info]         control: /forceset/reserve_jointset_subtalar_l_subtalar_angle_l, weight: 1.0
+[2023-08-10 09:32:01.604] [cout] [info]         control: /forceset/reserve_jointset_mtp_l_mtp_angle_l, weight: 1.0
+[2023-08-10 09:32:01.604] [cout] [info] Endpoint constraints: (total: 1)
+[2023-08-10 09:32:01.604] [cout] [info]   initial_activation. MocoInitialActivationGoal, enabled: true, mode: endpoint_constraint
+[2023-08-10 09:32:01.604] [cout] [info] Kinematic constraints: (total: 2)
+[2023-08-10 09:32:01.604] [cout] [info]   kinematic_constraint_cid33. MocoConstraintInfo. number of scalar equations: 3. bounds: 0, 0, 0
+[2023-08-10 09:32:01.604] [cout] [info]   kinematic_constraint_cid34. MocoConstraintInfo. number of scalar equations: 3. bounds: 0, 0, 0
+[2023-08-10 09:32:01.604] [cout] [info] Path constraints: none
+[2023-08-10 09:32:01.604] [cout] [info] States: (total: 80)
+[2023-08-10 09:32:01.604] [cout] [info]   /forceset/glmin1_r/activation. bounds: [0.01, 1]
+[2023-08-10 09:32:01.604] [cout] [info]   /forceset/bflh_r/activation. bounds: [0.01, 1]
+[2023-08-10 09:32:01.604] [cout] [info]   /forceset/addbrev_r/activation. bounds: [0.01, 1]
+[2023-08-10 09:32:01.604] [cout] [info]   /forceset/addlong_r/activation. bounds: [0.01, 1]
+[2023-08-10 09:32:01.604] [cout] [info]   /forceset/addmagIsch_r/activation. bounds: [0.01, 1]
+[2023-08-10 09:32:01.604] [cout] [info]   /forceset/addmagMid_l/activation. bounds: [0.01, 1]
+[2023-08-10 09:32:01.604] [cout] [info]   /forceset/piri_r/activation. bounds: [0.01, 1]
+[2023-08-10 09:32:01.604] [cout] [info]   /forceset/addmagDist_r/activation. bounds: [0.01, 1]
+[2023-08-10 09:32:01.604] [cout] [info]   /forceset/addmagDist_l/activation. bounds: [0.01, 1]
+[2023-08-10 09:32:01.604] [cout] [info]   /forceset/vasmed_r/activation. bounds: [0.01, 1]
+[2023-08-10 09:32:01.605] [cout] [info]   /forceset/addmagMid_r/activation. bounds: [0.01, 1]
+[2023-08-10 09:32:01.605] [cout] [info]   /forceset/glmax2_r/activation. bounds: [0.01, 1]
+[2023-08-10 09:32:01.605] [cout] [info]   /forceset/vaslat_r/activation. bounds: [0.01, 1]
+[2023-08-10 09:32:01.605] [cout] [info]   /forceset/bfsh_r/activation. bounds: [0.01, 1]
+[2023-08-10 09:32:01.605] [cout] [info]   /forceset/addmagProx_r/activation. bounds: [0.01, 1]
+[2023-08-10 09:32:01.605] [cout] [info]   /forceset/edl_r/activation. bounds: [0.01, 1]
+[2023-08-10 09:32:01.605] [cout] [info]   /forceset/ehl_r/activation. bounds: [0.01, 1]
+[2023-08-10 09:32:01.605] [cout] [info]   /forceset/semimem_r/activation. bounds: [0.01, 1]
+[2023-08-10 09:32:01.605] [cout] [info]   /forceset/fdl_r/activation. bounds: [0.01, 1]
+[2023-08-10 09:32:01.605] [cout] [info]   /forceset/fhl_r/activation. bounds: [0.01, 1]
+[2023-08-10 09:32:01.605] [cout] [info]   /forceset/tibant_l/activation. bounds: [0.01, 1]
+[2023-08-10 09:32:01.605] [cout] [info]   /forceset/glmed3_l/activation. bounds: [0.01, 1]
+[2023-08-10 09:32:01.605] [cout] [info]   /forceset/gaslat_r/activation. bounds: [0.01, 1]
+[2023-08-10 09:32:01.605] [cout] [info]   /forceset/glmed1_r/activation. bounds: [0.01, 1]
+[2023-08-10 09:32:01.605] [cout] [info]   /forceset/soleus_r/activation. bounds: [0.01, 1]
+[2023-08-10 09:32:01.605] [cout] [info]   /forceset/gasmed_r/activation. bounds: [0.01, 1]
+[2023-08-10 09:32:01.605] [cout] [info]   /forceset/glmax3_l/activation. bounds: [0.01, 1]
+[2023-08-10 09:32:01.605] [cout] [info]   /forceset/recfem_r/activation. bounds: [0.01, 1]
+[2023-08-10 09:32:01.605] [cout] [info]   /forceset/glmax1_r/activation. bounds: [0.01, 1]
+[2023-08-10 09:32:01.605] [cout] [info]   /forceset/glmax1_l/activation. bounds: [0.01, 1]
+[2023-08-10 09:32:01.605] [cout] [info]   /forceset/iliacus_r/activation. bounds: [0.01, 1]
+[2023-08-10 09:32:01.605] [cout] [info]   /forceset/glmax3_r/activation. bounds: [0.01, 1]
+[2023-08-10 09:32:01.605] [cout] [info]   /forceset/glmed2_r/activation. bounds: [0.01, 1]
+[2023-08-10 09:32:01.605] [cout] [info]   /forceset/gaslat_l/activation. bounds: [0.01, 1]
+[2023-08-10 09:32:01.605] [cout] [info]   /forceset/glmed1_l/activation. bounds: [0.01, 1]
+[2023-08-10 09:32:01.605] [cout] [info]   /forceset/glmed3_r/activation. bounds: [0.01, 1]
+[2023-08-10 09:32:01.605] [cout] [info]   /forceset/tibant_r/activation. bounds: [0.01, 1]
+[2023-08-10 09:32:01.605] [cout] [info]   /forceset/glmin2_r/activation. bounds: [0.01, 1]
+[2023-08-10 09:32:01.605] [cout] [info]   /forceset/glmin3_r/activation. bounds: [0.01, 1]
+[2023-08-10 09:32:01.605] [cout] [info]   /forceset/grac_r/activation. bounds: [0.01, 1]
+[2023-08-10 09:32:01.605] [cout] [info]   /forceset/perbrev_r/activation. bounds: [0.01, 1]
+[2023-08-10 09:32:01.605] [cout] [info]   /forceset/addmagProx_l/activation. bounds: [0.01, 1]
+[2023-08-10 09:32:01.605] [cout] [info]   /forceset/perlong_r/activation. bounds: [0.01, 1]
+[2023-08-10 09:32:01.605] [cout] [info]   /forceset/psoas_r/activation. bounds: [0.01, 1]
+[2023-08-10 09:32:01.605] [cout] [info]   /forceset/sart_r/activation. bounds: [0.01, 1]
+[2023-08-10 09:32:01.605] [cout] [info]   /forceset/edl_l/activation. bounds: [0.01, 1]
+[2023-08-10 09:32:01.605] [cout] [info]   /forceset/semiten_r/activation. bounds: [0.01, 1]
+[2023-08-10 09:32:01.605] [cout] [info]   /forceset/tfl_r/activation. bounds: [0.01, 1]
+[2023-08-10 09:32:01.605] [cout] [info]   /forceset/tibpost_r/activation. bounds: [0.01, 1]
+[2023-08-10 09:32:01.605] [cout] [info]   /forceset/addmagIsch_l/activation. bounds: [0.01, 1]
+[2023-08-10 09:32:01.605] [cout] [info]   /forceset/addlong_l/activation. bounds: [0.01, 1]
+[2023-08-10 09:32:01.605] [cout] [info]   /forceset/vasint_r/activation. bounds: [0.01, 1]
+[2023-08-10 09:32:01.605] [cout] [info]   /forceset/addbrev_l/activation. bounds: [0.01, 1]
+[2023-08-10 09:32:01.605] [cout] [info]   /forceset/glmin1_l/activation. bounds: [0.01, 1]
+[2023-08-10 09:32:01.606] [cout] [info]   /forceset/bflh_l/activation. bounds: [0.01, 1]
+[2023-08-10 09:32:01.606] [cout] [info]   /forceset/vaslat_l/activation. bounds: [0.01, 1]
+[2023-08-10 09:32:01.606] [cout] [info]   /forceset/glmax2_l/activation. bounds: [0.01, 1]
+[2023-08-10 09:32:01.606] [cout] [info]   /forceset/bfsh_l/activation. bounds: [0.01, 1]
+[2023-08-10 09:32:01.606] [cout] [info]   /forceset/semimem_l/activation. bounds: [0.01, 1]
+[2023-08-10 09:32:01.606] [cout] [info]   /forceset/ehl_l/activation. bounds: [0.01, 1]
+[2023-08-10 09:32:01.606] [cout] [info]   /forceset/fdl_l/activation. bounds: [0.01, 1]
+[2023-08-10 09:32:01.606] [cout] [info]   /forceset/fhl_l/activation. bounds: [0.01, 1]
+[2023-08-10 09:32:01.606] [cout] [info]   /forceset/gasmed_l/activation. bounds: [0.01, 1]
+[2023-08-10 09:32:01.606] [cout] [info]   /forceset/glmed2_l/activation. bounds: [0.01, 1]
+[2023-08-10 09:32:01.606] [cout] [info]   /forceset/glmin2_l/activation. bounds: [0.01, 1]
+[2023-08-10 09:32:01.606] [cout] [info]   /forceset/glmin3_l/activation. bounds: [0.01, 1]
+[2023-08-10 09:32:01.606] [cout] [info]   /forceset/grac_l/activation. bounds: [0.01, 1]
+[2023-08-10 09:32:01.606] [cout] [info]   /forceset/iliacus_l/activation. bounds: [0.01, 1]
+[2023-08-10 09:32:01.606] [cout] [info]   /forceset/perbrev_l/activation. bounds: [0.01, 1]
+[2023-08-10 09:32:01.606] [cout] [info]   /forceset/perlong_l/activation. bounds: [0.01, 1]
+[2023-08-10 09:32:01.606] [cout] [info]   /forceset/piri_l/activation. bounds: [0.01, 1]
+[2023-08-10 09:32:01.606] [cout] [info]   /forceset/psoas_l/activation. bounds: [0.01, 1]
+[2023-08-10 09:32:01.606] [cout] [info]   /forceset/recfem_l/activation. bounds: [0.01, 1]
+[2023-08-10 09:32:01.606] [cout] [info]   /forceset/sart_l/activation. bounds: [0.01, 1]
+[2023-08-10 09:32:01.606] [cout] [info]   /forceset/semiten_l/activation. bounds: [0.01, 1]
+[2023-08-10 09:32:01.606] [cout] [info]   /forceset/soleus_l/activation. bounds: [0.01, 1]
+[2023-08-10 09:32:01.606] [cout] [info]   /forceset/tfl_l/activation. bounds: [0.01, 1]
+[2023-08-10 09:32:01.606] [cout] [info]   /forceset/tibpost_l/activation. bounds: [0.01, 1]
+[2023-08-10 09:32:01.606] [cout] [info]   /forceset/vasint_l/activation. bounds: [0.01, 1]
+[2023-08-10 09:32:01.606] [cout] [info]   /forceset/vasmed_l/activation. bounds: [0.01, 1]
+[2023-08-10 09:32:01.606] [cout] [info] Controls: (total: 111)
+[2023-08-10 09:32:01.606] [cout] [info]   /forceset/shoulder_flex_l. bounds: [-inf, inf]
+[2023-08-10 09:32:01.606] [cout] [info]   /forceset/glmin1_r. bounds: [0.01, 1]
+[2023-08-10 09:32:01.606] [cout] [info]   /forceset/bflh_r. bounds: [0.01, 1]
+[2023-08-10 09:32:01.606] [cout] [info]   /forceset/lumbar_extension. bounds: [-inf, inf]
+[2023-08-10 09:32:01.606] [cout] [info]   /forceset/shoulder_add_r. bounds: [-inf, inf]
+[2023-08-10 09:32:01.606] [cout] [info]   /forceset/reserve_jointset_mtp_l_mtp_angle_l. bounds: [-inf, inf]
+[2023-08-10 09:32:01.606] [cout] [info]   /forceset/fdl_l. bounds: [0.01, 1]
+[2023-08-10 09:32:01.606] [cout] [info]   /forceset/lumbar_bending. bounds: [-inf, inf]
+[2023-08-10 09:32:01.606] [cout] [info]   /forceset/ehl_r. bounds: [0.01, 1]
+[2023-08-10 09:32:01.606] [cout] [info]   /forceset/semimem_r. bounds: [0.01, 1]
+[2023-08-10 09:32:01.606] [cout] [info]   /forceset/lumbar_rotation. bounds: [-inf, inf]
+[2023-08-10 09:32:01.606] [cout] [info]   /forceset/shoulder_flex_r. bounds: [-inf, inf]
+[2023-08-10 09:32:01.606] [cout] [info]   /forceset/shoulder_rot_r. bounds: [-inf, inf]
+[2023-08-10 09:32:01.606] [cout] [info]   /forceset/gaslat_r. bounds: [0.01, 1]
+[2023-08-10 09:32:01.606] [cout] [info]   /forceset/glmed1_r. bounds: [0.01, 1]
+[2023-08-10 09:32:01.607] [cout] [info]   /forceset/elbow_flex_r. bounds: [-inf, inf]
+[2023-08-10 09:32:01.607] [cout] [info]   /forceset/bflh_l. bounds: [0.01, 1]
+[2023-08-10 09:32:01.607] [cout] [info]   /forceset/shoulder_add_l. bounds: [-inf, inf]
+[2023-08-10 09:32:01.607] [cout] [info]   /forceset/glmed1_l. bounds: [0.01, 1]
+[2023-08-10 09:32:01.607] [cout] [info]   /forceset/shoulder_rot_l. bounds: [-inf, inf]
+[2023-08-10 09:32:01.607] [cout] [info]   /forceset/gaslat_l. bounds: [0.01, 1]
+[2023-08-10 09:32:01.607] [cout] [info]   /forceset/glmed3_r. bounds: [0.01, 1]
+[2023-08-10 09:32:01.607] [cout] [info]   /forceset/tibant_r. bounds: [0.01, 1]
+[2023-08-10 09:32:01.607] [cout] [info]   /forceset/elbow_flex_l. bounds: [-inf, inf]
+[2023-08-10 09:32:01.607] [cout] [info]   /forceset/addbrev_r. bounds: [0.01, 1]
+[2023-08-10 09:32:01.607] [cout] [info]   /forceset/addmagIsch_r. bounds: [0.01, 1]
+[2023-08-10 09:32:01.607] [cout] [info]   /forceset/addlong_r. bounds: [0.01, 1]
+[2023-08-10 09:32:01.607] [cout] [info]   /forceset/addmagMid_l. bounds: [0.01, 1]
+[2023-08-10 09:32:01.607] [cout] [info]   /forceset/piri_r. bounds: [0.01, 1]
+[2023-08-10 09:32:01.607] [cout] [info]   /forceset/addmagDist_r. bounds: [0.01, 1]
+[2023-08-10 09:32:01.607] [cout] [info]   /forceset/addmagDist_l. bounds: [0.01, 1]
+[2023-08-10 09:32:01.607] [cout] [info]   /forceset/vasmed_r. bounds: [0.01, 1]
+[2023-08-10 09:32:01.607] [cout] [info]   /forceset/addmagMid_r. bounds: [0.01, 1]
+[2023-08-10 09:32:01.607] [cout] [info]   /forceset/addmagProx_r. bounds: [0.01, 1]
+[2023-08-10 09:32:01.607] [cout] [info]   /forceset/glmax2_r. bounds: [0.01, 1]
+[2023-08-10 09:32:01.607] [cout] [info]   /forceset/vaslat_r. bounds: [0.01, 1]
+[2023-08-10 09:32:01.607] [cout] [info]   /forceset/bfsh_r. bounds: [0.01, 1]
+[2023-08-10 09:32:01.607] [cout] [info]   /forceset/edl_r. bounds: [0.01, 1]
+[2023-08-10 09:32:01.607] [cout] [info]   /forceset/fdl_r. bounds: [0.01, 1]
+[2023-08-10 09:32:01.607] [cout] [info]   /forceset/fhl_r. bounds: [0.01, 1]
+[2023-08-10 09:32:01.607] [cout] [info]   /forceset/soleus_r. bounds: [0.01, 1]
+[2023-08-10 09:32:01.607] [cout] [info]   /forceset/gasmed_r. bounds: [0.01, 1]
+[2023-08-10 09:32:01.607] [cout] [info]   /forceset/recfem_r. bounds: [0.01, 1]
+[2023-08-10 09:32:01.607] [cout] [info]   /forceset/glmax1_r. bounds: [0.01, 1]
+[2023-08-10 09:32:01.607] [cout] [info]   /forceset/iliacus_r. bounds: [0.01, 1]
+[2023-08-10 09:32:01.607] [cout] [info]   /forceset/glmax3_r. bounds: [0.01, 1]
+[2023-08-10 09:32:01.607] [cout] [info]   /forceset/glmed2_r. bounds: [0.01, 1]
+[2023-08-10 09:32:01.607] [cout] [info]   /forceset/glmin2_r. bounds: [0.01, 1]
+[2023-08-10 09:32:01.607] [cout] [info]   /forceset/glmin3_r. bounds: [0.01, 1]
+[2023-08-10 09:32:01.607] [cout] [info]   /forceset/grac_r. bounds: [0.01, 1]
+[2023-08-10 09:32:01.607] [cout] [info]   /forceset/perbrev_r. bounds: [0.01, 1]
+[2023-08-10 09:32:01.607] [cout] [info]   /forceset/addmagProx_l. bounds: [0.01, 1]
+[2023-08-10 09:32:01.607] [cout] [info]   /forceset/perlong_r. bounds: [0.01, 1]
+[2023-08-10 09:32:01.607] [cout] [info]   /forceset/psoas_r. bounds: [0.01, 1]
+[2023-08-10 09:32:01.607] [cout] [info]   /forceset/sart_r. bounds: [0.01, 1]
+[2023-08-10 09:32:01.607] [cout] [info]   /forceset/edl_l. bounds: [0.01, 1]
+[2023-08-10 09:32:01.607] [cout] [info]   /forceset/semiten_r. bounds: [0.01, 1]
+[2023-08-10 09:32:01.608] [cout] [info]   /forceset/tfl_r. bounds: [0.01, 1]
+[2023-08-10 09:32:01.608] [cout] [info]   /forceset/tibpost_r. bounds: [0.01, 1]
+[2023-08-10 09:32:01.608] [cout] [info]   /forceset/addmagIsch_l. bounds: [0.01, 1]
+[2023-08-10 09:32:01.608] [cout] [info]   /forceset/addlong_l. bounds: [0.01, 1]
+[2023-08-10 09:32:01.608] [cout] [info]   /forceset/vasint_r. bounds: [0.01, 1]
+[2023-08-10 09:32:01.608] [cout] [info]   /forceset/addbrev_l. bounds: [0.01, 1]
+[2023-08-10 09:32:01.608] [cout] [info]   /forceset/bfsh_l. bounds: [0.01, 1]
+[2023-08-10 09:32:01.608] [cout] [info]   /forceset/semimem_l. bounds: [0.01, 1]
+[2023-08-10 09:32:01.608] [cout] [info]   /forceset/ehl_l. bounds: [0.01, 1]
+[2023-08-10 09:32:01.608] [cout] [info]   /forceset/fhl_l. bounds: [0.01, 1]
+[2023-08-10 09:32:01.608] [cout] [info]   /forceset/gasmed_l. bounds: [0.01, 1]
+[2023-08-10 09:32:01.608] [cout] [info]   /forceset/glmax1_l. bounds: [0.01, 1]
+[2023-08-10 09:32:01.608] [cout] [info]   /forceset/vaslat_l. bounds: [0.01, 1]
+[2023-08-10 09:32:01.608] [cout] [info]   /forceset/glmax2_l. bounds: [0.01, 1]
+[2023-08-10 09:32:01.608] [cout] [info]   /forceset/glmax3_l. bounds: [0.01, 1]
+[2023-08-10 09:32:01.608] [cout] [info]   /forceset/glmed2_l. bounds: [0.01, 1]
+[2023-08-10 09:32:01.608] [cout] [info]   /forceset/tibant_l. bounds: [0.01, 1]
+[2023-08-10 09:32:01.608] [cout] [info]   /forceset/glmed3_l. bounds: [0.01, 1]
+[2023-08-10 09:32:01.608] [cout] [info]   /forceset/glmin1_l. bounds: [0.01, 1]
+[2023-08-10 09:32:01.608] [cout] [info]   /forceset/glmin2_l. bounds: [0.01, 1]
+[2023-08-10 09:32:01.608] [cout] [info]   /forceset/glmin3_l. bounds: [0.01, 1]
+[2023-08-10 09:32:01.608] [cout] [info]   /forceset/grac_l. bounds: [0.01, 1]
+[2023-08-10 09:32:01.608] [cout] [info]   /forceset/iliacus_l. bounds: [0.01, 1]
+[2023-08-10 09:32:01.608] [cout] [info]   /forceset/perbrev_l. bounds: [0.01, 1]
+[2023-08-10 09:32:01.608] [cout] [info]   /forceset/perlong_l. bounds: [0.01, 1]
+[2023-08-10 09:32:01.608] [cout] [info]   /forceset/piri_l. bounds: [0.01, 1]
+[2023-08-10 09:32:01.608] [cout] [info]   /forceset/psoas_l. bounds: [0.01, 1]
+[2023-08-10 09:32:01.608] [cout] [info]   /forceset/recfem_l. bounds: [0.01, 1]
+[2023-08-10 09:32:01.608] [cout] [info]   /forceset/sart_l. bounds: [0.01, 1]
+[2023-08-10 09:32:01.608] [cout] [info]   /forceset/semiten_l. bounds: [0.01, 1]
+[2023-08-10 09:32:01.608] [cout] [info]   /forceset/soleus_l. bounds: [0.01, 1]
+[2023-08-10 09:32:01.608] [cout] [info]   /forceset/tfl_l. bounds: [0.01, 1]
+[2023-08-10 09:32:01.608] [cout] [info]   /forceset/tibpost_l. bounds: [0.01, 1]
+[2023-08-10 09:32:01.608] [cout] [info]   /forceset/vasint_l. bounds: [0.01, 1]
+[2023-08-10 09:32:01.608] [cout] [info]   /forceset/vasmed_l. bounds: [0.01, 1]
+[2023-08-10 09:32:01.608] [cout] [info]   /forceset/reserve_jointset_ground_pelvis_pelvis_tilt. bounds: [-inf, inf]
+[2023-08-10 09:32:01.608] [cout] [info]   /forceset/reserve_jointset_ground_pelvis_pelvis_list. bounds: [-inf, inf]
+[2023-08-10 09:32:01.608] [cout] [info]   /forceset/reserve_jointset_ground_pelvis_pelvis_rotation. bounds: [-inf, inf]
+[2023-08-10 09:32:01.608] [cout] [info]   /forceset/reserve_jointset_ground_pelvis_pelvis_tx. bounds: [-inf, inf]
+[2023-08-10 09:32:01.608] [cout] [info]   /forceset/reserve_jointset_hip_r_hip_flexion_r. bounds: [-inf, inf]
+[2023-08-10 09:32:01.608] [cout] [info]   /forceset/reserve_jointset_ground_pelvis_pelvis_ty. bounds: [-inf, inf]
+[2023-08-10 09:32:01.608] [cout] [info]   /forceset/reserve_jointset_ground_pelvis_pelvis_tz. bounds: [-inf, inf]
+[2023-08-10 09:32:01.608] [cout] [info]   /forceset/reserve_jointset_hip_r_hip_adduction_r. bounds: [-inf, inf]
+[2023-08-10 09:32:01.609] [cout] [info]   /forceset/reserve_jointset_hip_r_hip_rotation_r. bounds: [-inf, inf]
+[2023-08-10 09:32:01.609] [cout] [info]   /forceset/reserve_jointset_walker_knee_r_knee_angle_r. bounds: [-inf, inf]
+[2023-08-10 09:32:01.609] [cout] [info]   /forceset/reserve_jointset_ankle_r_ankle_angle_r. bounds: [-inf, inf]
+[2023-08-10 09:32:01.609] [cout] [info]   /forceset/reserve_jointset_subtalar_r_subtalar_angle_r. bounds: [-inf, inf]
+[2023-08-10 09:32:01.609] [cout] [info]   /forceset/reserve_jointset_mtp_r_mtp_angle_r. bounds: [-inf, inf]
+[2023-08-10 09:32:01.609] [cout] [info]   /forceset/reserve_jointset_hip_l_hip_flexion_l. bounds: [-inf, inf]
+[2023-08-10 09:32:01.609] [cout] [info]   /forceset/reserve_jointset_hip_l_hip_adduction_l. bounds: [-inf, inf]
+[2023-08-10 09:32:01.609] [cout] [info]   /forceset/reserve_jointset_walker_knee_l_knee_angle_l. bounds: [-inf, inf]
+[2023-08-10 09:32:01.609] [cout] [info]   /forceset/reserve_jointset_hip_l_hip_rotation_l. bounds: [-inf, inf]
+[2023-08-10 09:32:01.609] [cout] [info]   /forceset/reserve_jointset_ankle_l_ankle_angle_l. bounds: [-inf, inf]
+[2023-08-10 09:32:01.609] [cout] [info]   /forceset/reserve_jointset_subtalar_l_subtalar_angle_l. bounds: [-inf, inf]
+[2023-08-10 09:32:01.609] [cout] [info] Parameters: none
+[2023-08-10 09:32:01.676] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-10 09:32:01.676] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-10 09:32:01.747] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-10 09:32:01.747] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-10 09:32:01.850] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-10 09:32:01.850] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-10 09:32:01.915] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-10 09:32:01.915] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-10 09:32:01.999] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-10 09:32:01.999] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-10 09:32:02.061] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-10 09:32:02.061] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-10 09:32:02.147] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-10 09:32:02.147] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-10 09:32:02.217] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-10 09:32:02.217] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-10 09:32:02.355] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-10 09:32:02.355] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-10 09:32:02.428] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-10 09:32:02.428] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-10 09:32:02.524] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-10 09:32:02.524] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-10 09:32:02.592] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-10 09:32:02.592] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-10 09:32:02.682] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-10 09:32:02.682] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-10 09:32:02.748] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-10 09:32:02.748] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-10 09:32:02.836] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-10 09:32:02.836] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-10 09:32:02.912] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-10 09:32:02.912] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-10 09:32:03.000] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-10 09:32:03.000] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-10 09:32:03.095] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-10 09:32:03.095] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-10 09:32:03.263] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-10 09:32:03.263] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-10 09:32:03.375] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-10 09:32:03.375] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-10 09:32:03.502] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-10 09:32:03.502] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-10 09:32:03.577] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-10 09:32:03.577] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-10 09:32:03.672] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-10 09:32:03.672] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-10 09:32:03.740] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-10 09:32:03.740] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-10 09:32:03.800] [info] Number of threads: 12
+[2023-08-10 10:56:19.713] [info] Set log level to Info.
+[2023-08-10 10:56:19.792] [info] ------------------------------------------------------------------------
+[2023-08-10 10:56:19.792] [info] Elapsed real time: 5058 second(s) (1 hour(s), 24 minute(s), 18 second(s)).
+[2023-08-10 10:56:19.792] [info] 8/10/2023 10:56:19 AM
+[2023-08-10 10:56:19.792] [info] MocoCasADiSolver succeeded!
+[2023-08-10 10:56:19.792] [info] ========================================================================
+[2023-08-10 12:16:21.040] [info] Loaded model optimized_scale_and_markers from file ../Models/final.osim
+[2023-08-10 12:16:21.041] [warning] Couldn't find file 'r_pelvis_raja.vtp'.
+[2023-08-10 12:16:21.041] [warning] Couldn't find file 'l_pelvis_raja.vtp'.
+[2023-08-10 12:16:21.140] [warning] Couldn't find file 'l_pat.vtp'.
+[2023-08-10 12:16:22.060] [info] ExternalLoads 'rotated_Sprint_05400001' was renamed and is being reset to 'externalloads'.
+[2023-08-10 12:16:22.086] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-10 12:16:22.086] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-10 12:16:22.096] [info] Adding reserve actuators with an optimal force of 50.0...
+[2023-08-10 12:16:22.129] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-10 12:16:22.129] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-10 12:16:22.203] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-10 12:16:22.203] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-10 12:16:22.212] [info] Added 20 reserve actuator(s), for each of the following coordinates:
+[2023-08-10 12:16:22.212] [info]   /jointset/ground_pelvis/pelvis_tilt
+[2023-08-10 12:16:22.212] [info]   /jointset/ground_pelvis/pelvis_list
+[2023-08-10 12:16:22.212] [info]   /jointset/ground_pelvis/pelvis_rotation
+[2023-08-10 12:16:22.212] [info]   /jointset/ground_pelvis/pelvis_tx
+[2023-08-10 12:16:22.212] [info]   /jointset/ground_pelvis/pelvis_ty
+[2023-08-10 12:16:22.212] [info]   /jointset/ground_pelvis/pelvis_tz
+[2023-08-10 12:16:22.212] [info]   /jointset/hip_r/hip_flexion_r
+[2023-08-10 12:16:22.212] [info]   /jointset/hip_r/hip_adduction_r
+[2023-08-10 12:16:22.212] [info]   /jointset/hip_r/hip_rotation_r
+[2023-08-10 12:16:22.212] [info]   /jointset/walker_knee_r/knee_angle_r
+[2023-08-10 12:16:22.212] [info]   /jointset/ankle_r/ankle_angle_r
+[2023-08-10 12:16:22.212] [info]   /jointset/subtalar_r/subtalar_angle_r
+[2023-08-10 12:16:22.212] [info]   /jointset/mtp_r/mtp_angle_r
+[2023-08-10 12:16:22.212] [info]   /jointset/hip_l/hip_flexion_l
+[2023-08-10 12:16:22.212] [info]   /jointset/hip_l/hip_adduction_l
+[2023-08-10 12:16:22.212] [info]   /jointset/hip_l/hip_rotation_l
+[2023-08-10 12:16:22.212] [info]   /jointset/walker_knee_l/knee_angle_l
+[2023-08-10 12:16:22.212] [info]   /jointset/ankle_l/ankle_angle_l
+[2023-08-10 12:16:22.212] [info]   /jointset/subtalar_l/subtalar_angle_l
+[2023-08-10 12:16:22.212] [info]   /jointset/mtp_l/mtp_angle_l
+[2023-08-10 12:16:22.233] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-10 12:16:22.233] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-10 12:16:22.275] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-10 12:16:22.275] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-10 12:16:28.489] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-10 12:16:28.489] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-10 12:16:28.626] [error] Model unable to assemble: SimTK Exception thrown at Optimizer.h:133:
+  Value out of range in  OptimizerSystem  Constructor: expected 1 <= number of parameters <= 2.14748e+09 but number of parameters=0..Model relaxing constraints and trying again.
+[2023-08-10 12:16:28.628] [error] Model unable to assemble with relaxed constraints: SimTK Exception thrown at Optimizer.h:133:
+  Value out of range in  OptimizerSystem  Constructor: expected 1 <= number of parameters <= 2.14748e+09 but number of parameters=0.
+[2023-08-10 12:16:28.706] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-10 12:16:28.706] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-10 12:16:28.834] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-10 12:16:28.834] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-10 12:16:28.893] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-10 12:16:28.893] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-10 12:16:28.992] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-10 12:16:28.992] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-10 12:16:29.065] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-10 12:16:29.065] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-10 12:16:29.451] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-10 12:16:29.451] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-10 12:16:29.506] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-10 12:16:29.506] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-10 12:16:29.586] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-10 12:16:29.586] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-10 12:16:29.642] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-10 12:16:29.642] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-10 12:16:29.685] [info] ========================================================================
+[2023-08-10 12:16:29.685] [info] MocoCasADiSolver starting.
+[2023-08-10 12:16:29.685] [info] 8/10/2023 12:16:29 PM
+[2023-08-10 12:16:29.685] [info] ------------------------------------------------------------------------
+[2023-08-10 12:16:29.685] [cout] [info] Costs: (total: 1)
+[2023-08-10 12:16:29.685] [cout] [info]   excitation_effort. MocoControlGoal, enabled: true, mode: cost, weight: 1.0
+[2023-08-10 12:16:29.685] [cout] [info]         control: /forceset/lumbar_extension, weight: 1.0
+[2023-08-10 12:16:29.685] [cout] [info]         control: /forceset/lumbar_bending, weight: 1.0
+[2023-08-10 12:16:29.685] [cout] [info]         control: /forceset/lumbar_rotation, weight: 1.0
+[2023-08-10 12:16:29.685] [cout] [info]         control: /forceset/shoulder_flex_r, weight: 1.0
+[2023-08-10 12:16:29.685] [cout] [info]         control: /forceset/shoulder_add_r, weight: 1.0
+[2023-08-10 12:16:29.685] [cout] [info]         control: /forceset/shoulder_rot_r, weight: 1.0
+[2023-08-10 12:16:29.685] [cout] [info]         control: /forceset/elbow_flex_r, weight: 1.0
+[2023-08-10 12:16:29.685] [cout] [info]         control: /forceset/shoulder_flex_l, weight: 1.0
+[2023-08-10 12:16:29.685] [cout] [info]         control: /forceset/shoulder_add_l, weight: 1.0
+[2023-08-10 12:16:29.685] [cout] [info]         control: /forceset/shoulder_rot_l, weight: 1.0
+[2023-08-10 12:16:29.685] [cout] [info]         control: /forceset/elbow_flex_l, weight: 1.0
+[2023-08-10 12:16:29.685] [cout] [info]         control: /forceset/addbrev_r, weight: 1.0
+[2023-08-10 12:16:29.685] [cout] [info]         control: /forceset/addlong_r, weight: 1.0
+[2023-08-10 12:16:29.685] [cout] [info]         control: /forceset/addmagDist_r, weight: 1.0
+[2023-08-10 12:16:29.685] [cout] [info]         control: /forceset/addmagIsch_r, weight: 1.0
+[2023-08-10 12:16:29.685] [cout] [info]         control: /forceset/addmagMid_r, weight: 1.0
+[2023-08-10 12:16:29.685] [cout] [info]         control: /forceset/addmagProx_r, weight: 1.0
+[2023-08-10 12:16:29.685] [cout] [info]         control: /forceset/bflh_r, weight: 1.0
+[2023-08-10 12:16:29.685] [cout] [info]         control: /forceset/bfsh_r, weight: 1.0
+[2023-08-10 12:16:29.686] [cout] [info]         control: /forceset/edl_r, weight: 1.0
+[2023-08-10 12:16:29.686] [cout] [info]         control: /forceset/ehl_r, weight: 1.0
+[2023-08-10 12:16:29.686] [cout] [info]         control: /forceset/fdl_r, weight: 1.0
+[2023-08-10 12:16:29.686] [cout] [info]         control: /forceset/fhl_r, weight: 1.0
+[2023-08-10 12:16:29.686] [cout] [info]         control: /forceset/gaslat_r, weight: 1.0
+[2023-08-10 12:16:29.686] [cout] [info]         control: /forceset/gasmed_r, weight: 1.0
+[2023-08-10 12:16:29.686] [cout] [info]         control: /forceset/glmax1_r, weight: 1.0
+[2023-08-10 12:16:29.686] [cout] [info]         control: /forceset/glmax2_r, weight: 1.0
+[2023-08-10 12:16:29.686] [cout] [info]         control: /forceset/glmax3_r, weight: 1.0
+[2023-08-10 12:16:29.686] [cout] [info]         control: /forceset/glmed1_r, weight: 1.0
+[2023-08-10 12:16:29.686] [cout] [info]         control: /forceset/glmed2_r, weight: 1.0
+[2023-08-10 12:16:29.686] [cout] [info]         control: /forceset/glmed3_r, weight: 1.0
+[2023-08-10 12:16:29.686] [cout] [info]         control: /forceset/glmin1_r, weight: 1.0
+[2023-08-10 12:16:29.686] [cout] [info]         control: /forceset/glmin2_r, weight: 1.0
+[2023-08-10 12:16:29.686] [cout] [info]         control: /forceset/glmin3_r, weight: 1.0
+[2023-08-10 12:16:29.686] [cout] [info]         control: /forceset/grac_r, weight: 1.0
+[2023-08-10 12:16:29.686] [cout] [info]         control: /forceset/iliacus_r, weight: 1.0
+[2023-08-10 12:16:29.686] [cout] [info]         control: /forceset/perbrev_r, weight: 1.0
+[2023-08-10 12:16:29.686] [cout] [info]         control: /forceset/perlong_r, weight: 1.0
+[2023-08-10 12:16:29.686] [cout] [info]         control: /forceset/piri_r, weight: 1.0
+[2023-08-10 12:16:29.686] [cout] [info]         control: /forceset/psoas_r, weight: 1.0
+[2023-08-10 12:16:29.686] [cout] [info]         control: /forceset/recfem_r, weight: 1.0
+[2023-08-10 12:16:29.686] [cout] [info]         control: /forceset/sart_r, weight: 1.0
+[2023-08-10 12:16:29.686] [cout] [info]         control: /forceset/semimem_r, weight: 1.0
+[2023-08-10 12:16:29.686] [cout] [info]         control: /forceset/semiten_r, weight: 1.0
+[2023-08-10 12:16:29.686] [cout] [info]         control: /forceset/soleus_r, weight: 1.0
+[2023-08-10 12:16:29.686] [cout] [info]         control: /forceset/tfl_r, weight: 1.0
+[2023-08-10 12:16:29.686] [cout] [info]         control: /forceset/tibant_r, weight: 1.0
+[2023-08-10 12:16:29.686] [cout] [info]         control: /forceset/tibpost_r, weight: 1.0
+[2023-08-10 12:16:29.686] [cout] [info]         control: /forceset/vasint_r, weight: 1.0
+[2023-08-10 12:16:29.686] [cout] [info]         control: /forceset/vaslat_r, weight: 1.0
+[2023-08-10 12:16:29.686] [cout] [info]         control: /forceset/vasmed_r, weight: 1.0
+[2023-08-10 12:16:29.686] [cout] [info]         control: /forceset/addbrev_l, weight: 1.0
+[2023-08-10 12:16:29.686] [cout] [info]         control: /forceset/addlong_l, weight: 1.0
+[2023-08-10 12:16:29.686] [cout] [info]         control: /forceset/addmagDist_l, weight: 1.0
+[2023-08-10 12:16:29.686] [cout] [info]         control: /forceset/addmagIsch_l, weight: 1.0
+[2023-08-10 12:16:29.686] [cout] [info]         control: /forceset/addmagMid_l, weight: 1.0
+[2023-08-10 12:16:29.686] [cout] [info]         control: /forceset/addmagProx_l, weight: 1.0
+[2023-08-10 12:16:29.686] [cout] [info]         control: /forceset/bflh_l, weight: 1.0
+[2023-08-10 12:16:29.686] [cout] [info]         control: /forceset/bfsh_l, weight: 1.0
+[2023-08-10 12:16:29.686] [cout] [info]         control: /forceset/edl_l, weight: 1.0
+[2023-08-10 12:16:29.686] [cout] [info]         control: /forceset/ehl_l, weight: 1.0
+[2023-08-10 12:16:29.686] [cout] [info]         control: /forceset/fdl_l, weight: 1.0
+[2023-08-10 12:16:29.686] [cout] [info]         control: /forceset/fhl_l, weight: 1.0
+[2023-08-10 12:16:29.686] [cout] [info]         control: /forceset/gaslat_l, weight: 1.0
+[2023-08-10 12:16:29.686] [cout] [info]         control: /forceset/gasmed_l, weight: 1.0
+[2023-08-10 12:16:29.686] [cout] [info]         control: /forceset/glmax1_l, weight: 1.0
+[2023-08-10 12:16:29.686] [cout] [info]         control: /forceset/glmax2_l, weight: 1.0
+[2023-08-10 12:16:29.686] [cout] [info]         control: /forceset/glmax3_l, weight: 1.0
+[2023-08-10 12:16:29.686] [cout] [info]         control: /forceset/glmed1_l, weight: 1.0
+[2023-08-10 12:16:29.686] [cout] [info]         control: /forceset/glmed2_l, weight: 1.0
+[2023-08-10 12:16:29.686] [cout] [info]         control: /forceset/glmed3_l, weight: 1.0
+[2023-08-10 12:16:29.686] [cout] [info]         control: /forceset/glmin1_l, weight: 1.0
+[2023-08-10 12:16:29.686] [cout] [info]         control: /forceset/glmin2_l, weight: 1.0
+[2023-08-10 12:16:29.686] [cout] [info]         control: /forceset/glmin3_l, weight: 1.0
+[2023-08-10 12:16:29.686] [cout] [info]         control: /forceset/grac_l, weight: 1.0
+[2023-08-10 12:16:29.686] [cout] [info]         control: /forceset/iliacus_l, weight: 1.0
+[2023-08-10 12:16:29.686] [cout] [info]         control: /forceset/perbrev_l, weight: 1.0
+[2023-08-10 12:16:29.686] [cout] [info]         control: /forceset/perlong_l, weight: 1.0
+[2023-08-10 12:16:29.686] [cout] [info]         control: /forceset/piri_l, weight: 1.0
+[2023-08-10 12:16:29.686] [cout] [info]         control: /forceset/psoas_l, weight: 1.0
+[2023-08-10 12:16:29.686] [cout] [info]         control: /forceset/recfem_l, weight: 1.0
+[2023-08-10 12:16:29.686] [cout] [info]         control: /forceset/sart_l, weight: 1.0
+[2023-08-10 12:16:29.686] [cout] [info]         control: /forceset/semimem_l, weight: 1.0
+[2023-08-10 12:16:29.686] [cout] [info]         control: /forceset/semiten_l, weight: 1.0
+[2023-08-10 12:16:29.686] [cout] [info]         control: /forceset/soleus_l, weight: 1.0
+[2023-08-10 12:16:29.686] [cout] [info]         control: /forceset/tfl_l, weight: 1.0
+[2023-08-10 12:16:29.686] [cout] [info]         control: /forceset/tibant_l, weight: 1.0
+[2023-08-10 12:16:29.686] [cout] [info]         control: /forceset/tibpost_l, weight: 1.0
+[2023-08-10 12:16:29.686] [cout] [info]         control: /forceset/vasint_l, weight: 1.0
+[2023-08-10 12:16:29.686] [cout] [info]         control: /forceset/vaslat_l, weight: 1.0
+[2023-08-10 12:16:29.686] [cout] [info]         control: /forceset/vasmed_l, weight: 1.0
+[2023-08-10 12:16:29.686] [cout] [info]         control: /forceset/reserve_jointset_ground_pelvis_pelvis_tilt, weight: 1.0
+[2023-08-10 12:16:29.686] [cout] [info]         control: /forceset/reserve_jointset_ground_pelvis_pelvis_list, weight: 1.0
+[2023-08-10 12:16:29.686] [cout] [info]         control: /forceset/reserve_jointset_ground_pelvis_pelvis_rotation, weight: 1.0
+[2023-08-10 12:16:29.686] [cout] [info]         control: /forceset/reserve_jointset_ground_pelvis_pelvis_tx, weight: 1.0
+[2023-08-10 12:16:29.687] [cout] [info]         control: /forceset/reserve_jointset_ground_pelvis_pelvis_ty, weight: 1.0
+[2023-08-10 12:16:29.687] [cout] [info]         control: /forceset/reserve_jointset_ground_pelvis_pelvis_tz, weight: 1.0
+[2023-08-10 12:16:29.687] [cout] [info]         control: /forceset/reserve_jointset_hip_r_hip_flexion_r, weight: 1.0
+[2023-08-10 12:16:29.687] [cout] [info]         control: /forceset/reserve_jointset_hip_r_hip_adduction_r, weight: 1.0
+[2023-08-10 12:16:29.687] [cout] [info]         control: /forceset/reserve_jointset_hip_r_hip_rotation_r, weight: 1.0
+[2023-08-10 12:16:29.687] [cout] [info]         control: /forceset/reserve_jointset_walker_knee_r_knee_angle_r, weight: 1.0
+[2023-08-10 12:16:29.687] [cout] [info]         control: /forceset/reserve_jointset_ankle_r_ankle_angle_r, weight: 1.0
+[2023-08-10 12:16:29.687] [cout] [info]         control: /forceset/reserve_jointset_subtalar_r_subtalar_angle_r, weight: 1.0
+[2023-08-10 12:16:29.687] [cout] [info]         control: /forceset/reserve_jointset_mtp_r_mtp_angle_r, weight: 1.0
+[2023-08-10 12:16:29.687] [cout] [info]         control: /forceset/reserve_jointset_hip_l_hip_flexion_l, weight: 1.0
+[2023-08-10 12:16:29.687] [cout] [info]         control: /forceset/reserve_jointset_hip_l_hip_adduction_l, weight: 1.0
+[2023-08-10 12:16:29.687] [cout] [info]         control: /forceset/reserve_jointset_hip_l_hip_rotation_l, weight: 1.0
+[2023-08-10 12:16:29.687] [cout] [info]         control: /forceset/reserve_jointset_walker_knee_l_knee_angle_l, weight: 1.0
+[2023-08-10 12:16:29.687] [cout] [info]         control: /forceset/reserve_jointset_ankle_l_ankle_angle_l, weight: 1.0
+[2023-08-10 12:16:29.687] [cout] [info]         control: /forceset/reserve_jointset_subtalar_l_subtalar_angle_l, weight: 1.0
+[2023-08-10 12:16:29.687] [cout] [info]         control: /forceset/reserve_jointset_mtp_l_mtp_angle_l, weight: 1.0
+[2023-08-10 12:16:29.687] [cout] [info] Endpoint constraints: (total: 1)
+[2023-08-10 12:16:29.687] [cout] [info]   initial_activation. MocoInitialActivationGoal, enabled: true, mode: endpoint_constraint
+[2023-08-10 12:16:29.687] [cout] [info] Kinematic constraints: (total: 2)
+[2023-08-10 12:16:29.687] [cout] [info]   kinematic_constraint_cid33. MocoConstraintInfo. number of scalar equations: 3. bounds: 0, 0, 0
+[2023-08-10 12:16:29.687] [cout] [info]   kinematic_constraint_cid34. MocoConstraintInfo. number of scalar equations: 3. bounds: 0, 0, 0
+[2023-08-10 12:16:29.687] [cout] [info] Path constraints: none
+[2023-08-10 12:16:29.687] [cout] [info] States: (total: 80)
+[2023-08-10 12:16:29.687] [cout] [info]   /forceset/glmin1_r/activation. bounds: [0.01, 1]
+[2023-08-10 12:16:29.687] [cout] [info]   /forceset/bflh_r/activation. bounds: [0.01, 1]
+[2023-08-10 12:16:29.687] [cout] [info]   /forceset/addbrev_r/activation. bounds: [0.01, 1]
+[2023-08-10 12:16:29.687] [cout] [info]   /forceset/addlong_r/activation. bounds: [0.01, 1]
+[2023-08-10 12:16:29.687] [cout] [info]   /forceset/addmagIsch_r/activation. bounds: [0.01, 1]
+[2023-08-10 12:16:29.687] [cout] [info]   /forceset/addmagMid_l/activation. bounds: [0.01, 1]
+[2023-08-10 12:16:29.687] [cout] [info]   /forceset/piri_r/activation. bounds: [0.01, 1]
+[2023-08-10 12:16:29.687] [cout] [info]   /forceset/addmagDist_r/activation. bounds: [0.01, 1]
+[2023-08-10 12:16:29.687] [cout] [info]   /forceset/addmagDist_l/activation. bounds: [0.01, 1]
+[2023-08-10 12:16:29.687] [cout] [info]   /forceset/vasmed_r/activation. bounds: [0.01, 1]
+[2023-08-10 12:16:29.687] [cout] [info]   /forceset/addmagMid_r/activation. bounds: [0.01, 1]
+[2023-08-10 12:16:29.688] [cout] [info]   /forceset/glmax2_r/activation. bounds: [0.01, 1]
+[2023-08-10 12:16:29.688] [cout] [info]   /forceset/vaslat_r/activation. bounds: [0.01, 1]
+[2023-08-10 12:16:29.688] [cout] [info]   /forceset/bfsh_r/activation. bounds: [0.01, 1]
+[2023-08-10 12:16:29.688] [cout] [info]   /forceset/addmagProx_r/activation. bounds: [0.01, 1]
+[2023-08-10 12:16:29.688] [cout] [info]   /forceset/edl_r/activation. bounds: [0.01, 1]
+[2023-08-10 12:16:29.688] [cout] [info]   /forceset/ehl_r/activation. bounds: [0.01, 1]
+[2023-08-10 12:16:29.688] [cout] [info]   /forceset/semimem_r/activation. bounds: [0.01, 1]
+[2023-08-10 12:16:29.688] [cout] [info]   /forceset/fdl_r/activation. bounds: [0.01, 1]
+[2023-08-10 12:16:29.688] [cout] [info]   /forceset/fhl_r/activation. bounds: [0.01, 1]
+[2023-08-10 12:16:29.688] [cout] [info]   /forceset/tibant_l/activation. bounds: [0.01, 1]
+[2023-08-10 12:16:29.688] [cout] [info]   /forceset/glmed3_l/activation. bounds: [0.01, 1]
+[2023-08-10 12:16:29.688] [cout] [info]   /forceset/gaslat_r/activation. bounds: [0.01, 1]
+[2023-08-10 12:16:29.688] [cout] [info]   /forceset/glmed1_r/activation. bounds: [0.01, 1]
+[2023-08-10 12:16:29.688] [cout] [info]   /forceset/soleus_r/activation. bounds: [0.01, 1]
+[2023-08-10 12:16:29.688] [cout] [info]   /forceset/gasmed_r/activation. bounds: [0.01, 1]
+[2023-08-10 12:16:29.688] [cout] [info]   /forceset/glmax3_l/activation. bounds: [0.01, 1]
+[2023-08-10 12:16:29.688] [cout] [info]   /forceset/recfem_r/activation. bounds: [0.01, 1]
+[2023-08-10 12:16:29.688] [cout] [info]   /forceset/glmax1_r/activation. bounds: [0.01, 1]
+[2023-08-10 12:16:29.688] [cout] [info]   /forceset/glmax1_l/activation. bounds: [0.01, 1]
+[2023-08-10 12:16:29.688] [cout] [info]   /forceset/iliacus_r/activation. bounds: [0.01, 1]
+[2023-08-10 12:16:29.688] [cout] [info]   /forceset/glmax3_r/activation. bounds: [0.01, 1]
+[2023-08-10 12:16:29.688] [cout] [info]   /forceset/glmed2_r/activation. bounds: [0.01, 1]
+[2023-08-10 12:16:29.688] [cout] [info]   /forceset/gaslat_l/activation. bounds: [0.01, 1]
+[2023-08-10 12:16:29.688] [cout] [info]   /forceset/glmed1_l/activation. bounds: [0.01, 1]
+[2023-08-10 12:16:29.688] [cout] [info]   /forceset/glmed3_r/activation. bounds: [0.01, 1]
+[2023-08-10 12:16:29.688] [cout] [info]   /forceset/tibant_r/activation. bounds: [0.01, 1]
+[2023-08-10 12:16:29.688] [cout] [info]   /forceset/glmin2_r/activation. bounds: [0.01, 1]
+[2023-08-10 12:16:29.688] [cout] [info]   /forceset/glmin3_r/activation. bounds: [0.01, 1]
+[2023-08-10 12:16:29.688] [cout] [info]   /forceset/grac_r/activation. bounds: [0.01, 1]
+[2023-08-10 12:16:29.688] [cout] [info]   /forceset/perbrev_r/activation. bounds: [0.01, 1]
+[2023-08-10 12:16:29.688] [cout] [info]   /forceset/addmagProx_l/activation. bounds: [0.01, 1]
+[2023-08-10 12:16:29.688] [cout] [info]   /forceset/perlong_r/activation. bounds: [0.01, 1]
+[2023-08-10 12:16:29.688] [cout] [info]   /forceset/psoas_r/activation. bounds: [0.01, 1]
+[2023-08-10 12:16:29.688] [cout] [info]   /forceset/sart_r/activation. bounds: [0.01, 1]
+[2023-08-10 12:16:29.688] [cout] [info]   /forceset/edl_l/activation. bounds: [0.01, 1]
+[2023-08-10 12:16:29.688] [cout] [info]   /forceset/semiten_r/activation. bounds: [0.01, 1]
+[2023-08-10 12:16:29.688] [cout] [info]   /forceset/tfl_r/activation. bounds: [0.01, 1]
+[2023-08-10 12:16:29.688] [cout] [info]   /forceset/tibpost_r/activation. bounds: [0.01, 1]
+[2023-08-10 12:16:29.688] [cout] [info]   /forceset/addmagIsch_l/activation. bounds: [0.01, 1]
+[2023-08-10 12:16:29.688] [cout] [info]   /forceset/addlong_l/activation. bounds: [0.01, 1]
+[2023-08-10 12:16:29.688] [cout] [info]   /forceset/vasint_r/activation. bounds: [0.01, 1]
+[2023-08-10 12:16:29.688] [cout] [info]   /forceset/addbrev_l/activation. bounds: [0.01, 1]
+[2023-08-10 12:16:29.688] [cout] [info]   /forceset/glmin1_l/activation. bounds: [0.01, 1]
+[2023-08-10 12:16:29.688] [cout] [info]   /forceset/bflh_l/activation. bounds: [0.01, 1]
+[2023-08-10 12:16:29.688] [cout] [info]   /forceset/vaslat_l/activation. bounds: [0.01, 1]
+[2023-08-10 12:16:29.688] [cout] [info]   /forceset/glmax2_l/activation. bounds: [0.01, 1]
+[2023-08-10 12:16:29.688] [cout] [info]   /forceset/bfsh_l/activation. bounds: [0.01, 1]
+[2023-08-10 12:16:29.688] [cout] [info]   /forceset/semimem_l/activation. bounds: [0.01, 1]
+[2023-08-10 12:16:29.688] [cout] [info]   /forceset/ehl_l/activation. bounds: [0.01, 1]
+[2023-08-10 12:16:29.688] [cout] [info]   /forceset/fdl_l/activation. bounds: [0.01, 1]
+[2023-08-10 12:16:29.688] [cout] [info]   /forceset/fhl_l/activation. bounds: [0.01, 1]
+[2023-08-10 12:16:29.688] [cout] [info]   /forceset/gasmed_l/activation. bounds: [0.01, 1]
+[2023-08-10 12:16:29.688] [cout] [info]   /forceset/glmed2_l/activation. bounds: [0.01, 1]
+[2023-08-10 12:16:29.688] [cout] [info]   /forceset/glmin2_l/activation. bounds: [0.01, 1]
+[2023-08-10 12:16:29.689] [cout] [info]   /forceset/glmin3_l/activation. bounds: [0.01, 1]
+[2023-08-10 12:16:29.689] [cout] [info]   /forceset/grac_l/activation. bounds: [0.01, 1]
+[2023-08-10 12:16:29.689] [cout] [info]   /forceset/iliacus_l/activation. bounds: [0.01, 1]
+[2023-08-10 12:16:29.689] [cout] [info]   /forceset/perbrev_l/activation. bounds: [0.01, 1]
+[2023-08-10 12:16:29.689] [cout] [info]   /forceset/perlong_l/activation. bounds: [0.01, 1]
+[2023-08-10 12:16:29.689] [cout] [info]   /forceset/piri_l/activation. bounds: [0.01, 1]
+[2023-08-10 12:16:29.689] [cout] [info]   /forceset/psoas_l/activation. bounds: [0.01, 1]
+[2023-08-10 12:16:29.689] [cout] [info]   /forceset/recfem_l/activation. bounds: [0.01, 1]
+[2023-08-10 12:16:29.689] [cout] [info]   /forceset/sart_l/activation. bounds: [0.01, 1]
+[2023-08-10 12:16:29.689] [cout] [info]   /forceset/semiten_l/activation. bounds: [0.01, 1]
+[2023-08-10 12:16:29.689] [cout] [info]   /forceset/soleus_l/activation. bounds: [0.01, 1]
+[2023-08-10 12:16:29.689] [cout] [info]   /forceset/tfl_l/activation. bounds: [0.01, 1]
+[2023-08-10 12:16:29.689] [cout] [info]   /forceset/tibpost_l/activation. bounds: [0.01, 1]
+[2023-08-10 12:16:29.689] [cout] [info]   /forceset/vasint_l/activation. bounds: [0.01, 1]
+[2023-08-10 12:16:29.689] [cout] [info]   /forceset/vasmed_l/activation. bounds: [0.01, 1]
+[2023-08-10 12:16:29.689] [cout] [info] Controls: (total: 111)
+[2023-08-10 12:16:29.689] [cout] [info]   /forceset/shoulder_flex_l. bounds: [-inf, inf]
+[2023-08-10 12:16:29.689] [cout] [info]   /forceset/glmin1_r. bounds: [0.01, 1]
+[2023-08-10 12:16:29.689] [cout] [info]   /forceset/bflh_r. bounds: [0.01, 1]
+[2023-08-10 12:16:29.689] [cout] [info]   /forceset/lumbar_extension. bounds: [-inf, inf]
+[2023-08-10 12:16:29.689] [cout] [info]   /forceset/shoulder_add_r. bounds: [-inf, inf]
+[2023-08-10 12:16:29.689] [cout] [info]   /forceset/reserve_jointset_mtp_l_mtp_angle_l. bounds: [-inf, inf]
+[2023-08-10 12:16:29.689] [cout] [info]   /forceset/fdl_l. bounds: [0.01, 1]
+[2023-08-10 12:16:29.689] [cout] [info]   /forceset/lumbar_bending. bounds: [-inf, inf]
+[2023-08-10 12:16:29.689] [cout] [info]   /forceset/ehl_r. bounds: [0.01, 1]
+[2023-08-10 12:16:29.689] [cout] [info]   /forceset/semimem_r. bounds: [0.01, 1]
+[2023-08-10 12:16:29.689] [cout] [info]   /forceset/lumbar_rotation. bounds: [-inf, inf]
+[2023-08-10 12:16:29.689] [cout] [info]   /forceset/shoulder_flex_r. bounds: [-inf, inf]
+[2023-08-10 12:16:29.689] [cout] [info]   /forceset/shoulder_rot_r. bounds: [-inf, inf]
+[2023-08-10 12:16:29.689] [cout] [info]   /forceset/gaslat_r. bounds: [0.01, 1]
+[2023-08-10 12:16:29.689] [cout] [info]   /forceset/glmed1_r. bounds: [0.01, 1]
+[2023-08-10 12:16:29.689] [cout] [info]   /forceset/elbow_flex_r. bounds: [-inf, inf]
+[2023-08-10 12:16:29.689] [cout] [info]   /forceset/bflh_l. bounds: [0.01, 1]
+[2023-08-10 12:16:29.689] [cout] [info]   /forceset/shoulder_add_l. bounds: [-inf, inf]
+[2023-08-10 12:16:29.689] [cout] [info]   /forceset/glmed1_l. bounds: [0.01, 1]
+[2023-08-10 12:16:29.689] [cout] [info]   /forceset/shoulder_rot_l. bounds: [-inf, inf]
+[2023-08-10 12:16:29.689] [cout] [info]   /forceset/gaslat_l. bounds: [0.01, 1]
+[2023-08-10 12:16:29.689] [cout] [info]   /forceset/glmed3_r. bounds: [0.01, 1]
+[2023-08-10 12:16:29.689] [cout] [info]   /forceset/tibant_r. bounds: [0.01, 1]
+[2023-08-10 12:16:29.689] [cout] [info]   /forceset/elbow_flex_l. bounds: [-inf, inf]
+[2023-08-10 12:16:29.689] [cout] [info]   /forceset/addbrev_r. bounds: [0.01, 1]
+[2023-08-10 12:16:29.689] [cout] [info]   /forceset/addmagIsch_r. bounds: [0.01, 1]
+[2023-08-10 12:16:29.689] [cout] [info]   /forceset/addlong_r. bounds: [0.01, 1]
+[2023-08-10 12:16:29.689] [cout] [info]   /forceset/addmagMid_l. bounds: [0.01, 1]
+[2023-08-10 12:16:29.689] [cout] [info]   /forceset/piri_r. bounds: [0.01, 1]
+[2023-08-10 12:16:29.689] [cout] [info]   /forceset/addmagDist_r. bounds: [0.01, 1]
+[2023-08-10 12:16:29.689] [cout] [info]   /forceset/addmagDist_l. bounds: [0.01, 1]
+[2023-08-10 12:16:29.689] [cout] [info]   /forceset/vasmed_r. bounds: [0.01, 1]
+[2023-08-10 12:16:29.689] [cout] [info]   /forceset/addmagMid_r. bounds: [0.01, 1]
+[2023-08-10 12:16:29.689] [cout] [info]   /forceset/addmagProx_r. bounds: [0.01, 1]
+[2023-08-10 12:16:29.689] [cout] [info]   /forceset/glmax2_r. bounds: [0.01, 1]
+[2023-08-10 12:16:29.689] [cout] [info]   /forceset/vaslat_r. bounds: [0.01, 1]
+[2023-08-10 12:16:29.689] [cout] [info]   /forceset/bfsh_r. bounds: [0.01, 1]
+[2023-08-10 12:16:29.689] [cout] [info]   /forceset/edl_r. bounds: [0.01, 1]
+[2023-08-10 12:16:29.689] [cout] [info]   /forceset/fdl_r. bounds: [0.01, 1]
+[2023-08-10 12:16:29.689] [cout] [info]   /forceset/fhl_r. bounds: [0.01, 1]
+[2023-08-10 12:16:29.689] [cout] [info]   /forceset/soleus_r. bounds: [0.01, 1]
+[2023-08-10 12:16:29.690] [cout] [info]   /forceset/gasmed_r. bounds: [0.01, 1]
+[2023-08-10 12:16:29.690] [cout] [info]   /forceset/recfem_r. bounds: [0.01, 1]
+[2023-08-10 12:16:29.690] [cout] [info]   /forceset/glmax1_r. bounds: [0.01, 1]
+[2023-08-10 12:16:29.690] [cout] [info]   /forceset/iliacus_r. bounds: [0.01, 1]
+[2023-08-10 12:16:29.690] [cout] [info]   /forceset/glmax3_r. bounds: [0.01, 1]
+[2023-08-10 12:16:29.690] [cout] [info]   /forceset/glmed2_r. bounds: [0.01, 1]
+[2023-08-10 12:16:29.690] [cout] [info]   /forceset/glmin2_r. bounds: [0.01, 1]
+[2023-08-10 12:16:29.690] [cout] [info]   /forceset/glmin3_r. bounds: [0.01, 1]
+[2023-08-10 12:16:29.690] [cout] [info]   /forceset/grac_r. bounds: [0.01, 1]
+[2023-08-10 12:16:29.690] [cout] [info]   /forceset/perbrev_r. bounds: [0.01, 1]
+[2023-08-10 12:16:29.690] [cout] [info]   /forceset/addmagProx_l. bounds: [0.01, 1]
+[2023-08-10 12:16:29.690] [cout] [info]   /forceset/perlong_r. bounds: [0.01, 1]
+[2023-08-10 12:16:29.690] [cout] [info]   /forceset/psoas_r. bounds: [0.01, 1]
+[2023-08-10 12:16:29.690] [cout] [info]   /forceset/sart_r. bounds: [0.01, 1]
+[2023-08-10 12:16:29.690] [cout] [info]   /forceset/edl_l. bounds: [0.01, 1]
+[2023-08-10 12:16:29.690] [cout] [info]   /forceset/semiten_r. bounds: [0.01, 1]
+[2023-08-10 12:16:29.690] [cout] [info]   /forceset/tfl_r. bounds: [0.01, 1]
+[2023-08-10 12:16:29.690] [cout] [info]   /forceset/tibpost_r. bounds: [0.01, 1]
+[2023-08-10 12:16:29.690] [cout] [info]   /forceset/addmagIsch_l. bounds: [0.01, 1]
+[2023-08-10 12:16:29.690] [cout] [info]   /forceset/addlong_l. bounds: [0.01, 1]
+[2023-08-10 12:16:29.690] [cout] [info]   /forceset/vasint_r. bounds: [0.01, 1]
+[2023-08-10 12:16:29.690] [cout] [info]   /forceset/addbrev_l. bounds: [0.01, 1]
+[2023-08-10 12:16:29.690] [cout] [info]   /forceset/bfsh_l. bounds: [0.01, 1]
+[2023-08-10 12:16:29.690] [cout] [info]   /forceset/semimem_l. bounds: [0.01, 1]
+[2023-08-10 12:16:29.690] [cout] [info]   /forceset/ehl_l. bounds: [0.01, 1]
+[2023-08-10 12:16:29.690] [cout] [info]   /forceset/fhl_l. bounds: [0.01, 1]
+[2023-08-10 12:16:29.690] [cout] [info]   /forceset/gasmed_l. bounds: [0.01, 1]
+[2023-08-10 12:16:29.690] [cout] [info]   /forceset/glmax1_l. bounds: [0.01, 1]
+[2023-08-10 12:16:29.690] [cout] [info]   /forceset/vaslat_l. bounds: [0.01, 1]
+[2023-08-10 12:16:29.690] [cout] [info]   /forceset/glmax2_l. bounds: [0.01, 1]
+[2023-08-10 12:16:29.690] [cout] [info]   /forceset/glmax3_l. bounds: [0.01, 1]
+[2023-08-10 12:16:29.690] [cout] [info]   /forceset/glmed2_l. bounds: [0.01, 1]
+[2023-08-10 12:16:29.690] [cout] [info]   /forceset/tibant_l. bounds: [0.01, 1]
+[2023-08-10 12:16:29.690] [cout] [info]   /forceset/glmed3_l. bounds: [0.01, 1]
+[2023-08-10 12:16:29.690] [cout] [info]   /forceset/glmin1_l. bounds: [0.01, 1]
+[2023-08-10 12:16:29.690] [cout] [info]   /forceset/glmin2_l. bounds: [0.01, 1]
+[2023-08-10 12:16:29.690] [cout] [info]   /forceset/glmin3_l. bounds: [0.01, 1]
+[2023-08-10 12:16:29.690] [cout] [info]   /forceset/grac_l. bounds: [0.01, 1]
+[2023-08-10 12:16:29.690] [cout] [info]   /forceset/iliacus_l. bounds: [0.01, 1]
+[2023-08-10 12:16:29.690] [cout] [info]   /forceset/perbrev_l. bounds: [0.01, 1]
+[2023-08-10 12:16:29.690] [cout] [info]   /forceset/perlong_l. bounds: [0.01, 1]
+[2023-08-10 12:16:29.690] [cout] [info]   /forceset/piri_l. bounds: [0.01, 1]
+[2023-08-10 12:16:29.690] [cout] [info]   /forceset/psoas_l. bounds: [0.01, 1]
+[2023-08-10 12:16:29.690] [cout] [info]   /forceset/recfem_l. bounds: [0.01, 1]
+[2023-08-10 12:16:29.690] [cout] [info]   /forceset/sart_l. bounds: [0.01, 1]
+[2023-08-10 12:16:29.690] [cout] [info]   /forceset/semiten_l. bounds: [0.01, 1]
+[2023-08-10 12:16:29.690] [cout] [info]   /forceset/soleus_l. bounds: [0.01, 1]
+[2023-08-10 12:16:29.690] [cout] [info]   /forceset/tfl_l. bounds: [0.01, 1]
+[2023-08-10 12:16:29.690] [cout] [info]   /forceset/tibpost_l. bounds: [0.01, 1]
+[2023-08-10 12:16:29.690] [cout] [info]   /forceset/vasint_l. bounds: [0.01, 1]
+[2023-08-10 12:16:29.690] [cout] [info]   /forceset/vasmed_l. bounds: [0.01, 1]
+[2023-08-10 12:16:29.690] [cout] [info]   /forceset/reserve_jointset_ground_pelvis_pelvis_tilt. bounds: [-inf, inf]
+[2023-08-10 12:16:29.690] [cout] [info]   /forceset/reserve_jointset_ground_pelvis_pelvis_list. bounds: [-inf, inf]
+[2023-08-10 12:16:29.690] [cout] [info]   /forceset/reserve_jointset_ground_pelvis_pelvis_rotation. bounds: [-inf, inf]
+[2023-08-10 12:16:29.690] [cout] [info]   /forceset/reserve_jointset_ground_pelvis_pelvis_tx. bounds: [-inf, inf]
+[2023-08-10 12:16:29.690] [cout] [info]   /forceset/reserve_jointset_hip_r_hip_flexion_r. bounds: [-inf, inf]
+[2023-08-10 12:16:29.690] [cout] [info]   /forceset/reserve_jointset_ground_pelvis_pelvis_ty. bounds: [-inf, inf]
+[2023-08-10 12:16:29.690] [cout] [info]   /forceset/reserve_jointset_ground_pelvis_pelvis_tz. bounds: [-inf, inf]
+[2023-08-10 12:16:29.691] [cout] [info]   /forceset/reserve_jointset_hip_r_hip_adduction_r. bounds: [-inf, inf]
+[2023-08-10 12:16:29.691] [cout] [info]   /forceset/reserve_jointset_hip_r_hip_rotation_r. bounds: [-inf, inf]
+[2023-08-10 12:16:29.691] [cout] [info]   /forceset/reserve_jointset_walker_knee_r_knee_angle_r. bounds: [-inf, inf]
+[2023-08-10 12:16:29.691] [cout] [info]   /forceset/reserve_jointset_ankle_r_ankle_angle_r. bounds: [-inf, inf]
+[2023-08-10 12:16:29.691] [cout] [info]   /forceset/reserve_jointset_subtalar_r_subtalar_angle_r. bounds: [-inf, inf]
+[2023-08-10 12:16:29.691] [cout] [info]   /forceset/reserve_jointset_mtp_r_mtp_angle_r. bounds: [-inf, inf]
+[2023-08-10 12:16:29.691] [cout] [info]   /forceset/reserve_jointset_hip_l_hip_flexion_l. bounds: [-inf, inf]
+[2023-08-10 12:16:29.691] [cout] [info]   /forceset/reserve_jointset_hip_l_hip_adduction_l. bounds: [-inf, inf]
+[2023-08-10 12:16:29.691] [cout] [info]   /forceset/reserve_jointset_walker_knee_l_knee_angle_l. bounds: [-inf, inf]
+[2023-08-10 12:16:29.691] [cout] [info]   /forceset/reserve_jointset_hip_l_hip_rotation_l. bounds: [-inf, inf]
+[2023-08-10 12:16:29.691] [cout] [info]   /forceset/reserve_jointset_ankle_l_ankle_angle_l. bounds: [-inf, inf]
+[2023-08-10 12:16:29.691] [cout] [info]   /forceset/reserve_jointset_subtalar_l_subtalar_angle_l. bounds: [-inf, inf]
+[2023-08-10 12:16:29.691] [cout] [info] Parameters: none
+[2023-08-10 12:16:29.740] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-10 12:16:29.740] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-10 12:16:29.796] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-10 12:16:29.796] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-10 12:16:29.876] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-10 12:16:29.876] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-10 12:16:29.932] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-10 12:16:29.932] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-10 12:16:30.013] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-10 12:16:30.013] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-10 12:16:30.072] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-10 12:16:30.072] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-10 12:16:30.150] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-10 12:16:30.150] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-10 12:16:30.207] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-10 12:16:30.207] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-10 12:16:30.284] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-10 12:16:30.284] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-10 12:16:30.340] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-10 12:16:30.340] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-10 12:16:30.419] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-10 12:16:30.419] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-10 12:16:30.476] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-10 12:16:30.476] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-10 12:16:30.553] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-10 12:16:30.553] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-10 12:16:30.611] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-10 12:16:30.611] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-10 12:16:30.687] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-10 12:16:30.687] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-10 12:16:30.744] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-10 12:16:30.744] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-10 12:16:30.828] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-10 12:16:30.828] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-10 12:16:30.890] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-10 12:16:30.890] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-10 12:16:30.977] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-10 12:16:30.977] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-10 12:16:31.039] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-10 12:16:31.039] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-10 12:16:31.122] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-10 12:16:31.122] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-10 12:16:31.183] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-10 12:16:31.183] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-10 12:16:31.265] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-10 12:16:31.265] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-10 12:16:31.327] [info] ExternalForce::ForcePlate_calcn_r Data source being set to 
+[2023-08-10 12:16:31.327] [info] ExternalForce::ForcePlate_calcn_l Data source being set to 
+[2023-08-10 12:16:31.369] [info] Number of threads: 12
+[2023-08-10 13:27:01.071] [info] Set log level to Info.
+[2023-08-10 13:27:01.158] [info] ------------------------------------------------------------------------
+[2023-08-10 13:27:01.158] [info] Elapsed real time: 4231 second(s) (1 hour(s), 10 minute(s), 31 second(s)).
+[2023-08-10 13:27:01.158] [info] 8/10/2023 1:27:01 PM
+[2023-08-10 13:27:01.158] [info] MocoCasADiSolver succeeded!
+[2023-08-10 13:27:01.158] [info] ========================================================================
+[2023-08-10 14:51:53.946] [info] Loaded model generic_sprinter from file Nord_Model.osim
+[2023-08-10 14:51:53.947] [warning] Couldn't find file 'r_pelvis_raja.vtp'.
+[2023-08-10 14:51:53.947] [warning] Couldn't find file 'l_pelvis_raja.vtp'.
+[2023-08-10 14:51:53.947] [warning] Couldn't find file 'sacrum.vtp'.
+[2023-08-10 14:51:53.947] [warning] Couldn't find file 'r_femur.vtp'.
+[2023-08-10 14:51:53.947] [warning] Couldn't find file 'r_tibia.vtp'.
+[2023-08-10 14:51:53.947] [warning] Couldn't find file 'r_fibula.vtp'.
+[2023-08-10 14:51:53.947] [warning] Couldn't find file 'r_patella.vtp'.
+[2023-08-10 14:51:53.948] [warning] Couldn't find file 'r_talus.vtp'.
+[2023-08-10 14:51:53.948] [warning] Couldn't find file 'r_foot.vtp'.
+[2023-08-10 14:51:53.948] [warning] Couldn't find file 'r_bofoot.vtp'.
+[2023-08-10 14:51:53.948] [warning] Couldn't find file 'l_femur.vtp'.
+[2023-08-10 14:51:53.948] [warning] Couldn't find file 'l_tibia.vtp'.
+[2023-08-10 14:51:53.948] [warning] Couldn't find file 'l_fibula.vtp'.
+[2023-08-10 14:51:53.948] [warning] Couldn't find file 'l_pat.vtp'.
+[2023-08-10 14:51:53.948] [warning] Couldn't find file 'l_talus.vtp'.
+[2023-08-10 14:51:53.948] [warning] Couldn't find file 'l_foot.vtp'.
+[2023-08-10 14:51:53.948] [warning] Couldn't find file 'l_bofoot.vtp'.
+[2023-08-10 14:51:53.949] [warning] Couldn't find file 'hat_spine.vtp'.
+[2023-08-10 14:51:53.949] [warning] Couldn't find file 'hat_jaw.vtp'.
+[2023-08-10 14:51:53.949] [warning] Couldn't find file 'hat_skull.vtp'.
+[2023-08-10 14:51:53.949] [warning] Couldn't find file 'hat_ribs_scap.vtp'.
+[2023-08-10 14:51:53.949] [warning] Couldn't find file 'humerus_rv.vtp'.
+[2023-08-10 14:51:53.949] [warning] Couldn't find file 'ulna_rv.vtp'.
+[2023-08-10 14:51:53.949] [warning] Couldn't find file 'radius_rv.vtp'.
+[2023-08-10 14:51:53.949] [warning] Couldn't find file 'pisiform_rvs.vtp'.
+[2023-08-10 14:51:53.949] [warning] Couldn't find file 'lunate_rvs.vtp'.
+[2023-08-10 14:51:53.949] [warning] Couldn't find file 'scaphoid_rvs.vtp'.
+[2023-08-10 14:51:53.949] [warning] Couldn't find file 'triquetrum_rvs.vtp'.
+[2023-08-10 14:51:53.950] [warning] Couldn't find file 'hamate_rvs.vtp'.
+[2023-08-10 14:51:53.950] [warning] Couldn't find file 'capitate_rvs.vtp'.
+[2023-08-10 14:51:53.950] [warning] Couldn't find file 'trapezoid_rvs.vtp'.
+[2023-08-10 14:51:53.950] [warning] Couldn't find file 'trapezium_rvs.vtp'.
+[2023-08-10 14:51:53.950] [warning] Couldn't find file 'metacarpal2_rvs.vtp'.
+[2023-08-10 14:51:53.950] [warning] Couldn't find file 'index_proximal_rvs.vtp'.
+[2023-08-10 14:51:53.950] [warning] Couldn't find file 'index_medial_rvs.vtp'.
+[2023-08-10 14:51:53.950] [warning] Couldn't find file 'index_distal_rvs.vtp'.
+[2023-08-10 14:51:53.950] [warning] Couldn't find file 'metacarpal3_rvs.vtp'.
+[2023-08-10 14:51:53.950] [warning] Couldn't find file 'middle_proximal_rvs.vtp'.
+[2023-08-10 14:51:53.950] [warning] Couldn't find file 'middle_medial_rvs.vtp'.
+[2023-08-10 14:51:53.951] [warning] Couldn't find file 'middle_distal_rvs.vtp'.
+[2023-08-10 14:51:53.951] [warning] Couldn't find file 'metacarpal4_rvs.vtp'.
+[2023-08-10 14:51:53.951] [warning] Couldn't find file 'ring_proximal_rvs.vtp'.
+[2023-08-10 14:51:53.951] [warning] Couldn't find file 'ring_medial_rvs.vtp'.
+[2023-08-10 14:51:53.951] [warning] Couldn't find file 'ring_distal_rvs.vtp'.
+[2023-08-10 14:51:53.951] [warning] Couldn't find file 'metacarpal5_rvs.vtp'.
+[2023-08-10 14:51:53.951] [warning] Couldn't find file 'little_proximal_rvs.vtp'.
+[2023-08-10 14:51:53.951] [warning] Couldn't find file 'little_medial_rvs.vtp'.
+[2023-08-10 14:51:53.951] [warning] Couldn't find file 'little_distal_rvs.vtp'.
+[2023-08-10 14:51:53.951] [warning] Couldn't find file 'metacarpal1_rvs.vtp'.
+[2023-08-10 14:51:53.951] [warning] Couldn't find file 'thumb_proximal_rvs.vtp'.
+[2023-08-10 14:51:53.952] [warning] Couldn't find file 'thumb_distal_rvs.vtp'.
+[2023-08-10 14:51:53.952] [warning] Couldn't find file 'humerus_lv.vtp'.
+[2023-08-10 14:51:53.952] [warning] Couldn't find file 'ulna_lv.vtp'.
+[2023-08-10 14:51:53.952] [warning] Couldn't find file 'radius_lv.vtp'.
+[2023-08-10 14:51:53.952] [warning] Couldn't find file 'pisiform_lvs.vtp'.
+[2023-08-10 14:51:53.952] [warning] Couldn't find file 'lunate_lvs.vtp'.
+[2023-08-10 14:51:53.952] [warning] Couldn't find file 'scaphoid_lvs.vtp'.
+[2023-08-10 14:51:53.952] [warning] Couldn't find file 'triquetrum_lvs.vtp'.
+[2023-08-10 14:51:53.952] [warning] Couldn't find file 'hamate_lvs.vtp'.
+[2023-08-10 14:51:53.952] [warning] Couldn't find file 'capitate_lvs.vtp'.
+[2023-08-10 14:51:53.952] [warning] Couldn't find file 'trapezoid_lvs.vtp'.
+[2023-08-10 14:51:53.953] [warning] Couldn't find file 'trapezium_lvs.vtp'.
+[2023-08-10 14:51:53.953] [warning] Couldn't find file 'metacarpal2_lvs.vtp'.
+[2023-08-10 14:51:53.953] [warning] Couldn't find file 'index_proximal_lvs.vtp'.
+[2023-08-10 14:51:53.953] [warning] Couldn't find file 'index_medial_lvs.vtp'.
+[2023-08-10 14:51:53.953] [warning] Couldn't find file 'index_distal_lvs.vtp'.
+[2023-08-10 14:51:53.953] [warning] Couldn't find file 'metacarpal3_lvs.vtp'.
+[2023-08-10 14:51:53.953] [warning] Couldn't find file 'middle_proximal_lvs.vtp'.
+[2023-08-10 14:51:53.953] [warning] Couldn't find file 'middle_medial_lvs.vtp'.
+[2023-08-10 14:51:53.953] [warning] Couldn't find file 'middle_distal_lvs.vtp'.
+[2023-08-10 14:51:53.953] [warning] Couldn't find file 'metacarpal4_lvs.vtp'.
+[2023-08-10 14:51:53.954] [warning] Couldn't find file 'ring_proximal_lvs.vtp'.
+[2023-08-10 14:51:53.954] [warning] Couldn't find file 'ring_medial_lvs.vtp'.
+[2023-08-10 14:51:53.954] [warning] Couldn't find file 'ring_distal_lvs.vtp'.
+[2023-08-10 14:51:53.954] [warning] Couldn't find file 'metacarpal5_lvs.vtp'.
+[2023-08-10 14:51:53.954] [warning] Couldn't find file 'little_proximal_lvs.vtp'.
+[2023-08-10 14:51:53.954] [warning] Couldn't find file 'little_medial_lvs.vtp'.
+[2023-08-10 14:51:53.954] [warning] Couldn't find file 'little_distal_lvs.vtp'.
+[2023-08-10 14:51:53.954] [warning] Couldn't find file 'metacarpal1_lvs.vtp'.
+[2023-08-10 14:51:53.954] [warning] Couldn't find file 'thumb_proximal_lvs.vtp'.
+[2023-08-10 14:51:53.954] [warning] Couldn't find file 'thumb_distal_lvs.vtp'.
+[2023-08-10 14:55:17.721] [info] Loaded model generic_sprinter from file Nord_Model.osim
+[2023-08-10 14:55:17.722] [warning] Couldn't find file 'r_pelvis_raja.vtp'.
+[2023-08-10 14:55:17.722] [warning] Couldn't find file 'l_pelvis_raja.vtp'.
+[2023-08-10 14:55:17.722] [warning] Couldn't find file 'sacrum.vtp'.
+[2023-08-10 14:55:17.722] [warning] Couldn't find file 'r_femur.vtp'.
+[2023-08-10 14:55:17.722] [warning] Couldn't find file 'r_tibia.vtp'.
+[2023-08-10 14:55:17.722] [warning] Couldn't find file 'r_fibula.vtp'.
+[2023-08-10 14:55:17.722] [warning] Couldn't find file 'r_patella.vtp'.
+[2023-08-10 14:55:17.722] [warning] Couldn't find file 'r_talus.vtp'.
+[2023-08-10 14:55:17.722] [warning] Couldn't find file 'r_foot.vtp'.
+[2023-08-10 14:55:17.722] [warning] Couldn't find file 'r_bofoot.vtp'.
+[2023-08-10 14:55:17.723] [warning] Couldn't find file 'l_femur.vtp'.
+[2023-08-10 14:55:17.723] [warning] Couldn't find file 'l_tibia.vtp'.
+[2023-08-10 14:55:17.723] [warning] Couldn't find file 'l_fibula.vtp'.
+[2023-08-10 14:55:17.723] [warning] Couldn't find file 'l_pat.vtp'.
+[2023-08-10 14:55:17.723] [warning] Couldn't find file 'l_talus.vtp'.
+[2023-08-10 14:55:17.723] [warning] Couldn't find file 'l_foot.vtp'.
+[2023-08-10 14:55:17.723] [warning] Couldn't find file 'l_bofoot.vtp'.
+[2023-08-10 14:55:17.723] [warning] Couldn't find file 'hat_spine.vtp'.
+[2023-08-10 14:55:17.723] [warning] Couldn't find file 'hat_jaw.vtp'.
+[2023-08-10 14:55:17.724] [warning] Couldn't find file 'hat_skull.vtp'.
+[2023-08-10 14:55:17.724] [warning] Couldn't find file 'hat_ribs_scap.vtp'.
+[2023-08-10 14:55:17.724] [warning] Couldn't find file 'humerus_rv.vtp'.
+[2023-08-10 14:55:17.724] [warning] Couldn't find file 'ulna_rv.vtp'.
+[2023-08-10 14:55:17.724] [warning] Couldn't find file 'radius_rv.vtp'.
+[2023-08-10 14:55:17.724] [warning] Couldn't find file 'pisiform_rvs.vtp'.
+[2023-08-10 14:55:17.724] [warning] Couldn't find file 'lunate_rvs.vtp'.
+[2023-08-10 14:55:17.724] [warning] Couldn't find file 'scaphoid_rvs.vtp'.
+[2023-08-10 14:55:17.724] [warning] Couldn't find file 'triquetrum_rvs.vtp'.
+[2023-08-10 14:55:17.724] [warning] Couldn't find file 'hamate_rvs.vtp'.
+[2023-08-10 14:55:17.724] [warning] Couldn't find file 'capitate_rvs.vtp'.
+[2023-08-10 14:55:17.725] [warning] Couldn't find file 'trapezoid_rvs.vtp'.
+[2023-08-10 14:55:17.725] [warning] Couldn't find file 'trapezium_rvs.vtp'.
+[2023-08-10 14:55:17.725] [warning] Couldn't find file 'metacarpal2_rvs.vtp'.
+[2023-08-10 14:55:17.725] [warning] Couldn't find file 'index_proximal_rvs.vtp'.
+[2023-08-10 14:55:17.725] [warning] Couldn't find file 'index_medial_rvs.vtp'.
+[2023-08-10 14:55:17.725] [warning] Couldn't find file 'index_distal_rvs.vtp'.
+[2023-08-10 14:55:17.725] [warning] Couldn't find file 'metacarpal3_rvs.vtp'.
+[2023-08-10 14:55:17.725] [warning] Couldn't find file 'middle_proximal_rvs.vtp'.
+[2023-08-10 14:55:17.725] [warning] Couldn't find file 'middle_medial_rvs.vtp'.
+[2023-08-10 14:55:17.725] [warning] Couldn't find file 'middle_distal_rvs.vtp'.
+[2023-08-10 14:55:17.726] [warning] Couldn't find file 'metacarpal4_rvs.vtp'.
+[2023-08-10 14:55:17.726] [warning] Couldn't find file 'ring_proximal_rvs.vtp'.
+[2023-08-10 14:55:17.726] [warning] Couldn't find file 'ring_medial_rvs.vtp'.
+[2023-08-10 14:55:17.726] [warning] Couldn't find file 'ring_distal_rvs.vtp'.
+[2023-08-10 14:55:17.726] [warning] Couldn't find file 'metacarpal5_rvs.vtp'.
+[2023-08-10 14:55:17.726] [warning] Couldn't find file 'little_proximal_rvs.vtp'.
+[2023-08-10 14:55:17.726] [warning] Couldn't find file 'little_medial_rvs.vtp'.
+[2023-08-10 14:55:17.726] [warning] Couldn't find file 'little_distal_rvs.vtp'.
+[2023-08-10 14:55:17.726] [warning] Couldn't find file 'metacarpal1_rvs.vtp'.
+[2023-08-10 14:55:17.727] [warning] Couldn't find file 'thumb_proximal_rvs.vtp'.
+[2023-08-10 14:55:17.727] [warning] Couldn't find file 'thumb_distal_rvs.vtp'.
+[2023-08-10 14:55:17.727] [warning] Couldn't find file 'humerus_lv.vtp'.
+[2023-08-10 14:55:17.727] [warning] Couldn't find file 'ulna_lv.vtp'.
+[2023-08-10 14:55:17.727] [warning] Couldn't find file 'radius_lv.vtp'.
+[2023-08-10 14:55:17.727] [warning] Couldn't find file 'pisiform_lvs.vtp'.
+[2023-08-10 14:55:17.727] [warning] Couldn't find file 'lunate_lvs.vtp'.
+[2023-08-10 14:55:17.727] [warning] Couldn't find file 'scaphoid_lvs.vtp'.
+[2023-08-10 14:55:17.727] [warning] Couldn't find file 'triquetrum_lvs.vtp'.
+[2023-08-10 14:55:17.728] [warning] Couldn't find file 'hamate_lvs.vtp'.
+[2023-08-10 14:55:17.728] [warning] Couldn't find file 'capitate_lvs.vtp'.
+[2023-08-10 14:55:17.728] [warning] Couldn't find file 'trapezoid_lvs.vtp'.
+[2023-08-10 14:55:17.728] [warning] Couldn't find file 'trapezium_lvs.vtp'.
+[2023-08-10 14:55:17.728] [warning] Couldn't find file 'metacarpal2_lvs.vtp'.
+[2023-08-10 14:55:17.728] [warning] Couldn't find file 'index_proximal_lvs.vtp'.
+[2023-08-10 14:55:17.728] [warning] Couldn't find file 'index_medial_lvs.vtp'.
+[2023-08-10 14:55:17.728] [warning] Couldn't find file 'index_distal_lvs.vtp'.
+[2023-08-10 14:55:17.728] [warning] Couldn't find file 'metacarpal3_lvs.vtp'.
+[2023-08-10 14:55:17.728] [warning] Couldn't find file 'middle_proximal_lvs.vtp'.
+[2023-08-10 14:55:17.728] [warning] Couldn't find file 'middle_medial_lvs.vtp'.
+[2023-08-10 14:55:17.729] [warning] Couldn't find file 'middle_distal_lvs.vtp'.
+[2023-08-10 14:55:17.729] [warning] Couldn't find file 'metacarpal4_lvs.vtp'.
+[2023-08-10 14:55:17.729] [warning] Couldn't find file 'ring_proximal_lvs.vtp'.
+[2023-08-10 14:55:17.729] [warning] Couldn't find file 'ring_medial_lvs.vtp'.
+[2023-08-10 14:55:17.729] [warning] Couldn't find file 'ring_distal_lvs.vtp'.
+[2023-08-10 14:55:17.729] [warning] Couldn't find file 'metacarpal5_lvs.vtp'.
+[2023-08-10 14:55:17.729] [warning] Couldn't find file 'little_proximal_lvs.vtp'.
+[2023-08-10 14:55:17.729] [warning] Couldn't find file 'little_medial_lvs.vtp'.
+[2023-08-10 14:55:17.729] [warning] Couldn't find file 'little_distal_lvs.vtp'.
+[2023-08-10 14:55:17.729] [warning] Couldn't find file 'metacarpal1_lvs.vtp'.
+[2023-08-10 14:55:17.730] [warning] Couldn't find file 'thumb_proximal_lvs.vtp'.
+[2023-08-10 14:55:17.730] [warning] Couldn't find file 'thumb_distal_lvs.vtp'.
+[2023-08-10 15:05:57.055] [info] Loaded model generic_sprinter from file Nord_Model.osim
+[2023-08-10 15:05:57.056] [warning] Couldn't find file 'r_pelvis_raja.vtp'.
+[2023-08-10 15:05:57.056] [warning] Couldn't find file 'l_pelvis_raja.vtp'.
+[2023-08-10 15:05:57.056] [warning] Couldn't find file 'sacrum.vtp'.
+[2023-08-10 15:05:57.056] [warning] Couldn't find file 'r_femur.vtp'.
+[2023-08-10 15:05:57.056] [warning] Couldn't find file 'r_tibia.vtp'.
+[2023-08-10 15:05:57.056] [warning] Couldn't find file 'r_fibula.vtp'.
+[2023-08-10 15:05:57.056] [warning] Couldn't find file 'r_patella.vtp'.
+[2023-08-10 15:05:57.056] [warning] Couldn't find file 'r_talus.vtp'.
+[2023-08-10 15:05:57.056] [warning] Couldn't find file 'r_foot.vtp'.
+[2023-08-10 15:05:57.056] [warning] Couldn't find file 'r_bofoot.vtp'.
+[2023-08-10 15:05:57.057] [warning] Couldn't find file 'l_femur.vtp'.
+[2023-08-10 15:05:57.057] [warning] Couldn't find file 'l_tibia.vtp'.
+[2023-08-10 15:05:57.057] [warning] Couldn't find file 'l_fibula.vtp'.
+[2023-08-10 15:05:57.057] [warning] Couldn't find file 'l_pat.vtp'.
+[2023-08-10 15:05:57.057] [warning] Couldn't find file 'l_talus.vtp'.
+[2023-08-10 15:05:57.057] [warning] Couldn't find file 'l_foot.vtp'.
+[2023-08-10 15:05:57.057] [warning] Couldn't find file 'l_bofoot.vtp'.
+[2023-08-10 15:05:57.057] [warning] Couldn't find file 'hat_spine.vtp'.
+[2023-08-10 15:05:57.057] [warning] Couldn't find file 'hat_jaw.vtp'.
+[2023-08-10 15:05:57.057] [warning] Couldn't find file 'hat_skull.vtp'.
+[2023-08-10 15:05:57.058] [warning] Couldn't find file 'hat_ribs_scap.vtp'.
+[2023-08-10 15:05:57.058] [warning] Couldn't find file 'humerus_rv.vtp'.
+[2023-08-10 15:05:57.058] [warning] Couldn't find file 'ulna_rv.vtp'.
+[2023-08-10 15:05:57.058] [warning] Couldn't find file 'radius_rv.vtp'.
+[2023-08-10 15:05:57.058] [warning] Couldn't find file 'pisiform_rvs.vtp'.
+[2023-08-10 15:05:57.058] [warning] Couldn't find file 'lunate_rvs.vtp'.
+[2023-08-10 15:05:57.058] [warning] Couldn't find file 'scaphoid_rvs.vtp'.
+[2023-08-10 15:05:57.058] [warning] Couldn't find file 'triquetrum_rvs.vtp'.
+[2023-08-10 15:05:57.058] [warning] Couldn't find file 'hamate_rvs.vtp'.
+[2023-08-10 15:05:57.058] [warning] Couldn't find file 'capitate_rvs.vtp'.
+[2023-08-10 15:05:57.059] [warning] Couldn't find file 'trapezoid_rvs.vtp'.
+[2023-08-10 15:05:57.059] [warning] Couldn't find file 'trapezium_rvs.vtp'.
+[2023-08-10 15:05:57.059] [warning] Couldn't find file 'metacarpal2_rvs.vtp'.
+[2023-08-10 15:05:57.059] [warning] Couldn't find file 'index_proximal_rvs.vtp'.
+[2023-08-10 15:05:57.059] [warning] Couldn't find file 'index_medial_rvs.vtp'.
+[2023-08-10 15:05:57.059] [warning] Couldn't find file 'index_distal_rvs.vtp'.
+[2023-08-10 15:05:57.059] [warning] Couldn't find file 'metacarpal3_rvs.vtp'.
+[2023-08-10 15:05:57.059] [warning] Couldn't find file 'middle_proximal_rvs.vtp'.
+[2023-08-10 15:05:57.059] [warning] Couldn't find file 'middle_medial_rvs.vtp'.
+[2023-08-10 15:05:57.059] [warning] Couldn't find file 'middle_distal_rvs.vtp'.
+[2023-08-10 15:05:57.059] [warning] Couldn't find file 'metacarpal4_rvs.vtp'.
+[2023-08-10 15:05:57.060] [warning] Couldn't find file 'ring_proximal_rvs.vtp'.
+[2023-08-10 15:05:57.060] [warning] Couldn't find file 'ring_medial_rvs.vtp'.
+[2023-08-10 15:05:57.060] [warning] Couldn't find file 'ring_distal_rvs.vtp'.
+[2023-08-10 15:05:57.060] [warning] Couldn't find file 'metacarpal5_rvs.vtp'.
+[2023-08-10 15:05:57.060] [warning] Couldn't find file 'little_proximal_rvs.vtp'.
+[2023-08-10 15:05:57.060] [warning] Couldn't find file 'little_medial_rvs.vtp'.
+[2023-08-10 15:05:57.060] [warning] Couldn't find file 'little_distal_rvs.vtp'.
+[2023-08-10 15:05:57.060] [warning] Couldn't find file 'metacarpal1_rvs.vtp'.
+[2023-08-10 15:05:57.060] [warning] Couldn't find file 'thumb_proximal_rvs.vtp'.
+[2023-08-10 15:05:57.060] [warning] Couldn't find file 'thumb_distal_rvs.vtp'.
+[2023-08-10 15:05:57.060] [warning] Couldn't find file 'humerus_lv.vtp'.
+[2023-08-10 15:05:57.061] [warning] Couldn't find file 'ulna_lv.vtp'.
+[2023-08-10 15:05:57.061] [warning] Couldn't find file 'radius_lv.vtp'.
+[2023-08-10 15:05:57.061] [warning] Couldn't find file 'pisiform_lvs.vtp'.
+[2023-08-10 15:05:57.061] [warning] Couldn't find file 'lunate_lvs.vtp'.
+[2023-08-10 15:05:57.061] [warning] Couldn't find file 'scaphoid_lvs.vtp'.
+[2023-08-10 15:05:57.061] [warning] Couldn't find file 'triquetrum_lvs.vtp'.
+[2023-08-10 15:05:57.061] [warning] Couldn't find file 'hamate_lvs.vtp'.
+[2023-08-10 15:05:57.061] [warning] Couldn't find file 'capitate_lvs.vtp'.
+[2023-08-10 15:05:57.061] [warning] Couldn't find file 'trapezoid_lvs.vtp'.
+[2023-08-10 15:05:57.061] [warning] Couldn't find file 'trapezium_lvs.vtp'.
+[2023-08-10 15:05:57.061] [warning] Couldn't find file 'metacarpal2_lvs.vtp'.
+[2023-08-10 15:05:57.062] [warning] Couldn't find file 'index_proximal_lvs.vtp'.
+[2023-08-10 15:05:57.062] [warning] Couldn't find file 'index_medial_lvs.vtp'.
+[2023-08-10 15:05:57.062] [warning] Couldn't find file 'index_distal_lvs.vtp'.
+[2023-08-10 15:05:57.062] [warning] Couldn't find file 'metacarpal3_lvs.vtp'.
+[2023-08-10 15:05:57.062] [warning] Couldn't find file 'middle_proximal_lvs.vtp'.
+[2023-08-10 15:05:57.062] [warning] Couldn't find file 'middle_medial_lvs.vtp'.
+[2023-08-10 15:05:57.062] [warning] Couldn't find file 'middle_distal_lvs.vtp'.
+[2023-08-10 15:05:57.062] [warning] Couldn't find file 'metacarpal4_lvs.vtp'.
+[2023-08-10 15:05:57.062] [warning] Couldn't find file 'ring_proximal_lvs.vtp'.
+[2023-08-10 15:05:57.062] [warning] Couldn't find file 'ring_medial_lvs.vtp'.
+[2023-08-10 15:05:57.063] [warning] Couldn't find file 'ring_distal_lvs.vtp'.
+[2023-08-10 15:05:57.063] [warning] Couldn't find file 'metacarpal5_lvs.vtp'.
+[2023-08-10 15:05:57.063] [warning] Couldn't find file 'little_proximal_lvs.vtp'.
+[2023-08-10 15:05:57.063] [warning] Couldn't find file 'little_medial_lvs.vtp'.
+[2023-08-10 15:05:57.063] [warning] Couldn't find file 'little_distal_lvs.vtp'.
+[2023-08-10 15:05:57.063] [warning] Couldn't find file 'metacarpal1_lvs.vtp'.
+[2023-08-10 15:05:57.063] [warning] Couldn't find file 'thumb_proximal_lvs.vtp'.
+[2023-08-10 15:05:57.063] [warning] Couldn't find file 'thumb_distal_lvs.vtp'.
+[2023-08-10 15:06:15.628] [info] Loaded model generic_sprinter from file Nord_Model.osim
+[2023-08-10 15:06:15.629] [warning] Couldn't find file 'r_pelvis_raja.vtp'.
+[2023-08-10 15:06:15.629] [warning] Couldn't find file 'l_pelvis_raja.vtp'.
+[2023-08-10 15:06:15.629] [warning] Couldn't find file 'sacrum.vtp'.
+[2023-08-10 15:06:15.629] [warning] Couldn't find file 'r_femur.vtp'.
+[2023-08-10 15:06:15.629] [warning] Couldn't find file 'r_tibia.vtp'.
+[2023-08-10 15:06:15.629] [warning] Couldn't find file 'r_fibula.vtp'.
+[2023-08-10 15:06:15.629] [warning] Couldn't find file 'r_patella.vtp'.
+[2023-08-10 15:06:15.629] [warning] Couldn't find file 'r_talus.vtp'.
+[2023-08-10 15:06:15.629] [warning] Couldn't find file 'r_foot.vtp'.
+[2023-08-10 15:06:15.629] [warning] Couldn't find file 'r_bofoot.vtp'.
+[2023-08-10 15:06:15.630] [warning] Couldn't find file 'l_femur.vtp'.
+[2023-08-10 15:06:15.630] [warning] Couldn't find file 'l_tibia.vtp'.
+[2023-08-10 15:06:15.630] [warning] Couldn't find file 'l_fibula.vtp'.
+[2023-08-10 15:06:15.630] [warning] Couldn't find file 'l_pat.vtp'.
+[2023-08-10 15:06:15.630] [warning] Couldn't find file 'l_talus.vtp'.
+[2023-08-10 15:06:15.630] [warning] Couldn't find file 'l_foot.vtp'.
+[2023-08-10 15:06:15.630] [warning] Couldn't find file 'l_bofoot.vtp'.
+[2023-08-10 15:06:15.630] [warning] Couldn't find file 'hat_spine.vtp'.
+[2023-08-10 15:06:15.631] [warning] Couldn't find file 'hat_jaw.vtp'.
+[2023-08-10 15:06:15.631] [warning] Couldn't find file 'hat_skull.vtp'.
+[2023-08-10 15:06:15.631] [warning] Couldn't find file 'hat_ribs_scap.vtp'.
+[2023-08-10 15:06:15.631] [warning] Couldn't find file 'humerus_rv.vtp'.
+[2023-08-10 15:06:15.631] [warning] Couldn't find file 'ulna_rv.vtp'.
+[2023-08-10 15:06:15.631] [warning] Couldn't find file 'radius_rv.vtp'.
+[2023-08-10 15:06:15.631] [warning] Couldn't find file 'pisiform_rvs.vtp'.
+[2023-08-10 15:06:15.631] [warning] Couldn't find file 'lunate_rvs.vtp'.
+[2023-08-10 15:06:15.631] [warning] Couldn't find file 'scaphoid_rvs.vtp'.
+[2023-08-10 15:06:15.631] [warning] Couldn't find file 'triquetrum_rvs.vtp'.
+[2023-08-10 15:06:15.631] [warning] Couldn't find file 'hamate_rvs.vtp'.
+[2023-08-10 15:06:15.632] [warning] Couldn't find file 'capitate_rvs.vtp'.
+[2023-08-10 15:06:15.632] [warning] Couldn't find file 'trapezoid_rvs.vtp'.
+[2023-08-10 15:06:15.632] [warning] Couldn't find file 'trapezium_rvs.vtp'.
+[2023-08-10 15:06:15.632] [warning] Couldn't find file 'metacarpal2_rvs.vtp'.
+[2023-08-10 15:06:15.632] [warning] Couldn't find file 'index_proximal_rvs.vtp'.
+[2023-08-10 15:06:15.632] [warning] Couldn't find file 'index_medial_rvs.vtp'.
+[2023-08-10 15:06:15.632] [warning] Couldn't find file 'index_distal_rvs.vtp'.
+[2023-08-10 15:06:15.632] [warning] Couldn't find file 'metacarpal3_rvs.vtp'.
+[2023-08-10 15:06:15.632] [warning] Couldn't find file 'middle_proximal_rvs.vtp'.
+[2023-08-10 15:06:15.632] [warning] Couldn't find file 'middle_medial_rvs.vtp'.
+[2023-08-10 15:06:15.632] [warning] Couldn't find file 'middle_distal_rvs.vtp'.
+[2023-08-10 15:06:15.633] [warning] Couldn't find file 'metacarpal4_rvs.vtp'.
+[2023-08-10 15:06:15.633] [warning] Couldn't find file 'ring_proximal_rvs.vtp'.
+[2023-08-10 15:06:15.633] [warning] Couldn't find file 'ring_medial_rvs.vtp'.
+[2023-08-10 15:06:15.633] [warning] Couldn't find file 'ring_distal_rvs.vtp'.
+[2023-08-10 15:06:15.633] [warning] Couldn't find file 'metacarpal5_rvs.vtp'.
+[2023-08-10 15:06:15.633] [warning] Couldn't find file 'little_proximal_rvs.vtp'.
+[2023-08-10 15:06:15.633] [warning] Couldn't find file 'little_medial_rvs.vtp'.
+[2023-08-10 15:06:15.633] [warning] Couldn't find file 'little_distal_rvs.vtp'.
+[2023-08-10 15:06:15.633] [warning] Couldn't find file 'metacarpal1_rvs.vtp'.
+[2023-08-10 15:06:15.633] [warning] Couldn't find file 'thumb_proximal_rvs.vtp'.
+[2023-08-10 15:06:15.633] [warning] Couldn't find file 'thumb_distal_rvs.vtp'.
+[2023-08-10 15:06:15.634] [warning] Couldn't find file 'humerus_lv.vtp'.
+[2023-08-10 15:06:15.634] [warning] Couldn't find file 'ulna_lv.vtp'.
+[2023-08-10 15:06:15.634] [warning] Couldn't find file 'radius_lv.vtp'.
+[2023-08-10 15:06:15.634] [warning] Couldn't find file 'pisiform_lvs.vtp'.
+[2023-08-10 15:06:15.634] [warning] Couldn't find file 'lunate_lvs.vtp'.
+[2023-08-10 15:06:15.634] [warning] Couldn't find file 'scaphoid_lvs.vtp'.
+[2023-08-10 15:06:15.634] [warning] Couldn't find file 'triquetrum_lvs.vtp'.
+[2023-08-10 15:06:15.634] [warning] Couldn't find file 'hamate_lvs.vtp'.
+[2023-08-10 15:06:15.634] [warning] Couldn't find file 'capitate_lvs.vtp'.
+[2023-08-10 15:06:15.634] [warning] Couldn't find file 'trapezoid_lvs.vtp'.
+[2023-08-10 15:06:15.634] [warning] Couldn't find file 'trapezium_lvs.vtp'.
+[2023-08-10 15:06:15.635] [warning] Couldn't find file 'metacarpal2_lvs.vtp'.
+[2023-08-10 15:06:15.635] [warning] Couldn't find file 'index_proximal_lvs.vtp'.
+[2023-08-10 15:06:15.635] [warning] Couldn't find file 'index_medial_lvs.vtp'.
+[2023-08-10 15:06:15.635] [warning] Couldn't find file 'index_distal_lvs.vtp'.
+[2023-08-10 15:06:15.635] [warning] Couldn't find file 'metacarpal3_lvs.vtp'.
+[2023-08-10 15:06:15.635] [warning] Couldn't find file 'middle_proximal_lvs.vtp'.
+[2023-08-10 15:06:15.635] [warning] Couldn't find file 'middle_medial_lvs.vtp'.
+[2023-08-10 15:06:15.635] [warning] Couldn't find file 'middle_distal_lvs.vtp'.
+[2023-08-10 15:06:15.635] [warning] Couldn't find file 'metacarpal4_lvs.vtp'.
+[2023-08-10 15:06:15.635] [warning] Couldn't find file 'ring_proximal_lvs.vtp'.
+[2023-08-10 15:06:15.636] [warning] Couldn't find file 'ring_medial_lvs.vtp'.
+[2023-08-10 15:06:15.636] [warning] Couldn't find file 'ring_distal_lvs.vtp'.
+[2023-08-10 15:06:15.636] [warning] Couldn't find file 'metacarpal5_lvs.vtp'.
+[2023-08-10 15:06:15.636] [warning] Couldn't find file 'little_proximal_lvs.vtp'.
+[2023-08-10 15:06:15.636] [warning] Couldn't find file 'little_medial_lvs.vtp'.
+[2023-08-10 15:06:15.636] [warning] Couldn't find file 'little_distal_lvs.vtp'.
+[2023-08-10 15:06:15.636] [warning] Couldn't find file 'metacarpal1_lvs.vtp'.
+[2023-08-10 15:06:15.636] [warning] Couldn't find file 'thumb_proximal_lvs.vtp'.
+[2023-08-10 15:06:15.636] [warning] Couldn't find file 'thumb_distal_lvs.vtp'.
+[2023-08-10 15:11:05.344] [info] Loaded model generic_sprinter from file Nord_Model.osim
+[2023-08-10 15:11:05.344] [warning] Couldn't find file 'r_pelvis_raja.vtp'.
+[2023-08-10 15:11:05.344] [warning] Couldn't find file 'l_pelvis_raja.vtp'.
+[2023-08-10 15:11:05.345] [warning] Couldn't find file 'sacrum.vtp'.
+[2023-08-10 15:11:05.345] [warning] Couldn't find file 'r_femur.vtp'.
+[2023-08-10 15:11:05.345] [warning] Couldn't find file 'r_tibia.vtp'.
+[2023-08-10 15:11:05.345] [warning] Couldn't find file 'r_fibula.vtp'.
+[2023-08-10 15:11:05.345] [warning] Couldn't find file 'r_patella.vtp'.
+[2023-08-10 15:11:05.345] [warning] Couldn't find file 'r_talus.vtp'.
+[2023-08-10 15:11:05.345] [warning] Couldn't find file 'r_foot.vtp'.
+[2023-08-10 15:11:05.345] [warning] Couldn't find file 'r_bofoot.vtp'.
+[2023-08-10 15:11:05.345] [warning] Couldn't find file 'l_femur.vtp'.
+[2023-08-10 15:11:05.346] [warning] Couldn't find file 'l_tibia.vtp'.
+[2023-08-10 15:11:05.346] [warning] Couldn't find file 'l_fibula.vtp'.
+[2023-08-10 15:11:05.346] [warning] Couldn't find file 'l_pat.vtp'.
+[2023-08-10 15:11:05.346] [warning] Couldn't find file 'l_talus.vtp'.
+[2023-08-10 15:11:05.346] [warning] Couldn't find file 'l_foot.vtp'.
+[2023-08-10 15:11:05.346] [warning] Couldn't find file 'l_bofoot.vtp'.
+[2023-08-10 15:11:05.346] [warning] Couldn't find file 'hat_spine.vtp'.
+[2023-08-10 15:11:05.346] [warning] Couldn't find file 'hat_jaw.vtp'.
+[2023-08-10 15:11:05.346] [warning] Couldn't find file 'hat_skull.vtp'.
+[2023-08-10 15:11:05.346] [warning] Couldn't find file 'hat_ribs_scap.vtp'.
+[2023-08-10 15:11:05.346] [warning] Couldn't find file 'humerus_rv.vtp'.
+[2023-08-10 15:11:05.347] [warning] Couldn't find file 'ulna_rv.vtp'.
+[2023-08-10 15:11:05.347] [warning] Couldn't find file 'radius_rv.vtp'.
+[2023-08-10 15:11:05.347] [warning] Couldn't find file 'pisiform_rvs.vtp'.
+[2023-08-10 15:11:05.347] [warning] Couldn't find file 'lunate_rvs.vtp'.
+[2023-08-10 15:11:05.347] [warning] Couldn't find file 'scaphoid_rvs.vtp'.
+[2023-08-10 15:11:05.347] [warning] Couldn't find file 'triquetrum_rvs.vtp'.
+[2023-08-10 15:11:05.347] [warning] Couldn't find file 'hamate_rvs.vtp'.
+[2023-08-10 15:11:05.347] [warning] Couldn't find file 'capitate_rvs.vtp'.
+[2023-08-10 15:11:05.347] [warning] Couldn't find file 'trapezoid_rvs.vtp'.
+[2023-08-10 15:11:05.348] [warning] Couldn't find file 'trapezium_rvs.vtp'.
+[2023-08-10 15:11:05.348] [warning] Couldn't find file 'metacarpal2_rvs.vtp'.
+[2023-08-10 15:11:05.348] [warning] Couldn't find file 'index_proximal_rvs.vtp'.
+[2023-08-10 15:11:05.348] [warning] Couldn't find file 'index_medial_rvs.vtp'.
+[2023-08-10 15:11:05.348] [warning] Couldn't find file 'index_distal_rvs.vtp'.
+[2023-08-10 15:11:05.348] [warning] Couldn't find file 'metacarpal3_rvs.vtp'.
+[2023-08-10 15:11:05.348] [warning] Couldn't find file 'middle_proximal_rvs.vtp'.
+[2023-08-10 15:11:05.348] [warning] Couldn't find file 'middle_medial_rvs.vtp'.
+[2023-08-10 15:11:05.348] [warning] Couldn't find file 'middle_distal_rvs.vtp'.
+[2023-08-10 15:11:05.348] [warning] Couldn't find file 'metacarpal4_rvs.vtp'.
+[2023-08-10 15:11:05.348] [warning] Couldn't find file 'ring_proximal_rvs.vtp'.
+[2023-08-10 15:11:05.349] [warning] Couldn't find file 'ring_medial_rvs.vtp'.
+[2023-08-10 15:11:05.349] [warning] Couldn't find file 'ring_distal_rvs.vtp'.
+[2023-08-10 15:11:05.349] [warning] Couldn't find file 'metacarpal5_rvs.vtp'.
+[2023-08-10 15:11:05.349] [warning] Couldn't find file 'little_proximal_rvs.vtp'.
+[2023-08-10 15:11:05.349] [warning] Couldn't find file 'little_medial_rvs.vtp'.
+[2023-08-10 15:11:05.349] [warning] Couldn't find file 'little_distal_rvs.vtp'.
+[2023-08-10 15:11:05.349] [warning] Couldn't find file 'metacarpal1_rvs.vtp'.
+[2023-08-10 15:11:05.349] [warning] Couldn't find file 'thumb_proximal_rvs.vtp'.
+[2023-08-10 15:11:05.349] [warning] Couldn't find file 'thumb_distal_rvs.vtp'.
+[2023-08-10 15:11:05.349] [warning] Couldn't find file 'humerus_lv.vtp'.
+[2023-08-10 15:11:05.349] [warning] Couldn't find file 'ulna_lv.vtp'.
+[2023-08-10 15:11:05.350] [warning] Couldn't find file 'radius_lv.vtp'.
+[2023-08-10 15:11:05.350] [warning] Couldn't find file 'pisiform_lvs.vtp'.
+[2023-08-10 15:11:05.350] [warning] Couldn't find file 'lunate_lvs.vtp'.
+[2023-08-10 15:11:05.350] [warning] Couldn't find file 'scaphoid_lvs.vtp'.
+[2023-08-10 15:11:05.350] [warning] Couldn't find file 'triquetrum_lvs.vtp'.
+[2023-08-10 15:11:05.350] [warning] Couldn't find file 'hamate_lvs.vtp'.
+[2023-08-10 15:11:05.350] [warning] Couldn't find file 'capitate_lvs.vtp'.
+[2023-08-10 15:11:05.350] [warning] Couldn't find file 'trapezoid_lvs.vtp'.
+[2023-08-10 15:11:05.350] [warning] Couldn't find file 'trapezium_lvs.vtp'.
+[2023-08-10 15:11:05.350] [warning] Couldn't find file 'metacarpal2_lvs.vtp'.
+[2023-08-10 15:11:05.350] [warning] Couldn't find file 'index_proximal_lvs.vtp'.
+[2023-08-10 15:11:05.351] [warning] Couldn't find file 'index_medial_lvs.vtp'.
+[2023-08-10 15:11:05.351] [warning] Couldn't find file 'index_distal_lvs.vtp'.
+[2023-08-10 15:11:05.351] [warning] Couldn't find file 'metacarpal3_lvs.vtp'.
+[2023-08-10 15:11:05.351] [warning] Couldn't find file 'middle_proximal_lvs.vtp'.
+[2023-08-10 15:11:05.351] [warning] Couldn't find file 'middle_medial_lvs.vtp'.
+[2023-08-10 15:11:05.351] [warning] Couldn't find file 'middle_distal_lvs.vtp'.
+[2023-08-10 15:11:05.351] [warning] Couldn't find file 'metacarpal4_lvs.vtp'.
+[2023-08-10 15:11:05.351] [warning] Couldn't find file 'ring_proximal_lvs.vtp'.
+[2023-08-10 15:11:05.351] [warning] Couldn't find file 'ring_medial_lvs.vtp'.
+[2023-08-10 15:11:05.351] [warning] Couldn't find file 'ring_distal_lvs.vtp'.
+[2023-08-10 15:11:05.351] [warning] Couldn't find file 'metacarpal5_lvs.vtp'.
+[2023-08-10 15:11:05.352] [warning] Couldn't find file 'little_proximal_lvs.vtp'.
+[2023-08-10 15:11:05.352] [warning] Couldn't find file 'little_medial_lvs.vtp'.
+[2023-08-10 15:11:05.352] [warning] Couldn't find file 'little_distal_lvs.vtp'.
+[2023-08-10 15:11:05.352] [warning] Couldn't find file 'metacarpal1_lvs.vtp'.
+[2023-08-10 15:11:05.352] [warning] Couldn't find file 'thumb_proximal_lvs.vtp'.
+[2023-08-10 15:11:05.352] [warning] Couldn't find file 'thumb_distal_lvs.vtp'.
+[2023-08-10 15:12:37.050] [info] Loaded model generic_sprinter from file Nord_Model.osim
+[2023-08-10 15:12:37.051] [warning] Couldn't find file 'r_pelvis_raja.vtp'.
+[2023-08-10 15:12:37.051] [warning] Couldn't find file 'l_pelvis_raja.vtp'.
+[2023-08-10 15:12:37.051] [warning] Couldn't find file 'sacrum.vtp'.
+[2023-08-10 15:12:37.051] [warning] Couldn't find file 'r_femur.vtp'.
+[2023-08-10 15:12:37.051] [warning] Couldn't find file 'r_tibia.vtp'.
+[2023-08-10 15:12:37.051] [warning] Couldn't find file 'r_fibula.vtp'.
+[2023-08-10 15:12:37.052] [warning] Couldn't find file 'r_patella.vtp'.
+[2023-08-10 15:12:37.052] [warning] Couldn't find file 'r_talus.vtp'.
+[2023-08-10 15:12:37.052] [warning] Couldn't find file 'r_foot.vtp'.
+[2023-08-10 15:12:37.052] [warning] Couldn't find file 'r_bofoot.vtp'.
+[2023-08-10 15:12:37.052] [warning] Couldn't find file 'l_femur.vtp'.
+[2023-08-10 15:12:37.052] [warning] Couldn't find file 'l_tibia.vtp'.
+[2023-08-10 15:12:37.052] [warning] Couldn't find file 'l_fibula.vtp'.
+[2023-08-10 15:12:37.052] [warning] Couldn't find file 'l_pat.vtp'.
+[2023-08-10 15:12:37.053] [warning] Couldn't find file 'l_talus.vtp'.
+[2023-08-10 15:12:37.053] [warning] Couldn't find file 'l_foot.vtp'.
+[2023-08-10 15:12:37.053] [warning] Couldn't find file 'l_bofoot.vtp'.
+[2023-08-10 15:12:37.053] [warning] Couldn't find file 'hat_spine.vtp'.
+[2023-08-10 15:12:37.053] [warning] Couldn't find file 'hat_jaw.vtp'.
+[2023-08-10 15:12:37.053] [warning] Couldn't find file 'hat_skull.vtp'.
+[2023-08-10 15:12:37.053] [warning] Couldn't find file 'hat_ribs_scap.vtp'.
+[2023-08-10 15:12:37.053] [warning] Couldn't find file 'humerus_rv.vtp'.
+[2023-08-10 15:12:37.053] [warning] Couldn't find file 'ulna_rv.vtp'.
+[2023-08-10 15:12:37.053] [warning] Couldn't find file 'radius_rv.vtp'.
+[2023-08-10 15:12:37.054] [warning] Couldn't find file 'pisiform_rvs.vtp'.
+[2023-08-10 15:12:37.054] [warning] Couldn't find file 'lunate_rvs.vtp'.
+[2023-08-10 15:12:37.054] [warning] Couldn't find file 'scaphoid_rvs.vtp'.
+[2023-08-10 15:12:37.054] [warning] Couldn't find file 'triquetrum_rvs.vtp'.
+[2023-08-10 15:12:37.054] [warning] Couldn't find file 'hamate_rvs.vtp'.
+[2023-08-10 15:12:37.054] [warning] Couldn't find file 'capitate_rvs.vtp'.
+[2023-08-10 15:12:37.054] [warning] Couldn't find file 'trapezoid_rvs.vtp'.
+[2023-08-10 15:12:37.054] [warning] Couldn't find file 'trapezium_rvs.vtp'.
+[2023-08-10 15:12:37.054] [warning] Couldn't find file 'metacarpal2_rvs.vtp'.
+[2023-08-10 15:12:37.054] [warning] Couldn't find file 'index_proximal_rvs.vtp'.
+[2023-08-10 15:12:37.055] [warning] Couldn't find file 'index_medial_rvs.vtp'.
+[2023-08-10 15:12:37.055] [warning] Couldn't find file 'index_distal_rvs.vtp'.
+[2023-08-10 15:12:37.055] [warning] Couldn't find file 'metacarpal3_rvs.vtp'.
+[2023-08-10 15:12:37.055] [warning] Couldn't find file 'middle_proximal_rvs.vtp'.
+[2023-08-10 15:12:37.055] [warning] Couldn't find file 'middle_medial_rvs.vtp'.
+[2023-08-10 15:12:37.055] [warning] Couldn't find file 'middle_distal_rvs.vtp'.
+[2023-08-10 15:12:37.055] [warning] Couldn't find file 'metacarpal4_rvs.vtp'.
+[2023-08-10 15:12:37.055] [warning] Couldn't find file 'ring_proximal_rvs.vtp'.
+[2023-08-10 15:12:37.055] [warning] Couldn't find file 'ring_medial_rvs.vtp'.
+[2023-08-10 15:12:37.055] [warning] Couldn't find file 'ring_distal_rvs.vtp'.
+[2023-08-10 15:12:37.055] [warning] Couldn't find file 'metacarpal5_rvs.vtp'.
+[2023-08-10 15:12:37.056] [warning] Couldn't find file 'little_proximal_rvs.vtp'.
+[2023-08-10 15:12:37.056] [warning] Couldn't find file 'little_medial_rvs.vtp'.
+[2023-08-10 15:12:37.056] [warning] Couldn't find file 'little_distal_rvs.vtp'.
+[2023-08-10 15:12:37.056] [warning] Couldn't find file 'metacarpal1_rvs.vtp'.
+[2023-08-10 15:12:37.056] [warning] Couldn't find file 'thumb_proximal_rvs.vtp'.
+[2023-08-10 15:12:37.056] [warning] Couldn't find file 'thumb_distal_rvs.vtp'.
+[2023-08-10 15:12:37.056] [warning] Couldn't find file 'humerus_lv.vtp'.
+[2023-08-10 15:12:37.056] [warning] Couldn't find file 'ulna_lv.vtp'.
+[2023-08-10 15:12:37.056] [warning] Couldn't find file 'radius_lv.vtp'.
+[2023-08-10 15:12:37.056] [warning] Couldn't find file 'pisiform_lvs.vtp'.
+[2023-08-10 15:12:37.057] [warning] Couldn't find file 'lunate_lvs.vtp'.
+[2023-08-10 15:12:37.057] [warning] Couldn't find file 'scaphoid_lvs.vtp'.
+[2023-08-10 15:12:37.057] [warning] Couldn't find file 'triquetrum_lvs.vtp'.
+[2023-08-10 15:12:37.057] [warning] Couldn't find file 'hamate_lvs.vtp'.
+[2023-08-10 15:12:37.057] [warning] Couldn't find file 'capitate_lvs.vtp'.
+[2023-08-10 15:12:37.057] [warning] Couldn't find file 'trapezoid_lvs.vtp'.
+[2023-08-10 15:12:37.057] [warning] Couldn't find file 'trapezium_lvs.vtp'.
+[2023-08-10 15:12:37.057] [warning] Couldn't find file 'metacarpal2_lvs.vtp'.
+[2023-08-10 15:12:37.057] [warning] Couldn't find file 'index_proximal_lvs.vtp'.
+[2023-08-10 15:12:37.057] [warning] Couldn't find file 'index_medial_lvs.vtp'.
+[2023-08-10 15:12:37.057] [warning] Couldn't find file 'index_distal_lvs.vtp'.
+[2023-08-10 15:12:37.057] [warning] Couldn't find file 'metacarpal3_lvs.vtp'.
+[2023-08-10 15:12:37.058] [warning] Couldn't find file 'middle_proximal_lvs.vtp'.
+[2023-08-10 15:12:37.058] [warning] Couldn't find file 'middle_medial_lvs.vtp'.
+[2023-08-10 15:12:37.058] [warning] Couldn't find file 'middle_distal_lvs.vtp'.
+[2023-08-10 15:12:37.058] [warning] Couldn't find file 'metacarpal4_lvs.vtp'.
+[2023-08-10 15:12:37.058] [warning] Couldn't find file 'ring_proximal_lvs.vtp'.
+[2023-08-10 15:12:37.058] [warning] Couldn't find file 'ring_medial_lvs.vtp'.
+[2023-08-10 15:12:37.058] [warning] Couldn't find file 'ring_distal_lvs.vtp'.
+[2023-08-10 15:12:37.058] [warning] Couldn't find file 'metacarpal5_lvs.vtp'.
+[2023-08-10 15:12:37.058] [warning] Couldn't find file 'little_proximal_lvs.vtp'.
+[2023-08-10 15:12:37.058] [warning] Couldn't find file 'little_medial_lvs.vtp'.
+[2023-08-10 15:12:37.058] [warning] Couldn't find file 'little_distal_lvs.vtp'.
+[2023-08-10 15:12:37.059] [warning] Couldn't find file 'metacarpal1_lvs.vtp'.
+[2023-08-10 15:12:37.059] [warning] Couldn't find file 'thumb_proximal_lvs.vtp'.
+[2023-08-10 15:12:37.059] [warning] Couldn't find file 'thumb_distal_lvs.vtp'.
+[2023-08-10 15:13:27.324] [info] Loaded model generic_sprinter from file Nord_Model.osim
+[2023-08-10 15:13:27.325] [warning] Couldn't find file 'r_pelvis_raja.vtp'.
+[2023-08-10 15:13:27.325] [warning] Couldn't find file 'l_pelvis_raja.vtp'.
+[2023-08-10 15:13:27.325] [warning] Couldn't find file 'sacrum.vtp'.
+[2023-08-10 15:13:27.325] [warning] Couldn't find file 'r_femur.vtp'.
+[2023-08-10 15:13:27.325] [warning] Couldn't find file 'r_tibia.vtp'.
+[2023-08-10 15:13:27.326] [warning] Couldn't find file 'r_fibula.vtp'.
+[2023-08-10 15:13:27.326] [warning] Couldn't find file 'r_patella.vtp'.
+[2023-08-10 15:13:27.326] [warning] Couldn't find file 'r_talus.vtp'.
+[2023-08-10 15:13:27.326] [warning] Couldn't find file 'r_foot.vtp'.
+[2023-08-10 15:13:27.326] [warning] Couldn't find file 'r_bofoot.vtp'.
+[2023-08-10 15:13:27.326] [warning] Couldn't find file 'l_femur.vtp'.
+[2023-08-10 15:13:27.326] [warning] Couldn't find file 'l_tibia.vtp'.
+[2023-08-10 15:13:27.326] [warning] Couldn't find file 'l_fibula.vtp'.
+[2023-08-10 15:13:27.326] [warning] Couldn't find file 'l_pat.vtp'.
+[2023-08-10 15:13:27.326] [warning] Couldn't find file 'l_talus.vtp'.
+[2023-08-10 15:13:27.327] [warning] Couldn't find file 'l_foot.vtp'.
+[2023-08-10 15:13:27.327] [warning] Couldn't find file 'l_bofoot.vtp'.
+[2023-08-10 15:13:27.327] [warning] Couldn't find file 'hat_spine.vtp'.
+[2023-08-10 15:13:27.327] [warning] Couldn't find file 'hat_jaw.vtp'.
+[2023-08-10 15:13:27.327] [warning] Couldn't find file 'hat_skull.vtp'.
+[2023-08-10 15:13:27.327] [warning] Couldn't find file 'hat_ribs_scap.vtp'.
+[2023-08-10 15:13:27.327] [warning] Couldn't find file 'humerus_rv.vtp'.
+[2023-08-10 15:13:27.327] [warning] Couldn't find file 'ulna_rv.vtp'.
+[2023-08-10 15:13:27.327] [warning] Couldn't find file 'radius_rv.vtp'.
+[2023-08-10 15:13:27.327] [warning] Couldn't find file 'pisiform_rvs.vtp'.
+[2023-08-10 15:13:27.327] [warning] Couldn't find file 'lunate_rvs.vtp'.
+[2023-08-10 15:13:27.328] [warning] Couldn't find file 'scaphoid_rvs.vtp'.
+[2023-08-10 15:13:27.328] [warning] Couldn't find file 'triquetrum_rvs.vtp'.
+[2023-08-10 15:13:27.328] [warning] Couldn't find file 'hamate_rvs.vtp'.
+[2023-08-10 15:13:27.328] [warning] Couldn't find file 'capitate_rvs.vtp'.
+[2023-08-10 15:13:27.328] [warning] Couldn't find file 'trapezoid_rvs.vtp'.
+[2023-08-10 15:13:27.328] [warning] Couldn't find file 'trapezium_rvs.vtp'.
+[2023-08-10 15:13:27.328] [warning] Couldn't find file 'metacarpal2_rvs.vtp'.
+[2023-08-10 15:13:27.328] [warning] Couldn't find file 'index_proximal_rvs.vtp'.
+[2023-08-10 15:13:27.328] [warning] Couldn't find file 'index_medial_rvs.vtp'.
+[2023-08-10 15:13:27.328] [warning] Couldn't find file 'index_distal_rvs.vtp'.
+[2023-08-10 15:13:27.328] [warning] Couldn't find file 'metacarpal3_rvs.vtp'.
+[2023-08-10 15:13:27.329] [warning] Couldn't find file 'middle_proximal_rvs.vtp'.
+[2023-08-10 15:13:27.329] [warning] Couldn't find file 'middle_medial_rvs.vtp'.
+[2023-08-10 15:13:27.329] [warning] Couldn't find file 'middle_distal_rvs.vtp'.
+[2023-08-10 15:13:27.329] [warning] Couldn't find file 'metacarpal4_rvs.vtp'.
+[2023-08-10 15:13:27.329] [warning] Couldn't find file 'ring_proximal_rvs.vtp'.
+[2023-08-10 15:13:27.329] [warning] Couldn't find file 'ring_medial_rvs.vtp'.
+[2023-08-10 15:13:27.329] [warning] Couldn't find file 'ring_distal_rvs.vtp'.
+[2023-08-10 15:13:27.329] [warning] Couldn't find file 'metacarpal5_rvs.vtp'.
+[2023-08-10 15:13:27.329] [warning] Couldn't find file 'little_proximal_rvs.vtp'.
+[2023-08-10 15:13:27.329] [warning] Couldn't find file 'little_medial_rvs.vtp'.
+[2023-08-10 15:13:27.330] [warning] Couldn't find file 'little_distal_rvs.vtp'.
+[2023-08-10 15:13:27.330] [warning] Couldn't find file 'metacarpal1_rvs.vtp'.
+[2023-08-10 15:13:27.330] [warning] Couldn't find file 'thumb_proximal_rvs.vtp'.
+[2023-08-10 15:13:27.330] [warning] Couldn't find file 'thumb_distal_rvs.vtp'.
+[2023-08-10 15:13:27.330] [warning] Couldn't find file 'humerus_lv.vtp'.
+[2023-08-10 15:13:27.330] [warning] Couldn't find file 'ulna_lv.vtp'.
+[2023-08-10 15:13:27.330] [warning] Couldn't find file 'radius_lv.vtp'.
+[2023-08-10 15:13:27.330] [warning] Couldn't find file 'pisiform_lvs.vtp'.
+[2023-08-10 15:13:27.330] [warning] Couldn't find file 'lunate_lvs.vtp'.
+[2023-08-10 15:13:27.330] [warning] Couldn't find file 'scaphoid_lvs.vtp'.
+[2023-08-10 15:13:27.330] [warning] Couldn't find file 'triquetrum_lvs.vtp'.
+[2023-08-10 15:13:27.331] [warning] Couldn't find file 'hamate_lvs.vtp'.
+[2023-08-10 15:13:27.331] [warning] Couldn't find file 'capitate_lvs.vtp'.
+[2023-08-10 15:13:27.331] [warning] Couldn't find file 'trapezoid_lvs.vtp'.
+[2023-08-10 15:13:27.331] [warning] Couldn't find file 'trapezium_lvs.vtp'.
+[2023-08-10 15:13:27.331] [warning] Couldn't find file 'metacarpal2_lvs.vtp'.
+[2023-08-10 15:13:27.331] [warning] Couldn't find file 'index_proximal_lvs.vtp'.
+[2023-08-10 15:13:27.331] [warning] Couldn't find file 'index_medial_lvs.vtp'.
+[2023-08-10 15:13:27.331] [warning] Couldn't find file 'index_distal_lvs.vtp'.
+[2023-08-10 15:13:27.332] [warning] Couldn't find file 'metacarpal3_lvs.vtp'.
+[2023-08-10 15:13:27.332] [warning] Couldn't find file 'middle_proximal_lvs.vtp'.
+[2023-08-10 15:13:27.332] [warning] Couldn't find file 'middle_medial_lvs.vtp'.
+[2023-08-10 15:13:27.332] [warning] Couldn't find file 'middle_distal_lvs.vtp'.
+[2023-08-10 15:13:27.332] [warning] Couldn't find file 'metacarpal4_lvs.vtp'.
+[2023-08-10 15:13:27.332] [warning] Couldn't find file 'ring_proximal_lvs.vtp'.
+[2023-08-10 15:13:27.332] [warning] Couldn't find file 'ring_medial_lvs.vtp'.
+[2023-08-10 15:13:27.332] [warning] Couldn't find file 'ring_distal_lvs.vtp'.
+[2023-08-10 15:13:27.332] [warning] Couldn't find file 'metacarpal5_lvs.vtp'.
+[2023-08-10 15:13:27.332] [warning] Couldn't find file 'little_proximal_lvs.vtp'.
+[2023-08-10 15:13:27.333] [warning] Couldn't find file 'little_medial_lvs.vtp'.
+[2023-08-10 15:13:27.333] [warning] Couldn't find file 'little_distal_lvs.vtp'.
+[2023-08-10 15:13:27.333] [warning] Couldn't find file 'metacarpal1_lvs.vtp'.
+[2023-08-10 15:13:27.333] [warning] Couldn't find file 'thumb_proximal_lvs.vtp'.
+[2023-08-10 15:13:27.333] [warning] Couldn't find file 'thumb_distal_lvs.vtp'.
+[2023-08-10 15:15:15.118] [info] Loaded model generic_sprinter from file Nord_Model.osim
+[2023-08-10 15:15:15.119] [warning] Couldn't find file 'r_pelvis_raja.vtp'.
+[2023-08-10 15:15:15.119] [warning] Couldn't find file 'l_pelvis_raja.vtp'.
+[2023-08-10 15:15:15.119] [warning] Couldn't find file 'sacrum.vtp'.
+[2023-08-10 15:15:15.119] [warning] Couldn't find file 'r_femur.vtp'.
+[2023-08-10 15:15:15.119] [warning] Couldn't find file 'r_tibia.vtp'.
+[2023-08-10 15:15:15.119] [warning] Couldn't find file 'r_fibula.vtp'.
+[2023-08-10 15:15:15.119] [warning] Couldn't find file 'r_patella.vtp'.
+[2023-08-10 15:15:15.120] [warning] Couldn't find file 'r_talus.vtp'.
+[2023-08-10 15:15:15.120] [warning] Couldn't find file 'r_foot.vtp'.
+[2023-08-10 15:15:15.120] [warning] Couldn't find file 'r_bofoot.vtp'.
+[2023-08-10 15:15:15.120] [warning] Couldn't find file 'l_femur.vtp'.
+[2023-08-10 15:15:15.120] [warning] Couldn't find file 'l_tibia.vtp'.
+[2023-08-10 15:15:15.120] [warning] Couldn't find file 'l_fibula.vtp'.
+[2023-08-10 15:15:15.121] [warning] Couldn't find file 'l_pat.vtp'.
+[2023-08-10 15:15:15.121] [warning] Couldn't find file 'l_talus.vtp'.
+[2023-08-10 15:15:15.121] [warning] Couldn't find file 'l_foot.vtp'.
+[2023-08-10 15:15:15.121] [warning] Couldn't find file 'l_bofoot.vtp'.
+[2023-08-10 15:15:15.121] [warning] Couldn't find file 'hat_spine.vtp'.
+[2023-08-10 15:15:15.121] [warning] Couldn't find file 'hat_jaw.vtp'.
+[2023-08-10 15:15:15.121] [warning] Couldn't find file 'hat_skull.vtp'.
+[2023-08-10 15:15:15.122] [warning] Couldn't find file 'hat_ribs_scap.vtp'.
+[2023-08-10 15:15:15.122] [warning] Couldn't find file 'humerus_rv.vtp'.
+[2023-08-10 15:15:15.122] [warning] Couldn't find file 'ulna_rv.vtp'.
+[2023-08-10 15:15:15.122] [warning] Couldn't find file 'radius_rv.vtp'.
+[2023-08-10 15:15:15.122] [warning] Couldn't find file 'pisiform_rvs.vtp'.
+[2023-08-10 15:15:15.122] [warning] Couldn't find file 'lunate_rvs.vtp'.
+[2023-08-10 15:15:15.122] [warning] Couldn't find file 'scaphoid_rvs.vtp'.
+[2023-08-10 15:15:15.123] [warning] Couldn't find file 'triquetrum_rvs.vtp'.
+[2023-08-10 15:15:15.123] [warning] Couldn't find file 'hamate_rvs.vtp'.
+[2023-08-10 15:15:15.123] [warning] Couldn't find file 'capitate_rvs.vtp'.
+[2023-08-10 15:15:15.123] [warning] Couldn't find file 'trapezoid_rvs.vtp'.
+[2023-08-10 15:15:15.123] [warning] Couldn't find file 'trapezium_rvs.vtp'.
+[2023-08-10 15:15:15.123] [warning] Couldn't find file 'metacarpal2_rvs.vtp'.
+[2023-08-10 15:15:15.124] [warning] Couldn't find file 'index_proximal_rvs.vtp'.
+[2023-08-10 15:15:15.124] [warning] Couldn't find file 'index_medial_rvs.vtp'.
+[2023-08-10 15:15:15.124] [warning] Couldn't find file 'index_distal_rvs.vtp'.
+[2023-08-10 15:15:15.124] [warning] Couldn't find file 'metacarpal3_rvs.vtp'.
+[2023-08-10 15:15:15.124] [warning] Couldn't find file 'middle_proximal_rvs.vtp'.
+[2023-08-10 15:15:15.124] [warning] Couldn't find file 'middle_medial_rvs.vtp'.
+[2023-08-10 15:15:15.125] [warning] Couldn't find file 'middle_distal_rvs.vtp'.
+[2023-08-10 15:15:15.125] [warning] Couldn't find file 'metacarpal4_rvs.vtp'.
+[2023-08-10 15:15:15.125] [warning] Couldn't find file 'ring_proximal_rvs.vtp'.
+[2023-08-10 15:15:15.125] [warning] Couldn't find file 'ring_medial_rvs.vtp'.
+[2023-08-10 15:15:15.125] [warning] Couldn't find file 'ring_distal_rvs.vtp'.
+[2023-08-10 15:15:15.126] [warning] Couldn't find file 'metacarpal5_rvs.vtp'.
+[2023-08-10 15:15:15.126] [warning] Couldn't find file 'little_proximal_rvs.vtp'.
+[2023-08-10 15:15:15.126] [warning] Couldn't find file 'little_medial_rvs.vtp'.
+[2023-08-10 15:15:15.126] [warning] Couldn't find file 'little_distal_rvs.vtp'.
+[2023-08-10 15:15:15.126] [warning] Couldn't find file 'metacarpal1_rvs.vtp'.
+[2023-08-10 15:15:15.127] [warning] Couldn't find file 'thumb_proximal_rvs.vtp'.
+[2023-08-10 15:15:15.127] [warning] Couldn't find file 'thumb_distal_rvs.vtp'.
+[2023-08-10 15:15:15.127] [warning] Couldn't find file 'humerus_lv.vtp'.
+[2023-08-10 15:15:15.127] [warning] Couldn't find file 'ulna_lv.vtp'.
+[2023-08-10 15:15:15.127] [warning] Couldn't find file 'radius_lv.vtp'.
+[2023-08-10 15:15:15.127] [warning] Couldn't find file 'pisiform_lvs.vtp'.
+[2023-08-10 15:15:15.128] [warning] Couldn't find file 'lunate_lvs.vtp'.
+[2023-08-10 15:15:15.128] [warning] Couldn't find file 'scaphoid_lvs.vtp'.
+[2023-08-10 15:15:15.128] [warning] Couldn't find file 'triquetrum_lvs.vtp'.
+[2023-08-10 15:15:15.128] [warning] Couldn't find file 'hamate_lvs.vtp'.
+[2023-08-10 15:15:15.128] [warning] Couldn't find file 'capitate_lvs.vtp'.
+[2023-08-10 15:15:15.128] [warning] Couldn't find file 'trapezoid_lvs.vtp'.
+[2023-08-10 15:15:15.128] [warning] Couldn't find file 'trapezium_lvs.vtp'.
+[2023-08-10 15:15:15.128] [warning] Couldn't find file 'metacarpal2_lvs.vtp'.
+[2023-08-10 15:15:15.129] [warning] Couldn't find file 'index_proximal_lvs.vtp'.
+[2023-08-10 15:15:15.129] [warning] Couldn't find file 'index_medial_lvs.vtp'.
+[2023-08-10 15:15:15.129] [warning] Couldn't find file 'index_distal_lvs.vtp'.
+[2023-08-10 15:15:15.129] [warning] Couldn't find file 'metacarpal3_lvs.vtp'.
+[2023-08-10 15:15:15.129] [warning] Couldn't find file 'middle_proximal_lvs.vtp'.
+[2023-08-10 15:15:15.129] [warning] Couldn't find file 'middle_medial_lvs.vtp'.
+[2023-08-10 15:15:15.129] [warning] Couldn't find file 'middle_distal_lvs.vtp'.
+[2023-08-10 15:15:15.130] [warning] Couldn't find file 'metacarpal4_lvs.vtp'.
+[2023-08-10 15:15:15.130] [warning] Couldn't find file 'ring_proximal_lvs.vtp'.
+[2023-08-10 15:15:15.130] [warning] Couldn't find file 'ring_medial_lvs.vtp'.
+[2023-08-10 15:15:15.130] [warning] Couldn't find file 'ring_distal_lvs.vtp'.
+[2023-08-10 15:15:15.130] [warning] Couldn't find file 'metacarpal5_lvs.vtp'.
+[2023-08-10 15:15:15.130] [warning] Couldn't find file 'little_proximal_lvs.vtp'.
+[2023-08-10 15:15:15.130] [warning] Couldn't find file 'little_medial_lvs.vtp'.
+[2023-08-10 15:15:15.131] [warning] Couldn't find file 'little_distal_lvs.vtp'.
+[2023-08-10 15:15:15.131] [warning] Couldn't find file 'metacarpal1_lvs.vtp'.
+[2023-08-10 15:15:15.131] [warning] Couldn't find file 'thumb_proximal_lvs.vtp'.
+[2023-08-10 15:15:15.131] [warning] Couldn't find file 'thumb_distal_lvs.vtp'.
+[2023-08-10 15:16:57.750] [info] Loaded model generic_sprinter from file Nord_Model.osim
+[2023-08-10 15:16:57.750] [warning] Couldn't find file 'r_pelvis_raja.vtp'.
+[2023-08-10 15:16:57.751] [warning] Couldn't find file 'l_pelvis_raja.vtp'.
+[2023-08-10 15:16:57.751] [warning] Couldn't find file 'sacrum.vtp'.
+[2023-08-10 15:16:57.751] [warning] Couldn't find file 'r_femur.vtp'.
+[2023-08-10 15:16:57.751] [warning] Couldn't find file 'r_tibia.vtp'.
+[2023-08-10 15:16:57.751] [warning] Couldn't find file 'r_fibula.vtp'.
+[2023-08-10 15:16:57.751] [warning] Couldn't find file 'r_patella.vtp'.
+[2023-08-10 15:16:57.751] [warning] Couldn't find file 'r_talus.vtp'.
+[2023-08-10 15:16:57.751] [warning] Couldn't find file 'r_foot.vtp'.
+[2023-08-10 15:16:57.751] [warning] Couldn't find file 'r_bofoot.vtp'.
+[2023-08-10 15:16:57.752] [warning] Couldn't find file 'l_femur.vtp'.
+[2023-08-10 15:16:57.752] [warning] Couldn't find file 'l_tibia.vtp'.
+[2023-08-10 15:16:57.752] [warning] Couldn't find file 'l_fibula.vtp'.
+[2023-08-10 15:16:57.752] [warning] Couldn't find file 'l_pat.vtp'.
+[2023-08-10 15:16:57.752] [warning] Couldn't find file 'l_talus.vtp'.
+[2023-08-10 15:16:57.752] [warning] Couldn't find file 'l_foot.vtp'.
+[2023-08-10 15:16:57.752] [warning] Couldn't find file 'l_bofoot.vtp'.
+[2023-08-10 15:16:57.752] [warning] Couldn't find file 'hat_spine.vtp'.
+[2023-08-10 15:16:57.753] [warning] Couldn't find file 'hat_jaw.vtp'.
+[2023-08-10 15:16:57.753] [warning] Couldn't find file 'hat_skull.vtp'.
+[2023-08-10 15:16:57.753] [warning] Couldn't find file 'hat_ribs_scap.vtp'.
+[2023-08-10 15:16:57.753] [warning] Couldn't find file 'humerus_rv.vtp'.
+[2023-08-10 15:16:57.753] [warning] Couldn't find file 'ulna_rv.vtp'.
+[2023-08-10 15:16:57.753] [warning] Couldn't find file 'radius_rv.vtp'.
+[2023-08-10 15:16:57.753] [warning] Couldn't find file 'pisiform_rvs.vtp'.
+[2023-08-10 15:16:57.753] [warning] Couldn't find file 'lunate_rvs.vtp'.
+[2023-08-10 15:16:57.753] [warning] Couldn't find file 'scaphoid_rvs.vtp'.
+[2023-08-10 15:16:57.754] [warning] Couldn't find file 'triquetrum_rvs.vtp'.
+[2023-08-10 15:16:57.754] [warning] Couldn't find file 'hamate_rvs.vtp'.
+[2023-08-10 15:16:57.754] [warning] Couldn't find file 'capitate_rvs.vtp'.
+[2023-08-10 15:16:57.754] [warning] Couldn't find file 'trapezoid_rvs.vtp'.
+[2023-08-10 15:16:57.754] [warning] Couldn't find file 'trapezium_rvs.vtp'.
+[2023-08-10 15:16:57.754] [warning] Couldn't find file 'metacarpal2_rvs.vtp'.
+[2023-08-10 15:16:57.754] [warning] Couldn't find file 'index_proximal_rvs.vtp'.
+[2023-08-10 15:16:57.754] [warning] Couldn't find file 'index_medial_rvs.vtp'.
+[2023-08-10 15:16:57.754] [warning] Couldn't find file 'index_distal_rvs.vtp'.
+[2023-08-10 15:16:57.754] [warning] Couldn't find file 'metacarpal3_rvs.vtp'.
+[2023-08-10 15:16:57.755] [warning] Couldn't find file 'middle_proximal_rvs.vtp'.
+[2023-08-10 15:16:57.755] [warning] Couldn't find file 'middle_medial_rvs.vtp'.
+[2023-08-10 15:16:57.755] [warning] Couldn't find file 'middle_distal_rvs.vtp'.
+[2023-08-10 15:16:57.755] [warning] Couldn't find file 'metacarpal4_rvs.vtp'.
+[2023-08-10 15:16:57.755] [warning] Couldn't find file 'ring_proximal_rvs.vtp'.
+[2023-08-10 15:16:57.755] [warning] Couldn't find file 'ring_medial_rvs.vtp'.
+[2023-08-10 15:16:57.755] [warning] Couldn't find file 'ring_distal_rvs.vtp'.
+[2023-08-10 15:16:57.755] [warning] Couldn't find file 'metacarpal5_rvs.vtp'.
+[2023-08-10 15:16:57.755] [warning] Couldn't find file 'little_proximal_rvs.vtp'.
+[2023-08-10 15:16:57.755] [warning] Couldn't find file 'little_medial_rvs.vtp'.
+[2023-08-10 15:16:57.755] [warning] Couldn't find file 'little_distal_rvs.vtp'.
+[2023-08-10 15:16:57.755] [warning] Couldn't find file 'metacarpal1_rvs.vtp'.
+[2023-08-10 15:16:57.756] [warning] Couldn't find file 'thumb_proximal_rvs.vtp'.
+[2023-08-10 15:16:57.756] [warning] Couldn't find file 'thumb_distal_rvs.vtp'.
+[2023-08-10 15:16:57.756] [warning] Couldn't find file 'humerus_lv.vtp'.
+[2023-08-10 15:16:57.756] [warning] Couldn't find file 'ulna_lv.vtp'.
+[2023-08-10 15:16:57.756] [warning] Couldn't find file 'radius_lv.vtp'.
+[2023-08-10 15:16:57.756] [warning] Couldn't find file 'pisiform_lvs.vtp'.
+[2023-08-10 15:16:57.756] [warning] Couldn't find file 'lunate_lvs.vtp'.
+[2023-08-10 15:16:57.756] [warning] Couldn't find file 'scaphoid_lvs.vtp'.
+[2023-08-10 15:16:57.757] [warning] Couldn't find file 'triquetrum_lvs.vtp'.
+[2023-08-10 15:16:57.757] [warning] Couldn't find file 'hamate_lvs.vtp'.
+[2023-08-10 15:16:57.757] [warning] Couldn't find file 'capitate_lvs.vtp'.
+[2023-08-10 15:16:57.757] [warning] Couldn't find file 'trapezoid_lvs.vtp'.
+[2023-08-10 15:16:57.757] [warning] Couldn't find file 'trapezium_lvs.vtp'.
+[2023-08-10 15:16:57.757] [warning] Couldn't find file 'metacarpal2_lvs.vtp'.
+[2023-08-10 15:16:57.758] [warning] Couldn't find file 'index_proximal_lvs.vtp'.
+[2023-08-10 15:16:57.758] [warning] Couldn't find file 'index_medial_lvs.vtp'.
+[2023-08-10 15:16:57.758] [warning] Couldn't find file 'index_distal_lvs.vtp'.
+[2023-08-10 15:16:57.758] [warning] Couldn't find file 'metacarpal3_lvs.vtp'.
+[2023-08-10 15:16:57.758] [warning] Couldn't find file 'middle_proximal_lvs.vtp'.
+[2023-08-10 15:16:57.758] [warning] Couldn't find file 'middle_medial_lvs.vtp'.
+[2023-08-10 15:16:57.758] [warning] Couldn't find file 'middle_distal_lvs.vtp'.
+[2023-08-10 15:16:57.759] [warning] Couldn't find file 'metacarpal4_lvs.vtp'.
+[2023-08-10 15:16:57.759] [warning] Couldn't find file 'ring_proximal_lvs.vtp'.
+[2023-08-10 15:16:57.759] [warning] Couldn't find file 'ring_medial_lvs.vtp'.
+[2023-08-10 15:16:57.759] [warning] Couldn't find file 'ring_distal_lvs.vtp'.
+[2023-08-10 15:16:57.759] [warning] Couldn't find file 'metacarpal5_lvs.vtp'.
+[2023-08-10 15:16:57.759] [warning] Couldn't find file 'little_proximal_lvs.vtp'.
+[2023-08-10 15:16:57.759] [warning] Couldn't find file 'little_medial_lvs.vtp'.
+[2023-08-10 15:16:57.759] [warning] Couldn't find file 'little_distal_lvs.vtp'.
+[2023-08-10 15:16:57.760] [warning] Couldn't find file 'metacarpal1_lvs.vtp'.
+[2023-08-10 15:16:57.760] [warning] Couldn't find file 'thumb_proximal_lvs.vtp'.
+[2023-08-10 15:16:57.760] [warning] Couldn't find file 'thumb_distal_lvs.vtp'.
+[2023-08-10 15:28:41.260] [info] Loaded model generic_sprinter from file Nord_Model.osim
+[2023-08-10 15:28:41.262] [warning] Couldn't find file 'r_pelvis_raja.vtp'.
+[2023-08-10 15:28:41.262] [warning] Couldn't find file 'l_pelvis_raja.vtp'.
+[2023-08-10 15:28:41.262] [warning] Couldn't find file 'sacrum.vtp'.
+[2023-08-10 15:28:41.262] [warning] Couldn't find file 'r_femur.vtp'.
+[2023-08-10 15:28:41.263] [warning] Couldn't find file 'r_tibia.vtp'.
+[2023-08-10 15:28:41.263] [warning] Couldn't find file 'r_fibula.vtp'.
+[2023-08-10 15:28:41.263] [warning] Couldn't find file 'r_patella.vtp'.
+[2023-08-10 15:28:41.264] [warning] Couldn't find file 'r_talus.vtp'.
+[2023-08-10 15:28:41.264] [warning] Couldn't find file 'r_foot.vtp'.
+[2023-08-10 15:28:41.264] [warning] Couldn't find file 'r_bofoot.vtp'.
+[2023-08-10 15:28:41.264] [warning] Couldn't find file 'l_femur.vtp'.
+[2023-08-10 15:28:41.264] [warning] Couldn't find file 'l_tibia.vtp'.
+[2023-08-10 15:28:41.265] [warning] Couldn't find file 'l_fibula.vtp'.
+[2023-08-10 15:28:41.265] [warning] Couldn't find file 'l_pat.vtp'.
+[2023-08-10 15:28:41.265] [warning] Couldn't find file 'l_talus.vtp'.
+[2023-08-10 15:28:41.265] [warning] Couldn't find file 'l_foot.vtp'.
+[2023-08-10 15:28:41.265] [warning] Couldn't find file 'l_bofoot.vtp'.
+[2023-08-10 15:28:41.265] [warning] Couldn't find file 'hat_spine.vtp'.
+[2023-08-10 15:28:41.266] [warning] Couldn't find file 'hat_jaw.vtp'.
+[2023-08-10 15:28:41.266] [warning] Couldn't find file 'hat_skull.vtp'.
+[2023-08-10 15:28:41.266] [warning] Couldn't find file 'hat_ribs_scap.vtp'.
+[2023-08-10 15:28:41.266] [warning] Couldn't find file 'humerus_rv.vtp'.
+[2023-08-10 15:28:41.266] [warning] Couldn't find file 'ulna_rv.vtp'.
+[2023-08-10 15:28:41.266] [warning] Couldn't find file 'radius_rv.vtp'.
+[2023-08-10 15:28:41.267] [warning] Couldn't find file 'pisiform_rvs.vtp'.
+[2023-08-10 15:28:41.267] [warning] Couldn't find file 'lunate_rvs.vtp'.
+[2023-08-10 15:28:41.267] [warning] Couldn't find file 'scaphoid_rvs.vtp'.
+[2023-08-10 15:28:41.267] [warning] Couldn't find file 'triquetrum_rvs.vtp'.
+[2023-08-10 15:28:41.267] [warning] Couldn't find file 'hamate_rvs.vtp'.
+[2023-08-10 15:28:41.268] [warning] Couldn't find file 'capitate_rvs.vtp'.
+[2023-08-10 15:28:41.268] [warning] Couldn't find file 'trapezoid_rvs.vtp'.
+[2023-08-10 15:28:41.268] [warning] Couldn't find file 'trapezium_rvs.vtp'.
+[2023-08-10 15:28:41.268] [warning] Couldn't find file 'metacarpal2_rvs.vtp'.
+[2023-08-10 15:28:41.268] [warning] Couldn't find file 'index_proximal_rvs.vtp'.
+[2023-08-10 15:28:41.268] [warning] Couldn't find file 'index_medial_rvs.vtp'.
+[2023-08-10 15:28:41.269] [warning] Couldn't find file 'index_distal_rvs.vtp'.
+[2023-08-10 15:28:41.269] [warning] Couldn't find file 'metacarpal3_rvs.vtp'.
+[2023-08-10 15:28:41.269] [warning] Couldn't find file 'middle_proximal_rvs.vtp'.
+[2023-08-10 15:28:41.269] [warning] Couldn't find file 'middle_medial_rvs.vtp'.
+[2023-08-10 15:28:41.269] [warning] Couldn't find file 'middle_distal_rvs.vtp'.
+[2023-08-10 15:28:41.269] [warning] Couldn't find file 'metacarpal4_rvs.vtp'.
+[2023-08-10 15:28:41.270] [warning] Couldn't find file 'ring_proximal_rvs.vtp'.
+[2023-08-10 15:28:41.270] [warning] Couldn't find file 'ring_medial_rvs.vtp'.
+[2023-08-10 15:28:41.270] [warning] Couldn't find file 'ring_distal_rvs.vtp'.
+[2023-08-10 15:28:41.270] [warning] Couldn't find file 'metacarpal5_rvs.vtp'.
+[2023-08-10 15:28:41.270] [warning] Couldn't find file 'little_proximal_rvs.vtp'.
+[2023-08-10 15:28:41.270] [warning] Couldn't find file 'little_medial_rvs.vtp'.
+[2023-08-10 15:28:41.270] [warning] Couldn't find file 'little_distal_rvs.vtp'.
+[2023-08-10 15:28:41.271] [warning] Couldn't find file 'metacarpal1_rvs.vtp'.
+[2023-08-10 15:28:41.271] [warning] Couldn't find file 'thumb_proximal_rvs.vtp'.
+[2023-08-10 15:28:41.271] [warning] Couldn't find file 'thumb_distal_rvs.vtp'.
+[2023-08-10 15:28:41.271] [warning] Couldn't find file 'humerus_lv.vtp'.
+[2023-08-10 15:28:41.271] [warning] Couldn't find file 'ulna_lv.vtp'.
+[2023-08-10 15:28:41.271] [warning] Couldn't find file 'radius_lv.vtp'.
+[2023-08-10 15:28:41.272] [warning] Couldn't find file 'pisiform_lvs.vtp'.
+[2023-08-10 15:28:41.272] [warning] Couldn't find file 'lunate_lvs.vtp'.
+[2023-08-10 15:28:41.272] [warning] Couldn't find file 'scaphoid_lvs.vtp'.
+[2023-08-10 15:28:41.272] [warning] Couldn't find file 'triquetrum_lvs.vtp'.
+[2023-08-10 15:28:41.272] [warning] Couldn't find file 'hamate_lvs.vtp'.
+[2023-08-10 15:28:41.273] [warning] Couldn't find file 'capitate_lvs.vtp'.
+[2023-08-10 15:28:41.273] [warning] Couldn't find file 'trapezoid_lvs.vtp'.
+[2023-08-10 15:28:41.273] [warning] Couldn't find file 'trapezium_lvs.vtp'.
+[2023-08-10 15:28:41.273] [warning] Couldn't find file 'metacarpal2_lvs.vtp'.
+[2023-08-10 15:28:41.273] [warning] Couldn't find file 'index_proximal_lvs.vtp'.
+[2023-08-10 15:28:41.273] [warning] Couldn't find file 'index_medial_lvs.vtp'.
+[2023-08-10 15:28:41.274] [warning] Couldn't find file 'index_distal_lvs.vtp'.
+[2023-08-10 15:28:41.274] [warning] Couldn't find file 'metacarpal3_lvs.vtp'.
+[2023-08-10 15:28:41.274] [warning] Couldn't find file 'middle_proximal_lvs.vtp'.
+[2023-08-10 15:28:41.274] [warning] Couldn't find file 'middle_medial_lvs.vtp'.
+[2023-08-10 15:28:41.274] [warning] Couldn't find file 'middle_distal_lvs.vtp'.
+[2023-08-10 15:28:41.274] [warning] Couldn't find file 'metacarpal4_lvs.vtp'.
+[2023-08-10 15:28:41.275] [warning] Couldn't find file 'ring_proximal_lvs.vtp'.
+[2023-08-10 15:28:41.275] [warning] Couldn't find file 'ring_medial_lvs.vtp'.
+[2023-08-10 15:28:41.275] [warning] Couldn't find file 'ring_distal_lvs.vtp'.
+[2023-08-10 15:28:41.275] [warning] Couldn't find file 'metacarpal5_lvs.vtp'.
+[2023-08-10 15:28:41.275] [warning] Couldn't find file 'little_proximal_lvs.vtp'.
+[2023-08-10 15:28:41.275] [warning] Couldn't find file 'little_medial_lvs.vtp'.
+[2023-08-10 15:28:41.276] [warning] Couldn't find file 'little_distal_lvs.vtp'.
+[2023-08-10 15:28:41.276] [warning] Couldn't find file 'metacarpal1_lvs.vtp'.
+[2023-08-10 15:28:41.276] [warning] Couldn't find file 'thumb_proximal_lvs.vtp'.
+[2023-08-10 15:28:41.276] [warning] Couldn't find file 'thumb_distal_lvs.vtp'.

@@ -5,7 +5,8 @@ clc;
 
 rotate_xForward = 0 % for overground data facing the screen
 
-basedir = 'C:\Users\15086\Documents\NMBL_Research\NordBoard_Files\S001';
+% basedir = 'C:\Users\15086\Documents\NMBL_Research\NordBoard_Files\K_Nord_Zeroed';
+basedir = 'C:\Users\15086\Documents\Github\mocap-processing\BertecTesting2023-09-14';
 [files, inpath]=uigetfile('*.trc','Select input file','multiselect','on');
 files=cellstr(files);
 [a b] = size(files);
@@ -18,15 +19,20 @@ for index=1:b;
 
 % rotate the marker data into an OpenSim model coordinate system
 
-%For Nordics
-R = [0 0 1; 
-    1 0 0; 
-    0 1 0];
-%For Sprinting
-
-% R = [1 0 0; 
-%     0 0 -1; 
+% %For Nordics
+% R = [0 0 1; 
+%     1 0 0; 
 %     0 1 0];
+%For Sprinting and Nordics
+
+R = [1 0 0; 
+    0 0 -1; 
+    0 1 0];
+
+% % TEST
+% R = [1 0 0;
+%      0 1 0;
+%      0 0 1];
 
 %rotate x forward
 if rotate_xForward

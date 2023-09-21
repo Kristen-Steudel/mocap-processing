@@ -3,12 +3,12 @@ repoDir = [pwd,'\'] ;
 addpath([repoDir, 'common']);
 
 % User inputs if you'd like
-dataDir = [repoDir 'S001\'] ;
+dataDir = [repoDir 'BertecTesting2023-09-14\'] ;
 cd(dataDir)
 
 freq_filtering = 12 ; % lpCutoffFreq for generic force data
 freq_filtering_walk = 20; %lpCutoffFreq for walking and treadmill force data
-freq_filtering_run = 50; % lpCutoffFreq for force and marker data
+freq_filtering_run = 20; % lpCutoffFreq for force and marker data
 zero_threshold = 20 ; % forces below this go to 0, 20 originally
 
 % thresholds for treadmill running
@@ -107,7 +107,7 @@ for i=1:b;
             
             % % detect if forces are acting on right or left foot here
             infile=strrep(infile,'.anc','.trc');
-            [header_m data_m] = TRCload([inpath infile]) ;
+            [header_m data_m] = TRCload([inpath strcat('rotated_',infile)]) ;
             time_m = data_m(:,strmatch('Time',header_m.markername)) ;
         
             analogSampMult = samprate_a/header_m.samplerate ;
@@ -115,7 +115,7 @@ for i=1:b;
             % Use x position of heel marker to decide if heel strike is right
             % or left
             inds.r_calc = strmatch('r_calc',header_m.markername) ;
-            inds.l_calc = strmatch('L_calc',header_m.markername) ;
+            inds.l_calc = strmatch('l_calc',header_m.markername) ; %Change this to capital L for other trials
             r_calc_x = data_m(:,inds.r_calc) ;
             l_calc_x = data_m(:,inds.l_calc) ;
             
@@ -191,7 +191,7 @@ for i=1:b;
         %     behind during early stance.
             
             inds.r_toe = strmatch('r_toe',header_m.markername) ;
-            inds.l_toe = strmatch('L_toe',header_m.markername) ;
+            inds.l_toe = strmatch('l_toe',header_m.markername) ; %Change this to capital L for other trials
             r_calc_proj = 1/1000 * interp1(time_m,[data_m(:,inds.r_calc:inds.r_calc+1) h*ones(length(data_m),1)] * R, time_forces,'linear','extrap') ; % rotated into Opensim frame
             l_calc_proj = 1/1000 * interp1(time_m,[data_m(:,inds.l_calc:inds.l_calc+1) h*ones(length(data_m),1)] * R, time_forces,'linear','extrap') ; 
             r_toe_proj = 1/1000 * interp1(time_m,[data_m(:,inds.r_toe:inds.r_toe+1) h*ones(length(data_m),1)] * R, time_forces,'linear','extrap') ; 
@@ -199,7 +199,7 @@ for i=1:b;
            
         
             
-        % Right Foot COP Manipulation
+        % Right Foot COP Manipulationl
             for i=1:length(r_stepInds)+1
                 
                 % Deal with the first step
@@ -242,8 +242,9 @@ for i=1:b;
                 
                 % Plug in Heel COP for heel strike and toe COP for toe-off
                 rightCOP(toInd:halfInd,:) = r_toe_proj(toInd:halfInd,:) ; % First half of swing phase COP is at toe
-                rightCOP(halfInd:hsInd,:) = (r_toe_proj(halfInd:hsInd,:)+r_calc_proj(toInd:halfInd,:))/2  ; % Second half of swing phase COP is at heel, changed from calc to toe
-            
+                %rightCOP(halfInd:hsInd,:) = (r_toe_proj(halfInd:hsInd,:)+r_calc_proj(toInd:halfInd,:))/2  ; % Second half of swing phase COP is at heel, changed from calc to toe
+                rightCOP(halfInd:hsInd,:) = r_toe_proj(halfInd:hsInd,:) ; 
+
                 % Linearly connect junctions to avoid step discontinuity
                 for j = 1:3
                     rightCOP(hsInd-analogSampMult+2:min([hsInd+1 length(r_forces_Nm)]),j) = ... 
@@ -296,7 +297,8 @@ for i=1:b;
                 
                 % Plug in Heel COP for heel strike and toe COP for toe-off
                 leftCOP(toInd:halfInd,:) = l_toe_proj(toInd:halfInd,:) ; % First half of swing phase COP is at toe
-                leftCOP(halfInd:hsInd,:) = (l_toe_proj(halfInd:hsInd,:)+l_calc_proj(toInd:halfInd,:))/2  ; % Second half of swing phase COP is at heel
+                % leftCOP(halfInd:hsInd,:) = (l_toe_proj(halfInd:hsInd,:)+l_calc_proj(toInd:halfInd,:))/2  ; % Second half of swing phase COP is at heel
+                leftCOP(halfInd:hsInd,:) = l_toe_proj(halfInd:hsInd,:)  ; % Second half of swing phase COP is at heel
            
                 % Linearly connect junctions to avoid step discontinuity
                 for j = 1:3

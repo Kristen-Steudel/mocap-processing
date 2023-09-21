@@ -50,7 +50,7 @@ inverse = MocoInverse();
 % Set the model processor and time bounds.
 inverse.setModel(modelProcessor);
 inverse.set_initial_time(0.0);
-inverse.set_final_time(0.6); %5.85
+inverse.set_final_time(1.2); %5.85
 
 % Load the kinematics data source.
 table = TimeSeriesTable('../IK/rotated_Sprint_08100001_ik.mot');

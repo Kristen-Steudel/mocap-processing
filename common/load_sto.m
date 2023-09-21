@@ -1,12 +1,12 @@
 function [data,headers]=load_sto(inpath,infile);
 
-% cd W:\OA_GaitRetraining\GastrocAvoidance\DATA
+%cd W:\OA_GaitRetraining\GastrocAvoidance\DATA
 if nargin < 1
     [infile,inpath]=uigetfile('*.sto');
 end
 
 fid=fopen([inpath '\' infile],'r');
-% disp(['Loading file...' infile] );
+disp(['Loading file...' infile] );
 %read the file name line
 line=fgetl(fid);
 while isempty(strfind(line,'nRows'))

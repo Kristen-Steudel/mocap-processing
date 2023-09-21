@@ -40,7 +40,7 @@ modelProcessor = ModelProcessor(model);
 modelProcessor.append(ModOpReplaceJointsWithWelds(locked_joints));
 modelProcessor.append(ModOpAddExternalLoads('../ID/rotated_Sprint_04500001_external_forces.xml'));
 modelProcessor.append(ModOpIgnoreTendonCompliance());
-modelProcessor.append(ModOpReplaceMusclesWithDeGrooteFregly2016());
+%modelProcessor.append(ModOpReplaceMusclesWithDeGrooteFregly2016());
 modelProcessor.append(ModOpIgnorePassiveFiberForcesDGF());
 modelProcessor.append(ModOpAddReserves(50.0));
 
@@ -49,7 +49,7 @@ inverse = MocoInverse();
 
 % Set the model processor and time bounds.
 inverse.setModel(modelProcessor);
-inverse.set_initial_time(0.0);
+inverse.set_initial_time(0.1);
 inverse.set_final_time(3.92);
 
 % Load the kinematics data source.
