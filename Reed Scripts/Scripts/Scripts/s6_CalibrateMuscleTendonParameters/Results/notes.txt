@@ -1,0 +1,2 @@
+-date and time: 20230925T134808
+-model file: G:\Shared drives\HPL_drive\Nord Sprinting Study\Data Processing Scripts\mocap-processing\Reed Scripts\Models\sprinter_scaled.osim
